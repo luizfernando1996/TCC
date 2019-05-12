@@ -3,8 +3,8 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 
 ## Tabela de Conteudos
 
-  1. [Etapa 0](#etapa-0---definição-das-tecnologias)
-  1. [Etapa 1](###etapa-1)
+  1. [Etapa 0 - Definição das tecnologias](#etapa-0---definição-das-tecnologias)
+  1. [Etapa 1 - Seleção dos aplicativos](#etapa-1---seleção-dos-aplicativos)
   1. [Objects](#objects)
 
 
