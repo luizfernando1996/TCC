@@ -1,0 +1,14 @@
+1 - Como clonar um repositorio, adicionar no projeto e utilizar?
+
+        a - Abra o gitbash na pasta que deseja que o repositorio seja clonado
+
+        b - Digite a seguinte instrução -
+                base(git clone git://github.com/) 
+                        + 
+                o caminho do projeto no github, por exemplo (mojombo/grit.git) -
+
+                git clone git://github.com/nomeDoUsuario/nomeDoProjetoDesseUsuario.git
+                
+                Mais detalhes: https://git-scm.com/book/pt-br/v1/Git-Essencial-Obtendo-um-Reposit%C3%B3rio-Git
+
+        c - execute o comando npm install nomeDoProjeto, para esse exemplo seria npm install natural
