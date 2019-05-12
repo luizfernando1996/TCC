@@ -21,6 +21,8 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   #### Atalhos
   Identação no visual code Shift+Alt+F
   Ctrl+F12 ->Altera as referências como o nome da variavel
+  Depugando visual studio code
+  https://code.visualstudio.com/docs/editor/debugging
 
 ### Linguagem Escolhida
   * JavaScript interpretada pelo servidor - NodeJS  
@@ -73,7 +75,9 @@ cada resultado para melhorar  o algoritmo.
 ### Etapa 4 - Algoritmos de Inteligência Artificial
 
 Foram coletados alguns comentários do aplicativo SoloLearn: Learn to Code for Free para treinar o algoritmo de Naive Bayes.
+```
 (http://minerandodados.com.br/index.php/2017/03/15/analise-de-sentimentos-twitter-como-fazer/)
+```
 A partir dos comentários se observou que um comentário pode se encaixar em uma ou mais categorias de comentários sendo elas:
 Definimos como 3 o número máximo de categorias que um comentário pode se encaixar.
 
