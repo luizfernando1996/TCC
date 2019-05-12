@@ -16,14 +16,15 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 ### IDE escolhida:   
   * Visual Studio Code:
   ```
-    https://code.visualstudio.com/ - 
+  https://code.visualstudio.com/ - 
   ```  
   #### Atalhos
-  Identação no visual code Shift+Alt+F
-  Ctrl+F12 ->Altera as referências como o nome da variavel
+  Identação no visual code Shift+Alt+F  
+  Ctrl+F12 ->Altera as referências como o nome da variavel  
   Depugando visual studio code
+  ```
   https://code.visualstudio.com/docs/editor/debugging
-
+  ```
 ### Linguagem Escolhida
   * JavaScript interpretada pelo servidor - NodeJS  
   
