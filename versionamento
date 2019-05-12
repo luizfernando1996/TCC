@@ -1,0 +1,7 @@
+Versão 1.5 
+- Criação do código
+- Adição das ferramentas google_play_scrapper e natural
+ -Utilização do pacote nativo file system do nodejs para a escrita de arquivos em excel.
+- Criação do readme
+- Definição da arquitetura do projeto
+- Melhoria no readme

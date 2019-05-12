@@ -1,0 +1,4 @@
+Processo do KDD que estamos utilizando
+    Link de estudo:
+        http://www.inf.ufg.br/sites/default/files/uploads/relatorios-tecnicos/RT-INF_005-07.pdf
+        http://repositorio.roca.utfpr.edu.br/jspui/bitstream/1/7419/1/PG_COADS_2016_1_04.pdf

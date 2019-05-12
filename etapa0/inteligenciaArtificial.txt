@@ -1,0 +1,24 @@
+Análise de sentimentos é a tarefa de identificar se a opinião que foi expressada 
+em um determinado texto, é positiva ou negativa. ... Para começar, é importante 
+compreender que opiniões e sentimentos, bem como seus conceitos relacionados como
+avaliação, atitude, emoção e humor são influenciadores do comportamento humano.
+    Link de estudo:
+    - http://www.cienciaedados.com/analise-de-sentimentos-e-machine-learning/
+    - https://gabrielschade.github.io/2018/04/16/machine-learning-classificador.html
+
+Algoritmos de processamento de linguagem natural - PNL
+    Link de estudo:
+    - https://medium.com/ensina-ai/introdu%C3%A7%C3%A3o-a-processamento-de-linguagem-natural-174936c096b
+    - https://pt.wikipedia.org/wiki/Processamento_de_linguagem_natural
+    - https://revistas.unifacs.br/index.php/rsc/article/download/3030/2498
+    - https://www.ime.usp.br/~slago/IA-pln.pdf
+
+
+Melhores livros
+    Link de estudo:
+    - http://repositorio.unb.br/bitstream/10482/19779/1/2015_Patr%C3%ADciaLustosaVenturaRibeiro.pdf
+    - https://www.maxwell.vrac.puc-rio.br/10081/10081_5.PDF
+    - https://sites.google.com/site/inteligenciaartificialist/processamento-de-linguagem-natural-pln
+    - http://www.professeurs.polymtl.ca/michel.gagnon/Disciplinas/Bac/IA/PLN/pln.html
+    - http://bdm.unb.br/bitstream/10483/14871/1/2016_CristovaoDeLimaFrinhani_tcc.pdf
+    - http://www.inf.ufsc.br/~luis.alvares/INE5644/MineracaoOpiniao.pdf

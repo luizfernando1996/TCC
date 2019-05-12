@@ -1,8 +1,14 @@
-//Nessa etapa são coletados os aplicativos que se analisaram
-
+//Ferramentas requeridas - ""importadas""
 var gplay = require('TCC/bibliotecas/google-play-scraper');
+var escritaEmArquivo = require('TCC/base/escreverExcel.js');
 
-var palavraChave = [ //um array que contêm todas as palavras chaves
+//var arquivoExcel = require('TCC/base/escreverExcel.js')
+
+//Variaveis que se manipula
+var numeroMaximoAplicativos = 2
+
+//Um array que contêm todas as palavras chaves
+var palavraChave = [
     'programming',
     'programação',
     'learn programming',
@@ -10,22 +16,40 @@ var palavraChave = [ //um array que contêm todas as palavras chaves
     'learn code'
 ]
 
-var indice2 = 0
+language = [
+    "pt-br"
+]
 
-for (indice = 0; indice < palavraChave.length; indice++) {//coleta uma lista de aplicativos para cada palavra chave
+var numeroDaRequisicao = 0
+
+for (var indice = 0; indice < palavraChave.length; indice++) {//coleta uma lista de aplicativos para cada palavra chave
     gplay.search({       //O método search retorna um array de aplicativos
         term: palavraChave[indice],//palavra chave será o termo a ser pesquisado
-        lang: "pt-br",
-        num: 250 //número máximo de aplicativos aceitado pela ferramenta em cada lista de aplicativos
-    }).then(aplicativosSelecionados, console.log).then(incrementarValorIndice);
+        lang: language[0],
+        num: numeroMaximoAplicativos //número máximo de aplicativos obtido pela ferramenta em cada pesquisa de aplicativos
+    }).then(escreverExcelAplicativosSelecionados, console.log).then(incrementarNumeroDaRequisicao);
 }
-function aplicativosSelecionados(values) {
-    console.log("______________________________________________________________")
-    console.log("Nessa pesquisa a palavra chave utilizada foi: " + palavraChave[indice2])
-    for (x = 0; x < 250; x++) {
-        console.log(values[x].title) //apresentando o titulo do aplicativo na lista dos aplicativos
+var conteudoArquivoExcel = [];
+
+function escreverExcelAplicativosSelecionados(values) {
+
+    //Adiciona o cabeçalho apenas na primeira requisição no documento do excel
+    if (numeroDaRequisicao == 0) {
+        var cabecalhoArquivoExcel = "Palavra Chave" + "\t" + "Titulo do aplicativo" + "\n";         //"\t" -> divisão de colunas
+        conteudoArquivoExcel.push(cabecalhoArquivoExcel)
     }
+
+    //Insere as outras linhas no documento do excel
+    for (var numeroDoAplicativo = 0; numeroDoAplicativo < numeroMaximoAplicativos; numeroDoAplicativo++) {
+        //Insere o titulo do aplicativo da lista dos aplicativos
+        conteudoArquivoExcel.push(palavraChave[numeroDaRequisicao] + "\t" + values[numeroDoAplicativo].title + "\n");
+    }
+
+    //Após todas as requisições encerrarem se escreve no excel
+    if (numeroDaRequisicao == palavraChave.length - 1)
+        escritaEmArquivo("aplicativosSelecionado", conteudoArquivoExcel)
+
 }
-function incrementarValorIndice() {
-    return indice2++;
+function incrementarNumeroDaRequisicao() {
+    return numeroDaRequisicao++;
 }

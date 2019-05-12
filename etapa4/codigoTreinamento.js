@@ -1,4 +1,19 @@
-var natural = require('TCC/bibliotecas/natural');
-var tokenizer = new natural.WordTokenizer();
-console.log(tokenizer.tokenize("your dog has fleas."));
-// [ 'your', 'dog', 'has', 'fleas' ]
+var natural = require('natural');
+var classifier = new natural.BayesClassifier();
+
+categoriasComentarios = [
+    'irrelevante',
+    'bom', //O comentário não apresenta a informação sobre qual requisito o software é bom
+    'ruim', //O comentário não apresenta a informação sobre qual requisito o software é ruim
+    'boa usabilidade',
+    'má usabilidade',
+    'inovador',
+    'exige bastante permissoes',
+]
+
+classifier.addDocument('i am long qqqq', 'buy');
+classifier.addDocument('buy the q\'s', 'buy');
+classifier.addDocument('short gold', 'sell');
+classifier.addDocument('sell gold', 'sell');
+
+classifier.train();
