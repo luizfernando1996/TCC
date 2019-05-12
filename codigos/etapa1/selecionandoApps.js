@@ -7,10 +7,9 @@ var palavraChave = [
     'ensino de programação',
     'learn code'
 ]
-var indice = 0
 var indice2 = 0
 
-for (; indice < palavraChave.length; indice++) {
+for (indice = 0; indice < palavraChave.length; indice++) {
     gplay.search({       //search retorna um array de aplicativos
         term: palavraChave[indice],
         lang: "pt-br",
