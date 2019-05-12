@@ -1,7 +1,7 @@
 # TCC
 Análise dos fatores que fazem um aplicativo da google play store ter sucesso 
 
-## Tabela de Conteudos
+## Sumário
 
   1. [Etapa 0 - Definição das tecnologias](#etapa-0---definição-das-tecnologias)
   1. [Etapa 1 - Seleção dos aplicativos](#etapa-1---seleção-dos-aplicativos)
@@ -49,5 +49,5 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 São selecionados 250 apps, restrição da ferramenta, resultados da pesquisa pelas 
 palavras chaves: 'programming', 'programação', 'learn programming', 'ensino de programação', 'learn code'.
 
-### Etapa4 - Algoritmo
+### Etapa 4 - Algoritmos de Inteligência Artificial
 #
