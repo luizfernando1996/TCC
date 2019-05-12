@@ -1,0 +1,2 @@
+Atalhos
+Identação no visual code Shift+Alt+F
