@@ -1,4 +1,6 @@
-var gplay = require('google-play-scraper');
+//Nessa etapa são coletados os aplicativos que se analisaram
+
+var gplay = require('TCC/bibliotecas/google-play-scraper');
 
 var palavraChave = [ //um array que contêm todas as palavras chaves
     'programming',
