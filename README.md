@@ -4,7 +4,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 ## Tabela de Conteudos
 
   1. [Etapa 0](#etapa-0)
-  1. [Etapa 1](#etapa-1)
+  1. [Etapa_1](#etapa-1)
   1. [Objects](#objects)
 
 
