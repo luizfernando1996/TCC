@@ -46,6 +46,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 
 
 ## Etapa 0 - Definição das tecnologias
+  <a name="references--prefer-const"></a><a name="2.1"></a>
 
  Ferramentas utilizadas para o projeto:
 
