@@ -16,6 +16,13 @@ Ferramentas utilizadas para o projeto:
         Processamento de linguagem natural
         a - opção escolhida - https://github.com/NaturalNode/natural
         b - opção alternativa - https://www.npmjs.com/package/node-nlp
+    Repositório escolhido
+
+        Github - Documentação
+        https://git-scm.com/book/pt-br/v1/Primeiros-passos        
+
+        Repositório - Link
+        https://github.com/luizfernando1996/TCC
 
 #etapa1 - selecaoDosApps
 São selecionados 250 apps, restrição da ferramenta, resultados da pesquisa pelas 
