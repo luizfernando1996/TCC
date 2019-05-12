@@ -10,8 +10,6 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 
 
 ## Etapa 0 - Definição das tecnologias
-  <a name="references--prefer-const"></a><a name="2.1"></a>
-- [2.1](#references--prefer-const)   
  Ferramentas utilizadas para o projeto:
 
 ### IDE escolhida:   
@@ -51,5 +49,5 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
 São selecionados 250 apps, restrição da ferramenta, resultados da pesquisa pelas 
 palavras chaves: 'programming', 'programação', 'learn programming', 'ensino de programação', 'learn code'.
 
-#etapa4 - algoritmo
+### Etapa4 - Algoritmo
 #
