@@ -13,30 +13,32 @@ Análise dos fatores que fazem um aplicativo da google play store ser de sucesso
 
 ### Linguagem Escolhida
   * JavaScript interpretada pelo servidor - NodeJS  
-    * Coleta de dados dos apps na google play store 
+  
+### Bibliotecas Utilizadas  
+  * Coleta de dados dos apps na google play store 
     ```
-      https://github.com/facundoolano/google-play-scraper
+    https://github.com/facundoolano/google-play-scraper
     ```
-    * Processamento de linguagem natural  
-      - opção escolhida 
-      ```
-      https://github.com/NaturalNode/natural
-      ```
-      - opção alternativa
-      ```
-      https://www.npmjs.com/package/node-nlp
-      ```
+  * Processamento de linguagem natural  
+    - opção escolhida 
+    ```
+    https://github.com/NaturalNode/natural
+    ```
+    - opção alternativa
+    ```
+    https://www.npmjs.com/package/node-nlp
+    ```
 ### Repositório escolhido  
-    * Github - Documentação
-      ```
-      * https://git-scm.com/book/pt-br/v1/Primeiros-passos        
-      ```
-    * Repositório - Link
+  * Github - Documentação
+    ```
+    https://git-scm.com/book/pt-br/v1/Primeiros-passos        
+    ```
+  * Repositório - Link
     ```
     https://github.com/luizfernando1996/TCC
     ```
 
-#etapa1 - selecaoDosApps
+### Etapa1 - Seleção dos Aplicativos
 São selecionados 250 apps, restrição da ferramenta, resultados da pesquisa pelas 
 palavras chaves: 'programming', 'programação', 'learn programming', 'ensino de programação', 'learn code'.
 
