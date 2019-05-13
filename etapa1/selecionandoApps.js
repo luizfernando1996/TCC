@@ -26,18 +26,21 @@ var cabecalhoArquivoExcel =
     "Número de estrelas"
     + "\n";
 
+
+//Variaveis locais
 var numeroDaRequisicao = 0
+var conteudoArquivoExcel = [];
 
 for (var indice = 0; indice < palavraChave.length; indice++) {//coleta uma lista de aplicativos para cada palavra chave
     gplay.search({       //O método search retorna um array de aplicativos
         term: palavraChave[indice],//palavra chave será o termo a ser pesquisado
         lang: language[0],
         num: numeroMaximoAplicativos //número máximo de aplicativos obtido pela ferramenta em cada pesquisa de aplicativos
-    }).then(escreverExcelAplicativosSelecionados, console.log).then(incrementarNumeroDaRequisicao);
+    }).then(escreverExcelResultados, console.log).then(incrementarNumeroDaRequisicao);
 }
-var conteudoArquivoExcel = [];
 
-function escreverExcelAplicativosSelecionados(values) {
+//escreverExcelResultados -> Será escrito uma lista de aplicativos
+function escreverExcelResultados(values) {
 
     //Adiciona o cabeçalho apenas na primeira requisição no documento do excel
     if (numeroDaRequisicao == 0)

@@ -5,3 +5,4 @@ Versão 1.5
 - Criação do readme
 - Definição da arquitetura do projeto
 - Melhoria no readme
+- Etapa 1 e 2 implementadas inicialmente e etapa 4 - análise dos comentários - análisada 
