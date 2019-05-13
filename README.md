@@ -135,11 +135,9 @@ A etapa 2 durou 2 semanas.
     Saída: Um conjunto de categorias que o algoritmo deveria análisar para se saber a qual o comentário melhor se encaixa.
 
 ##### Fase 2 - Etapa de Análise de outros comentários 
-       - Entrada: Comentários da metade do restante dos aplicativos selecionados para treinar o 
-  algoritmo de Naive Bayes, isto é, comentários dos outros 125 aplicativos.
+       * Entrada: Comentários da metade do restante dos aplicativos selecionados para treinar o algoritmo de Naive Bayes, isto é, comentários dos outros 125 aplicativos.
 
-      - Detalhes sobre o algoritmo (O que ele faz?): Ele analisa os comentários e a partir deles 
-   define a qual categoria o comentário melhor se encaixa, das categorias:
+      * Detalhes sobre o algoritmo (O que ele faz?): Ele analisa os comentários e a partir deles define a qual categoria o comentário melhor se encaixa, das categorias:
   
 ```javascript
     categoriasComentarios = [
