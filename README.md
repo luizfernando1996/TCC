@@ -52,7 +52,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
     ```
     https://github.com/luizfernando1996/TCC
     ```
-### Ferramenta de geração de relatório escolhido  
+### Ferramenta de geração de relatório  - Excel escolhida
   * File system do nodejs - Documentação  
     ``` 
     https://imasters.com.br/desenvolvimento/node-js-6-dicas-do-modulo-file-system
