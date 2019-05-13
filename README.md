@@ -18,7 +18,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   ```
   https://code.visualstudio.com/ - 
   ```  
-  * Atalhos
+#### Atalhos
   - Shift+Alt+F ->Identação no visual code  
   - Ctrl+F12 ->Altera as referências como o nome da variavel  
   
