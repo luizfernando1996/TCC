@@ -63,15 +63,32 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
     ```
 ### Etapa 1 - Seleção dos Aplicativos
 Foram feitas consultas por meio das  
-palavras chaves: 'programming', 'programação', 'learn programming', 'ensino de programação',
-'learn code' e de cada uma dessas respostas por determinada palavra foi selecionados 250 apps, restrição da ferramenta.
+palavras chaves:
+```javascript
+var palavraChave = [
+    'programming',
+    'programação',
+    'learn programming',
+    'ensino de programação',
+    'learn code'
+] 
+```
+e de cada uma dessas respostas por determinada palavra foi selecionados 250 apps, restrição da ferramenta.
 
-Ambiente experimental
-Coletamos 50 aplicativos de cada uma das palavras chaves e analisamos 
-cada resultado para melhorar  o algoritmo.
+#### Ambiente experimental
+   - Entrada: Foi coletado informações de 50 aplicativos para cada palavra chave, ou seja, 
+o algoritmo retornou 250 aplicativos para serem analisados.
+   - Saída: Essa pequena amostra  gerada pelo algoritmo foi exporada para arquivos em excel 
+para uma melhor análise. Isso porque uma análise mais refinada irá auxiliar no 
+refinamento do algoritmo de seleção.
 
 ### Etapa 2 -
 
+#### Ambiente experimental
+   - Entrada: A partir da fonte de dados foram extraidos os bundle ids 
+ou como a ferramenta informa os app ids para que se assim fosse coletada as informações necessárias:
+
+   - Saída: Exportação no excel que apresenta cada Aplicativo com suas informações relevantes para esse estudo.
 ### Etapa 3 -
 
 ### Etapa 4 - Algoritmos de Inteligência Artificial

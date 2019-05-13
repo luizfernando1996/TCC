@@ -2,10 +2,9 @@
 var gplay = require('TCC/bibliotecas/google-play-scraper');
 var escritaEmArquivo = require('TCC/base/escreverExcel.js');
 
-//var arquivoExcel = require('TCC/base/escreverExcel.js')
 
 //Variaveis que se manipula
-var numeroMaximoAplicativos = 2
+var numeroMaximoAplicativos = 50
 
 //Um array que contêm todas as palavras chaves
 var palavraChave = [
@@ -19,6 +18,13 @@ var palavraChave = [
 language = [
     "pt-br"
 ]
+
+var cabecalhoArquivoExcel =
+    "Palavra Chave" + "\t" + //"\t" -> divide em colunas
+    "Nome do aplicativo" + "\t" +
+    "Bundle Id" + "\t" +
+    "Número de estrelas"
+    + "\n";
 
 var numeroDaRequisicao = 0
 
@@ -34,15 +40,21 @@ var conteudoArquivoExcel = [];
 function escreverExcelAplicativosSelecionados(values) {
 
     //Adiciona o cabeçalho apenas na primeira requisição no documento do excel
-    if (numeroDaRequisicao == 0) {
-        var cabecalhoArquivoExcel = "Palavra Chave" + "\t" + "Titulo do aplicativo" + "\n";         //"\t" -> divisão de colunas
+    if (numeroDaRequisicao == 0)
         conteudoArquivoExcel.push(cabecalhoArquivoExcel)
-    }
+
 
     //Insere as outras linhas no documento do excel
     for (var numeroDoAplicativo = 0; numeroDoAplicativo < numeroMaximoAplicativos; numeroDoAplicativo++) {
-        //Insere o titulo do aplicativo da lista dos aplicativos
-        conteudoArquivoExcel.push(palavraChave[numeroDaRequisicao] + "\t" + values[numeroDoAplicativo].title + "\n");
+
+        //Para cada aplicativo é inserido uma linha no excel com as seguintes informações
+        conteudoArquivoExcel.push(
+            palavraChave[numeroDaRequisicao] + "\t" +//categoria do aplicativo
+            values[numeroDoAplicativo].title + "\t" +//nome do aplicativo
+            values[numeroDoAplicativo].appId + "\t" +//app id do aplicativo
+            values[numeroDoAplicativo].score + "\t" + //número de estrelas do aplicativo
+
+            "\n");
     }
 
     //Após todas as requisições encerrarem se escreve no excel
