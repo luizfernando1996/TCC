@@ -1,6 +1,11 @@
 # TCC
 Análise dos fatores que fazem um aplicativo da google play store ter sucesso 
 
+### Related projects
+
+* [google-play-scraper](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/google-play-scraper): um scraper para o Google Play Store.
+* [natural](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/natural): uma ferramenta para processamento de linguagem natural.
+
 ## Sumário
 
   1. [Etapa 0 - Definição das tecnologias](#etapa-0---definição-das-tecnologias)
@@ -18,7 +23,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   ```
   https://code.visualstudio.com/ - 
   ```  
-  * Atalhos
+#### Atalhos
   - Shift+Alt+F ->Identação no visual code  
   - Ctrl+F12 ->Altera as referências como o nome da variavel  
   
@@ -52,7 +57,7 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
     ```
     https://github.com/luizfernando1996/TCC
     ```
-### Ferramenta de geração de relatório escolhido  
+### Ferramenta de geração de relatório  - Excel escolhida
   * File system do nodejs - Documentação  
     ``` 
     https://imasters.com.br/desenvolvimento/node-js-6-dicas-do-modulo-file-system
