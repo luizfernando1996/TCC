@@ -18,10 +18,11 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   ```
   https://code.visualstudio.com/ - 
   ```  
-  #### Atalhos
-  Identação no visual code Shift+Alt+F  
-  Ctrl+F12 ->Altera as referências como o nome da variavel  
-  Depugando visual studio code
+  * Atalhos
+  - Shift+Alt+F ->Identação no visual code  
+  - Ctrl+F12 ->Altera as referências como o nome da variavel  
+  
+  * Debugando visual studio code
   ```
   https://code.visualstudio.com/docs/editor/debugging
   ```
@@ -81,7 +82,7 @@ Foram coletados alguns comentários do aplicativo SoloLearn: Learn to Code for F
 ```
 A partir dos comentários se observou que um comentário pode se encaixar em uma ou mais categorias de comentários sendo elas:
 Definimos como 3 o número máximo de categorias que um comentário pode se encaixar.
-
+```javascript
 categoriasComentarios = [
     'irrelevante', //O comentário possui 1 a 2 estrelas e foi categorizado como bom ou o comentário possui 4 a 5 estrelas e foi categorizado como ruim 
     'bom', //O comentário não apresenta a informação sobre qual requisito o software é bom
@@ -91,3 +92,4 @@ categoriasComentarios = [
     'inovador',
     'exige bastante permissoes',
 ]
+```
