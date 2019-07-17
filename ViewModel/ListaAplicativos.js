@@ -1,0 +1,38 @@
+module.exports = class ListaAplicativos {
+
+    constructor() {
+        this.PalavraChaveAtual = null
+        this.Linguagem = "pt-br"
+        this.NumeroMaximoAplicativos = 0
+        this.ArrayDeAplicativos = [],
+        this.IndicePalavraChave=0
+    }
+
+    alterarPalavraChave(palavraChave) {
+        this.PalavraChaveAtual = palavraChave
+    }
+
+    alterarNumeroMaximoAplicativos(numeroMax) {
+        this.NumeroMaximoAplicativos = numeroMax
+    }
+    obterArrayDeAplicativos(){
+        return this.ArrayDeAplicativos;
+    }
+    alterarArrayDeAplicativos(lista) {
+        this.ArrayDeAplicativos = lista;
+    }
+
+    imprimirListaDeAplicativosExcel() {
+        var impressao = []
+
+        this.ArrayDeAplicativos.forEach(aplicativo => 
+        {
+            impressao.push(
+                this.PalavraChaveAtual + "\t" +//categoria do aplicativo
+                this.NumeroMaximoAplicativos + "\t" +
+                aplicativo.title
+                + "\n");
+        });
+        return impressao;
+    }
+}

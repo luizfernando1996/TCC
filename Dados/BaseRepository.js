@@ -3,8 +3,8 @@ module.exports = class Excel {
     constructor() {
         this.fs = require('fs');
     }
-    escrever(tituloDoArquivo, linhasArquivo, extensao = '.xls') {
 
+    salvar(tituloDoArquivo, linhasArquivo, extensao = '.xls') {
         //Método que adiciona apenas linhas no arquivo e não colunas
         var writeStream = this.fs.createWriteStream(tituloDoArquivo + extensao);
 
