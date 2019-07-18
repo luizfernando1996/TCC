@@ -17,24 +17,27 @@ module.exports = class AplicativoRepository extends BaseRepository {
             "Tamanho do aplicativo" + "\t" +
             "Versão do android exigida"
             + "\n";
-            
-        this.conteudoArquivoDadosExcel = [];
+
         this.ListAplicatNegoc = new ListaAplicativosNegocio();
+        this.conteudoArquivoDadosExcelListaApp = [];
+
     }
 
-    salvar(app, nomeArquivo) {
+    salvar(map, nomeArquivo) {
         //Adiciona o cabeçalho no arquivo excel
-        if (this.conteudoArquivoDadosExcel.length == 0)
-            this.conteudoArquivoDadosExcel.push(this.cabecalhoArquivoExcel);
-
-        //São inseridos os valores dos atributos do aplicativo nas linhas do excel
-        this.conteudoArquivoDadosExcel.push(app.imprimirAtributos())
+        if (this.conteudoArquivoDadosExcelListaApp.length == 0)
+            this.conteudoArquivoDadosExcelListaApp.push(this.cabecalhoArquivoExcel);
+        map.forEach(element => {
+            //São inseridos os valores dos atributos do aplicativo nas linhas do excel
+            this.conteudoArquivoDadosExcelListaApp.push(element.imprimirAtributos())
+        });
 
         //Após colher o numero máximo de aplicativos escreve um arquivo do excel
-        if (this.conteudoArquivoDadosExcel.length == this.ListAplicatNegoc.obterNumeroMaximoAplicativos()+1) {
-            this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcel)
-            this.conteudoArquivoDadosExcel.length = 0;
-        }
+        if (this.conteudoArquivoDadosExcelListaApp.length == this.ListAplicatNegoc.obterNumeroMaximoAplicativos() + 1)
+            this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcelListaApp)
+
+        this.conteudoArquivoDadosExcelListaApp.length = 0;
+
     }
 
 }

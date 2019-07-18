@@ -8,7 +8,7 @@ const scriptData = require('./utils/scriptData');
 
 const PLAYSTORE_URL = 'https://play.google.com/store/apps/details';
 
-function app (opts) {
+async function app (opts) {
   return new Promise(function (resolve, reject) {
     if (!opts || !opts.appId) {
       throw Error('appId missing');

@@ -5,7 +5,7 @@ AplicativoService = require('TCC/Service/AplicativoService.js');
 ListaAplicativosRepository = require('TCC/Dados/ListaAplicativosRepository.js');
 ListaAplicativos = require('TCC/ViewModel/ListaAplicativos.js')
 
-module.exports = class PesquisaService extends BaseService {
+class PesquisaService extends BaseService {
     constructor() {
         super();//Exigido em herança no Javascript
         this.objListaAplicativos = new ListaAplicativosNegocio();
@@ -51,3 +51,5 @@ module.exports = class PesquisaService extends BaseService {
         this.Repository.salvar(dtoLista, nomeArquivo);
     }
 }
+//Uma das formas de exportar
+module.exports = PesquisaService;
