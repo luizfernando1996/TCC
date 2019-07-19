@@ -4,7 +4,7 @@ module.exports = class Excel {
         this.fs = require('fs');
     }
 
-    salvar(tituloDoArquivo, linhasArquivo, extensao = '.xlsx') {
+    salvar(tituloDoArquivo, linhasArquivo, extensao = '.xls') {
         //Método que adiciona apenas linhas no arquivo e não colunas
         var writeStream = this.fs.createWriteStream(tituloDoArquivo + extensao);
 
