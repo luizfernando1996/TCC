@@ -26,7 +26,11 @@ module.exports = class AplicativoService extends BaseService {
             appId: aplicativo.appId,
             throttle: 1
         })
-        var resultado = await this.salvar(objAplicativo, dtoLista)
+        var resultadoDoSalvar = await this.salvar(objAplicativo, dtoLista)
+        
+        //Pode implementar aqui
+        console.log(objAplicativo.AplicativoId)
+        
     }
 
     salvar(objAplicativo, dtoLista) {
@@ -46,7 +50,7 @@ module.exports = class AplicativoService extends BaseService {
                 var nomeArquivo = "Lista " + index + " de aplicativos";
 
                 //Salva o objeto
-                this.AplicativoRepository.salvar(this.map[element],nomeArquivo)
+                this.AplicativoRepository.salvar(this.map[element], nomeArquivo)
             }
 
         }
@@ -67,14 +71,11 @@ module.exports = class AplicativoService extends BaseService {
             if (this.map[element] === undefined)
                 return false;
             //Valida se os 4 arrays possuem todos os aplicativos
-            else if (this.map[element].length !=this.pqNego.obterNumeroMaximoAplicativos())
+            else if (this.map[element].length != this.pqNego.obterNumeroMaximoAplicativos())
                 return false;
-            //Map completo    
-            else
-                return true;
-
         }
-
+        //Map completo    
+        return true;
     }
 
     //A fazer

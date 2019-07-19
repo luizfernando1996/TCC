@@ -1,5 +1,5 @@
 //Start
-PesquisaService = require('TCC/Service/ListaAplicativosService.js');
+ListaAplicativoService = require('TCC/Service/ListaAplicativosService.js');
 
-var cat = new PesquisaService(); 
+var cat = new ListaAplicativoService(); 
 cat.pesquisarAplicativos();

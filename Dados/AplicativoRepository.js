@@ -37,7 +37,5 @@ module.exports = class AplicativoRepository extends BaseRepository {
             this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcelListaApp)
 
         this.conteudoArquivoDadosExcelListaApp.length = 0;
-
     }
-
 }

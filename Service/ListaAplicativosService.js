@@ -21,7 +21,7 @@ class PesquisaService extends BaseService {
             lang: dtoLista.Linguagem,
             num: dtoLista.NumeroMaximoAplicativos
             //throttle:1
-        }).then(listaAplicativos => {
+        }).then(listaAplicativos=> {
             dtoLista.alterarArrayDeAplicativos(listaAplicativos);
             this.salvar(dtoLista);
             this.objAplicativo.pesquisarAplicativo(dtoLista);
