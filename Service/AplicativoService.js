@@ -1,8 +1,8 @@
-BaseService = require('TCC/Service/BaseService.js');
-ListaAplicativosNegocio = require('TCC/Negocio/ListaAplicativosNegocio.js');
-Aplicativo = require('TCC/ViewModel/Aplicativo.js');
-BaseService = require('TCC/Service/BaseService.js');
-AplicativoRepository = require('TCC/Dados/AplicativoRepository.js');
+BaseService = require('../Service/BaseService.js');
+ListaAplicativosNegocio = require('../Negocio/ListaAplicativosNegocio.js');
+Aplicativo = require('../ViewModel/Aplicativo.js');
+BaseService = require('../Service/BaseService.js');
+AplicativoRepository = require('../Dados/AplicativoRepository.js');
 
 module.exports = class AplicativoService extends BaseService {
 
@@ -12,7 +12,7 @@ module.exports = class AplicativoService extends BaseService {
         //Criação do map
         this.map = {};
         this.pqNego = new ListaAplicativosNegocio();
-
+        this.numeroDeRequisicoes = 0
     }
 
     async pesquisarAplicativo(dtoLista) {
@@ -21,39 +21,58 @@ module.exports = class AplicativoService extends BaseService {
     }
 
     async efetuarRequisicao(aplicativo, dtoLista) {
+
+       
         //Efetua a pesquisa dos dados do aplicativo
         var objAplicativo = await this.gplay.app({
             appId: aplicativo.appId,
             throttle: 1
         })
         var resultadoDoSalvar = await this.salvar(objAplicativo, dtoLista)
-        
+
         //Pode implementar aqui
-        console.log(objAplicativo.AplicativoId)
-        
+       
+
     }
 
     salvar(objAplicativo, dtoLista) {
         //cria um objeto dto  
-        var app = new Aplicativo(objAplicativo, dtoLista.PalavraChaveAtual);
+        this.numeroDeRequisicoes += 1
 
-        //Cria o map com cada chave tendo um array de aplicativos
-        this.criarListaApp(app, dtoLista.PalavraChaveAtual)
+        console.log(this.numeroDeRequisicoes, "-", objAplicativo.appId)
 
-        //Pode escrever no arquivo apenas se já possuir as listas criadas
-        if (this.listasCriadas()) {
-            var arrayPalavrasChaves = this.pqNego.obterPalavraChavesPermitidas();
+        if (objAplicativo.genre == "Education" || objAplicativo.genre == "Books & Reference") { 
 
-            for (let index = 0; index < arrayPalavrasChaves.length; index++) {
-                const element = this.pqNego.obterPalavraChavesPermitidas()[index];
+            console.log(objAplicativo.priceText)
+            var app = new Aplicativo(objAplicativo, dtoLista.PalavraChaveAtual);
 
-                var nomeArquivo = "Lista " + index + " de aplicativos";
-
-                //Salva o objeto
-                this.AplicativoRepository.salvar(this.map[element], nomeArquivo)
+            //Cria o map com cada chave tendo um array de aplicativos
+            this.criarListaApp(app, dtoLista.PalavraChaveAtual)
+    
+    
+    
+            //Pode escrever no arquivo apenas se já possuir as listas criadas
+            if (this.listasCriadas()) {
+                var arrayPalavrasChaves = this.pqNego.obterPalavraChavesPermitidas();
+    
+                for (let index = 0; index < arrayPalavrasChaves.length; index++) {
+                    const element = this.pqNego.obterPalavraChavesPermitidas()[index];
+    
+                    var nomeArquivo = "Lista " + index + " de aplicativos";
+    
+                    //Salva o objeto
+    
+                    this.AplicativoRepository.salvar(this.map[element], nomeArquivo, this.numeroDeRequisicoes)
+    
+    
+    
+                }
+    
             }
 
         }
+
+       
     }
 
     criarListaApp(app, palavraChave) {
@@ -71,7 +90,7 @@ module.exports = class AplicativoService extends BaseService {
             if (this.map[element] === undefined)
                 return false;
             //Valida se os 4 arrays possuem todos os aplicativos
-            else if (this.map[element].length != this.pqNego.obterNumeroMaximoAplicativos())
+            else if (this.numeroDeRequisicoes != this.pqNego.obterNumeroMaximoAplicativos())
                 return false;
         }
         //Map completo    
@@ -82,6 +101,10 @@ module.exports = class AplicativoService extends BaseService {
     delay() {
         //this.timer.start();
         //setTimeout(stopTimer, 10000);
+    }
+
+    obterNumeroDeRequisicoes(){
+        return this.numeroDeRequisicoes;
     }
 
 }

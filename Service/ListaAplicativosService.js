@@ -1,9 +1,9 @@
 //Imports
-BaseService = require('TCC/Service/BaseService.js');
-ListaAplicativosNegocio = require('TCC/Negocio/ListaAplicativosNegocio.js');
-AplicativoService = require('TCC/Service/AplicativoService.js');
-ListaAplicativosRepository = require('TCC/Dados/ListaAplicativosRepository.js');
-ListaAplicativos = require('TCC/ViewModel/ListaAplicativos.js')
+BaseService = require('../Service/BaseService.js');
+ListaAplicativosNegocio = require('../Negocio/ListaAplicativosNegocio.js');
+AplicativoService = require('../Service/AplicativoService.js');
+ListaAplicativosRepository = require('../Dados/ListaAplicativosRepository.js');
+ListaAplicativos = require('../ViewModel/ListaAplicativos.js')
 
 class PesquisaService extends BaseService {
     constructor() {
@@ -19,7 +19,8 @@ class PesquisaService extends BaseService {
         this.gplay.search({//https://github.com/facundoolano/google-play-scraper#search
             term: dtoLista.PalavraChaveAtual,
             lang: dtoLista.Linguagem,
-            num: dtoLista.NumeroMaximoAplicativos
+            num: dtoLista.NumeroMaximoAplicativos,
+            price: "free"
             //throttle:1
         }).then(listaAplicativos=> {
             dtoLista.alterarArrayDeAplicativos(listaAplicativos);

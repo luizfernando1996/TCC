@@ -1,7 +1,7 @@
 module.exports = class BaseService {
 
     constructor() {
-        this.gplay = require('TCC/Bibliotecas/google-play-scraper');
-        this.modExcel = require('TCC/Dados/BaseRepository.js');
+        this.gplay = require('../Bibliotecas/google-play-scraper-dev');
+        this.modExcel = require('../Dados/BaseRepository.js');
     }
 }

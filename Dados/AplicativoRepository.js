@@ -1,5 +1,6 @@
-BaseRepository = require('TCC/Dados/BaseRepository.js');
-ListaAplicativosNegocio = require('TCC/Negocio/ListaAplicativosNegocio.js');
+BaseRepository = require('../Dados/BaseRepository.js');
+ListaAplicativosNegocio = require('../Negocio/ListaAplicativosNegocio.js');
+
 
 module.exports = class AplicativoRepository extends BaseRepository {
 
@@ -20,10 +21,10 @@ module.exports = class AplicativoRepository extends BaseRepository {
 
         this.ListAplicatNegoc = new ListaAplicativosNegocio();
         this.conteudoArquivoDadosExcelListaApp = [];
-
+     
     }
 
-    salvar(map, nomeArquivo) {
+    salvar(map, nomeArquivo, numeroDeRequisicoes) {
         //Adiciona o cabeçalho no arquivo excel
         if (this.conteudoArquivoDadosExcelListaApp.length == 0)
             this.conteudoArquivoDadosExcelListaApp.push(this.cabecalhoArquivoExcel);
@@ -33,7 +34,7 @@ module.exports = class AplicativoRepository extends BaseRepository {
         });
 
         //Após colher o numero máximo de aplicativos escreve um arquivo do excel
-        if (this.conteudoArquivoDadosExcelListaApp.length == this.ListAplicatNegoc.obterNumeroMaximoAplicativos() + 1)
+        if (numeroDeRequisicoes == this.ListAplicatNegoc.obterNumeroMaximoAplicativos())
             this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcelListaApp)
 
         this.conteudoArquivoDadosExcelListaApp.length = 0;
