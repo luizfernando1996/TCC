@@ -1,4 +1,4 @@
-BaseRepository = require('TCC/Dados/BaseRepository.js');
+BaseRepository = require('../Dados/BaseRepository.js');
 
 module.exports = class ListaAplicativosRepository extends BaseRepository {
 
