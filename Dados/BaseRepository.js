@@ -1,5 +1,5 @@
 //Cria o arquivo com o titulo e a extensão informada. A extensão xlsx não funciona, acredito
-    module.exports = class Excel {
+module.exports = class Excel {
     constructor() {
         this.fs = require('fs');
     }

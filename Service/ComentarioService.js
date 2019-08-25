@@ -2,623 +2,110 @@
 //compilada antes da sua execução. Logo se houver uma função a que chama uma função b a função b deve estar
 //declarada antes da função a para que seja compilada antes.  
 
-var array = [
-    "ab.codelyf",
-    "air.com.rosettastone.mobile.CoursePlayer",
-    "all.about.computer",
-    "aplus.cursosalgotmico",
-    "app.compiler",
-    "app.oopcodeskyhive",
-    "app.rprojectskyhive",
-    "app.tutormundi.com",
-    "appinventor.ai_aprendaprogramarufrj.AP",
-    "appinventor.ai_ytdevleo.C_edu",
-    "avivace.daily_programmer",
-    "bishrulhaq.learntocode",
-    "blueskydeveloper.androidprogramming",
-    "br.com.acaicomcodigo.informaticanobolso",
-    "br.com.agenda1.escola",
-    "br.com.alura.mobi",
-    "br.com.as2.cadastroalunos",
-    "br.com.cpb.academico",
-    "br.com.crewti.minhaleitura",
-    "br.com.eteg.escolaemmovimento.escolaEmMovimentoAgendaDigital",
-    "br.com.iped",
-    "br.com.jpiaget",
-    "br.com.oficialblackcode",
-    "br.com.passeidireto",
-    "br.com.undime.conviva",
-    "br.gov.pr.celepar.escolapr",
-    "c.programming",
-    "cc.makeblock.makeblock",
-    "cc.nextlabs.go_1_10",
-    "cc.taimoor.rubycourse",
-    "cdah.com.programming.test",
-    "clipescola.android",
-    "clipescola.android.agendavirtualgirassol",
-    "clipescola.android.ifpjeducacao",
-    "cn.codemao.code.game.kids",
-    "coding.riya_rayan.ccoding",
-    "com.aceable.aceablere_android",
-    "com.additioapp.additio",
-    "com.adriada.impararec",
-    "com.aguilerasoftware.NoaApp",
-    "com.ahmed544.php",
-    "com.alansa.ideabag2",
-    "com.aldoh_ti.PortalProgramandoApp",
-    "com.alientrix.pritam.salesforce",
-    "com.amensah.easycoder",
-    "com.andromo.dev601172.app848116",
-    "com.andromo.dev788265.app919966",
-    "com.antlem.coderhub",
-    "com.apkzube.learncpp",
-    "com.apkzube.learncprogramming",
-    "com.apkzube.learnjavaprogramming",
-    "com.apkzube.learnpython",
-    "com.apkzube.learnrprogramming",
-    "com.aplicativoslegais.easystudy",
-    "com.app.cprogramingapp",
-    "com.app1daily.a1db304",
-    "com.app1daily.a1db308",
-    "com.app1daily.aspdotnet",
-    "com.app1daily.learncobol",
-    "com.app1daily.learnmatlab",
-    "com.app4daily.computerrepairingcourse",
-    "com.apps.athena.programminglanguages",
-    "com.apps21.cursodecomputacion",
-    "com.appscook.parentconnect.app.android.alphonsakop",
-    "com.appsfacto.hundred_one_c_problems",
-    "com.appsfactory.learncplusplus",
-    "com.appsfactory.learnpython",
-    "com.appybuilder.aadi_ben16.CTuit",
-    "com.appzap.learncprogramminginhindi",
-    "com.arduino.xomotic.electronic",
-    "com.area120.grasshopper",
-    "com.ashatechsolutions.cprogramming",
-    "com.aswdc_learn_programming",
-    "com.atistudios.italk.de",
-    "com.atulindap.gotutorials",
-    "com.avstore.cctutorials",
-    "com.awwalsoft.javabasicslearning",
-    "com.awwalsoft.javadeeplearning",
-    "com.awwalsoft.javawebprogramming",
-    "com.babbel.mobile.android.es",
-    "com.back_banchers.cplusplus",
-    "com.back_banchers.css",
-    "com.back_banchers.html",
-    "com.back_banchers.python_programming",
-    "com.barmej.android",
-    "com.best.don.programmingbooks",
-    "com.biiteducation.cpp",
-    "com.binarytuts.cprogrammingcode",
-    "com.binibambini.NumbersMonstersLite",
-    "com.blogspot.ustadtech.c_programmingwithme",
-    "com.bnb.javaprogramming",
-    "com.bootstrap.code.play",
-    "com.br.dicionariodeti",
-    "com.brainbox.excelvba",
-    "com.buta.caculator",
-    "com.C_Examples.C_Programming",
-    "com.careerkarma.chat",
-    "com.chavan.oops",
-    "com.clanguage.pradip.bitsofcomputer",
-    "com.clickapp.ik.listview",
-    "com.code.jupiter.learnjavascript",
-    "com.code.jupiter.learnphp",
-    "com.CodeHub.competitivecoding",
-    "com.codeliber.html",
-    "com.codengoclient",
-    "com.codenza.dp.programs",
-    "com.codepoint.computerProgramming",
-    "com.codepoint.learnandroid",
-    "com.codepoint.learnangular",
-    "com.codepoint.learncplusplus",
-    "com.codepoint.learncss",
-    "com.codepoint.learndart",
-    "com.codepoint.learnjava",
-    "com.codepoint.learnjavascript",
-    "com.codepoint.learnkotlin",
-    "com.codepoint.learnmysql",
-    "com.codepoint.learnnodejs",
-    "com.codepoint.learnphp7",
-    "com.codepoint.learnpython3",
-    "com.codepoint.learnreactjs",
-    "com.codepoint.learnrprogramming",
-    "com.codepoint.learnswift",
-    "com.coderbro.tutorial.a8051microcontroller",
-    "com.coderbro.tutorial.arduinoadvanced",
-    "com.coderbro.tutorial.arduinoprogrammingduo",
-    "com.CoderBro.tutorials.arduinotutorials",
-    "com.codetoinvent.malik.cplusplus",
-    "com.codetoinvent.malik.cprogramming",
-    "com.coding.dmr.c",
-    "com.coding.dmr.cp",
-    "com.conedevstudio.morse.free",
-    "com.continuum.learncss",
-    "com.continuum.learnhtml",
-    "com.coolbase.cprogramming",
-    "com.cprogramminglanguage",
-    "com.cprogrammingzone.free",
-    "com.cprograms4future.allcprograms",
-    "com.creativeworld.android.geeks_code",
-    "com.cristeolapps.casamento.cristao",
-    "com.cruxbd.iotlearning",
-    "com.csharp.learn.essentials",
-    "com.csmcqs.asif.dsmcqs",
-    "com.curiosity.dailycuriosity",
-    "com.cyberloft.pascalprogramming",
-    "com.datacamp",
-    "com.delphiapplications.delphiexamples",
-    "com.dexterousdevelopers.cprogrammingtutorials",
-    "com.diarioescola.parents.fundamental",
-    "com.djm.offlinepythonnotes",
-    "com.do_apps.catalog_285",
-    "com.do_apps.catalog_485",
-    "com.do_apps.catalog_68",
-    "com.doomredmage.treinartabuada",
-    "com.duhnnae.programmingprogramacion",
-    "com.duolingo",
-    "com.duy.c.cpp.compiler",
-    "com.duy.pascal.compiler",
-    "com.dynamic.programming.free",
-    "com.dztall.ccr.android.admob",
-    "com.easy.home.javatutorial",
-    "com.easy.hp.cpptutorial",
-    "com.easy.hp.ctutorial",
-    "com.edmodo.parents",
-    "com.edokiacademy.babycoding",
-    "com.educationapps.cncguide",
-    "com.educationapps.cncprogrammingexamples",
-    "com.educationapps.gmcodereference",
-    "com.educationapps.visualbasicnet",
-    "com.enki.insights",
-    "com.estudos.biblicos.para.jovens",
-    "com.faadooengineers.free_cprogramming",
-    "com.faadooengineers.free_principlesofprogramming",
-    "com.faadooengineers.free_webtechnology",
-    "com.foxbox.app.nslc.android",
-    "com.freeit.java",
-    "com.frizzl.app.frizzleapp",
-    "com.frontline.frontlinemobile",
-    "com.fusionprojects.edmodo",
-    "com.futurevisioncomputers.cppquiz",
-    "com.futurevisioncomputers.excelvba",
-    "com.futurevisioncomputers.python",
-    "com.gazzappergames.simpleturtle.logo.educational",
-    "com.getmimo",
-    "com.gjam.learnhtml",
-    "com.gokazu",
-    "com.google.android.apps.classroom",
-    "com.gvapps.csk",
-    "com.HealthFitnessAndTutorials.JavaAdvanceJavaTutorial",
-    "com.hhott.kc1",
-    "com.higgx.studying",
-    "com.HTML.AngularJS.Codeplay",
-    "com.hussainlabs.androiddevelopmentcourse",
-    "com.id.enem",
-    "com.illusorytapirus.morsecodelesson",
-    "com.improvecodingskills.learnandroidprogramming",
-    "com.indiatechstore.learntocode",
-    "com.infoland.oops",
-    "com.inglesbrasil.teacherwilliam.inglsbrasil",
-    "com.ionicframework.cursosdegraca",
-    "com.irawen_info.MatLab",
-    "com.jaindev.assembly",
-    "com.jaindev.c",
-    "com.jaindev.python",
-    "com.japangor.learnjava",
-    "com.japangor.learnjs",
-    "com.japangor.learntocode",
-    "com.japangor.learntocodec",
-    "com.japangor.python",
-    "com.java.malik.javaanim",
-    "com.java.questionwithanswerinterview.android",
-    "com.java.user.javaprogramming",
-    "com.jaypeesoft.ds",
-    "com.jcharistechn.learnjuliaprogramming",
-    "com.jesusdigitalrd.jpcsim",
-    "com.jids.lspexample",
-    "com.jitendra000557.Final_AMC",
-    "com.jkfantasy.morseaudio",
-    "com.junior",
-    "com.JustForYouLimited.LearnASPOffline",
-    "com.JustForYouLimited.LearnJavaScriptOffline",
-    "com.kano.app",
-    "com.kids.coding.connectdots",
-    "com.kids.coding.firefighter",
-    "com.kindergarten.MathPreScool3",
-    "com.knightcoder.programmingebooks",
-    "com.kodigen.gobyexample",
-    "com.kodigen.pythonbyexample",
-    "com.KodlamaLab.KodlamaLab",
-    "com.krazeapps.basicprogrammingcompiler",
-    "com.krazeapps.cppprogrammingcompiler",
-    "com.krazeapps.csharpprogrammingcompiler",
-    "com.krazeapps.vbnetprogrammingcompiler",
-    "com.krazeapps.vhdlprogrammingcompiler",
-    "com.lamassu.alnakhelschool",
-    "com.languagedrops.drops.international",
-    "com.learn.electronics.course",
-    "com.learn.tech.datascience",
-    "com.learnacademic.computer_programming",
-    "com.learning.examples.arduino",
-    "com.learnpascal.newbslasjf",
-    "com.learnprogramming.codecamp",
-    "com.learnswiftprogramming",
-    "com.lego.education.codingexpress",
-    "com.lego.education.ev3",
-    "com.lego.education.wedo",
-    "com.lekastudio.learnhcj",
-    "com.liga.letramento",
-    "com.ligonier.refnet",
-    "com.limesdevelopment.morsecode",
-    "com.linkedin.android.learning",
-    "com.LM.PGS",
-    "com.lohriialo.swift",
-    "com.lpalominos.horariodeclases",
-    "com.machinelearningforsmallbusiness.leetcodepython",
-    "com.makeblock.mblock",
-    "com.marcyliao.app.algnote",
-    "com.medbridgeed.clinician",
-    "com.media.programming.point.hub.sololearn.tutorialspoint",
-    "com.mesalva.provas",
-    "com.mhasancse15.programminglanguage",
-    "com.midylaus.resumaoenem",
-    "com.milcanx.learnandroidapp",
-    "com.moonbitmedia.learnscalaeasyway",
-    "com.mosalingua.esfree",
-    "com.motionapps.onlinecompiler",
-    "com.mrduy.calc.ti36",
-    "com.mres.schedule",
-    "com.muktosoft.cpbook",
-    "com.mundoapp.agenda",
-    "com.muzudre.Probooks",
-    "com.mvdevelopment.learnvbnet",
-    "com.myapps.rishabhrawat.codingebooks",
-    "com.myhomeowork",
-    "com.mynurserymanager.wonderland",
-    "com.myprg.aakash.ardunioprogramming",
-    "com.nenedevs.cursodeinformatica",
-    "com.nestik.phyton",
-    "com.newageproductions.learnc",
-    "com.niesens.morsetrainer",
-    "com.nits.foundationworldsrinagar.app",
-    "com.noelvillaman.softwares.javasolo",
-    "com.nupuit.necd",
-    "com.nvizn.nvizinideasqr",
-    "com.nxg.learningvb",
-    "com.ombiel.campusm.contracosta",
-    "com.oplai.quang.asmtutorial",
-    "com.order.sony.orderone",
-    "com.organelos.admin.celulas.app",
-    "com.ozon.learn.computer",
-    "com.paprbit.dcoder",
-    "com.pkj.learnpython",
-    "com.plokia.ClassUp",
-    "com.practice_o_learn.javaprogramming",
-    "com.pratipalgif.LearnC",
-    "com.program.csharp",
-    "com.programiz.learnpython",
-    "com.programmarc.cprogrammingbangla",
-    "com.programming_with_java.fullmasti",
-    "com.programminginbangla",
-    "com.py.learn",
-    "com.qtechbd.tutorial.csharp",
-    "com.qtechbd.tutorial.python",
-    "com.quadosoft.ethicalhacking",
-    "com.quantumappsolutions.learnprogramming",
-    "com.quantumappsolutions.learnswift",
-    "com.quizlet.quizletandroid",
-    "com.quizmine.androidwp7",
-    "com.quizmine.webprogram",
-    "com.quseit.qlua5pro2",
-    "com.raincontinues.simplc2",
-    "com.recurvo.ace.cpt.practice.exam.prep",
-    "com.redlee90.learn6502assembly",
-    "com.reezx.android.learncprogramming",
-    "com.referencehunt.rubyprogramminglanguage",
-    "com.repair.learn.programming.android",
-    "com.robo.programming",
-    "com.roboCourse.crux.roboCourseFree",
-    "com.rohiapps.android.ctutorial",
-    "com.rosapp.morsecode",
-    "com.royal.krushna.myapplication",
-    "com.rpms.rohitpatil.learnjava",
-    "com.rrplayspot.learn.computer.in.seven7.days",
-    "com.rsd.cprogramming",
-    "com.rushhourlabs.morsecode",
-    "com.ryzac.codecademygo",
-    "com.saifraheem.BagoLearn",
-    "com.saifraheem.computerlibrary",
-    "com.sandrobot.aprovado",
-    "com.shalik.patel.cprogrammingsolution",
-    "com.sitseducators.cpppatternprogramsfree",
-    "com.sitseducators.javapatternprogramsfree",
-    "com.sizzlesoftlabs.learn.expertc",
-    "com.skillshare.Skillshare",
-    "com.skyapper.hb.learncnet",
-    "com.skyapper.learnaiwithpython",
-    "com.skyapper.learnaspnet",
-    "com.skyapper.learnpythonwithdatascience",
-    "com.skyapper.learnspring",
-    "com.skyapper.learnsqlandsqlserver",
-    "com.skycodetech.codingquiz",
-    "com.SM_Developer",
-    "com.smokyink.morsecodementor",
-    "com.snj.cprogramming",
-    "com.soft24hours.dictionaries.dictionary22",
-    "com.sololearn",
-    "com.sololearn.cplusplus",
-    "com.sololearn.csharp",
-    "com.sololearn.csstrial",
-    "com.sololearn.htmltrial",
-    "com.sololearn.java",
-    "com.sololearn.javascript",
-    "com.sololearn.jquery",
-    "com.sololearn.php",
-    "com.sololearn.python",
-    "com.sololearn.ruby",
-    "com.sololearn.sql",
-    "com.sortedqueue.programmercreek",
-    "com.spdroid.c",
-    "com.sphero.sprk",
-    "com.spyboy.cplusplusprogramming",
-    "com.spyboy.cprogramming",
-    "com.spyboy.javaprogramming",
-    "com.Store.ReaderPro",
-    "com.studytonight.app",
-    "com.successcrazzy.datascience101",
-    "com.sukronmoh.bwi.belajarhtml",
-    "com.superdream.rprogramming",
-    "com.susanapp.cursodeinformatica",
-    "com.swastik.operationalresearch",
-    "com.sweinc.powershell",
-    "com.tgc.greatcoursesplus",
-    "com.thanhdo.tutorial.apextutorial",
-    "com.theeasylearn.java",
-    "com.theeasylearn.rprogramming",
-    "com.thenewday.programmingcalendar.tpc",
-    "com.thunkable.android.techword4u.Basic_C_Programming",
-    "com.tips.python",
-    "com.tool.calculator.casio.fx991.es.plus",
-    "com.tsquare.androidtutorial",
-    "com.tutorials.learn.androidexample",
-    "com.udemy.android",
-    "com.ummaysoft.arduinoprogrammingnotebook",
-    "com.untan.siakaddosen",
-    "com.upskew.encode",
-    "com.velosys.interview_preparation",
-    "com.vineeta.pythonprogramming",
-    "com.W3school.Anbu",
-    "com.wandcode.cheatsheet",
-    "com.wbut.objectorientedprogramming",
-    "com.webitapps.androidtutorial",
-    "com.webtapps.learn_json_programming",
-    "com.williems.linformatique",
-    "com.wITandProgrammingandComputerScienceFreeBooks_7782437",
-    "com.wProgrammingBooksfree_8766206",
-    "com.wyzant.studentapp",
-    "com.xtelltechnologies.htmltutoriallearncodetagscss",
-    "com.yohanadisetiawan.LearnCode",
-    "com.yugenchokshi.wil",
-    "com.zenva.codemurai",
-    "com.zulusoftware.Shop",
-    "coolfreeapps.appslaborator.html.course",
-    "coolfreeapps.appslaborator.learn.c.programming",
-    "coolfreeapps.appslaborator.web.development.course",
-    "cordova.code.play",
-    "cpp.programming",
-    "da.namanmadan.com.programmingcheatsheets",
-    "daldev.android.gradehelper",
-    "diploma.in.computerapplication",
-    "edu.mit.appinventor.aicompanion3",
-    "eg.io.aliqohal71.android.apk.abc",
-    "engg.hub.object.oriented.programming",
-    "everyneedz.com.webdevelopment",
-    "excel.shortcuts",
-    "free.programming.programming",
-    "gudev.learn.phpprogrammingcoding",
-    "gudev.visualbasicvb.net",
-    "in.ajaykhatri.pythontutorial",
-    "in.edu.pd",
-    "in.intelitech.assembly",
-    "in.intelitech.computerprogramming",
-    "in.intelitech.lispprogramming",
-    "in.intelitech.rprogramming",
-    "in.learncodeonline.cpplangquestion",
-    "in.learncodeonline.global",
-    "in.learncodeonline.lco",
-    "in.softecks.fortran",
-    "in.softecks.javascript",
-    "in.softecks.perl",
-    "in.softecks.programmingbasics",
-    "in.softecks.python",
-    "in.softecks.ruby",
-    "indiedev.learncoding",
-    "info.cntrlapps.prolearn",
-    "info.younglinux.cexercises",
-    "io.codegalaxy",
-    "io.cordova.ComputerProgrammingCP",
-    "io.getready.ready",
-    "io.hackr.hackr",
-    "io.kodular.rijukeyshonsrijan.dp",
-    "itools.aiwithpython",
-    "itools.cprograms",
-    "iule.app.tec.concurso",
-    "juanantonioripoll.practiceexercisescsharp",
-    "kr.co.rinasoft.yktime",
-    "kr.co.sigongmedia.truebotcolorcard",
-    "kr.robotmedia.android.stack.mini",
-    "labprograms.abin.programmingexercises",
-    "learn.apps.androidprogramming",
-    "learn.apps.arduinoprogramming",
-    "learn.apps.csharpprogramming",
-    "learn.apps.cssprogramming",
-    "learn.apps.htmlprogramming",
-    "learn.apps.javaprogramming",
-    "learn.apps.javascriptprogramming",
-    "learn.apps.phpprogramming",
-    "learn.apps.pythonprogramming",
-    "learn.apps.rprogramming",
-    "learn.apps.unixprogramming",
-    "learn.c.programing",
-    "learn.css.programming",
-    "learn.html.programming",
-    "learn.java.programming",
-    "learn.reactnative.tutorial",
-    "learn.web.php",
-    "lifegoal.helpinghands.machinelearning",
-    "ltos.learn.cand.java",
-    "make.itdigit.al.python",
-    "mc.javatutor.offline",
-    "micro.bots.learn.html5",
-    "miwok.android.example.com.learnc",
-    "mobile.olimpia.com.aprendeelectronica",
-    "morsecode.ort.com.morse",
-    "mum.mum.java_test",
-    "nabilsoft.com.learnwebdevelopment",
-    "name.antonsmirnov.android.cppdroid",
-    "net.androidsquad.androidmaster",
-    "net.andromo.dev653868.app655379",
-    "net.egordmitriev.cheatsheets",
-    "net.joeyt.learnable",
-    "net.jshero",
-    "net.lebdevelopers.masterflutter",
-    "net.simplifiedcoding.simplifiedcoding",
-    "neuron.makeblock.com",
-    "np.com.ezone.eschool",
-    "oop.cite.pc_admin.trial_3navbar",
-    "org.catrobat.catroid",
-    "org.coursera.android",
-    "org.edx.mobile",
-    "org.khanacademy.android",
-    "org.khankids.android",
-    "org.pbskids.scratchjr",
-    "org.qpython.qpy3",
-    "org.scratchjr.android",
-    "org.stepic.droid",
-    "org.vivek.cherala.vhdlprogramming",
-    "pe.diegoveloper.pseudocode",
-    "php.code.play",
-    "pk.mitz.calculatorsworld.computerscience",
-    "pl.maciejsadyapps.morsetrainer",
-    "programmerbooks.com.app",
-    "programming.android.tutorial",
-    "programming.structured.knecstructuredprogrammingpapers",
-    "project.com.clanguage",
-    "robotic.industrial",
-    "ru.foxford.foxfordtextbook",
-    "ru.iiec.cxxdroid",
-    "ru.iiec.pydroid3",
-    "sambhaji.android.java",
-    "sambhaji.asp.vb",
-    "seesaw.shadowpuppet.co.classroom",
-    "seesaw.shadowpuppet.co.seesaw",
-    "sgdevelopers.learn_c_programming",
-    "sgdevelopers.learn_cpp_programming",
-    "sql.code.play",
-    "techhunt.com.androidexamples",
-    "technark.bca_courprogramming",
-    "technark.rforbeginners",
-    "tk.app.start",
-    "training.computing.scratchkids",
-    "tursky.jan.nauc.sa.html5",
-    "vsapps.computerprogram",
-    "wiki.algorithm.algorxithms",
-    "wscubetech.android"
-]
-
-var cabecalhoArquivoExcel =
-    "Bundle Id" + "\t" +//"\t" -> divide em colunas
-    "Número de estrelas do comentário" + "\t" +
-    "Texto do comentário" + "\t" +
-    "Id do comentário" + "\t" +
-    "Data do comentário"
-    + "\n";
-
-var conteudoArquivoExcel = []
-conteudoArquivoExcel.push(cabecalhoArquivoExcel);
-
-gplay = require('../Bibliotecas/google-play-scraper');
-modExcel = require('../Dados/BaseRepository.js');
+var ComentarioRepository = require('../Dados/ComentarioRepository.js')
+var objDadosComentario = new ComentarioRepository()
 BaseService = require('../Service/BaseService.js')
-
-var bsServ = new BaseService();
-obterComentario()
-
-function obterComentario() {
-
-    array.forEach((element, indice) => {
-        bsServ.sleepVariado(element, indice)
-
-        for (let numeroPaginas = 0; numeroPaginas < 5; numeroPaginas++) {
-            gplay.reviews({
-                appId: element,
-                page: numeroPaginas,
-                throttle: 1
-            }).then(resposta_Comentarios => {
-                salvarComentarios(resposta_Comentarios, numeroPaginas, element)
-                console.log("Aplicativo com bundle ",element, " de indice ", indice, " da página ",numeroPaginas, " coletado!")
-                //Debugger
-                //imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element)
-            })
-        }
+var bs = new BaseService();
+var p1 = new Promise(function (resolve, reject) {
+    var listBundes = objDadosComentario.recuperaArquivosDiretorio().then(listBundes => {
+        resolve(listBundes);
     })
-}
-function salvarComentarios(resposta_Comentarios, numeroPaginas, element) {
-    //listaComentariosPorApp.push(resposta_Comentarios);
+})
+p1.then(array => {
+    array.splice(0, 1)//retira o cabeçalho do arquivo lido
+    //console.log(array)
 
-    resposta_Comentarios.forEach(comentarioElemento => {
+    var cabecalhoArquivoExcel =
+        "Bundle Id" + "\t" +//"\t" -> divide em colunas
+        "Número de estrelas do comentário" + "\t" +
+        "Texto do comentário" + "\t" +
+        "Id do comentário" + "\t" +
+        "Data do comentário"
+        + "\n";
 
-        var linhaExcel =
-            element + "\t" +     //bundle id do aplicativo
-            comentarioElemento.score + "\t" +     //numero de estrelas do comentário
-            retirarQuebraDeLinhaTexto(comentarioElemento.text) + "\t" +     //texto do comentário
-            comentarioElemento.id + "\t" +     //identificador do comentário
-            comentarioElemento.date                //data do comentário
-            + "\n";
+    var conteudoArquivoExcel = []
+    conteudoArquivoExcel.push(cabecalhoArquivoExcel);
 
-        conteudoArquivoExcel.push(linhaExcel)
-    });
+    gplay = require('../Bibliotecas/google-play-scraper');
+    modExcel = require('../Dados/BaseRepository.js');
 
-    var objexcel = new modExcel()
-    objexcel.salvar("ComentariosApps", conteudoArquivoExcel)
+    var bsServ = new BaseService();
+    obterComentario()
 
-}
+    function obterComentario() {
 
-function retirarQuebraDeLinhaTexto(texto) {
-    //var texto = "Its not even average. Just written text n nothing else.no coding space .no\ncompiling while learning. No interactive learning like solo learn or\nprogramming hub"
+        array.forEach((element, indice) => {
+            bsServ.sleepVariado(element, indice)
 
-    texto = texto.replace(/\n/g, ' ')
+            for (let numeroPaginas = 0; numeroPaginas < 5; numeroPaginas++) {
+                gplay.reviews({
+                    appId: element,
+                    page: numeroPaginas,
+                    throttle: 1
+                }).then(resposta_Comentarios => {
+                    salvarComentarios(resposta_Comentarios, numeroPaginas, element)
+                    console.log("Aplicativo com bundle ", element, " de indice ", indice, " da página ", numeroPaginas, " coletado!")
+                    //Debugger
+                    //imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element)
+                })
+            }
+        })
+    }
+    function salvarComentarios(resposta_Comentarios, numeroPaginas, element) {
+        //listaComentariosPorApp.push(resposta_Comentarios);
 
-    //console.log(retirarQuebraDeLinhaTexto(texto));
+        resposta_Comentarios.forEach(comentarioElemento => {
 
-    return texto;
-}
+            var linhaExcel =
+                element + "\t" +     //bundle id do aplicativo
+                comentarioElemento.score + "\t" +     //numero de estrelas do comentário
+                retirarQuebraDeLinhaTexto(comentarioElemento.text) + "\t" +     //texto do comentário
+                comentarioElemento.id + "\t" +     //identificador do comentário
+                comentarioElemento.date                //data do comentário
+                + "\n";
 
-//Debugger
-function imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element) {
-    gplay.app({ appId: element })
-        .then(app => {
+            conteudoArquivoExcel.push(linhaExcel)
+        });
 
-            console.log("--------------------------------")
+        var objexcel = new modExcel()
+        objexcel.salvar("ComentariosApps", conteudoArquivoExcel)
 
-            console.log(app.title)
+    }
 
-            //console.log(app.reviews)
-            //Esse número não informa o número de comentários real na loja do aplicativo na play store, acredito.
-            //Eu observei que essa ferramenta(google-play-scrapper)
-            //não coleta o mesmo número de comentários que é informado no atributo reviews (app.reviews).
+    function retirarQuebraDeLinhaTexto(texto) {
+        //var texto = "Its not even average. Just written text n nothing else.no coding space .no\ncompiling while learning. No interactive learning like solo learn or\nprogramming hub"
 
-            console.log("Já foram coletados para esse app: " + resposta_Comentarios.length + " comentários")
+        texto = texto.replace(/\n/g, ' ')
 
-            console.dir(resposta_Comentarios)
+        //console.log(retirarQuebraDeLinhaTexto(texto));
 
-            console.log("Bundle id: " + element)
+        return texto;
+    }
 
-            console.log("Página: " + numeroPaginas)
+    //Debugger
+    function imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element) {
+        gplay.app({ appId: element })
+            .then(app => {
 
-            console.log("--------------------------------")
+                console.log("--------------------------------")
 
-        }, console.log);
-}
+                console.log(app.title)
+
+                //console.log(app.reviews)
+                //Esse número não informa o número de comentários real na loja do aplicativo na play store, acredito.
+                //Eu observei que essa ferramenta(google-play-scrapper)
+                //não coleta o mesmo número de comentários que é informado no atributo reviews (app.reviews).
+
+                console.log("Já foram coletados para esse app: " + resposta_Comentarios.length + " comentários")
+
+                console.dir(resposta_Comentarios)
+
+                console.log("Bundle id: " + element)
+
+                console.log("Página: " + numeroPaginas)
+
+                console.log("--------------------------------")
+
+            }, console.log);
+    }
+})
