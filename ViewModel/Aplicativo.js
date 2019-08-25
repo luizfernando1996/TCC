@@ -15,13 +15,13 @@ module.exports = class Aplicativo {
     //Retorna os atributos impressos para que sejam adicionados no excel
     imprimirAtributos() {
         var impressao =
-            this.PalavraChave + "\t" +//categoria do dadosAplicativo
-            this.AplicativoId + "\t" +//dadosAplicativo Id do dadosAplicativo
-            this.Title + "\t" +//Nome do dadosAplicativo
-            this.Ratings + "\t" +//numero de avaliações
-            this.ScoreText + "\t" + //número de estrelas do dadosAplicativo
-            this.Installs + "\t" + //número de instalações
-            this.Size + "\t" + //tamanho do dadosAplicativo
+            this.PalavraChave + ";"+ //categoria do dadosAplicativo
+            this.AplicativoId + ";"+//dadosAplicativo Id do dadosAplicativo
+            this.Title + ";"+//Nome do dadosAplicativo
+            this.Ratings +";"+ //numero de avaliações
+            this.ScoreText +";"+  //número de estrelas do dadosAplicativo
+            this.Installs +";"+ //número de instalações
+            this.Size +";"+ //tamanho do dadosAplicativo
             this.AndroidVersionText //versão do android exigida
            + "\n";
         return impressao;
