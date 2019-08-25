@@ -1,10 +1,10 @@
 //Cria o arquivo com o titulo e a extensão informada. A extensão xlsx não funciona, acredito
-module.exports = class Excel {
+    module.exports = class Excel {
     constructor() {
         this.fs = require('fs');
     }
 
-    salvar(tituloDoArquivo, linhasArquivo, extensao = '.xls') {
+    salvar(tituloDoArquivo, linhasArquivo, extensao = '.txt') {
         //Método que adiciona apenas linhas no arquivo e não colunas
         var writeStream = this.fs.createWriteStream(tituloDoArquivo + extensao);
 
