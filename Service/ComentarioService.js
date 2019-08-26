@@ -15,10 +15,10 @@ function execut() {
         array.splice(0, 1)//retira o cabeçalho do arquivo lido
         //console.log(array)
         var cabecalhoArquivoExcel =
-            "Bundle Id" + "\t" +//"\t" -> divide em colunas
-            "Número de estrelas do comentário" + "\t" +
-            "Texto do comentário" + "\t" +
-            "Id do comentário" + "\t" +
+            "Bundle Id" + ";" +//"\t" -> divide em colunas
+            "Número de estrelas do comentário" + ";" +
+            "Texto do comentário" + ";" +
+            "Id do comentário" + ";" +
             "Data do comentário"
             + "\n";
 
@@ -50,13 +50,21 @@ function execut() {
                         throttle: 1
                     }).then(resposta_Comentarios => {
                         salvarComentarios(resposta_Comentarios, numeroPaginas, element)
-                        
+
                         //Atualiza o valor da progressBar
                         a.apresentarTaxa(tamanho, 1)
 
                         //Debugger
                         //console.log("Aplicativo com bundle ", element, " de indice ", indice, " da página ", numeroPaginas, " coletado!")
                         //imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element)
+                    }, (erro, element, numeroPaginas) => {
+                        bsServ.sleep(180)
+                        console.log()
+                        console.log(erro)
+                        console.log()
+                        console.log(element, " ", numeroPaginas)
+                        console.log()
+                        a.apresentarTaxa(tamanho, 1)
                     })
                 }
             })
@@ -67,10 +75,10 @@ function execut() {
             resposta_Comentarios.forEach(comentarioElemento => {
 
                 var linhaExcel =
-                    element + "\t" +     //bundle id do aplicativo
-                    comentarioElemento.score + "\t" +     //numero de estrelas do comentário
-                    retirarQuebraDeLinhaTexto(comentarioElemento.text) + "\t" +     //texto do comentário
-                    comentarioElemento.id + "\t" +     //identificador do comentário
+                    element + ";" +     //bundle id do aplicativo
+                    comentarioElemento.score + ";" +     //numero de estrelas do comentário
+                    retirarQuebraDeLinhaTexto(comentarioElemento.text) + ";" +     //texto do comentário
+                    comentarioElemento.id + ";" +     //identificador do comentário
                     comentarioElemento.date                //data do comentário
                     + "\n";
 

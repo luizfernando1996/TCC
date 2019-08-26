@@ -8,6 +8,8 @@ var leitor = readline.createInterface({
     output: process.stdout
 });
 var textoExibir = "\n----------------------------------------------------\nEfetuar coleta de comentários ou métricas?\nDigite 1 para métricas e 2 para comentários\n"
+
+
 leitor.question(textoExibir, function (answer) {
     var resp = answer;
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");

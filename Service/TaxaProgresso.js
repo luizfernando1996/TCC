@@ -7,7 +7,7 @@ module.exports = class TaxaProgresso {
         // create a new progress bar instance and use shades_classic theme
         this.bar1 = new _cliProgress.SingleBar({}, _cliProgress.Presets.shades_classic);
         this.chave = true;
-        this.valorPercorrido=0;
+        this.valorPercorrido = 0;
     }
 
     apresentarTaxa(valorTotal, incremento = 1) {
@@ -20,8 +20,9 @@ module.exports = class TaxaProgresso {
         this.valorPercorrido = this.valorPercorrido + incremento
         this.bar1.update(this.valorPercorrido);
 
-        // stop the progress bar
-        //this.bar1.stop();
+        if (valorTotal == this.valorPercorrido)
+            // stop the progress bar
+            this.bar1.stop();
 
     }
 }

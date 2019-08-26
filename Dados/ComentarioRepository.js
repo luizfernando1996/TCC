@@ -41,7 +41,9 @@ class ComentarioRepository {
                 //Insere os dados dos arquivos na lista    
                 rl.on('line', (line) => {
                     linha = line.split(';')
-                    listaDeDados.push(linha[1])
+                    linha = linha[1].split(',')
+                    listaDeDados.push(linha[0])
+
                 })
 
                 rl.on('close', () => {
@@ -49,53 +51,6 @@ class ComentarioRepository {
                 })
 
             })
-        })
-    }
-    //Gravar o arquivo txt sem os duplicados
-    retirarRepetidos() {
-
-        var encontrou;
-        listaDeDadosFiltrados.push(listaDeDados[0])
-
-        listaDeDados.forEach(function (linha) {
-
-            encontrou = false
-
-            for (i = 0; i < listaDeDadosFiltrados.length; i++) {
-
-                //recupera o bundleid
-                var a = linha.split(";")[1]
-                var b = listaDeDadosFiltrados[i].split(";")[1]
-
-                if (a == b) {
-                    encontrou = true;
-                    break;
-                }
-            }
-
-            if (!encontrou) {
-                listaDeDadosFiltrados.push(linha)
-            }
-
-            console.log(linha.split(";")[0])
-        })
-
-        // listaDeDadosFiltrados = [...new Set(listaDeDados)];
-        // console.log(listaDeDadosFiltrados);
-
-        gravarArquivoFiltrado();
-
-    }
-
-
-    gravarArquivoFiltrado() {
-
-        const CreateFiles = fs.createWriteStream(diretorioArquivoSaida, {
-            flags: 'a' //flags: 'a' preserva dados anteriores
-        })
-
-        listaDeDadosFiltrados.forEach(linha => {
-            CreateFiles.write(linha + '\r\n')
         })
     }
 }
