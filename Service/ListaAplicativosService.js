@@ -15,14 +15,13 @@ class PesquisaService extends BaseService {
 
     efetuarRequisicao(dtoLista) {
 
-
         this.gplay.search({//https://github.com/facundoolano/google-play-scraper#search
             term: dtoLista.PalavraChaveAtual,
             lang: dtoLista.Linguagem,
             num: dtoLista.NumeroMaximoAplicativos,
-            price: "free"
-            //throttle:1
-        }).then(listaAplicativos=> {
+            price: "free",
+            throttle: 1
+        }).then(listaAplicativos => {
             dtoLista.alterarArrayDeAplicativos(listaAplicativos);
             this.salvar(dtoLista);
             this.objAplicativo.pesquisarAplicativo(dtoLista);
@@ -36,8 +35,13 @@ class PesquisaService extends BaseService {
         //Dependencias
         palavrasChavesPermitidas.forEach(
             (palavraChave, indicePalavraChave) => {
+                var lingua;
+                if (palavraChave == "programming" || palavraChave == "learn programming" || palavraChave == "learn code")
+                    lingua = "en"
+                else
+                    lingua = 'pt-br'
                 var dtoLista = new ListaAplicativos();
-                dtoLista.Linguagem = this.objListaAplicativos.obterLingua();
+                dtoLista.Linguagem = lingua;
                 dtoLista.NumeroMaximoAplicativos = this.objListaAplicativos.obterNumeroMaximoAplicativos();
                 dtoLista.PalavraChaveAtual = palavraChave;
                 dtoLista.IndicePalavraChave = indicePalavraChave;
@@ -47,9 +51,9 @@ class PesquisaService extends BaseService {
 
     salvar(dtoLista) {
 
-        var nomeArquivo = "Lista " + dtoLista.IndicePalavraChave + " de categorias";
+        var nomeArquivo = dtoLista.PalavraChaveAtual + " categoria";
 
-        this.Repository.salvar(dtoLista, nomeArquivo);
+        this.Repository.salvar(dtoLista, nomeArquivo, 0);
     }
 }
 //Uma das formas de exportar

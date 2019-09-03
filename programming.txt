@@ -1,0 +1,2 @@
+Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
+programming;com.freeit.java;Programming Hub: Learn to Code;undefined;undefined;1,000,000+;Varies with device;Varies with device

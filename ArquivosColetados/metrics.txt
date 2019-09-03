@@ -1,524 +1,538 @@
 Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
-programming;ab.codelyf,;Programming Hub: Aprender a programar;84.868;4.5;1.000.000+;Varia de acordo com o dispositivo;Varia de acordo com o dispositivo
-programming;air.com.rosettastone.mobile.CoursePlayer,;SoloLearn: Learn to Code for Free;84.868;4.5;1.000.000+;Varia de acordo com o dispositivo;Varia de acordo com o dispositivo
-;all.about.computer,;;;;;;
-;aplus.cursosalgotmico,;;;;;;
-;app.compiler,;;;;;;
-;app.oopcodeskyhive,;;;;;;
-;app.rprojectskyhive,;;;;;;
-;app.tutormundi.com,;;;;;;
-;appinventor.ai_aprendaprogramarufrj.AP,;;;;;;
-;appinventor.ai_ytdevleo.C_edu,;;;;;;
-;avivace.daily_programmer,;;;;;;
-;bishrulhaq.learntocode,;;;;;;
-;blueskydeveloper.androidprogramming,;;;;;;
-;br.com.acaicomcodigo.informaticanobolso,;;;;;;
-;br.com.agenda1.escola,;;;;;;
-;br.com.alura.mobi,;;;;;;
-;br.com.as2.cadastroalunos,;;;;;;
-;br.com.cpb.academico,;;;;;;
-;br.com.crewti.minhaleitura,;;;;;;
-;br.com.eteg.escolaemmovimento.escolaEmMovimentoAgendaDigital,;;;;;;
-;br.com.iped,;;;;;;
-;br.com.jpiaget,;;;;;;
-;br.com.oficialblackcode,;;;;;;
-;br.com.passeidireto,;;;;;;
-;br.com.undime.conviva,;;;;;;
-;br.gov.pr.celepar.escolapr,;;;;;;
-;c.programming,;;;;;;
-;cc.makeblock.makeblock,;;;;;;
-;cc.nextlabs.go_1_10,;;;;;;
-;cc.taimoor.rubycourse,;;;;;;
-;cdah.com.programming.test,;;;;;;
-;clipescola.android,;;;;;;
-;clipescola.android.agendavirtualgirassol,;;;;;;
-;clipescola.android.ifpjeducacao,;;;;;;
-;cn.codemao.code.game.kids,;;;;;;
-;coding.riya_rayan.ccoding,;;;;;;
-;com.aceable.aceablere_android,;;;;;;
-;com.additioapp.additio,;;;;;;
-;com.adriada.impararec,;;;;;;
-;com.aguilerasoftware.NoaApp,;;;;;;
-;com.ahmed544.php,;;;;;;
-;com.alansa.ideabag2,;;;;;;
-;com.aldoh_ti.PortalProgramandoApp,;;;;;;
-;com.alientrix.pritam.salesforce,;;;;;;
-;com.amensah.easycoder,;;;;;;
-;com.andromo.dev601172.app848116,;;;;;;
-;com.andromo.dev788265.app919966,;;;;;;
-;com.antlem.coderhub,;;;;;;
-;com.apkzube.learncpp,;;;;;;
-;com.apkzube.learncprogramming,;;;;;;
-;com.apkzube.learnjavaprogramming,;;;;;;
-;com.apkzube.learnpython,;;;;;;
-;com.apkzube.learnrprogramming,;;;;;;
-;com.aplicativoslegais.easystudy,;;;;;;
-;com.app.cprogramingapp,;;;;;;
-;com.app1daily.a1db304,;;;;;;
-;com.app1daily.a1db308,;;;;;;
-;com.app1daily.aspdotnet,;;;;;;
-;com.app1daily.learncobol,;;;;;;
-;com.app1daily.learnmatlab,;;;;;;
-;com.app4daily.computerrepairingcourse,;;;;;;
-;com.apps.athena.programminglanguages,;;;;;;
-;com.apps21.cursodecomputacion,;;;;;;
-;com.appscook.parentconnect.app.android.alphonsakop,;;;;;;
-;com.appsfacto.hundred_one_c_problems,;;;;;;
-;com.appsfactory.learncplusplus,;;;;;;
-;com.appsfactory.learnpython,;;;;;;
-;com.appybuilder.aadi_ben16.CTuit,;;;;;;
-;com.appzap.learncprogramminginhindi,;;;;;;
-;com.arduino.xomotic.electronic,;;;;;;
-;com.area120.grasshopper,;;;;;;
-;com.ashatechsolutions.cprogramming,;;;;;;
-;com.aswdc_learn_programming,;;;;;;
-;com.atistudios.italk.de,;;;;;;
-;com.atulindap.gotutorials,;;;;;;
-;com.avstore.cctutorials,;;;;;;
-;com.awwalsoft.javabasicslearning,;;;;;;
-;com.awwalsoft.javadeeplearning,;;;;;;
-;com.awwalsoft.javawebprogramming,;;;;;;
-;com.babbel.mobile.android.es,;;;;;;
-;com.back_banchers.cplusplus,;;;;;;
-;com.back_banchers.css,;;;;;;
-;com.back_banchers.html,;;;;;;
-;com.back_banchers.python_programming,;;;;;;
-;com.barmej.android,;;;;;;
-;com.best.don.programmingbooks,;;;;;;
-;com.biiteducation.cpp,;;;;;;
-;com.binarytuts.cprogrammingcode,;;;;;;
-;com.binibambini.NumbersMonstersLite,;;;;;;
-;com.blogspot.ustadtech.c_programmingwithme,;;;;;;
-;com.bnb.javaprogramming,;;;;;;
-;com.bootstrap.code.play,;;;;;;
-;com.br.dicionariodeti,;;;;;;
-;com.brainbox.excelvba,;;;;;;
-;com.buta.caculator,;;;;;;
-;com.C_Examples.C_Programming,;;;;;;
-;com.careerkarma.chat,;;;;;;
-;com.chavan.oops,;;;;;;
-;com.clanguage.pradip.bitsofcomputer,;;;;;;
-;com.clickapp.ik.listview,;;;;;;
-;com.code.jupiter.learnjavascript,;;;;;;
-;com.code.jupiter.learnphp,;;;;;;
-;com.CodeHub.competitivecoding,;;;;;;
-;com.codeliber.html,;;;;;;
-;com.codengoclient,;;;;;;
-;com.codenza.dp.programs,;;;;;;
-;com.codepoint.computerProgramming,;;;;;;
-;com.codepoint.learnandroid,;;;;;;
-;com.codepoint.learnangular,;;;;;;
-;com.codepoint.learncplusplus,;;;;;;
-;com.codepoint.learncss,;;;;;;
-;com.codepoint.learndart,;;;;;;
-;com.codepoint.learnjava,;;;;;;
-;com.codepoint.learnjavascript,;;;;;;
-;com.codepoint.learnkotlin,;;;;;;
-;com.codepoint.learnmysql,;;;;;;
-;com.codepoint.learnnodejs,;;;;;;
-;com.codepoint.learnphp7,;;;;;;
-;com.codepoint.learnpython3,;;;;;;
-;com.codepoint.learnreactjs,;;;;;;
-;com.codepoint.learnrprogramming,;;;;;;
-;com.codepoint.learnswift,;;;;;;
-;com.coderbro.tutorial.a8051microcontroller,;;;;;;
-;com.coderbro.tutorial.arduinoadvanced,;;;;;;
-;com.coderbro.tutorial.arduinoprogrammingduo,;;;;;;
-;com.CoderBro.tutorials.arduinotutorials,;;;;;;
-;com.codetoinvent.malik.cplusplus,;;;;;;
-;com.codetoinvent.malik.cprogramming,;;;;;;
-;com.coding.dmr.c,;;;;;;
-;com.coding.dmr.cp,;;;;;;
-;com.conedevstudio.morse.free,;;;;;;
-;com.continuum.learncss,;;;;;;
-;com.continuum.learnhtml,;;;;;;
-;com.coolbase.cprogramming,;;;;;;
-;com.cprogramminglanguage,;;;;;;
-;com.cprogrammingzone.free,;;;;;;
-;com.cprograms4future.allcprograms,;;;;;;
-;com.creativeworld.android.geeks_code,;;;;;;
-;com.cristeolapps.casamento.cristao,;;;;;;
-;com.cruxbd.iotlearning,;;;;;;
-;com.csharp.learn.essentials,;;;;;;
-;com.csmcqs.asif.dsmcqs,;;;;;;
-;com.curiosity.dailycuriosity,;;;;;;
-;com.cyberloft.pascalprogramming,;;;;;;
-;com.datacamp,;;;;;;
-;com.delphiapplications.delphiexamples,;;;;;;
-;com.dexterousdevelopers.cprogrammingtutorials,;;;;;;
-;com.diarioescola.parents.fundamental,;;;;;;
-;com.djm.offlinepythonnotes,;;;;;;
-;com.do_apps.catalog_285,;;;;;;
-;com.do_apps.catalog_485,;;;;;;
-;com.do_apps.catalog_68,;;;;;;
-;com.doomredmage.treinartabuada,;;;;;;
-;com.duhnnae.programmingprogramacion,;;;;;;
-;com.duolingo,;;;;;;
-;com.duy.c.cpp.compiler,;;;;;;
-;com.duy.pascal.compiler,;;;;;;
-;com.dynamic.programming.free,;;;;;;
-;com.dztall.ccr.android.admob,;;;;;;
-;com.easy.home.javatutorial,;;;;;;
-;com.easy.hp.cpptutorial,;;;;;;
-;com.easy.hp.ctutorial,;;;;;;
-;com.edmodo.parents,;;;;;;
-;com.edokiacademy.babycoding,;;;;;;
-;com.educationapps.cncguide,;;;;;;
-;com.educationapps.cncprogrammingexamples,;;;;;;
-;com.educationapps.gmcodereference,;;;;;;
-;com.educationapps.visualbasicnet,;;;;;;
-;com.enki.insights,;;;;;;
-;com.estudos.biblicos.para.jovens,;;;;;;
-;com.faadooengineers.free_cprogramming,;;;;;;
-;com.faadooengineers.free_principlesofprogramming,;;;;;;
-;com.faadooengineers.free_webtechnology,;;;;;;
-;com.foxbox.app.nslc.android,;;;;;;
-;com.freeit.java,;;;;;;
-;com.frizzl.app.frizzleapp,;;;;;;
-;com.frontline.frontlinemobile,;;;;;;
-;com.fusionprojects.edmodo,;;;;;;
-;com.futurevisioncomputers.cppquiz,;;;;;;
-;com.futurevisioncomputers.excelvba,;;;;;;
-;com.futurevisioncomputers.python,;;;;;;
-;com.gazzappergames.simpleturtle.logo.educational,;;;;;;
-;com.getmimo,;;;;;;
-;com.gjam.learnhtml,;;;;;;
-;com.gokazu,;;;;;;
-;com.google.android.apps.classroom,;;;;;;
-;com.gvapps.csk,;;;;;;
-;com.HealthFitnessAndTutorials.JavaAdvanceJavaTutorial,;;;;;;
-;com.hhott.kc1,;;;;;;
-;com.higgx.studying,;;;;;;
-;com.HTML.AngularJS.Codeplay,;;;;;;
-;com.hussainlabs.androiddevelopmentcourse,;;;;;;
-;com.id.enem,;;;;;;
-;com.illusorytapirus.morsecodelesson,;;;;;;
-;com.improvecodingskills.learnandroidprogramming,;;;;;;
-;com.indiatechstore.learntocode,;;;;;;
-;com.infoland.oops,;;;;;;
-;com.inglesbrasil.teacherwilliam.inglsbrasil,;;;;;;
-;com.ionicframework.cursosdegraca,;;;;;;
-;com.irawen_info.MatLab,;;;;;;
-;com.jaindev.assembly,;;;;;;
-;com.jaindev.c,;;;;;;
-;com.jaindev.python,;;;;;;
-;com.japangor.learnjava,;;;;;;
-;com.japangor.learnjs,;;;;;;
-;com.japangor.learntocode,;;;;;;
-;com.japangor.learntocodec,;;;;;;
-;com.japangor.python,;;;;;;
-;com.java.malik.javaanim,;;;;;;
-;com.java.questionwithanswerinterview.android,;;;;;;
-;com.java.user.javaprogramming,;;;;;;
-;com.jaypeesoft.ds,;;;;;;
-;com.jcharistechn.learnjuliaprogramming,;;;;;;
-;com.jesusdigitalrd.jpcsim,;;;;;;
-;com.jids.lspexample,;;;;;;
-;com.jitendra000557.Final_AMC,;;;;;;
-;com.jkfantasy.morseaudio,;;;;;;
-;com.junior,;;;;;;
-;com.JustForYouLimited.LearnASPOffline,;;;;;;
-;com.JustForYouLimited.LearnJavaScriptOffline,;;;;;;
-;com.kano.app,;;;;;;
-;com.kids.coding.connectdots,;;;;;;
-;com.kids.coding.firefighter,;;;;;;
-;com.kindergarten.MathPreScool3,;;;;;;
-;com.knightcoder.programmingebooks,;;;;;;
-;com.kodigen.gobyexample,;;;;;;
-;com.kodigen.pythonbyexample,;;;;;;
-;com.KodlamaLab.KodlamaLab,;;;;;;
-;com.krazeapps.basicprogrammingcompiler,;;;;;;
-;com.krazeapps.cppprogrammingcompiler,;;;;;;
-;com.krazeapps.csharpprogrammingcompiler,;;;;;;
-;com.krazeapps.vbnetprogrammingcompiler,;;;;;;
-;com.krazeapps.vhdlprogrammingcompiler,;;;;;;
-;com.lamassu.alnakhelschool,;;;;;;
-;com.languagedrops.drops.international,;;;;;;
-;com.learn.electronics.course,;;;;;;
-;com.learn.tech.datascience,;;;;;;
-;com.learnacademic.computer_programming,;;;;;;
-;com.learning.examples.arduino,;;;;;;
-;com.learnpascal.newbslasjf,;;;;;;
-;com.learnprogramming.codecamp,;;;;;;
-;com.learnswiftprogramming,;;;;;;
-;com.lego.education.codingexpress,;;;;;;
-;com.lego.education.ev3,;;;;;;
-;com.lego.education.wedo,;;;;;;
-;com.lekastudio.learnhcj,;;;;;;
-;com.liga.letramento,;;;;;;
-;com.ligonier.refnet,;;;;;;
-;com.limesdevelopment.morsecode,;;;;;;
-;com.linkedin.android.learning,;;;;;;
-;com.LM.PGS,;;;;;;
-;com.lohriialo.swift,;;;;;;
-;com.lpalominos.horariodeclases,;;;;;;
-;com.machinelearningforsmallbusiness.leetcodepython,;;;;;;
-;com.makeblock.mblock,;;;;;;
-;com.marcyliao.app.algnote,;;;;;;
-;com.medbridgeed.clinician,;;;;;;
-;com.media.programming.point.hub.sololearn.tutorialspoint,;;;;;;
-;com.mesalva.provas,;;;;;;
-;com.mhasancse15.programminglanguage,;;;;;;
-;com.midylaus.resumaoenem,;;;;;;
-;com.milcanx.learnandroidapp,;;;;;;
-;com.moonbitmedia.learnscalaeasyway,;;;;;;
-;com.mosalingua.esfree,;;;;;;
-;com.motionapps.onlinecompiler,;;;;;;
-;com.mrduy.calc.ti36,;;;;;;
-;com.mres.schedule,;;;;;;
-;com.muktosoft.cpbook,;;;;;;
-;com.mundoapp.agenda,;;;;;;
-;com.muzudre.Probooks,;;;;;;
-;com.mvdevelopment.learnvbnet,;;;;;;
-;com.myapps.rishabhrawat.codingebooks,;;;;;;
-;com.myhomeowork,;;;;;;
-;com.mynurserymanager.wonderland,;;;;;;
-;com.myprg.aakash.ardunioprogramming,;;;;;;
-;com.nenedevs.cursodeinformatica,;;;;;;
-;com.nestik.phyton,;;;;;;
-;com.newageproductions.learnc,;;;;;;
-;com.niesens.morsetrainer,;;;;;;
-;com.nits.foundationworldsrinagar.app,;;;;;;
-;com.noelvillaman.softwares.javasolo,;;;;;;
-;com.nupuit.necd,;;;;;;
-;com.nvizn.nvizinideasqr,;;;;;;
-;com.nxg.learningvb,;;;;;;
-;com.ombiel.campusm.contracosta,;;;;;;
-;com.oplai.quang.asmtutorial,;;;;;;
-;com.order.sony.orderone,;;;;;;
-;com.organelos.admin.celulas.app,;;;;;;
-;com.ozon.learn.computer,;;;;;;
-;com.paprbit.dcoder,;;;;;;
-;com.pkj.learnpython,;;;;;;
-;com.plokia.ClassUp,;;;;;;
-;com.practice_o_learn.javaprogramming,;;;;;;
-;com.pratipalgif.LearnC,;;;;;;
-;com.program.csharp,;;;;;;
-;com.programiz.learnpython,;;;;;;
-;com.programmarc.cprogrammingbangla,;;;;;;
-;com.programming_with_java.fullmasti,;;;;;;
-;com.programminginbangla,;;;;;;
-;com.py.learn,;;;;;;
-;com.qtechbd.tutorial.csharp,;;;;;;
-;com.qtechbd.tutorial.python,;;;;;;
-;com.quadosoft.ethicalhacking,;;;;;;
-;com.quantumappsolutions.learnprogramming,;;;;;;
-;com.quantumappsolutions.learnswift,;;;;;;
-;com.quizlet.quizletandroid,;;;;;;
-;com.quizmine.androidwp7,;;;;;;
-;com.quizmine.webprogram,;;;;;;
-;com.quseit.qlua5pro2,;;;;;;
-;com.raincontinues.simplc2,;;;;;;
-;com.recurvo.ace.cpt.practice.exam.prep,;;;;;;
-;com.redlee90.learn6502assembly,;;;;;;
-;com.reezx.android.learncprogramming,;;;;;;
-;com.referencehunt.rubyprogramminglanguage,;;;;;;
-;com.repair.learn.programming.android,;;;;;;
-;com.robo.programming,;;;;;;
-;com.roboCourse.crux.roboCourseFree,;;;;;;
-;com.rohiapps.android.ctutorial,;;;;;;
-;com.rosapp.morsecode,;;;;;;
-;com.royal.krushna.myapplication,;;;;;;
-;com.rpms.rohitpatil.learnjava,;;;;;;
-;com.rrplayspot.learn.computer.in.seven7.days,;;;;;;
-;com.rsd.cprogramming,;;;;;;
-;com.rushhourlabs.morsecode,;;;;;;
-;com.ryzac.codecademygo,;;;;;;
-;com.saifraheem.BagoLearn,;;;;;;
-;com.saifraheem.computerlibrary,;;;;;;
-;com.sandrobot.aprovado,;;;;;;
-;com.shalik.patel.cprogrammingsolution,;;;;;;
-;com.sitseducators.cpppatternprogramsfree,;;;;;;
-;com.sitseducators.javapatternprogramsfree,;;;;;;
-;com.sizzlesoftlabs.learn.expertc,;;;;;;
-;com.skillshare.Skillshare,;;;;;;
-;com.skyapper.hb.learncnet,;;;;;;
-;com.skyapper.learnaiwithpython,;;;;;;
-;com.skyapper.learnaspnet,;;;;;;
-;com.skyapper.learnpythonwithdatascience,;;;;;;
-;com.skyapper.learnspring,;;;;;;
-;com.skyapper.learnsqlandsqlserver,;;;;;;
-;com.skycodetech.codingquiz,;;;;;;
-;com.SM_Developer,;;;;;;
-;com.smokyink.morsecodementor,;;;;;;
-;com.snj.cprogramming,;;;;;;
-;com.soft24hours.dictionaries.dictionary22,;;;;;;
-;com.sololearn,;;;;;;
-;com.sololearn.cplusplus,;;;;;;
-;com.sololearn.csharp,;;;;;;
-;com.sololearn.csstrial,;;;;;;
-;com.sololearn.htmltrial,;;;;;;
-;com.sololearn.java,;;;;;;
-;com.sololearn.javascript,;;;;;;
-;com.sololearn.jquery,;;;;;;
-;com.sololearn.php,;;;;;;
-;com.sololearn.python,;;;;;;
-;com.sololearn.ruby,;;;;;;
-;com.sololearn.sql,;;;;;;
-;com.sortedqueue.programmercreek,;;;;;;
-;com.spdroid.c,;;;;;;
-;com.sphero.sprk,;;;;;;
-;com.spyboy.cplusplusprogramming,;;;;;;
-;com.spyboy.cprogramming,;;;;;;
-;com.spyboy.javaprogramming,;;;;;;
-;com.Store.ReaderPro,;;;;;;
-;com.studytonight.app,;;;;;;
-;com.successcrazzy.datascience101,;;;;;;
-;com.sukronmoh.bwi.belajarhtml,;;;;;;
-;com.superdream.rprogramming,;;;;;;
-;com.susanapp.cursodeinformatica,;;;;;;
-;com.swastik.operationalresearch,;;;;;;
-;com.sweinc.powershell,;;;;;;
-;com.tgc.greatcoursesplus,;;;;;;
-;com.thanhdo.tutorial.apextutorial,;;;;;;
-;com.theeasylearn.java,;;;;;;
-;com.theeasylearn.rprogramming,;;;;;;
-;com.thenewday.programmingcalendar.tpc,;;;;;;
-;com.thunkable.android.techword4u.Basic_C_Programming,;;;;;;
-;com.tips.python,;;;;;;
-;com.tool.calculator.casio.fx991.es.plus,;;;;;;
-;com.tsquare.androidtutorial,;;;;;;
-;com.tutorials.learn.androidexample,;;;;;;
-;com.udemy.android,;;;;;;
-;com.ummaysoft.arduinoprogrammingnotebook,;;;;;;
-;com.untan.siakaddosen,;;;;;;
-;com.upskew.encode,;;;;;;
-;com.velosys.interview_preparation,;;;;;;
-;com.vineeta.pythonprogramming,;;;;;;
-;com.W3school.Anbu,;;;;;;
-;com.wandcode.cheatsheet,;;;;;;
-;com.wbut.objectorientedprogramming,;;;;;;
-;com.webitapps.androidtutorial,;;;;;;
-;com.webtapps.learn_json_programming,;;;;;;
-;com.williems.linformatique,;;;;;;
-;com.wITandProgrammingandComputerScienceFreeBooks_7782437,;;;;;;
-;com.wProgrammingBooksfree_8766206,;;;;;;
-;com.wyzant.studentapp,;;;;;;
-;com.xtelltechnologies.htmltutoriallearncodetagscss,;;;;;;
-;com.yohanadisetiawan.LearnCode,;;;;;;
-;com.yugenchokshi.wil,;;;;;;
-;com.zenva.codemurai,;;;;;;
-;com.zulusoftware.Shop,;;;;;;
-;coolfreeapps.appslaborator.html.course,;;;;;;
-;coolfreeapps.appslaborator.learn.c.programming,;;;;;;
-;coolfreeapps.appslaborator.web.development.course,;;;;;;
-;cordova.code.play,;;;;;;
-;cpp.programming,;;;;;;
-;da.namanmadan.com.programmingcheatsheets,;;;;;;
-;daldev.android.gradehelper,;;;;;;
-;diploma.in.computerapplication,;;;;;;
-;edu.mit.appinventor.aicompanion3,;;;;;;
-;eg.io.aliqohal71.android.apk.abc,;;;;;;
-;engg.hub.object.oriented.programming,;;;;;;
-;everyneedz.com.webdevelopment,;;;;;;
-;excel.shortcuts,;;;;;;
-;free.programming.programming,;;;;;;
-;gudev.learn.phpprogrammingcoding,;;;;;;
-;gudev.visualbasicvb.net,;;;;;;
-;in.ajaykhatri.pythontutorial,;;;;;;
-;in.edu.pd,;;;;;;
-;in.intelitech.assembly,;;;;;;
-;in.intelitech.computerprogramming,;;;;;;
-;in.intelitech.lispprogramming,;;;;;;
-;in.intelitech.rprogramming,;;;;;;
-;in.learncodeonline.cpplangquestion,;;;;;;
-;in.learncodeonline.global,;;;;;;
-;in.learncodeonline.lco,;;;;;;
-;in.softecks.fortran,;;;;;;
-;in.softecks.javascript,;;;;;;
-;in.softecks.perl,;;;;;;
-;in.softecks.programmingbasics,;;;;;;
-;in.softecks.python,;;;;;;
-;in.softecks.ruby,;;;;;;
-;indiedev.learncoding,;;;;;;
-;info.cntrlapps.prolearn,;;;;;;
-;info.younglinux.cexercises,;;;;;;
-;io.codegalaxy,;;;;;;
-;io.cordova.ComputerProgrammingCP,;;;;;;
-;io.getready.ready,;;;;;;
-;io.hackr.hackr,;;;;;;
-;io.kodular.rijukeyshonsrijan.dp,;;;;;;
-;itools.aiwithpython,;;;;;;
-;itools.cprograms,;;;;;;
-;iule.app.tec.concurso,;;;;;;
-;juanantonioripoll.practiceexercisescsharp,;;;;;;
-;kr.co.rinasoft.yktime,;;;;;;
-;kr.co.sigongmedia.truebotcolorcard,;;;;;;
-;kr.robotmedia.android.stack.mini,;;;;;;
-;labprograms.abin.programmingexercises,;;;;;;
-;learn.apps.androidprogramming,;;;;;;
-;learn.apps.arduinoprogramming,;;;;;;
-;learn.apps.csharpprogramming,;;;;;;
-;learn.apps.cssprogramming,;;;;;;
-;learn.apps.htmlprogramming,;;;;;;
-;learn.apps.javaprogramming,;;;;;;
-;learn.apps.javascriptprogramming,;;;;;;
-;learn.apps.phpprogramming,;;;;;;
-;learn.apps.pythonprogramming,;;;;;;
-;learn.apps.rprogramming,;;;;;;
-;learn.apps.unixprogramming,;;;;;;
-;learn.c.programing,;;;;;;
-;learn.css.programming,;;;;;;
-;learn.html.programming,;;;;;;
-;learn.java.programming,;;;;;;
-;learn.reactnative.tutorial,;;;;;;
-;learn.web.php,;;;;;;
-;lifegoal.helpinghands.machinelearning,;;;;;;
-;ltos.learn.cand.java,;;;;;;
-;make.itdigit.al.python,;;;;;;
-;mc.javatutor.offline,;;;;;;
-;micro.bots.learn.html5,;;;;;;
-;miwok.android.example.com.learnc,;;;;;;
-;mobile.olimpia.com.aprendeelectronica,;;;;;;
-;morsecode.ort.com.morse,;;;;;;
-;mum.mum.java_test,;;;;;;
-;nabilsoft.com.learnwebdevelopment,;;;;;;
-;name.antonsmirnov.android.cppdroid,;;;;;;
-;net.androidsquad.androidmaster,;;;;;;
-;net.andromo.dev653868.app655379,;;;;;;
-;net.egordmitriev.cheatsheets,;;;;;;
-;net.joeyt.learnable,;;;;;;
-;net.jshero,;;;;;;
-;net.lebdevelopers.masterflutter,;;;;;;
-;net.simplifiedcoding.simplifiedcoding,;;;;;;
-;neuron.makeblock.com,;;;;;;
-;np.com.ezone.eschool,;;;;;;
-;oop.cite.pc_admin.trial_3navbar,;;;;;;
-;org.catrobat.catroid,;;;;;;
-;org.coursera.android,;;;;;;
-;org.edx.mobile,;;;;;;
-;org.khanacademy.android,;;;;;;
-;org.khankids.android,;;;;;;
-;org.pbskids.scratchjr,;;;;;;
-;org.qpython.qpy3,;;;;;;
-;org.scratchjr.android,;;;;;;
-;org.stepic.droid,;;;;;;
-;org.vivek.cherala.vhdlprogramming,;;;;;;
-;pe.diegoveloper.pseudocode,;;;;;;
-;php.code.play,;;;;;;
-;pk.mitz.calculatorsworld.computerscience,;;;;;;
-;pl.maciejsadyapps.morsetrainer,;;;;;;
-;programmerbooks.com.app,;;;;;;
-;programming.android.tutorial,;;;;;;
-;programming.structured.knecstructuredprogrammingpapers,;;;;;;
-;project.com.clanguage,;;;;;;
-;robotic.industrial,;;;;;;
-;ru.foxford.foxfordtextbook,;;;;;;
-;ru.iiec.cxxdroid,;;;;;;
-;ru.iiec.pydroid3,;;;;;;
-;sambhaji.android.java,;;;;;;
-;sambhaji.asp.vb,;;;;;;
-;seesaw.shadowpuppet.co.classroom,;;;;;;
-;seesaw.shadowpuppet.co.seesaw,;;;;;;
-;sgdevelopers.learn_c_programming,;;;;;;
-;sgdevelopers.learn_cpp_programming,;;;;;;
-;sql.code.play,;;;;;;
-;techhunt.com.androidexamples,;;;;;;
-;technark.bca_courprogramming,;;;;;;
-;technark.rforbeginners,;;;;;;
-;tk.app.start,;;;;;;
-;training.computing.scratchkids,;;;;;;
-;tursky.jan.nauc.sa.html5,;;;;;;
-;vsapps.computerprogram,;;;;;;
-;wiki.algorithm.algorxithms,;;;;;;
-;wscubetech.android;;;;;;
+ensino de programação;tk.app.start;Start: Ensino de Programação;68;4.5;10,000+;3.8M;4.4 and up
+learn code;com.sololearn;SoloLearn: Learn to Code for Free;385482;4.8;5,000,000+;9.1M;4.0.3 and up
+programação;com.freeit.java;Programming Hub: Learn to Code;84548;4.6;1,000,000+;Varies with device;Varies with device
+Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
+ensino de programação;org.coursera.android;Coursera: Online courses;96876;4.4;5,000,000+;Varies with device;Varies with device
+ensino de programação;appinventor.ai_aprendaprogramarufrj.AP;Programa{ação};5;5.0;10+;9.9M;2.1 and up
+ensino de programação;com.ayosoft.gramatica.portuguesa;Gramática da língua portuguesa;200;4.0;50,000+;2.9M;2.3 and up
+ensino de programação;com.agendakidsdigital.app;Agenda Edu;6099;4.1;100,000+;Varies with device;Varies with device
+ensino de programação;com.additioapp.additio;Teacher's Gradebook - Additio;4008;4.1;100,000+;13M;4.0.3 and up
+ensino de programação;com.myhomeowork;myHomework Student Planner;28930;4.3;1,000,000+;Varies with device;Varies with device
+ensino de programação;com.makeblock.mblock;mBlock - Scratch-based Programming Software;198;3.6;10,000+;71M;5.0 and up
+ensino de programação;br.estudaqui.com;Estudaqui: plano de estudo eficiente personalizado;70;2.9;1,000+;6.6M;4.4 and up
+ensino de programação;kr.co.sigongmedia.truebotcolorcard;Truebot ColorCard;6;3.7;5,000+;6.7M;4.3 and up
+ensino de programação;edu.mit.appinventor.aicompanion3;MIT AI2 Companion;20631;3.9;1,000,000+;15M;2.1 and up
+ensino de programação;com.cprograms4future.allcprograms;All C Programs;4691;4.6;100,000+;7.3M;4.1 and up
+ensino de programação;com.devlearnapp.devlearn;devLearn: Coding Made Easy;408;4.1;10,000+;9.5M;4.0 and up
+ensino de programação;com.muzudre.Probooks;iBooks: Free Programming eBooks 👨‍💻 Coding Books;49;4.3;5,000+;Varies with device;4.1 and up
+ensino de programação;pe.diegoveloper.pseudocode;Pseudocode, PSeInt, Visualg;4409;4.4;100,000+;3.7M;4.0 and up
+ensino de programação;com.noelvillaman.softwares.javasolo;Aprende Java Solo;26;4.1;5,000+;4.6M;4.0.3 and up
+ensino de programação;jp.co.platinumstudy.progmarine;プログマリン～はじめてのプログラミング;undefined;undefined;100+;12M;4.4 and up
+ensino de programação;com.cohortplus.clientTest;Data Science, Machine Learning, PM groups & Jobs;376;4.4;50,000+;13M;4.1 and up
+ensino de programação;br.com.alura.mobi;Alura Cursos Online;1054;4.5;50,000+;5.3M;4.0.3 and up
+ensino de programação;com.susanapp.cursodeinformatica;Informatics Course;971;4.0;500,000+;3.7M;4.0 and up
+ensino de programação;com.learn.tech.datascience;Learn Data Science- Python Coding, Reddit Discuss;142;3.7;10,000+;5.0M;4.1 and up
+ensino de programação;br.com.crewti.minhaleitura;My Reading: Reading Organizer;1456;4.4;100,000+;4.7M;4.0.3 and up
+ensino de programação;ru.code_samples.obraztsov_develop.codesamples;Code Recipes;214;4.6;10,000+;2.4M;4.1 and up
+ensino de programação;com.studyapps.timetable;Timetable planner - for school and university;2122;4.1;100,000+;2.7M;4.1 and up
+ensino de programação;clipescola.android;ClipEscola;524;4.0;100,000+;6.8M;4.4 and up
+ensino de programação;com.udemy.android;Udemy - Online Courses;158966;4.5;5,000,000+;10M;5.0 and up
+ensino de programação;com.sololearn.python;Learn Python;80862;4.6;1,000,000+;6.2M;4.0.3 and up
+ensino de programação;bishrulhaq.learntocode;Learn To Code : Free & Offline;30;4.3;10,000+;12M;4.0 and up
+ensino de programação;com.gvapps.csk;Computer Guide : Learn Computer Basics;100;4.5;10,000+;14M;4.1 and up
+ensino de programação;com.lego.education.wedo;WeDo 2.0 LEGO® Education;983;4.4;50,000+;27M;4.4 and up
+ensino de programação;com.cristeolapps.casamento.cristao;Casamento Cristão;229;4.4;50,000+;9.7M;4.1 and up
+ensino de programação;com.sololearn.cplusplus;Learn C++;76479;4.7;1,000,000+;6.2M;4.0.3 and up
+ensino de programação;free.programming.programming;Learn DS & Algo, Programming Interview Preparation;8418;4.6;500,000+;4.5M;5.1 and up
+ensino de programação;com.biiteducation.cpp;350+ C++ Tutorial Programs;154;4.4;10,000+;7.3M;2.2 and up
+ensino de programação;com.appybuilder.aadi_ben16.CTuit;C Programming Robot - Learn Coding & C Theory;11;4.6;1,000+;13M;4.0 and up
+ensino de programação;com.midylaus.resumaoenem;Resumão Enem;104;4.9;10,000+;4.6M;4.0.3 and up
+ensino de programação;com.vitotechnology.StarWalkKids2;Astronomy for Kids 🚀 Space Game by Star Walk 2;8549;4.4;1,000,000+;Varies with device;4.1 and up
+ensino de programação;com.junior;lil Triangle;1576;4.4;10,000+;23M;4.4 and up
+ensino de programação;com.virtlab.cncsim_free;CNC Simulator Free;29;4.3;1,000+;40M;4.0.3 and up
+ensino de programação;com.atistudios.mondly.kids.languages;Learn 33 languages with Mondly Free games for kids;3243;4.4;100,000+;Varies with device;4.1 and up
+ensino de programação;com.sandrobot.aprovado;Aprovado - Gerencie Estudos;12166;4.9;500,000+;5.3M;4.0.3 and up
+ensino de programação;com.Store.ReaderPro;ReaderPro - Speed reading and brain development;1672;4.7;100,000+;15M;4.4 and up
+ensino de programação;app.tutormundi.com;TutorMundi;278;4.4;10,000+;15M;4.4 and up
+ensino de programação;itools.cprograms;C Programming (1000+ programs & 250+ Patterns);513;4.3;50,000+;12M;4.1 and up
+ensino de programação;com.zero.dsa;Data structure and algorithm tutorial;136;4.4;10,000+;4.3M;4.1 and up
+ensino de programação;com.mrduy.calc.ti36;Fx Calculator 570 991 - Solve Math by Camera 84;22351;4.8;500,000+;15M;4.1 and up
+ensino de programação;com.higgx.studying;Studying - Estudo organizado;326;4.5;10,000+;14M;5.0 and up
+ensino de programação;com.ionicframework.cursosdegraca;Cursa - free courses with certificate;7741;4.8;1,000,000+;13M;4.4 and up
+ensino de programação;com.doasido4u.jsquiz;JavaScript Quiz;65;4.6;10,000+;2.8M;4.2 and up
+ensino de programação;com.unimestre.agendavirtual;Agenda Virtual - Unimestre;40;4.4;5,000+;30M;4.0.3 and up
+ensino de programação;com.apps21.reparaciondecelulares;Cellular Repair Course;2205;4.2;100,000+;3.7M;4.0 and up
+ensino de programação;com.area120.grasshopper;Grasshopper: Learn to Code for Free;16283;4.5;1,000,000+;Varies with device;4.4 and up
+ensino de programação;com.tgc.greatcoursesplus;The Great Courses Plus - Online Learning Videos;1684;3.4;100,000+;17M;5.0 and up
+ensino de programação;org.edx.mobile;edX - Online Courses by Harvard, MIT, Microsoft;48936;4.7;1,000,000+;11M;4.4 and up
+ensino de programação;lifegoal.helpinghands.machinelearning;Machine Learning Tutorial;11;4.9;1,000+;6.6M;4.1 and up
+ensino de programação;com.lpalominos.horariodeclases;Class Schedule;810;4.4;50,000+;6.6M;4.3 and up
+ensino de programação;learn.java.programming;Learn Java Programming;83;4.3;10,000+;3.4M;4.0.3 and up
+ensino de programação;com.rrtdevelopers.cursodereparaciondecelularesenespanol;Mobile phone repair course english;2415;4.4;100,000+;3.6M;4.0.3 and up
+ensino de programação;training.computing.scratchkids;Tutorials for Scratch;6096;4.0;100,000+;4.2M;4.0 and up
+ensino de programação;br.com.acaicomcodigo.informaticanobolso;Informática no Bolso - Concursos e Ensino Superior;251;4.7;50,000+;5.6M;4.4 and up
+ensino de programação;com.mesalva.provas;Questões ENEM 2019 e Provas de Vestibulares;4481;4.8;100,000+;4.5M;5.0 and up
+ensino de programação;com.williems.linformatique;Apprendre : Informatique, Ordinateur & Développeur;2112;4.3;100,000+;6.3M;4.1 and up
+ensino de programação;com.diarioescola.parents.fundamental;Diário Escola Pais EF;113;3.9;10,000+;5.7M;4.0 and up
+ensino de programação;org.khanacademy.android;Khan Academy;106348;4.6;10,000,000+;Varies with device;Varies with device
+ensino de programação;wiki.algorithm.algorithms;Algorithms: Explained and Animated;6456;4.6;1,000,000+;41M;4.0.3 and up
+ensino de programação;br.com.dev.seb;Binóculo Conexia;57;3.8;10,000+;11M;4.1 and up
+ensino de programação;com.ashatechsolutions.cprogramming;C++ Programming : Learn to Code;10;4.6;1,000+;3.2M;4.0 and up
+ensino de programação;com.mundoapp.agenda;✏️2020 school agenda;17;3.4;500+;3.7M;4.1 and up
+ensino de programação;com.plurieducacional.plataforma;Pluri Connect;79;3.5;10,000+;11M;4.1 and up
+ensino de programação;com.school;School Assistant;11307;4.2;1,000,000+;Varies with device;Varies with device
+ensino de programação;br.com.agenda1.escola;Agenda1 − Agenda escolar para alunos e professores;232;4.4;10,000+;14M;4.1 and up
+ensino de programação;com.getmimo;Mimo: Learn to Code;80448;4.5;1,000,000+;24M;5.0 and up
+ensino de programação;com.freeit.java;Programming Hub: Learn to Code;85143;4.6;1,000,000+;Varies with device;Varies with device
+ensino de programação;com.webitapps.androidtutorial;Android Tutorial;undefined;undefined;50+;1.3M;4.0.3 and up
+ensino de programação;com.plokia.ClassUp;ClassUp - Schedule, Note for Students;3624;4.3;1,000,000+;11M;4.0.3 and up
+ensino de programação;com.do_apps.catalog_285;Algorithms;373;4.2;50,000+;25M;4.4 and up
+ensino de programação;com.gomeruapps.agenda_profes;Agenda para profes en apuros;12;3.2;1,000+;4.5M;4.2 and up
+ensino de programação;com.aps.kompiuternyikurs;Computer course;undefined;undefined;100+;3.5M;4.0.3 and up
+ensino de programação;com.idalmedia.android.timetable;Quick Schedule;22187;4.2;1,000,000+;3.4M;4.0 and up
+ensino de programação;com.cuseju.tubestudy;Free courses Online. TubeStudy;6347;4.6;100,000+;31M;5.0 and up
+ensino de programação;com.cristivlad.machinelearning;Learning Machine Learning;14;4.1;5,000+;7.7M;4.1 and up
+ensino de programação;org.catrobat.catroid;Pocket Code: Learn programming your own game apps!;11430;3.9;500,000+;23M;5.0 and up
+ensino de programação;com.siawo.android.planner;Student Planner - Homework Agenda & Notes.;63;4.3;5,000+;8.4M;4.2 and up
+ensino de programação;tk.app.start;Start: Ensino de Programação;68;4.5;10,000+;3.8M;4.4 and up
+ensino de programação;com.doomredmage.treinartabuada;Multiply Trainer;56;4.2;10,000+;3.4M;5.0 and up
+ensino de programação;com.codenza.dp.programs;Codenza;2022;4.7;100,000+;10M;4.2 and up
+ensino de programação;education.zoom.ludobot;LudoBot;undefined;undefined;500+;4.0M;4.4 and up
+ensino de programação;com.lego.education.codingexpress;Coding Express LEGO® Education;6;4.8;1,000+;81M;5.0 and up
+ensino de programação;com.duy.c.cpp.compiler;CPP N-IDE - C/C++ Compiler & Programming - Offline;1373;4.3;100,000+;Varies with device;4.4 and up
+ensino de programação;com.apps.ips.teachernotes3;Teacher Notes;61;4.4;10,000+;5.0M;6.0 and up
+ensino de programação;com.fusionprojects.edmodo;Edmodo;228832;4.2;10,000,000+;20M;4.4 and up
+ensino de programação;cc.makeblock.makeblock;Makeblock;1401;4.5;100,000+;79M;4.3 and up
+ensino de programação;com.buta.caculator;HiEdu Scientific Calculator : Fx-570vn Plus;29810;4.6;1,000,000+;6.4M;4.0 and up
+ensino de programação;br.gov.pr.celepar.escolapr.professor;Escola Paraná Professores;134;3.1;10,000+;13M;4.4 and up
+ensino de programação;appinventor.ai_diogo_01501.cursodeexcel;Curso de Excel;8;4.5;1,000+;5.8M;4.4 and up
+ensino de programação;com.atistudios.italk.de;Learn German. Speak German;107526;4.8;1,000,000+;Varies with device;Varies with device
+ensino de programação;br.com.cpb.academico;Educação Adventista;1995;3.6;100,000+;14M;6.0 and up
+ensino de programação;com.gazzappergames.simpleturtle.logo.educational;Simple Turtle LOGO - Kids Coding & Drawing (STEM);118;3.2;10,000+;5.2M;4.3 and up
+ensino de programação;com.learnprogramming.codecamp;Programming Hero: Coding Just Got Fun (beta);3913;4.9;100,000+;23M;4.1 and up
+ensino de programação;com.sergahbaby.scratch;Scratch Eğitimi;30;4.5;1,000+;5.0M;4.1 and up
+ensino de programação;net.jshero;JavaScript Hero - Learn to Code for Free;140;4.2;10,000+;2.1M;4.1 and up
+ensino de programação;com.kodigen.gobyexample;Learn Go language - Go by example;11;4.6;5,000+;3.1M;4.1 and up
+ensino de programação;com.soft24hours.dictionaries.dictionary22;Programming languages;25;4.1;5,000+;7.2M;5.0 and up
+ensino de programação;com.sololearn;SoloLearn: Learn to Code for Free;388025;4.8;5,000,000+;9.1M;4.0.3 and up
+ensino de programação;com.mosalingua.esfree;Learn Spanish Free: Spanish Lessons and Vocabulary;6139;4.5;500,000+;Varies with device;Varies with device
+ensino de programação;com.ionicframework.kidsnclouds;Kids&Clouds - Agenda digital;30;3.8;5,000+;6.3M;4.4W and up
+ensino de programação;com.planetfactory.makeitAndroid;Make It for Teachers - Create Educational Games;151;4.2;10,000+;29M;4.1 and up
+ensino de programação;com.id.enem;Prepara ENEM 2019 (Simulado e Redação);17945;4.8;500,000+;36M;4.0 and up
+ensino de programação;com.hankmenezes.Curso_de_oratoria;Curso de Oratória - A arte de falar em publico;39;4.3;10,000+;5.0M;4.4 and up
+ensino de programação;org.dyndns.vivi.TinyC;Tiny C Programing Language Interpreter;undefined;undefined;100+;6.1M;4.0 and up
+ensino de programação;air.MODELOLIBROAPP2019;Unity3D-Tutorial C# em Português;16;4.6;1,000+;9.3M;4.0 and up
+ensino de programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up
+ensino de programação;com.foxbox.app.nslc.android;National Student Leadership Conference;undefined;undefined;1,000+;39M;5.0 and up
+ensino de programação;com.inspiredandroid.linuxcommandbibliotheca;Linux Command Library;3621;4.8;500,000+;9.3M;4.2 and up
+ensino de programação;robotic.industrial;Industrial Robotics 3D;1108;4.4;100,000+;14M;4.2 and up
+ensino de programação;br.anima.solaluno;Ulife | Alunos (antigo SOL Aluno);186;3.0;50,000+;5.8M;4.1 and up
+ensino de programação;com.ozon.learn.computer;Learn Computer Course;undefined;undefined;10+;9.0M;4.1 and up
+ensino de programação;com.appscook.parentconnect.app.android.alphonsakop;Alphonsa School Kolhapur;17;4.1;500+;1.5M;4.4 and up
+ensino de programação;br.com.app.gpu1890721.gpu88b1e7d3eceaeff7c768af8ed2b28a97;QUALIFICAÇÃO GRATUITA - PROJETO CIDADANIA JÁ;458;4.4;10,000+;18M;5.0 and up
+ensino de programação;com.appndroide.entrenadordematematicas;Learn Math free;820;3.7;500,000+;3.9M;4.2 and up
+ensino de programação;com.cpp.user.cprograms;100+ C++ Programs With Output;61;4.8;1,000+;2.9M;4.0 and up
+ensino de programação;com.stepsintofuture.CNCFREE;CNC FREE;41;3.6;5,000+;9.3M;4.4 and up
+ensino de programação;com.apps.athena.programminglanguages;Programming Languages;435;4.4;100,000+;3.3M;4.1 and up
+ensino de programação;ru.foxford.foxfordtextbook;Фоксфорд.Учебник;26935;4.4;1,000,000+;83M;5.0 and up
+ensino de programação;com.ligonier.refnet;RefNet Christian Radio;2958;4.9;50,000+;6.3M;4.1 and up
+ensino de programação;com.do_apps.catalog_68;Programming languages;1408;4.1;100,000+;40M;4.4 and up
+ensino de programação;com.innovapps.computacioneinformatica;Computer and Computing Course;7;4.4;5,000+;2.8M;4.0 and up
+ensino de programação;coolfreeapps.appslaborator.web.development.course;Web development course;43;3.8;5,000+;1.8M;2.3.3 and up
+ensino de programação;com.easy.hp.cpptutorial;C++ Programming App;483;4.4;10,000+;5.6M;5.0 and up
+ensino de programação;com.andromo.dev601172.app863087;Teaching Strategies;9;3.1;10,000+;3.1M;4.1 and up
+ensino de programação;com.myapps.rishabhrawat.codingebooks;Coding EBooks:Programming, Web, Networking, Mobile;14;3.9;1,000+;24M;4.3 and up
+ensino de programação;com.learntutorial.learntocodeforfree;Learn To Code;undefined;undefined;100+;49M;4.0.3 and up
+ensino de programação;br.com.jpiaget;Agenda J. Piaget;0;0.0;10+;12M;4.1 and up
+ensino de programação;com.studyapps.mathen;1300 Math Formulas Mega Pack;9804;4.6;500,000+;18M;4.1 and up
+ensino de programação;com.ryzac.codecademygo;Codecademy Go;535;2.9;100,000+;53M;5.0 and up
+ensino de programação;tursky.jan.nauc.sa.html5;Learn programming;12746;4.1;1,000,000+;6.8M;4.0.3 and up
+ensino de programação;ltos.learn.cand.java;Learn C , C++ ,Java,Android-Smart Programming;57;3.9;10,000+;4.4M;4.1 and up
+ensino de programação;com.awwalsoft.javadeeplearning;Java Deep Learning: Core java;2901;4.7;100,000+;28M;4.4 and up
+ensino de programação;com.codepoint.learnjava;Learn Java Programming OFFLINE -  Java Tutorials;11;4.2;1,000+;4.1M;4.4 and up
+ensino de programação;app.oopcodeskyhive;Object Oriented Programming;72;4.1;10,000+;3.3M;4.0.3 and up
+ensino de programação;com.superlearn.aiwithpython;Learn Artificial Intelligence;29;4.1;10,000+;7.5M;4.0.3 and up
+ensino de programação;br.com.passeidireto;Passei Direto: o melhor app para você estudar;129140;4.6;5,000,000+;Varies with device;4.4 and up
+ensino de programação;com.edokicademy.montessoriacademy;Montessori Preschool;721;4.1;100,000+;47M;4.1 and up
+ensino de programação;appinventor.ai_ruantdahmente.TDAHMENTE;TDAH MENTE Diagnóstico;363;4.5;10,000+;3.8M;4.0 and up
+ensino de programação;com.pratipalgif.LearnPython;Python - Easy Ways to Learn;2;2.0;1,000+;7.0M;4.0.3 and up
+ensino de programação;com.apps.ips.teacheraidepro3;Teacher Aide Pro;297;4.0;10,000+;6.6M;5.0 and up
+ensino de programação;com.sololearn.javascript;Learn JavaScript;25780;4.5;1,000,000+;6.2M;4.0.3 and up
+ensino de programação;com.probit;ProBit;10;5.0;1,000+;6.7M;6.0 and up
+ensino de programação;com.programiz.learnpython;Learn Python: Programiz;310;4.5;10,000+;11M;4.1 and up
+ensino de programação;org.scratchjr.android;ScratchJr;6724;3.8;1,000,000+;25M;4.2 and up
+ensino de programação;com.duhnnae.programmingprogramacion;Programming - Learning - Tutorials;45;4.4;10,000+;6.3M;4.1 and up
+ensino de programação;in.intelitech.assembly;Assembly Language;11;3.4;1,000+;5.1M;4.0.3 and up
+ensino de programação;com.snapp.sahitpenmatcha.scagenda;MyGenda Student Planner;79;4.2;10,000+;3.8M;5.0 and up
+ensino de programação;com.japangor.learnjava;Learn To Code (JAVA);194;4.1;50,000+;5.9M;4.1 and up
+ensino de programação;com.limesdevelopment.morsecode;Morse code - learn and play;182;4.4;10,000+;12M;5.0 and up
+ensino de programação;aplus.informtica;Curso de informática (português);16;4.1;5,000+;3.7M;4.0.3 and up
+ensino de programação;coolfreeapps.appslaborator.learn.c.programming;C/C++ programming;34;3.9;10,000+;1.8M;2.3.3 and up
+ensino de programação;daldev.android.gradehelper;School Planner;97501;4.5;5,000,000+;5.0M;4.1 and up
+ensino de programação;com.sololearn.csharp;Learn C#;20666;4.6;1,000,000+;6.2M;4.0.3 and up
+ensino de programação;com.recurvo.ace.cpt.practice.exam.prep;ACE CPT Tutor Exam Prep 2019 - Practice Test;7;4.0;1,000+;34M;4.4 and up
+learn code;micro.bots.learn.html5;learn html - learn to code;19;4.6;500+;3.7M;4.0.3 and up
+learn code;all.about.computer;All About Computer | Learn computer | Computer |;43;4.4;10,000+;9.8M;4.1 and up
+learn code;com.delphiapplications.delphiexamples;Delphi Examples: Learn to Code;97;4.3;10,000+;23M;4.0 and up
+learn code;com.educationapps.gmcodereference;G & M Code Reference Manual;58;4.4;5,000+;10M;4.4 and up
+learn code;com.suwoncoding.scratchprojects;Scratch 2.0 Tutorials;4284;2.9;500,000+;5.2M;4.1 and up
+learn code;net.lebdevelopers.masterflutter;Master Flutter;16;4.9;500+;11M;4.1 and up
+learn code;com.milcanx.learnandroidapp;Learn Android With Source Code;306;4.3;50,000+;12M;4.2 and up
+learn code;com.clickapp.ik.listview;IT Books: Free Programming Books, coding books;6;5.0;500+;30M;4.4 and up
+learn code;com.cruxbd.iotlearning;IoT Learning Short Course : ESP32, Arduino,Project;11;4.2;1,000+;7.6M;4.1 and up
+learn code;com.app1daily.learnfortran;Learn FORTRAN Complete Guide Offline;18;4.2;5,000+;1.6M;4.1 and up
+learn code;cc.taimoor.rubycourse;Ruby Course: Learn to code, programming free💎 💪;13;4.9;500+;16M;5.0 and up
+learn code;com.CoderBro.tutorials.arduinotutorials;Arduino Tutorials;719;4.0;100,000+;8.1M;4.0.3 and up
+learn code;c.programming;C Programming;26812;4.2;1,000,000+;1.8M;2.3 and up
+learn code;com.lionheartapps.rk.androidtutorials;Tutorials for Android: Learn Android;78;4.3;5,000+;7.5M;4.1 and up
+learn code;com.successcrazzy.datascience101;Data Science 101 - Machine Learning Tutorials;632;4.3;100,000+;3.3M;4.0.3 and up
+learn code;com.educode;EduCode Academy: Coding for Kids and Beginners;12;4.9;50+;33M;4.1 and up
+learn code;com.jcharistechn.learnjuliaprogramming;Learn Julia;17;4.8;1,000+;5.1M;4.1 and up
+learn code;com.ben.Tutorial.Learncomputer;Learn computer courses;11;4.4;5,000+;5.4M;4.1 and up
+learn code;com.tsquare.androidtutorial;Learn Android Programing And Tutorial;39;3.9;1,000+;9.6M;4.0.3 and up
+learn code;com.japangor.learntocode;Learn To Code (HTML);508;4.0;100,000+;13M;4.1 and up
+learn code;com.jaindev.assembly;Learn Assembly Language Complete Guide (OFFLINE);32;3.9;10,000+;8.0M;4.1 and up
+learn code;com.tops.learnvernandroid;Free Android Tutorial in Hindi;8;4.5;1,000+;6.6M;4.1 and up
+learn code;afsar.com.codeacademy;Code Academy;25;4.1;5,000+;12M;6.0 and up
+learn code;com.conedevstudio.morse.free;Free Morse code - learn and translate;13;3.8;1,000+;2.2M;4.4 and up
+learn code;com.hussainlabs.androiddevelopmentcourse;Learn Android App Development: Tutorials;1056;2.4;100,000+;12M;4.2 and up
+learn code;com.webtapps.learn_json_programming;Learn Json Programming;8;4.5;1,000+;1.9M;4.0.3 and up
+learn code;com.futurevisioncomputers.python;Learn Python Tutorial for Beginners with Examples;3;4.7;1,000+;8.8M;4.0 and up
+learn code;org.pbskids.scratchjr;PBS KIDS ScratchJr;101;4.2;100,000+;91M;4.4 and up
+learn code;com.antlem.coderhub;CoderHub-Learn Coding Free;36;4.7;1,000+;3.0M;4.3 and up
+learn code;com.bnb.javaprogramming;Java Programming - Learn Coding;8;4.1;1,000+;Varies with device;Varies with device
+learn code;pl.maciejsadyapps.morsetrainer;Morse Trainer;119;3.8;10,000+;764k;5.0 and up
+learn code;gudev.learn.phpprogrammingcoding;Learn PHP Programming Coding;38;4.3;10,000+;12M;4.0.3 and up
+learn code;com.gokazu;CodePal: Learn programming;46;4.9;1,000+;5.1M;5.0 and up
+learn code;com.code.jupiter.angularjs;Learn AngularJS;64;4.6;5,000+;4.6M;4.4 and up
+learn code;com.smokyink.morsecodementor;Morse Mentor;213;4.1;50,000+;3.0M;4.0 and up
+learn code;com.sololearn.jquery;Learn jQuery;562;4.6;100,000+;6.2M;4.0.3 and up
+learn code;com.coding.dmr.cp;C++ Tutorials - Offline;37;4.2;10,000+;6.0M;4.2 and up
+learn code;com.jitendra000557.Final_AMC;Complete Medical Coding Guide;6;4.5;1,000+;5.0M;4.4 and up
+learn code;com.zenva.codemurai;Codemurai - Learn Programming;2653;4.7;100,000+;1.5M;5.0 and up
+learn code;com.spdroid.c;C Programming - Learn Code, Theory & Discuss;3280;4.5;100,000+;5.5M;4.3 and up
+learn code;com.sololearn.ruby;Learn Ruby;950;4.7;100,000+;6.2M;4.0.3 and up
+learn code;com.japangor.python;Learn To Code (PYTHON);74;3.7;10,000+;18M;4.0.3 and up
+learn code;learn.apps.arduinoprogramming;Learn Arduino Programming;110;4.4;50,000+;7.9M;4.0.3 and up
+learn code;ab.codelyf;Codelyf - Learn Programming;255;4.4;5,000+;5.7M;5.0 and up
+learn code;com.tutorials.learn.androidexample;Learn Android With Source Code;326;4.4;50,000+;7.0M;4.2 and up
+learn code;com.rpms.rohitpatil.learnjava;Learning Java;158;4.7;10,000+;27M;4.4 and up
+learn code;com.rosapp.morsecode;Learn Morse Code Transmitter🆘;27;3.0;5,000+;5.1M;4.0.3 and up
+learn code;programming.android.tutorial;Android Tutorial: Learn Android, Java & Kotlin;575;4.4;10,000+;8.0M;4.3 and up
+learn code;com.apkzube.learnpython;Learn Python Programming - Offline Tutorial;402;4.3;100,000+;5.8M;4.4 and up
+learn code;com.careerkarma.chat;Career Karma - Learn to Code for Adults;199;4.8;10,000+;16M;5.0 and up
+learn code;com.learning.examples.arduino;Learn Arduino Coding;5;4.6;500+;8.1M;4.1 and up
+learn code;com.sololearn.sql;Learn SQL;20484;4.6;1,000,000+;6.2M;4.0.3 and up
+learn code;com.appsfactory.learnpython;Learn Python  Programming Free - Python Offline;567;4.5;10,000+;15M;4.4 and up
+learn code;com.barmej.android;Barmej;401;4.6;10,000+;6.4M;5.0 and up
+learn code;com.robo.programming;Robo Code;27;3.9;1,000+;32M;4.3 and up
+learn code;com.mhasancse15.programminglanguage;Programming languages;23;4.0;5,000+;5.7M;4.3 and up
+learn code;com.mycompany.myphonegapapp8118;Python Machine Learning;35;3.2;10,000+;12M;4.0 and up
+learn code;com.yugenchokshi.wil;WeCode : Learn Coding Anywhere;62;4.6;1,000+;5.3M;4.4 and up
+learn code;cpp.programming;C++ Programming;14185;4.2;1,000,000+;1.8M;2.3 and up
+learn code;com.codeliber.html;Learn HTML;304;4.5;10,000+;3.6M;5.0 and up
+learn code;com.avstore.cctutorials;C  C++ Tutorials;12;5.0;1,000+;4.7M;4.4 and up
+learn code;com.enki.insights;Enki: Learn data science, coding, tech skills;16085;4.6;500,000+;12M;4.3 and up
+learn code;com.HTML.AngularJS.Codeplay;HTML Code Play;4977;4.4;500,000+;6.3M;4.4 and up
+learn code;com.sortedqueue.programmercreek;Practice Code : Learn Programming;118;4.4;10,000+;7.5M;5.0 and up
+learn code;com.skyapper.hb.learncnet;Learn C#.NET;38;4.2;10,000+;4.1M;4.4W and up
+learn code;com.learnswiftprogramming;Learn Swift Programming - iOS;53;4.5;5,000+;3.5M;5.0 and up
+learn code;com.apkzube.learnrprogramming;Learn R Programming - Tutorial;81;4.4;10,000+;5.4M;4.4 and up
+learn code;com.aniket.learnphp;PHP Coding Stuff : Learn PHP Programming;5;4.4;500+;3.6M;4.1 and up
+learn code;com.sololearn.htmltrial;Learn HTML;63095;4.7;1,000,000+;6.2M;4.0.3 and up
+learn code;com.japangor.learnjs;Learn To Code (JavaScript);6;2.7;1,000+;21M;4.0.3 and up
+learn code;com.sololearn.php;Learn PHP;17124;4.5;1,000,000+;6.2M;4.0.3 and up
+learn code;com.katamapps.cprogramming;C Programming - Learn Code;undefined;undefined;50+;2.4M;4.0.3 and up
+learn code;com.theeasylearn.swift;Learn Swift - swift code - swift programming;5;3.4;100+;2.4M;4.2 and up
+learn code;morsecode.ort.com.morse;Morse Code;639;4.3;100,000+;5.9M;4.0.3 and up
+learn code;com.qtechbd.tutorial.python;Python Tutorial;16;4.8;5,000+;2.8M;4.0.3 and up
+learn code;com.japangor.learntocodec;Learn To Code (C++);85;3.7;10,000+;6.0M;4.0.3 and up
+learn code;com.xtelltechnologies.htmltutoriallearncodetagscss;HTML Tutorial Code Tags CSS;26;4.2;10,000+;2.3M;4.1 and up
+learn code;com.protectsoft.pythontutorial;Learn python : python tutorial;34;4.4;10,000+;5.0M;4.4 and up
+learn code;com.lekastudio.learnhcj;Learn Html Css Javascript;70;4.4;10,000+;1.9M;2.3 and up
+learn code;com.LM.PGS;Learn Programming - Hindi;141;4.1;10,000+;6.1M;4.1 and up
+learn code;com.sololearn.csstrial;Learn CSS;13463;4.7;1,000,000+;6.2M;4.0.3 and up
+learn code;com.dztall.ccr.android.admob;Mobile C [ C/C++ Compiler ];6065;4.3;500,000+;78M;4.0.3 and up
+learn code;com.roboCourse.crux.roboCourseFree;Robo Course :Learn Arduino , Electronics, Robotics;43;4.6;5,000+;16M;4.1 and up
+learn code;name.antonsmirnov.android.cppdroid;CppDroid - C/C++ IDE;31744;4.1;1,000,000+;46M;4.4W and up
+learn code;com.awwalsoft.javabasicslearning;Java Basics Learning : Java for Absolute Beginners;466;4.4;50,000+;6.2M;4.4 and up
+learn code;com.newageproductions.learnc;Learn C;111;4.4;10,000+;3.5M;5.0 and up
+learn code;com.adriada.impararec;Learn C++;298;4.6;10,000+;4.6M;5.0 and up
+learn code;com.codepoint.learnrprogramming;Learn R Programming Free - R Programming Tutorials;8;4.9;1,000+;5.0M;4.4 and up
+learn code;com.codetoinvent.malik.cplusplus;Learn C++ Programming - Tutorial;70;4.7;5,000+;8.1M;4.4 and up
+learn code;com.kids.coding.firefighter;Coding Games - Kids Learn To Code;9;4.0;5,000+;13M;4.0 and up
+learn code;miwok.android.example.com.learnc;C++ Basics Learning : C++ for Beginners;98;4.7;10,000+;5.1M;4.1 and up
+learn code;com.codepoint.learnpython3;Learn Python Programming Free - Python OFFLINE 🐍;142;4.2;5,000+;5.7M;4.4 and up
+learn code;com.codepoint.learnjavascript;Learn JavaScript Programming - JavaScript Tutorial;37;4.4;5,000+;3.5M;4.4 and up
+learn code;juanantonioripoll.practiceexercisescsharp;Exercises C#;147;3.8;10,000+;4.5M;4.0.3 and up
+learn code;com.sweinc.powershell;Powershell Tutorial;76;4.9;10,000+;2.8M;4.0.3 and up
+learn code;com.app1daily.learnmatlab;Learn MATLAB Complete Guide Offline;45;4.4;10,000+;2.1M;4.1 and up
+learn code;com.kunalapps.xplorecoding;Xplore Coding;30;4.8;100+;9.3M;4.0.3 and up
+learn code;com.jaindev.php;Learn PHP Complete Guide (OFFLINE);13;4.4;5,000+;8.9M;4.1 and up
+learn code;com.upskew.encode;Encode: Learn to Code;4742;4.6;100,000+;11M;4.4 and up
+learn code;com.paprbit.dcoder;Dcoder, Compiler IDE :Code & Programming on mobile;18337;4.4;1,000,000+;6.5M;4.0.3 and up
+learn code;com.app1daily.a1db304;Learn Swift Programming - Develop iPhone, iPad App;6;3.3;1,000+;1.7M;4.1 and up
+learn code;com.JustForYouLimited.LearnJavaScriptOffline;Learn JavaScript Offline;14;4.9;1,000+;3.8M;4.0 and up
+learn code;in.learncodeonline.lco;Learn Code Online;2041;4.6;50,000+;Varies with device;4.4 and up
+learn code;com.continuum.learncss;Learn CSS Pro - Offline Program Run;80;4.5;5,000+;4.2M;4.0 and up
+learn code;com.mudeveloper.learnwebdesignoffline;Learn Web Design Offline;13;4.0;5,000+;6.6M;2.3 and up
+learn code;com.coding.dmr.c;C Tutorials - Offline;10;4.2;1,000+;5.0M;4.2 and up
+learn code;com.quantumappsolutions.learnprogramming;Learn Computer Programming;22;4.4;5,000+;7.2M;4.0.3 and up
+learn code;com.continuum.learnhtml;Learn HTML Pro - Offline Program Run;171;4.2;10,000+;4.3M;4.0 and up
+learn code;com.codepoint.learnandroid;Learn Android App Development for Beginners;173;4.1;10,000+;5.5M;4.4 and up
+learn code;com.edokiacademy.babycoding;Code Karts Pre-coding for kids;209;3.9;50,000+;23M;4.1 and up
+learn code;com.illusorytapirus.morsecodelesson;Morse Code - Tutorial, Training, Tools;106;4.0;10,000+;5.7M;4.0.3 and up
+learn code;com.frizzl.app.frizzleapp;Frizzl - learn to code while building your own app;14;4.6;500+;37M;4.1 and up
+learn code;com.codepoint.learncplusplus;Learn C++ Programming Offline - C++ Tutorials Free;15;4.1;1,000+;2.5M;4.4 and up
+learn code;com.codengoclient;CodeNGo Coding Academy: Learn To Code Free;44;4.7;5,000+;34M;6.0 and up
+learn code;techhunt.com.androidexamples;Learn Android Codes;70;3.7;5,000+;5.3M;4.4 and up
+learn code;com.codepoint.computerProgramming;Learn Basic Computer Programming Free OFFLINE;20;4.4;10,000+;5.9M;4.4 and up
+learn code;com.codepoint.learndart;Learn Dart Programming Free - Dart Tutorials;20;4.4;5,000+;4.8M;4.4 and up
+learn code;com.languagedrops.drops.international;Drops: Language learning - learn 33 languages!;170534;4.7;1,000,000+;Varies with device;4.4 and up
+learn code;ab.java.programming;Java Programming;9967;3.5;1,000,000+;3.5M;2.3.3 and up
+learn code;com.code.examples;Code Samples;64;4.3;1,000+;1.8M;4.1 and up
+learn code;io.kodular.ahmedkarundawala245.Learn_HTML;Learn HTML: Web Design Tutorial;4;4.5;100+;6.5M;4.1 and up
+learn code;com.coderbro.tutorial.arduinoadvanced;Arduino Tutorials Advanced;16;4.6;5,000+;4.1M;4.4 and up
+learn code;mobile.olimpia.com.aprendeelectronica;Learn electronics;533;4.2;50,000+;6.3M;4.3 and up
+learn code;pk.mitz.calculatorsworld.computerscience;Computer & Coding Learning App;8;3.5;1,000+;11M;4.4W and up
+learn code;com.datacamp;DataCamp - Learn R, Python & SQL coding;6771;4.7;100,000+;10M;4.4 and up
+learn code;com.redlee90.learn6502assembly;Learn 6502 Assembly;216;4.4;10,000+;1.4M;4.1 and up
+learn code;learn.reactnative.tutorial;Learn React Native Tutorial;33;4.2;5,000+;8.6M;4.4 and up
+learn code;com.rushhourlabs.morsecode;Morse Code | Beginners Practice With Audio & Tools;22;4.1;500+;4.5M;4.2 and up
+learn code;coding.riya_rayan.ccoding;Learn C Coding;101;4.6;10,000+;24M;4.0.3 and up
+learn code;com.W3school.Anbu;W3school;188;4.1;50,000+;14M;4.0.3 and up
+learn code;com.codepoint.learnbootstrap;Learn Bootstrap 4  -  Bootstrap Tutorials Offline;40;4.3;1,000+;3.0M;4.4 and up
+learn code;com.pkj.learnpython;Learn Python Programming;32;4.0;5,000+;Varies with device;3.0 and up
+learn code;com.amensah.easycoder;EASY CODER : Learn to develop & run java programs;88;4.5;10,000+;7.3M;5.0 and up
+learn code;com.code.jupiter.nodejs;Learn NodeJS;26;4.5;1,000+;4.0M;4.4 and up
+learn code;com.sololearn.java;Learn Java;55326;4.6;1,000,000+;6.2M;4.0.3 and up
+learn code;indiedev.learncoding;Learn Coding;7;3.0;500+;1.8M;4.1 and up
+learn code;com.kids.coding.connectdots;Programming for Kids - Learn Coding;25;3.2;10,000+;13M;4.0 and up
+learn code;everyneedz.com.webdevelopment;Web Development (HTML,CSS,JS);1487;4.3;100,000+;15M;4.0.3 and up
+learn code;com.codepoint.learnswift;Learn Swift Programming iOS - Swift Tutorials;14;3.3;1,000+;3.1M;4.4 and up
+learn code;net.simplifiedcoding.simplifiedcoding;Simplified Coding;81;4.8;1,000+;3.7M;4.1 and up
+learn code;com.rrplayspot.learn.computer.in.seven7.days;Learn Computer Course;1267;4.4;100,000+;5.6M;4.2 and up
+learn code;net.androidsquad.androidmaster;Master Android - Learn Android, Java & Kotlin;20264;4.6;500,000+;7.6M;4.1 and up
+learn code;learn.apps.cssprogramming;Learn CSS Programming;90;4.6;10,000+;4.2M;4.0.3 and up
+learn code;learn.apps.rprogramming;Learn R Programming;4;4.0;1,000+;4.3M;4.0.3 and up
+learn code;com.vedprakashwagh.learnandroid;Learn Android (XML, Java, Kotlin);116;4.3;10,000+;6.2M;4.2 and up
+learn code;cn.codemao.code.game.kids;CODE.GAME KIDS;5;4.0;1,000+;72M;4.1 and up
+learn code;com.progforb.pfb;Programming for Beginners;6;5.0;100+;1.6M;4.0.3 and up
+learn code;com.py.learn;Py;11340;4.6;100,000+;13M;4.4 and up
+learn code;com.back_banchers.cplusplus;Learn C++;48;3.6;10,000+;3.6M;4.0 and up
+learn code;com.codepoint.learnnodejs;Learn Node.js Programming Free - Node Js Tutorials;108;4.3;5,000+;3.7M;4.4 and up
+learn code;com.codepoint.learnangular;Learn Angular 7 -  AngularJs Tutorials Offline;820;4.4;10,000+;7.7M;4.4 and up
+learn code;com.blogspot.hungerforcode.navigation;learn c in hindi;245;4.3;10,000+;2.7M;4.0 and up
+learn code;com.linkedin.android.learning;LinkedIn Learning: Online Courses to Learn Skills;14668;4.6;1,000,000+;14M;5.0 and up
+learn code;in.learncodeonline.global;Learn Code Online;41;4.7;1,000+;13M;4.4 and up
+learn code;org.stepic.droid;Stepik: Free Courses;24313;4.9;1,000,000+;Varies with device;Varies with device
+learn code;com.knightcoder.programmingebooks;Coding eBooks : All Free Programming Books at Once;1137;4.2;100,000+;22M;4.1 and up
+learn code;com.codepoint.learnmysql;Learn MySQL Database Free - MySQL Tutorials;undefined;undefined;5,000+;4.5M;4.4 and up
+learn code;com.nvizn.nvizinideasqr;QR Code Reader : Links to Learning;13;2.8;10,000+;2.2M;4.0.3 and up
+learn code;com.best.don.programmingbooks;Programming eBooks: All Free Coding Books;287;4.2;10,000+;3.9M;5.0 and up
+learn code;com.gjam.learnhtml;Learn HTML (Learn To Code HTML);10;4.3;1,000+;13M;4.1 and up
+learn code;com.codingblocks.cbonlineapp;Online Courses on Deep Learning, Mobile and Webdev;79;3.2;5,000+;6.8M;5.0 and up
+learn programming;com.cyberloft.pascalprogramming;Pascal Programming;97;4.4;10,000+;7.5M;5.0 and up
+learn programming;com.quadosoft.ethicalhacking;Learn Programming & Cyber Security - ProSecify;undefined;undefined;1,000+;4.5M;5.0 and up
+learn programming;learn.web.php;Learn Web Development;1759;4.3;100,000+;6.0M;4.4 and up
+learn programming;sgdevelopers.learn_cpp_programming;Learn C++ Programming;106;4.5;10,000+;11M;4.0.3 and up
+learn programming;com.codetoinvent.malik.cprogramming;Learn C Programming;26;4.8;1,000+;7.4M;4.4 and up
+learn programming;com.dexterousdevelopers.cprogrammingtutorials;C Programming Tutorials;41;4.9;1,000+;3.7M;4.0.3 and up
+learn programming;com.mvdevelopment.learnvbnet;Learn VB.NET;47;4.1;10,000+;10M;4.0 and up
+learn programming;com.skycodetech.codingquiz;Coding Quiz (programming);220;4.5;10,000+;4.3M;4.4 and up
+learn programming;com.rsd.cprogramming;C Programming - 200+ Offline Tutorial and Examples;282;4.5;50,000+;6.1M;4.1 and up
+learn programming;com.apkzube.learncpp;Learn C++ Programming - Tutorial;77;4.5;10,000+;4.6M;4.4 and up
+learn programming;com.brainbox.excelvba;Learn excel vba programming tutorial offline free;47;4.7;10,000+;6.5M;4.0 and up
+learn programming;com.tops.learnvern;Learn IT Courses for Free in Hindi LearnVern;606;4.6;10,000+;6.5M;4.1 and up
+learn programming;com.superdream.rprogramming;R-Programming;25;4.2;5,000+;2.3M;4.0 and up
+learn programming;com.back_banchers.html;Learn HTML;683;4.1;100,000+;3.9M;4.0 and up
+learn programming;com.sky.learnhtml5;Learn HTML;10;4.6;500+;3.0M;4.4 and up
+learn programming;com.reezx.android.learncprogramming;Learn C [NEW];374;4.4;50,000+;11M;4.0 and up
+learn programming;com.faadooengineers.free_webtechnology;Web Designing and Development (HTML,CSS,JS);113;4.1;10,000+;Varies with device;4.0 and up
+learn programming;com.skyapper.learnaspnet;Learn ASP.NET;8;3.9;1,000+;5.4M;4.3 and up
+learn programming;com.codepoint.learnkotlin;Learn Kotlin Programming Free - Kotlin Tutorials;13;4.0;1,000+;2.4M;4.4 and up
+learn programming;sambhaji.asp.vb;Learn .Net Framework;925;4.1;100,000+;8.7M;4.4 and up
+learn programming;com.JustForYouLimited.LearnASPOffline;Learn ASP.NET Offline;10;4.4;5,000+;10M;4.0 and up
+learn programming;com.skyapper.learnspring;Learn Spring Framework - Java;12;4.8;5,000+;5.3M;4.3 and up
+learn programming;learn.apps.unixprogramming;Learn Unix & Shell Programming;104;4.3;50,000+;3.4M;4.0.3 and up
+learn programming;learn.apps.javascriptprogramming;Learn Javascript Programming;28;4.4;10,000+;3.6M;4.0.3 and up
+learn programming;com.apkzube.learnjavaprogramming;Learn Java;208;4.5;50,000+;6.7M;4.4 and up
+learn programming;com.app.cprogramingapp;Easy C Programming;29;4.4;1,000+;3.1M;4.0.3 and up
+learn programming;com.becomecoder.mainpdf;Become Coder-Learn Programming Easily;14;4.6;100+;9.7M;4.1 and up
+learn programming;com.app1daily.aspdotnet;Learn ASP .Net Complete Guide Offline;18;4.0;10,000+;3.0M;4.1 and up
+learn programming;com.thanhdo.tutorial.apextutorial;Learn Apex Programming;8;3.0;1,000+;11M;2.3.3 and up
+learn programming;com.codepoint.learnhtml5;Learn HTML Programming Free - HTML Tutorials;9;4.3;1,000+;2.4M;4.4 and up
+learn programming;learn.apps.csharpprogramming;Learn C# Programming;20;3.7;10,000+;3.6M;4.0.3 and up
+learn programming;wscubetech.android;Learn Android Programming-App Development Tutorial;7;4.1;1,000+;8.0M;4.0.3 and up
+learn programming;com.rohiapps.android.ctutorial;c++ programs with output;17;4.1;5,000+;7.3M;4.0.3 and up
+learn programming;com.indiatechstore.learntocode;Become a software developer;26;4.3;5,000+;11M;4.2 and up
+learn programming;com.chavan.oops;Object Oriented Programming (Oops);95;4.5;10,000+;3.8M;4.0.3 and up
+learn programming;learn.apps.androidprogramming;Learn Android Programming;45;4.1;10,000+;5.9M;4.0.3 and up
+learn programming;learn.apps.javaprogramming;Learn Java Programming;105;4.4;10,000+;3.4M;4.0.3 and up
+learn programming;gudev.visualbasicvb.net;Learn VB.Net Programming Language;2;3.5;1,000+;7.9M;4.0.3 and up
+learn programming;com.appsfactory.learncplusplus;Learn C++ Programming  Tutorials - Offline 2019;4;4.2;100+;5.1M;4.4 and up
+learn programming;com.improvecodingskills.learnandroidprogramming;Learn Android Programming;356;4.0;50,000+;11M;4.0.3 and up
+learn programming;com.xstudioo.basicc;Learn Basic C - For Beginners;32;4.7;5,000+;772k;3.0 and up
+learn programming;com.learnpascal.newbslasjf;Learn Pascal programming Offline;undefined;undefined;100+;4.1M;4.0 and up
+learn programming;learn.apps.phpprogramming;Learn PHP Programming;25;4.2;10,000+;3.3M;4.0.3 and up
+learn programming;com.sizzlesoftlabs.learn.expertc;Expert C Programming - Learn C Coding Easily;92;4.4;10,000+;7.3M;5.0 and up
+learn programming;com.mehul.hp.learnpython;Learn Python;119;4.5;10,000+;4.4M;4.0.3 and up
+learn programming;com.educationapps.visualbasicnet;Visual Basic NET Tutorial - VB .NET Examples;42;4.1;5,000+;4.1M;4.4 and up
+learn programming;com.coderbro.tutorial.arduinoprogrammingduo;Arduino Programming;132;4.1;50,000+;9.6M;4.4 and up
+learn programming;com.quantumappsolutions.learnswift;Learn Swift (IOS) Programming Video Lectures;undefined;undefined;100+;6.3M;4.0.3 and up
+learn programming;itsolutionever.karanponda.vuejstutorial;Learn Vue JS Tutorial;40;4.0;5,000+;7.2M;4.1 and up
+learn programming;com.futurevisioncomputers.excelvba;Learn Offline VBA Programming - Tutorials for VBA;78;4.3;10,000+;6.7M;4.1 and up
+learn programming;learn.apps.pythonprogramming;Learn Python Programming;67;4.3;10,000+;3.3M;4.0.3 and up
+learn programming;com.java.malik.javaanim;Learn Java Programming;234;4.7;10,000+;7.2M;4.4 and up
+learn programming;nabilsoft.com.learnwebdevelopment;Learn Programming (Web Development);6;5.0;1,000+;3.8M;4.1 and up
+learn programming;com.codepoint.learncss;Learn CSS Free - CSS3 Tutorials with Examples;4;4.0;1,000+;5.2M;4.4 and up
+learn programming;com.clanguage.pradip.bitsofcomputer;C Programming Language - All in One;41;4.4;5,000+;9.3M;4.2 and up
+learn programming;com.quizlet.quizletandroid;Quizlet: Learn Languages & Vocab with Flashcards;293385;4.7;10,000,000+;Varies with device;Varies with device
+learn programming;com.wandcode.cheatsheet;Code Cheat Sheets - Programming References;19;3.9;1,000+;4.6M;4.1 and up
+learn programming;mc.javatutor.offline;Learn Java Offline;undefined;undefined;1,000+;9.3M;4.4 and up
+learn programming;com.back_banchers.css;Learn CSS;18;3.8;5,000+;2.5M;4.2 and up
+learn programming;sambhaji.android.java;Learn Android Java;889;4.2;100,000+;10M;4.4 and up
+learn programming;com.nxg.learningvb;Learning Visual Basic 6.0;1018;3.3;100,000+;4.4M;4.1 and up
+learn programming;learn.html.programming;Learn HTML Programming;34;4.1;10,000+;2.0M;4.0.3 and up
+learn programming;info.cntrlapps.prolearn;LearnProg | Learn Programming Languages;6;4.3;100+;3.4M;4.1 and up
+learn programming;com.appzap.learncprogramminginhindi;Learn C++ Programming In Hindi;83;4.0;5,000+;37M;4.2 and up
+learn programming;bn.cpch.apps;C Programming Course in Hindi;12;4.8;5,000+;2.5M;4.0 and up
+learn programming;app.kasper.tutorials;C C++ Tutorials;24;4.5;5,000+;3.1M;3.0 and up
+learn programming;com.skyapper.learnpythonwithdatascience;Learn Python with Data Science;17;4.2;5,000+;6.2M;4.3 and up
+learn programming;com.app4daily.computerrepairingcourse;Learn Computer Programming;13;4.3;5,000+;2.3M;4.4 and up
+learn programming;com.csharp.learn.essentials;Learn C# - .Net - C Sharp Programming Tutorial App;1344;4.2;100,000+;8.6M;4.1 and up
+learn programming;com.learnacademic.computer_programming;Learn Computer Programming Full;undefined;undefined;1,000+;8.9M;4.0 and up
+learn programming;com.andromo.dev489499.app965825;Learn How to Hack – (Guides);14;3.3;10,000+;3.5M;4.1 and up
+learn programming;com.theeasylearn.java;Learn Java Programming Language;75;4.6;10,000+;2.6M;4.2 and up
+learn programming;com.creativeworld.android.geeks_code;Geeks Code: All Programming Books in one place;52;3.9;1,000+;7.5M;4.4 and up
+learn programming;com.djm.offlinepythonnotes;Learn Python Offline- Tutorial and Interpreter;756;4.6;50,000+;4.2M;4.1 and up
+learn programming;com.faadooengineers.free_principlesofprogramming;Programming Principles;70;3.9;10,000+;7.7M;4.0 and up
+learn programming;com.faadooengineers.free_cprogramming;Basics of C Programming;279;3.9;50,000+;4.2M;4.0 and up
+programação;com.aplicativoslegais.easystudy;Easy Study - Your schedule, plan for school;1390;4.1;100,000+;9.8M;5.0 and up
+programação;com.mres.schedule;Bible Reading Schedule;17294;4.7;1,000,000+;847k;1.6 and up
+programação;com.aldoh_ti.PortalProgramandoApp;Portal Programando (Programming Courses);18;4.1;500+;3.7M;4.4 and up
+programação;com.myprg.aakash.ardunioprogramming;Arduino Programming;106;4.1;10,000+;4.7M;4.2 and up
+programação;br.com.app.gpu1935966.gpu097fd711bc673427b0452d27d91fc12d;Perguntas Poderosas!;26;4.6;5,000+;11M;4.4 and up
+programação;br.com.oficialblackcode;Study Schedule;150;3.3;50,000+;11M;4.4 and up
+programação;com.duy.pascal.compiler;Pascal N-IDE - Editor And Compiler - Programming;10673;4.7;500,000+;6.0M;4.0 and up
+programação;io.getready.ready;Ready Maker;10109;3.7;1,000,000+;67M;4.1 and up
+programação;kr.co.rinasoft.yktime;FLIP - Focus Timer for Study;7994;4.4;1,000,000+;55M;4.4 and up
+programação;coolfreeapps.appslaborator.html.course;HTML Course;228;4.2;10,000+;1.8M;2.3.3 and up
+programação;com.jesusdigitalrd.jpcsim;JPCSIM - PC Windows Simulator;30315;3.8;1,000,000+;39M;4.0 and up
+programação;org.qpython.qpy3;QPython3 - Python3 for Android;5257;4.0;1,000,000+;22M;2.3 and up
+programação;com.tips.python;Python. How to start programming;undefined;undefined;500+;3.6M;4.0.3 and up
+programação;com.repair.learn.programming.android;Learn Programming For Android;52;3.3;10,000+;1.8M;2.3.3 and up
+programação;com.andromo.dev601172.app848116;Neuro Linguistic Programming;13;3.2;5,000+;2.9M;4.1 and up
+programação;com.br.dicionariodeti;Dicionário de TI;126;4.7;10,000+;2.3M;4.0.3 and up
+programação;com.swastik.operationalresearch;Operational Research;151;4.5;10,000+;3.2M;4.1 and up
+programação;itools.aiwithpython;Artificial Intelligence;71;4.3;10,000+;10M;4.1 and up
+programação;com.simplex.free;Simplex Method;32;3.6;5,000+;3.4M;4.0.3 and up
+programação;com.do_apps.catalog_142;Tools programmer;189;4.6;50,000+;24M;4.4 and up
+programação;com.quseit.qlua5pro2;QLua - Lua on Android;269;4.0;50,000+;6.4M;4.0 and up
+programação;com.sescsp.android.geatg;Sesc SP;194;2.9;50,000+;12M;Varies with device
+programação;com.do_apps.catalog_485;Object-oriented programming;56;3.8;10,000+;10M;4.4 and up
+programming;com.quizmine.webprogram;Learn Web Programming;18;3.0;1,000+;20M;4.0.3 and up
+programming;c.spotapps.com.learnc;Learn C Programming Language;13;4.9;100+;677k;4.4 and up
+programming;com.prodevs.apps.javaprogrammingguide;Guide for Java Programming;9;4.1;1,000+;3.4M;4.0.3 and up
+programming;com.thunkable.android.techword4u.Basic_C_Programming;Basic C Programming;16;4.6;1,000+;5.1M;4.1 and up
+programming;com.appsfacto.hundred_one_c_problems;101 C Programming Problems;530;4.5;50,000+;5.8M;4.0.3 and up
+programming;com.pkj.learncprogramming;Learn C Programming;41;4.6;1,000+;2.4M;4.0 and up
+programming;com.hyphenible.tryc;Learn C Programming: Offline with examples;24;4.6;1,000+;3.0M;4.4 and up
+programming;engg.hub.object.oriented.programming;Object Oriented Programming;47;3.4;5,000+;4.7M;4.1 and up
+programming;com.creativeworld.android.learnjavaprogramming;Java Hero: Learn Java Programming;undefined;undefined;500+;5.5M;4.4 and up
+programming;com.coderbro.tutorial.a8051microcontroller;8051 Microcontroller Programming;17;4.3;5,000+;4.3M;4.4 and up
+programming;com.codeintelligent.onlinecompiler;Online Compiler | Programming Languages;34;4.2;1,000+;6.1M;4.1 and up
+programming;blueskydeveloper.androidprogramming;Android Programming;11;4.5;100+;7.1M;4.2 and up
+programming;com.educationapps.cncprogrammingexamples;CNC Programming Example;159;4.5;10,000+;7.5M;4.4 and up
+programming;com.spyboy.javaprogramming;Java Programming;71;4.5;10,000+;4.6M;4.1 and up
+programming;com.sanjoy.rapp;R Programming Solution;174;3.6;10,000+;7.7M;4.0 and up
+programming;com.cprogrammingzone.free;C Programming Zone;1279;4.5;50,000+;4.0M;4.0.3 and up
+programming;coolfreeapps.appslaborator.learn.go.programming;Learn go programming;11;3.3;1,000+;1.8M;2.3.3 and up
+programming;com.program.csharp;C# Programming;undefined;undefined;1,000+;2.7M;4.1 and up
+programming;com.brainboxquiz.cppquiz;C++ programming quiz app with questions and answer;undefined;undefined;100+;3.3M;4.0 and up
+programming;in.softecks.csharp;C# Programming;undefined;undefined;1,000+;7.2M;4.4 and up
+programming;com.lohriialo.python;Python Programming - 3.6 (Reference/Manual/Guide);9;3.9;1,000+;3.6M;4.0.3 and up
+programming;com.alansa.ideabag2;Programming Ideas 2;555;4.7;100,000+;3.9M;4.4 and up
+programming;net.andromo.dev653868.app655379;Matlab Programming : Numerical Analysis;32;4.6;5,000+;6.2M;4.1 and up
+programming;com.velosys.interview_preparation;Programming MCQ;328;3.8;50,000+;1.8M;2.1 and up
+programming;mum.mum.java_test;Programming Test;30;4.5;1,000+;2.1M;2.2 and up
+programming;vsapps.computerprogram;Computer Programming;20;4.3;5,000+;2.6M;4.4 and up
+programming;sh.eagletech.cpp;C++ Programming;10;5.0;100+;3.6M;4.2 and up
+programming;com.krazeapps.csharpprogrammingcompiler;C# Programming Compiler;20;3.2;5,000+;6.5M;4.4 and up
+programming;labprograms.abin.programmingexercises;Programming Exercises;51;4.7;10,000+;26M;3.0 and up
+programming;org.zhiyuan.zhiyuan24;C++ Compiler IDE;2230;3.8;100,000+;28M;4.0 and up
+programming;com.programming_with_java.fullmasti;Java Programming (offline);16;4.2;5,000+;12M;4.0.3 and up
+programming;learn.c.programing;Learn C Programming;193;4.5;10,000+;3.6M;4.0.3 and up
+programming;com.easy.hp.ctutorial;C Programming App;970;4.4;10,000+;5.0M;5.0 and up
+programming;com.sikapps.fortranprogramming;Learn Fortran Programming : Video Tutorials;undefined;undefined;100+;3.4M;4.1 and up
+programming;com.blogspot.ustadtech.c_programmingwithme;C Program with me || Programming Club;10;4.6;100+;8.1M;4.0.3 and up
+programming;com.xzeecprovideo.hdvideoapp;C Programming Video Tutorial & 1000+Coding Pattern;undefined;undefined;100+;8.0M;4.4 and up
+programming;aplus.programmingcourses;Programming Courses;undefined;undefined;100+;3.7M;4.0.3 and up
+programming;in.softecks.perl;Perl Programming;8;4.5;1,000+;7.1M;4.0.3 and up
+programming;com.programmingcodebook.codebook;CodeBooks - C,C++,Java,Kotlin  Programming & More;6;3.8;500+;3.1M;4.0.3 and up
+programming;com.thanhdo.tutorial.AwkTutorial;Learn Awk programming;13;4.2;1,000+;3.8M;2.3.3 and up
+programming;coolfreeapps.appslaborator.ruby.programming.course;Ruby programming course;29;4.2;1,000+;1.8M;2.3.3 and up
+programming;in.intelitech.rprogramming;R Programming;8;2.9;1,000+;6.4M;4.0.3 and up
+programming;com.dreamhouse.joyguru.proaptitude;Programming aptitude;undefined;undefined;1,000+;2.2M;4.4 and up
+programming;com.cprogramminglanguage;C Programming Language;undefined;undefined;100+;6.0M;4.0.3 and up
+programming;com.krazeapps.vbnetprogrammingcompiler;Visual Basic (VB.NET) Programming Compiler;40;3.5;10,000+;6.5M;4.4 and up
+programming;in.edu.pd;Programmer's Dictionary;1069;3.8;100,000+;1.2M;3.0 and up
+programming;com.snj.cprogramming;C Programming;2314;4.5;100,000+;2.9M;4.0 and up
+programming;org.vivek.cherala.vhdlprogramming;VHDL Programming;90;3.5;10,000+;2.1M;4.1 and up
+programming;com.awwalsoft.javawebprogramming;Jsp & Servlet Tutorial:  Java Web Programming;154;4.6;10,000+;5.1M;5.0 and up
+programming;app.compiler;Online Compiler (Beta);10222;4.4;100,000+;2.6M;4.1 and up
+programming;com.inter.suyash.app;Programming Interview Questions and Programs;undefined;undefined;1,000+;2.5M;5.0 and up
+programming;da.namanmadan.com.programmingcheatsheets;Offline Programming Cheat Sheets;41;4.6;5,000+;2.3M;4.0.3 and up
+programming;com.quizmine.androidwp7;Windows Phone Programming;60;4.2;10,000+;15M;2.1 and up
+programming;com.jagguapps.cpu;Computer Programming & Utilization Notes;10;4.6;1,000+;2.0M;4.1 and up
+programming;com.program.sql;SQL Programming;3;2.3;1,000+;2.7M;4.1 and up
+programming;com.pratipalgif.LearnC;C Programming Notes & Programs;7;3.0;1,000+;6.0M;4.0.3 and up
+programming;org.zhiyuan.zhiyuan23;C Compiler IDE;1806;4.1;100,000+;12M;2.3 and up
+programming;io.cordova.ComputerProgrammingCP;Computer Programming;23;4.2;1,000+;28M;4.1 and up
+programming;com.casatechno.www.TestYourProgrammingSkills;Test Your Programming Skills;36;4.7;1,000+;3.7M;4.0.3 and up
+programming;com.tilak.KotlinOfflinelang;Kotlin Programming Language - Offline;41;3.8;5,000+;4.9M;4.1 and up
+programming;com.CodeHub.competitivecoding;CodeHub - First Competitive Programming App;36;4.6;1,000+;2.9M;4.0.3 and up
+programming;wali.c4droid;Compiler and debugger for simple C programming;16;3.9;1,000+;1.1M;4.0.3 and up
+programming;com.order.sony.orderone;O(1) - be dangerous at competitive programming;34;4.3;1,000+;2.0M;4.3 and up
+programming;com.shalik.patel.cprogrammingsolution;C/C++ Programming Solution;147;4.9;10,000+;7.3M;4.1 and up
+programming;com.binarytuts.cprogrammingcode;C Programming Code;7;4.7;5,000+;3.2M;4.0.3 and up
+programming;com.sp.programmingbooks;Free Programming Books;20;3.2;5,000+;10.0M;4.0.3 and up
+programming;project.com.clanguage;C Programming Quiz;24;4.4;5,000+;4.5M;4.4 and up
+programming;com.andromo.dev601172.app807595;Learn Java Programming;6;3.2;1,000+;2.9M;4.1 and up
+programming;com.csmcqs.asif.dsmcqs;Programming Languages MCQs;13;4.5;5,000+;4.4M;4.1 and up
+programming;com.jids.lspexample;Linux System Programming Eg;189;4.5;10,000+;1.9M;2.2 and up
+programming;com.media.programming.point.hub.sololearn.tutorialspoint;Programming.Point;undefined;undefined;100+;3.8M;4.0.3 and up
+programming;com.sitseducators.cpppatternprogramsfree;C++ Pattern Programs Free;3330;4.4;100,000+;7.2M;4.0 and up
+programming;com.jaindev.c;Learn C Programming (Examples) (OFFLINE);45;4.2;10,000+;3.7M;4.1 and up
+programming;com.lohriialo.swift;Swift Programming - 4.0.3 (Reference/Manual/Guide);171;3.7;10,000+;3.6M;4.1 and up
+programming;com.educationapps.cncguide;CNC Programming Guide;22;4.0;1,000+;12M;4.4 and up
+programming;bindesh.com.programminglanguages;Programming Languages Codes;1;5.0;100+;4.1M;4.0.3 and up
+programming;com.vineeta.pythonprogramming;Python Programming For Beginners;23;4.0;10,000+;7.6M;4.2 and up
+programming;com.language_mathpro_lite;Programming Language MathPro Lite;undefined;undefined;10+;12M;4.1 and up
+programming;com.dynamic.programming.free;Dynamic Programming: optimal allocation resources;5;5.0;500+;3.3M;4.0 and up
+programming;aakash.raspberryprogramming;RaspberryPi Programming;103;4.0;10,000+;23M;4.2 and up
+programming;com.krazeapps.basicprogrammingcompiler;BASIC Programming Compiler;undefined;undefined;1,000+;6.5M;4.4 and up
+programming;com.spyboy.cprogramming;C Programming;88;4.5;10,000+;5.9M;4.1 and up
+programming;com.tech.prabhansh.programminginc;Programming in C;66;4.7;1,000+;4.1M;4.0 and up
+programming;in.softecks.ruby;Ruby Programming;10;4.5;1,000+;6.3M;4.0.3 and up
+programming;com.infoland.oops;Object Oriented Programming;15;3.6;5,000+;22M;4.1 and up
+programming;com.apkzube.learncprogramming;Learn C Programming;169;4.2;10,000+;3.7M;4.4 and up
+programming;in.learncodeonline.cpplangquestion;C++ programming Interview questions;5;5.0;1,000+;1.7M;4.4 and up
+programming;com.practice_o_learn.javaprogramming;Learn Java Programming;80;4.5;10,000+;3.0M;4.0 and up
+programming;technark.bca_courprogramming;BCA - Course Programming;657;4.3;50,000+;5.4M;4.0 and up
+programming;learn.apps.htmlprogramming;Learn HTML5 Programming;25;4.6;10,000+;2.8M;4.0.3 and up
+programming;com.caveofprogrammingfree;Cave of Programming;11;4.5;100+;5.2M;4.0 and up
+programming;in.softecks.javascript;JavaScript Programming;22;4.2;5,000+;12M;4.0.3 and up
+programming;com.wITandProgrammingandComputerScienceFreeBooks_7782437;IT, Programming & Computer science Free Books;16;4.2;5,000+;89M;4.1 and up
+programming;in.softecks.erlang;Learn - Erlang Programming;6;3.7;1,000+;8.5M;4.0.3 and up
+programming;html.knec.knechtml;Knec Internet Based Programming;4;4.8;100+;14M;4.0 and up
+programming;com.ardaulger.nxtmobileprogramming;NXT Mobile Programming;104;3.2;10,000+;7.0M;4.2 and up
+programming;com.studytonight.app;Studytonight - Free Computer Programming Tutorials;1471;4.6;50,000+;2.7M;5.0 and up
+programming;com.quizmine.comboCandCplus;Learn C and C++ Programming;67;4.1;10,000+;15M;2.1 and up
+programming;infiniteloopsinc.info.completejava;Learn Java Programming;748;4.6;50,000+;3.9M;4.0.3 and up
+programming;com.samsung.android.codemaker;HANDY CODE - Coding education, Programming;100;4.0;5,000+;34M;4.4 and up
+programming;in.intelitech.lispprogramming;LISP Programming;5;3.4;1,000+;3.5M;4.0.3 and up
+programming;cnc.programming.cncprogrammingexamples;CNC Programming Example - CNC Tutorial;4;4.8;500+;18M;4.4 and up
+programming;com.theeasylearn.rprogramming;R Programming Language;57;4.1;1,000+;2.9M;4.2 and up
+programming;certificate.structured.com.knecstructuredprogrammingcertificate;Knec Structured Programming Certificate;undefined;undefined;500+;23M;4.0 and up
+programming;com.java.questionwithanswerinterview.android;1000 Java Programming;459;4.0;100,000+;7.5M;4.1 and up
+programming;com.C_Examples.C_Programming;350+ C Programming Examples;46;4.4;10,000+;5.4M;5.0 and up
+programming;com.ummaysoft.arduinoprogrammingnotebook;Arduino Programming Notebook;6;3.3;1,000+;12M;4.4 and up
+programming;io.kodular.rijukeyshonsrijan.dp;Dynamic Programming Problems - Competitive Coding;5;5.0;100+;5.8M;4.1 and up
+programming;com.wProgrammingBooksfree_8766206;Programming Books Free;6;4.5;50+;52M;4.1 and up
+programming;in.softecks.python;Python Programming;20;4.0;5,000+;6.9M;4.0.3 and up
+programming;sgdevelopers.learn_c_programming;Learn C Programming;152;4.5;10,000+;5.8M;4.0.3 and up
+programming;com.appboss.CProgrammingConcepts;C Programming Concepts;13;4.5;5,000+;3.6M;3.0 and up
+programming;net.egordmitriev.cheatsheets;Programming Cheat Sheets;108;4.7;10,000+;Varies with device;4.0.3 and up
+programming;com.SM_Developer;Programming Languages;52;4.9;1,000+;16M;4.4 and up

@@ -8,7 +8,7 @@ const scriptData = require('./utils/scriptData');
 
 const PLAYSTORE_URL = 'https://play.google.com/store/apps/details';
 
-async function app (opts) {
+function app (opts) {
   return new Promise(function (resolve, reject) {
     if (!opts || !opts.appId) {
       throw Error('appId missing');
@@ -57,10 +57,10 @@ const MAPPINGS = {
     path: ['ds:5', 0, 12, 9, 0],
     fun: cleanInt
   },
-  score: ['ds:7', 0, 6, 0, 1],
-  scoreText: ['ds:7', 0, 6, 0, 0],
-  ratings: ['ds:7', 0, 6, 2, 1],
-  reviews: ['ds:7', 0, 6, 3, 1],
+  score: ['ds:6', 0, 6, 0, 1],
+  scoreText: ['ds:6', 0, 6, 0, 0],
+  ratings: ['ds:6', 0, 6, 2, 1],
+  reviews: ['ds:6', 0, 6, 3, 1],
   histogram: {
     path: ['ds:7', 0, 6, 1],
     fun: buildHistogram

@@ -28,8 +28,8 @@ module.exports = class ListaAplicativos {
         this.ArrayDeAplicativos.forEach(aplicativo => 
         {
             impressao.push(
-                this.PalavraChaveAtual + "\t" +//categoria do aplicativo
-                this.NumeroMaximoAplicativos + "\t" +
+                this.PalavraChaveAtual + ";" +//categoria do aplicativo
+                this.NumeroMaximoAplicativos + ";" +
                 aplicativo.title
                 + "\n");
         });

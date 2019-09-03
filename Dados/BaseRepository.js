@@ -4,9 +4,15 @@ module.exports = class Excel {
         this.fs = require('fs');
     }
 
-    salvar(tituloDoArquivo, linhasArquivo, extensao = '.txt') {
+    salvar(tituloDoArquivo, linhasArquivo, extensao = '.txt', chave = 0) {
         //Método que adiciona apenas linhas no arquivo e não colunas
-        var writeStream = this.fs.createWriteStream(tituloDoArquivo + extensao);
+        if(chave == 0){
+            var writeStream = this.fs.createWriteStream('../TCC/ArquivosGerados/categorias/'+tituloDoArquivo + extensao);
+        }else{
+            var writeStream = this.fs.createWriteStream('../TCC/ArquivosGerados/aplicativos/'+tituloDoArquivo + extensao);
+        }
+
+        
 
         linhasArquivo.forEach(element => {
             //A primeira linha da variavel linhasArquivo é o cabeçalho do arquivo excel

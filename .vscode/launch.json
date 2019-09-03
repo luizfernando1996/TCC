@@ -4,17 +4,11 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-
         {
             "type": "node",
             "request": "launch",
+            "name": "Aplicativos e Métricas",
             "console": "externalTerminal",//comando que permite com que se interaja no console
-            "name": "Programa Principal",
-            "program": "${workspaceFolder}/home\\Program.js"
-        },        {
-            "type": "node",
-            "request": "launch",
-            "name": "Programa Principal2",
             "program": "${workspaceFolder}/home\\Program.js"
         },
         {
@@ -26,8 +20,9 @@
         {
             "type": "node",
             "request": "launch",
+            "console": "externalTerminal",//comando que permite com que se interaja no console
             "name": "Debug Loading",
-            "program": "${workspaceFolder}/Service\\testeReviews.js"
+            "program": "${workspaceFolder}/Service\\AplicativoArabesTeste.js"
         }
     ]
 }

@@ -34,8 +34,8 @@ module.exports = class AplicativoRepository extends BaseRepository {
         });
 
         //Após colher o numero máximo de aplicativos escreve um arquivo do excel
-        if (numeroDeRequisicoes == this.ListAplicatNegoc.obterNumeroMaximoAplicativos())
-            this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcelListaApp)
+        if (numeroDeRequisicoes == this.ListAplicatNegoc.obterPalavraChavesPermitidas().length * this.ListAplicatNegoc.obterNumeroMaximoAplicativos())
+            this.BaseRepository.salvar(nomeArquivo, this.conteudoArquivoDadosExcelListaApp,".txt", 1)
 
         this.conteudoArquivoDadosExcelListaApp.length = 0;
     }

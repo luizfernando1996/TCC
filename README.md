@@ -23,6 +23,22 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   ```
   https://code.visualstudio.com/ - 
   ```  
+#### Dependencia
+  *CLI-Progress
+  ```
+  npm install colors
+  https://www.npmjs.com/package/colors
+  ```
+  npm install string-width
+  https://www.npmjs.com/package/string-width
+  ```
+  npm install -g yarn
+  https://tableless.com.br/yarn-evolucao-do-npm/
+  ```
+  yarn add cli-progress
+  npm install cli-progress --save
+  https://npmjs.com/package/cli-progress
+  
 #### Atalhos
   - Shift+Alt+F ->Identação no visual code  
   - Ctrl+F12 ->Altera as referências como o nome da variavel  

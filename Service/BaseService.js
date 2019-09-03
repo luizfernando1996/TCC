@@ -60,10 +60,10 @@ module.exports = class BaseService {
                 tempoDelay = tempoDelay + 11
 
             if (tempoDelay != 0) {
-                console.log("Delay de ", tempoDelay, "s efetuado", new Date())
+                // console.log("Delay de ", tempoDelay, "s efetuado", new Date())
                 this.sleep(tempoDelay)
-                console.log("Delay de ", tempoDelay, "s terminado", new Date())
-                console.log()
+                // console.log("Delay de ", tempoDelay, "s terminado", new Date())
+                // console.log()
             }
         }
 

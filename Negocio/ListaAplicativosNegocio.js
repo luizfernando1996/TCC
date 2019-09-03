@@ -6,11 +6,11 @@ module.exports = class PesquisaNegocio {
         this.arrayDeAplicativos = [];
         //Um array que contêm todas as palavras chaves
         this.palavrasChavesPermitidas = [
-            'programming'//,
-            //'programação'//,
-             //'learn programming',
-             //'ensino de programação'//,
-            //'learn code'
+            'programming',
+            'programação',
+            'learn programming',
+            'ensino de programação',
+            'learn code'
         ];
         this.language = [
             //"pt-br"
