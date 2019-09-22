@@ -7,9 +7,9 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Aplicativos e Métricas",
-            "console": "externalTerminal",//comando que permite com que se interaja no console
-            "program": "${workspaceFolder}/home\\Program.js"
+            "name": "Coletar dados",
+            //"console": "integratedTerminal",//comando que permite com que se interaja no console
+            "program": "${workspaceFolder}/Etapa 1 - Coleta dos dados de aplicativos/code/main\\Program.js"
         },
         {
             "type": "node",

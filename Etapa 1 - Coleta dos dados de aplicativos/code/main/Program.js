@@ -10,24 +10,23 @@ var leitor = readline.createInterface({
 var textoExibir = "\n----------------------------------------------------\nEfetuar coleta de comentários ou métricas?\nDigite 1 para métricas e 2 para comentários e 3 para criar arquivo Único\n"
 
 
-
-leitor.question(textoExibir, function (answer) {
-    var resp = answer;
+//console.log(textoExibir)
+//leitor.question(textoExibir, answer =>{
+    var resp = 1
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
     if (resp == 1) {
-        ListaAplicativoService = require('../Service/ListaAplicativosService.js');
-
+        ListaAplicativoService = require('TCC/Etapa 1 - Coleta dos dados de aplicativos/code/Service/ListaAplicativosService.js');
         var cat = new ListaAplicativoService();
         cat.pesquisarAplicativos();
     }
     else if (resp == 2) {
-        ComentarioService = require('../Service/ComentarioService.js')
+        ComentarioService = require('TCC/Etapa 1 - Coleta dos dados de aplicativos/code/Service/ComentarioService.js')
         var coment = ComentarioService()
     }
     else if(resp == 3){
-        ScriptArquivoUnico = require('../Scripts/CriaArquivoUnico.js')
+        ScriptArquivoUnico = require('TCC/Etapa 1 - Coleta dos dados de aplicativos/code/Scripts/CriaArquivoUnico.js')
         var coment = ScriptArquivoUnico()
     }
     leitor.close();
-});
+//});
 
