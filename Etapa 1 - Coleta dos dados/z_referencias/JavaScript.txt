@@ -1,0 +1,17 @@
+Conteúdos relevantes
+
+    1 - O que são Promisses?
+    Link de estudo:
+    https://pt.stackoverflow.com/questions/119907/o-que-s%C3%A3o-promises-promessas-em-javascript/119912
+    https://blog.matheuscastiglioni.com.br/trabalhando-com-promises-em-javascript/
+
+    2 - Como ligar arquivos diferentes
+    Link de estudo:
+    https://nodejs.org/api/modules.html
+
+    3 - JavaScript
+    Documentações
+    - https://pt.stackoverflow.com/questions/37356/existe-documenta%C3%A7%C3%A3o-oficial-para-o-javascript
+    - http://tableless.github.io/iniciantes/manual/js/
+    - https://developer.mozilla.org/pt-BR/docs/Web/JavaScript
+     -https://jstherightway.org/pt-br/#testing-tools
