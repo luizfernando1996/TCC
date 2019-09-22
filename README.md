@@ -50,7 +50,6 @@ Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/e
 
 ## Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos
 
-A etapa 2 durou 2 semanas.
 
 Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments)
 
