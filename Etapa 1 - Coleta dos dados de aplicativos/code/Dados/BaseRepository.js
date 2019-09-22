@@ -7,9 +7,9 @@ module.exports = class Excel {
     salvar(tituloDoArquivo, linhasArquivo, extensao = '.txt', chave = 0) {
         //Método que adiciona apenas linhas no arquivo e não colunas
         if(chave == 0){
-            var writeStream = this.fs.createWriteStream('../TCC/ArquivosGerados/categorias/'+tituloDoArquivo + extensao);
+            var writeStream = this.fs.createWriteStream('../TCC/Etapa 1 - Coleta dos dados de aplicativos/results/ArquivosGerados/categorias/'+tituloDoArquivo + extensao);
         }else{
-            var writeStream = this.fs.createWriteStream('../TCC/ArquivosGerados/aplicativos/'+tituloDoArquivo + extensao);
+            var writeStream = this.fs.createWriteStream('../TCC/Etapa 1 - Coleta dos dados de aplicativos/results/ArquivosGerados/aplicativos/'+tituloDoArquivo + extensao);
         }
 
         
