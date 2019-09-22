@@ -1,43 +1,34 @@
-# TCC
-Análise dos fatores que fazem um aplicativo da google play store ter sucesso 
+# Análise dos fatores e relações que levam um aplicativo de ensino de programação ao sucesso na Google Play Store!
+Orientados: Jonathan Dias Rodrigues,  Luiz Fernando de Oliveira Macedo
+Orientador: Lesandro Ponciano 
 
 ### Related projects
 
 * [google-play-scraper](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/google-play-scraper): um scraper para o Google Play Store.
-* [natural](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/natural): uma ferramenta para processamento de linguagem natural.
+* [sentiment-develop]():Análise de sentimento baseada em AFINN para Node.js
 
 ## Sumário
 
-  1. [Etapa 0 - Definição das tecnologias](#etapa-0---definição-das-tecnologias)
-  1. [Etapa 1 - Seleção dos aplicativos](#etapa-1---seleção-dos-aplicativos)
-  1. [Etapa 2 - ]()
-  1. [Etapa 3 - ]()
-  1. [Etapa 4 - ]()
-  1. [Etapa 5 - ]()
+  1. [Etapa 0 - Definição das ferramentas](#etapa-0---definição-das-tecnologias)
+  1. [Etapa 1 - Coleta dos dados de aplicativos](#etapa-1---seleção-dos-aplicativos)
+  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos]()
+  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos]()
+  1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III]()
+  1. [Etapa 5 - Análise dos resultados]()
+  1. [Etapa 6 -  Escrita do documento final]()
 
-## Etapa 0 - Definição das tecnologias
+## Etapa 0 - Definição das tecnologias, bibliotecas utilizadas
  Ferramentas utilizadas para o projeto:
 
-### IDE escolhida:   
+### IDEs escolhidas:   
   * Visual Studio Code:
   ```
   https://code.visualstudio.com/ - 
   ```  
-#### Dependencia
-  *CLI-Progress
+  * R studio
   ```
-  npm install colors
-  https://www.npmjs.com/package/colors
+  https://www.rstudio.com/
   ```
-  npm install string-width
-  https://www.npmjs.com/package/string-width
-  ```
-  npm install -g yarn
-  https://tableless.com.br/yarn-evolucao-do-npm/
-  ```
-  yarn add cli-progress
-  npm install cli-progress --save
-  https://npmjs.com/package/cli-progress
   
 #### Atalhos
   - Shift+Alt+F ->Identação no visual code  
@@ -49,20 +40,16 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
   ```
 ### Linguagem Escolhida
   * JavaScript interpretada pelo servidor - NodeJS  
-  
+  * R
+
 ### Bibliotecas Utilizadas  
   * Coleta de dados dos apps na google play store 
     ```
     https://github.com/facundoolano/google-play-scraper
     ```
-  * Processamento de linguagem natural  
-    - opção escolhida 
+  * Análise de sentimentos
     ```
-    https://github.com/NaturalNode/natural
-    ```
-    - opção alternativa
-    ```
-    https://www.npmjs.com/package/node-nlp
+    https://github.com/thisandagain/sentiment
     ```
 ### Repositório escolhido  
   * Github - Documentação
@@ -82,7 +69,23 @@ Análise dos fatores que fazem um aplicativo da google play store ter sucesso
     https://stackoverflow.com/questions/17450412/how-to-create-an-excel-file-with-nodejs
 
     ```
-### Etapa 1 - Seleção dos Aplicativos
+## Etapa 1 - Etapa de Coleta dos dados de Aplicativos - Dados: Comments e Metrics 
+
+#### Dependencias do código
+  *CLI-Progress
+  ```
+  npm install colors
+  https://www.npmjs.com/package/colors
+  ```
+  npm install string-width
+  https://www.npmjs.com/package/string-width
+  ```
+  npm install -g yarn
+  https://tableless.com.br/yarn-evolucao-do-npm/
+  ```
+  yarn add cli-progress
+  npm install cli-progress --save
+  https://npmjs.com/package/cli-progress
 
 #### Ambiente pesquisa
 Foram feitas consultas por meio das  palavras chaves:
@@ -126,50 +129,3 @@ ou como a ferramenta informa os app ids para que se assim fosse coletada as info
 A etapa 2 durou 2 semanas.
 
 ### Etapa 4 - Algoritmos de Inteligência Artificial
-
-#### Ambiente pesquisa
-
-#### Ambiente experimental
-
-##### Fase 1 - Etapa de Treinamento do algoritmo 
-   - Entrada: Comentários da metade dos aplicativos selecionados para treinar o 
-  algoritmo de Naive Bayes, isto é, comentários de 125 aplicativos.
-```
-(http://minerandodados.com.br/index.php/2017/03/15/analise-de-sentimentos-twitter-como-fazer/)
-```
-    - Detalhes sobre o procedimento nessa etapa (O que foi feito?): Foi analisado manualmente os comentários e a partir deles 
-   foram definidas categorias a qual o comentário melhor se encaixa.
-
-    - Problemas observados: Se observou que um comentário pode se encaixar em uma ou mais categorias de comentários. Logo, 
-    basicamente dividimos os comentários em 3 categorias - irrelevante, não apresenta nenhum critério (bom ou ruim), 
-    apresenta algum critério - boa usabilidade, má usabilidade, inovador, exige bastante permissoes.
-    - Foi definido que cada comentário poderia estar contido no máximo em 3 categorias. <-- Discutir com o Jonathan
-
-    - [Hipotese de um problema futuro que teremos] Sempre que se encerrava a execução do código que treinava a máquina a reconhecer padrões 
-    deveria novamente executar em outro momento esse mesmo código.. Uma dependencia é bastante gerada por isso etc.
-
-    Saída: Um conjunto de categorias que o algoritmo deveria análisar para se saber a qual o comentário melhor se encaixa.
-
-##### Fase 2 - Etapa de Análise de outros comentários 
-       * Entrada: Comentários da metade do restante dos aplicativos selecionados para treinar o algoritmo de Naive Bayes, isto é, comentários dos outros 125 aplicativos.
-
-      * Detalhes sobre o algoritmo (O que ele faz?): Ele analisa os comentários e a partir deles define a qual categoria o comentário melhor se encaixa, das categorias:
-  
-```javascript
-    categoriasComentarios = [
-        'irrelevante', //O comentário possui 1 a 2 estrelas e foi categorizado como bom ou
-        // o comentário possui 4 a 5 estrelas e foi categorizado como ruim 
-        'bom', //O comentário não apresenta a informação sobre qual requisito o software é bom
-        'ruim', //O comentário não apresenta a informação sobre qual requisito o software é ruim
-        'boa usabilidade',
-        'má usabilidade',
-        'inovador',
-        'exige bastante permissoes',
-    ]
-```
-    - Problemas observados:
-      1 - Porque não se analisa também a quantidade de comentários irrelevantes 
-      no grupo de aplicativos de sucesso e no grupo de aplicativos de fracasso? 
-      Isto pode gerar algum valor.
-
-    - Saída: A categorização dos comentários nos grupos definidos na subetapa1.
