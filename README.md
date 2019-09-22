@@ -19,8 +19,7 @@ Orientador: Lesandro Ponciano
 
 ## Etapa 0 - Definição das ferramentas
 
-Para mais detalhes:
-https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%200%20-%20Defini%C3%A7%C3%A3o%20das%20tecnologias/README.md
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%200%20-%20Defini%C3%A7%C3%A3o%20das%20tecnologias/README.md)
 
 ## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics 
 
