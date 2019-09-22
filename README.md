@@ -20,11 +20,13 @@ Orientador: Lesandro Ponciano
 ## Etapa 0 - Definição das ferramentas
 
 Para mais detalhes:
+https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%200%20-%20Defini%C3%A7%C3%A3o%20das%20tecnologias/README.md
+
 ## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics 
 
 Na etapa I, coleta dos dados de aplicativos, serão buscados e selecionados apenas os aplicativos do domínio de ensino de programação na Google Play Store. Os filtros estabelecidos são: 1) palavras-chave: programming, programação, learn programming, ensino de programação, learn code. 2) categorias: educação, livros e referências. É relevante lembrar que os aplicativos selecionados por tais palavras-chave devem estar em alguma das duas categorias para serem categorizados como aplicativos do domínio de ensino de programação. Serão coletados dados tanto de aplicativos gratuitos como de aplicativos pagos. A ferramenta proposta para a coleta de dados é a Google Play Scraper descrita na Seção 2.5. 
 
-Para mais detalhes:
+Para mais detalhes: 
 
 ## Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos
 Na etapa II, definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos, serão selecionadas informações para analisar o sucesso dos aplicativos. Essas informações, em sua maioria, serão valores numéricos e serão usados para medir os níveis de cada uma delas que implica no sucesso do aplicativo. Como exemplo de fatores candidatos a serem coletados para cada aplicativo, pode-se citar:
