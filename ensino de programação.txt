@@ -1,2 +1,0 @@
-Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
-ensino de programação;tk.app.start;Start: Ensino de Programação;undefined;undefined;10,000+;3.8M;4.4 and up

@@ -1,2 +1,0 @@
-Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
-learn code;com.sololearn;SoloLearn: Learn to Code for Free;undefined;undefined;5,000,000+;9.1M;4.0.3 and up
