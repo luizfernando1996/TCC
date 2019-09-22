@@ -9,7 +9,7 @@ Orientador: Lesandro Ponciano
 
 ## Sumário
 
-  1. [Etapa 0 - Definição das ferramentas](## Etapa 0 - Definição das ferramentas)
+  1. [Etapa 0 - Definição das ferramentas](##https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-0---defini%C3%A7%C3%A3o-das-ferramentas Etapa 0 - Definição das ferramentas)
   1. [Etapa 1 - Coleta dos dados de aplicativos](## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics )
   1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos]()
   1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos]()
