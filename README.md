@@ -23,7 +23,18 @@ Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/e
 
 ## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics 
 
-Na etapa I, coleta dos dados de aplicativos, serão buscados e selecionados apenas os aplicativos do domínio de ensino de programação na Google Play Store. Os filtros estabelecidos são: 1) palavras-chave: programming, programação, learn programming, ensino de programação, learn code. 2) categorias: educação, livros e referências. É relevante lembrar que os aplicativos selecionados por tais palavras-chave devem estar em alguma das duas categorias para serem categorizados como aplicativos do domínio de ensino de programação. Serão coletados dados tanto de aplicativos gratuitos como de aplicativos pagos. A ferramenta proposta para a coleta de dados é a Google Play Scraper descrita na Seção 2.5. 
+Na etapa I, coleta dos dados de aplicativos, serão buscados e selecionados apenas os aplicativos do domínio de ensino de programação na Google Play Store. Os filtros estabelecidos são: 
+
+  1. palavras-chave: 
+    ```
+    programming, programação, learn programming, ensino de programação, learn code.
+    ```
+  1. categorias: 
+    ```
+    educação, livros e referências.
+    ```
+    
+É relevante lembrar que os aplicativos selecionados por tais palavras-chave devem estar em alguma das duas categorias para serem categorizados como aplicativos do domínio de ensino de programação. Serão coletados dados tanto de aplicativos gratuitos como de aplicativos pagos. A ferramenta proposta para a coleta de dados é a Google Play Scraper descrita na Seção 2.5. 
 
 Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%201%20-%20Coleta%20dos%20dados/README.md)
 
