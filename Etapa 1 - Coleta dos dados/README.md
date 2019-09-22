@@ -1,3 +1,7 @@
+### Related projects
+
+* [CLI-Progress](https://www.npmjs.com/package/cli-progress): Easy to use Progress-Bar for Command-Line/Terminal Applications.
+
 ## Etapa 1 - Etapa de Coleta dos dados de Aplicativos - Dados: Comments e Metrics 
 
 #### Dependencias do código
