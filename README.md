@@ -10,9 +10,9 @@ Orientador: Lesandro Ponciano
 ## Sumário
 
   1. [Etapa 0 - Definição das ferramentas](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-0---defini%C3%A7%C3%A3o-das-ferramentas)
-  1. [Etapa 1 - Coleta dos dados de aplicativos](## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics )
-  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos]()
-  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos]()
+  1. [Etapa 1 - Coleta dos dados de aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-1----coleta-dos-dados-de-aplicativos---dados-comments-e-metrics)
+  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-2---defini%C3%A7%C3%A3o-e-c%C3%A1lculo-de-sucesso-a-partir-de-atributos-quantitativos-dos-aplicativos)
+  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-2---defini%C3%A7%C3%A3o-e-c%C3%A1lculo-de-sucesso-a-partir-de-atributos-quantitativos-dos-aplicativos)
   1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III]()
   1. [Etapa 5 - Análise dos resultados]()
   1. [Etapa 6 -  Escrita do documento final]()
