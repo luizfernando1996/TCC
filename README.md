@@ -40,11 +40,11 @@ Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/e
 
 ## Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos
 Na etapa II, definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos, serão selecionadas informações para analisar o sucesso dos aplicativos. Essas informações, em sua maioria, serão valores numéricos e serão usados para medir os níveis de cada uma delas que implica no sucesso do aplicativo. Como exemplo de fatores candidatos a serem coletados para cada aplicativo, pode-se citar:
-Número de avaliações: Essa métrica informa a quantidade de usuários que avaliaram o aplicativo e teceram comentários.  
-Número de estrelas do aplicativo:	Essa informação representa a média de estrelas que um aplicativo possui, e é calculada pela divisão entre o número total de estrelas que os usuários forneceram para tal aplicativo, dividido pela quantidade de usuários que o avaliaram. 
-Número de instalações: Essa métrica representa o número aproximado de instalações que o aplicativo obteve até o momento da análise. 
-Tamanho do aplicativo: Essa métrica representa o tamanho que o software ocupa no dispositivo do usuário. 
-Versão requerida: Essa informação representa a versão mínima do Sistema Operacional Android compatível com o aplicativo, restringindo  a instalação quando o aparelho do usuário não está na versão requerida.  
+1. Número de avaliações: Essa métrica informa a quantidade de usuários que avaliaram o aplicativo e teceram comentários.  
+1. Número de estrelas do aplicativo:	Essa informação representa a média de estrelas que um aplicativo possui, e é calculada pela divisão entre o número total de estrelas que os usuários forneceram para tal aplicativo, dividido pela quantidade de usuários que o avaliaram. 
+1. Número de instalações: Essa métrica representa o número aproximado de instalações que o aplicativo obteve até o momento da análise. 
+1. Tamanho do aplicativo: Essa métrica representa o tamanho que o software ocupa no dispositivo do usuário. 
+1. Versão requerida: Essa informação representa a versão mínima do Sistema Operacional Android compatível com o aplicativo, restringindo  a instalação quando o aparelho do usuário não está na versão requerida.  
 
 Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%202%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20metrics)
 
