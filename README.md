@@ -1,4 +1,4 @@
-# TCC - Análise dos fatores e relações que levam um aplicativo de ensino de programação ao sucesso na Google Play Store!
+# Análise dos fatores e relações que levam um aplicativo de ensino de programação ao sucesso na Google Play Store!
 Orientados: Jonathan Dias Rodrigues,  Luiz Fernando de Oliveira Macedo
 Orientador: Lesandro Ponciano 
 
