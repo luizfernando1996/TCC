@@ -5,7 +5,7 @@ Orientador: Lesandro Ponciano
 ### Related projects
 
 * [google-play-scraper](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/google-play-scraper): Scraper para o Google Play Store.
-* [sentiment](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments/code/lib/sentiment):Análise de sentimento baseada em AFINN para Node.js
+* [sentiment](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments/code/lib/sentiment): Análise de sentimento baseada em AFINN para Node.js
 
 ## Sumário
 
