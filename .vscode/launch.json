@@ -9,7 +9,7 @@
             "request": "launch",
             "name": "Coletar dados",
             //"console": "integratedTerminal",//comando que permite com que se interaja no console
-            "program": "${workspaceFolder}/Etapa 1 - Coleta dos dados de aplicativos/code/main\\Program.js"
+            "program": "${workspaceFolder}/etp1/code/main\\Program.js"
         },
         {
             "type": "node",

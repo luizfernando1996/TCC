@@ -1,0 +1,10 @@
+ensino de programação;10;Start: Ensino de Programação
+ensino de programação;10;Programming Hub: Aprender a programar
+ensino de programação;10;Aprender a programação
+ensino de programação;10;Programação - Aprendizagem - Tutoriais
+ensino de programação;10;Programming Hero: Coding Just Got Fun (beta)
+ensino de programação;10;Mimo: Aprende a codificar
+ensino de programação;10;Cursa - cursos gratuitos com certificado de graça
+ensino de programação;10;Pseudocode, Visualg Algoritmos
+ensino de programação;10;Programação para crianças
+ensino de programação;10;Letramento em Programação
