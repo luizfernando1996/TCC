@@ -3,8 +3,10 @@ class ComentarioRepository {
     constructor() {
         this.readline = require('readline')
         this.fs = require('fs')
-        this.diretorioEntrada = '..//..//../etp1//results//ArquivosColetados';
-        const diretorioArquivoSaida = '..//metrics.txt'
+
+        this.diretorioEntrada = '../TCC/etp1/results/ArquivosColetados'
+        const diretorioArquivoSaida = '../TCC/etp1/results/ArquivosColetados/ComentariosApps.txt'
+
         this.BaseService = require('../Service/BaseService.js')
         //--Declaração de variáveis---------
         this.files = this.fs.readdirSync(this.diretorioEntrada);
@@ -19,7 +21,6 @@ class ComentarioRepository {
     //Recupera todos os arquivos contidos em um diretório
     async recuperaArquivosDiretorio() {
         return new Promise((resolve, reject) => {
-
             var diretorioEntrada = this.diretorioEntrada;
             var fs = this.fs;
             var readline = this.readline;
@@ -27,29 +28,29 @@ class ComentarioRepository {
             this.files.forEach(function (file) {
 
                 //console.log('arquivo: ', file)
-                var caminho = diretorioEntrada + "/" + file
+                var caminho = diretorioEntrada + "//" + file
+                if (caminho == "../TCC/etp1/results/ArquivosColetados//metrics.txt") {
+                    //Declara o readStream para o arquivo atual
+                    var readable = fs.createReadStream(caminho)
 
-                //Declara o readStream para o arquivo atual
-                var readable = fs.createReadStream(caminho)
+                    //Declara a linha
+                    var rl = readline.createInterface({
+                        input: readable,
+                        //output: process.stdout
+                    })
+                    var linha;
+                    //Insere os dados dos arquivos na lista    
+                    rl.on('line', (line) => {
+                        linha = line.split(';')
+                        linha = linha[1].split(',')
+                        listaDeDados.push(linha[0])
 
-                //Declara a linha
-                var rl = readline.createInterface({
-                    input: readable,
-                    //output: process.stdout
-                })
-                var linha;
-                //Insere os dados dos arquivos na lista    
-                rl.on('line', (line) => {
-                    linha = line.split(';')
-                    linha = linha[1].split(',')
-                    listaDeDados.push(linha[0])
+                    })
 
-                })
-
-                rl.on('close', () => {
-                    resolve(listaDeDados);
-                })
-
+                    rl.on('close', () => {
+                        resolve(listaDeDados);
+                    })
+                }
             })
         })
     }

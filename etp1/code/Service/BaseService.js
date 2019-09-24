@@ -66,7 +66,5 @@ module.exports = class BaseService {
                 // console.log()
             }
         }
-
     }
 }
-
