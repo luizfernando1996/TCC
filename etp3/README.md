@@ -1,3 +1,5 @@
-## Etapa 3 - Coleta de dados dos aplicativos selecionados
+## Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos
 
-A etapa 2 durou 2 semanas.
+'''
+npm install sentiment
+'''

@@ -14,8 +14,8 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Teste Comentario",
-            "program": "${workspaceFolder}/Service\\ComentarioService.js"
+            "name": "Analisar Comentario",
+            "program": "${workspaceFolder}/etp3/code/main\\Sentiment.js"
         },
         {
             "type": "node",

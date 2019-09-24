@@ -104,8 +104,10 @@ module.exports = class AplicativoService extends BaseService {
     }
 
     criarListaApp(app, palavraChave) {
+        //Adiciona aplicativos a mesma palavra chave
         if (this.map[palavraChave] !== undefined)
             this.map[palavraChave].push(app)
+        //Inicializa uma palavra chave com um aplicativo
         else
             this.map[palavraChave] = [app]
     }
