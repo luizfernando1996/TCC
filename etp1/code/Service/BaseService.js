@@ -1,7 +1,7 @@
 module.exports = class BaseService {
 
     constructor() {
-        this.gplay = require('../Bibliotecas/google-play-scraper');
+        this.gplay = require('../../../dependencias/node_modules/google-play-scraper');
         this.modExcel = require('../Dados/BaseRepository.js');
         this.tempoTotal = 0
     }

@@ -1,4 +1,4 @@
-var Sentiment = require('sentiment');
+var Sentiment = require('../../../dependencias/node_modules/sentiment');
 var sentiment = new Sentiment();
 var map = {}
 

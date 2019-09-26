@@ -25,7 +25,7 @@ function execut() {
         var conteudoArquivoExcel = []
         conteudoArquivoExcel.push(cabecalhoArquivoExcel);
 
-        gplay = require('../Bibliotecas/google-play-scraper');
+        gplay = require('../../../dependencias/node_modules/google-play-scraper');
         modExcel = require('../Dados/BaseRepository.js');
         TaxaProgresso = require('../Service/TaxaProgresso.js')
 

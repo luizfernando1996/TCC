@@ -2,23 +2,42 @@
 
 * [CLI-Progress](https://www.npmjs.com/package/cli-progress): Easy to use Progress-Bar for Command-Line/Terminal Applications.
 
-## Etapa 1 - Etapa de Coleta dos dados de Aplicativos - Dados: Comments e Metrics 
+  #### Dependencias do Cli-Progress
+    Colors
+    ```
+    npm install colors
+    ```
+    ``
+    https://www.npmjs.com/package/colors
+    ``
 
-#### Dependencias do código
-  *CLI-Progress
-  ```
-  npm install colors
-  https://www.npmjs.com/package/colors
+  String width
   ```
   npm install string-width
+  ```
+  ``
   https://www.npmjs.com/package/string-width
+  ``
+
+  Yarn
   ```
   npm install -g yarn
-  https://tableless.com.br/yarn-evolucao-do-npm/
   ```
-  yarn add cli-progress
-  npm install cli-progress --save
-  https://npmjs.com/package/cli-progress
+  ``
+  https://tableless.com.br/yarn-evolucao-do-npm/
+  ``
+  
+  Adicionando finalmente o cli - progress
+    ```
+    yarn add cli-progress
+    npm install cli-progress --save
+    ```
+    ``
+    https://npmjs.com/package/cli-progress
+    ``
+
+## Etapa 1 - Etapa de Coleta dos dados de Aplicativos - Dados: Comments e Metrics  
+
 
 #### Ambiente pesquisa
 Foram feitas consultas por meio das  palavras chaves:
@@ -34,7 +53,6 @@ var palavraChave = [
 e de cada uma dessas respostas foi selecionado 250 apps, restrição da ferramenta, totalizando 1250 apps.
 
 
-#### Ambiente experimental
    - Entrada: Foi coletado informações de 50 aplicativos para cada palavra chave, ou seja, 
 o algoritmo retornou 250 aplicativos para serem analisados.
 
@@ -42,5 +60,4 @@ o algoritmo retornou 250 aplicativos para serem analisados.
      - Problemas observados:
 
    - Saída: Essa pequena amostra  gerada pelo algoritmo foi exporada para arquivos em excel 
-para uma melhor análise. Isso porque uma análise mais refinada irá auxiliar no 
-refinamento do algoritmo de seleção.
+para uma melhor análise. Isso porque uma análise mais refinada irá auxiliar no  refinamento do algoritmo de seleção.
