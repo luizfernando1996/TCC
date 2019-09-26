@@ -7,15 +7,15 @@
         {
             "type": "node",
             "request": "launch",
-            "name": "Aplicativos e Métricas",
+            "name": "Coletar dados",
             "console": "externalTerminal",//comando que permite com que se interaja no console
-            "program": "${workspaceFolder}/home\\Program.js"
+            "program": "${workspaceFolder}/etp1/code/main\\Program.js",
         },
         {
             "type": "node",
             "request": "launch",
-            "name": "Teste Comentario",
-            "program": "${workspaceFolder}/Service\\ComentarioService.js"
+            "name": "Analisar Comentario",
+            "program": "${workspaceFolder}/etp3/code/main\\Sentiment.js"
         },
         {
             "type": "node",

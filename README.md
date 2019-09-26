@@ -2,177 +2,63 @@
 Orientados: Jonathan Dias Rodrigues,  Luiz Fernando de Oliveira Macedo
 Orientador: Lesandro Ponciano 
 
-### Related projects
-
-* [google-play-scraper](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/google-play-scraper): um scraper para o Google Play Store.
-* [sentiment-develop]():Análise de sentimento baseada em AFINN para Node.js
-
 ## Sumário
 
-  1. [Etapa 0 - Definição das ferramentas](#etapa-0---definição-das-tecnologias)
-  1. [Etapa 1 - Coleta dos dados de aplicativos](#etapa-1---seleção-dos-aplicativos)
-  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos]()
-  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos]()
-  1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III]()
-  1. [Etapa 5 - Análise dos resultados]()
-  1. [Etapa 6 -  Escrita do documento final]()
+  1. [Etapa 0 - Definição das ferramentas](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/etp0)
+  1. [Etapa 1 - Coleta dos dados de aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-1----coleta-dos-dados-de-aplicativos---dados-comments-e-metrics)
+  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-2---defini%C3%A7%C3%A3o-e-c%C3%A1lculo-de-sucesso-a-partir-de-atributos-quantitativos-dos-aplicativos)
+  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-2---defini%C3%A7%C3%A3o-e-c%C3%A1lculo-de-sucesso-a-partir-de-atributos-quantitativos-dos-aplicativos)
+  1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-4---inter-relacionar-as-medidas-de-sucesso-obtidas-nas-etapas-ii-e-iii)
+  1. [Etapa 5 - Análise dos resultados](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-5---an%C3%A1lise-dos-resultados)
+  1. [Etapa 6 -  Escrita do documento final](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao#etapa-6---escrita-do-documento-final)
 
-## Etapa 0 - Definição das tecnologias, bibliotecas utilizadas
- Ferramentas utilizadas para o projeto:
+## Etapa 0 - Definição das ferramentas
 
-### IDEs escolhidas:   
-  * Visual Studio Code:
-  ```
-  https://code.visualstudio.com/ - 
-  ```  
-  * R studio
-  ```
-  https://www.rstudio.com/
-  ```
-  
-#### Atalhos
-  - Shift+Alt+F ->Identação no visual code  
-  - Ctrl+F12 ->Altera as referências como o nome da variavel  
-  
-  * Debugando visual studio code
-  ```
-  https://code.visualstudio.com/docs/editor/debugging
-  ```
-### Linguagem Escolhida
-  * JavaScript interpretada pelo servidor - NodeJS  
-  * R
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%200%20-%20Defini%C3%A7%C3%A3o%20das%20tecnologias/README.md)
 
-### Bibliotecas Utilizadas  
-  * Coleta de dados dos apps na google play store 
+## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics 
+
+Na etapa I, coleta dos dados de aplicativos, serão buscados e selecionados apenas os aplicativos do domínio de ensino de programação na Google Play Store. Os filtros estabelecidos são: 
+
+  1. palavras-chave: 
     ```
-    https://github.com/facundoolano/google-play-scraper
+    programming, programação, learn programming, ensino de programação, learn code.
     ```
-  * Análise de sentimentos
+  1. categorias: 
     ```
-    https://github.com/thisandagain/sentiment
+    educação, livros e referências.
     ```
-### Repositório escolhido  
-  * Github - Documentação
-    ```
-    https://git-scm.com/book/pt-br/v1/Primeiros-passos        
-    ```
-  * Repositório - Link
-    ```
-    https://github.com/luizfernando1996/TCC
-    ```
-### Ferramenta de geração de relatório  - Excel escolhida
-  * File system do nodejs - Documentação  
-    ``` 
-    https://imasters.com.br/desenvolvimento/node-js-6-dicas-do-modulo-file-system
-    ```
-    ```
-    https://stackoverflow.com/questions/17450412/how-to-create-an-excel-file-with-nodejs
+    
+É relevante lembrar que os aplicativos selecionados por tais palavras-chave devem estar em alguma das duas categorias para serem categorizados como aplicativos do domínio de ensino de programação. Serão coletados dados tanto de aplicativos gratuitos como de aplicativos pagos. A ferramenta proposta para a coleta de dados é a Google Play Scraper descrita na Seção 2.5. 
 
-    ```
-## Etapa 1 - Etapa de Coleta dos dados de Aplicativos - Dados: Comments e Metrics 
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%201%20-%20Coleta%20dos%20dados/README.md)
 
-#### Dependencias do código
-  *CLI-Progress
-  ```
-  npm install colors
-  https://www.npmjs.com/package/colors
-  ```
-  npm install string-width
-  https://www.npmjs.com/package/string-width
-  ```
-  npm install -g yarn
-  https://tableless.com.br/yarn-evolucao-do-npm/
-  ```
-  yarn add cli-progress
-  npm install cli-progress --save
-  https://npmjs.com/package/cli-progress
+## Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos
+Na etapa II, definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos, serão selecionadas informações para analisar o sucesso dos aplicativos. Essas informações, em sua maioria, serão valores numéricos e serão usados para medir os níveis de cada uma delas que implica no sucesso do aplicativo. Como exemplo de fatores candidatos a serem coletados para cada aplicativo, pode-se citar:
+1. Número de avaliações: Essa métrica informa a quantidade de usuários que avaliaram o aplicativo e teceram comentários.  
+1. Número de estrelas do aplicativo:	Essa informação representa a média de estrelas que um aplicativo possui, e é calculada pela divisão entre o número total de estrelas que os usuários forneceram para tal aplicativo, dividido pela quantidade de usuários que o avaliaram. 
+1. Número de instalações: Essa métrica representa o número aproximado de instalações que o aplicativo obteve até o momento da análise. 
+1. Tamanho do aplicativo: Essa métrica representa o tamanho que o software ocupa no dispositivo do usuário. 
+1. Versão requerida: Essa informação representa a versão mínima do Sistema Operacional Android compatível com o aplicativo, restringindo  a instalação quando o aparelho do usuário não está na versão requerida.  
 
-#### Ambiente pesquisa
-Foram feitas consultas por meio das  palavras chaves:
-```javascript
-var palavraChave = [
-    'programming',
-    'programação',
-    'learn programming',
-    'ensino de programação',
-    'learn code'
-] 
-```
-e de cada uma dessas respostas foi selecionado 250 apps, restrição da ferramenta, totalizando 1250 apps.
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%202%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20metrics)
 
-#### Ambiente experimental
-   - Entrada: Foi coletado informações de 50 aplicativos para cada palavra chave, ou seja, 
-o algoritmo retornou 250 aplicativos para serem analisados.
+## Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos
 
-   - Detalhes sobre o algoritmo (O que ele faz?):
-     - Problemas observados:
 
-   - Saída: Essa pequena amostra  gerada pelo algoritmo foi exporada para arquivos em excel 
-para uma melhor análise. Isso porque uma análise mais refinada irá auxiliar no 
-refinamento do algoritmo de seleção.
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments)
 
-### Etapa 2 - Definição das informações de caracterização da interação de usuário com os aplicativos
+## Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III
+A etapa IV,  inter-relacionar as medidas de sucesso obtidas nas etapas II e III,  consiste em definir e implementar um método estatístico de análise de correlação ou regressão, sendo a definição do método a ser utilizado baseada na distribuição estatística dos dados obtidos nas etapas II e III. E então, a partir do método definido, inter-relacionar os resultados obtidos nas etapas II e III, a fim de encontrar fatores que podem influenciar no sucesso dos aplicativos. 
 
-#### Ambiente pesquisa
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%204%20-%20%20Inter-relacionamento)
 
-#### Ambiente experimental
-   - Entrada: A partir da fonte de dados foram extraidos os bundle ids 
-ou como a ferramenta informa os app ids para que se assim fosse coletada as informações necessárias:
+## Etapa 5 - Análise dos resultados
+Na etapa V, análise dos resultados, busca-se observar as conclusões da etapa IV. Isso para inferir quais fatores, níveis e relações das medidas de sucesso são significativas para alcance de sucesso do aplicativo de ensino de programação. 
 
-   - Detalhes sobre o algoritmo (O que ele faz?):
-     - Problemas observados:
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%205%20-%20Analise)
 
-   - Saída: Exportação no excel que apresenta cada Aplicativo com suas informações relevantes para esse estudo.
+## Etapa 6 - Escrita do documento final
+Por fim, a etapa VI, escrita do documento final, consiste em expor os resultados alcançados. Além disso, expor as limitações do estudo realizado, além de propostas para trabalhos futuros baseados nas descobertas desse estudo.
 
-### Etapa 3 - Coleta de dados dos aplicativos selecionados
-
-A etapa 2 durou 2 semanas.
-
-### Etapa 4 - Algoritmos de Inteligência Artificial
-
-#### Ambiente pesquisa
-
-#### Ambiente experimental
-
-##### Fase 1 - Etapa de Treinamento do algoritmo 
-   - Entrada: Comentários da metade dos aplicativos selecionados para treinar o 
-  algoritmo de Naive Bayes, isto é, comentários de 125 aplicativos.
-```
-(http://minerandodados.com.br/index.php/2017/03/15/analise-de-sentimentos-twitter-como-fazer/)
-```
-    - Detalhes sobre o procedimento nessa etapa (O que foi feito?): Foi analisado manualmente os comentários e a partir deles 
-   foram definidas categorias a qual o comentário melhor se encaixa.
-
-    - Problemas observados: Se observou que um comentário pode se encaixar em uma ou mais categorias de comentários. Logo, 
-    basicamente dividimos os comentários em 3 categorias - irrelevante, não apresenta nenhum critério (bom ou ruim), 
-    apresenta algum critério - boa usabilidade, má usabilidade, inovador, exige bastante permissoes.
-    - Foi definido que cada comentário poderia estar contido no máximo em 3 categorias. <-- Discutir com o Jonathan
-
-    - [Hipotese de um problema futuro que teremos] Sempre que se encerrava a execução do código que treinava a máquina a reconhecer padrões 
-    deveria novamente executar em outro momento esse mesmo código.. Uma dependencia é bastante gerada por isso etc.
-
-    Saída: Um conjunto de categorias que o algoritmo deveria análisar para se saber a qual o comentário melhor se encaixa.
-
-##### Fase 2 - Etapa de Análise de outros comentários 
-       * Entrada: Comentários da metade do restante dos aplicativos selecionados para treinar o algoritmo de Naive Bayes, isto é, comentários dos outros 125 aplicativos.
-
-      * Detalhes sobre o algoritmo (O que ele faz?): Ele analisa os comentários e a partir deles define a qual categoria o comentário melhor se encaixa, das categorias:
-  
-```javascript
-    categoriasComentarios = [
-        'irrelevante', //O comentário possui 1 a 2 estrelas e foi categorizado como bom ou
-        // o comentário possui 4 a 5 estrelas e foi categorizado como ruim 
-        'bom', //O comentário não apresenta a informação sobre qual requisito o software é bom
-        'ruim', //O comentário não apresenta a informação sobre qual requisito o software é ruim
-        'boa usabilidade',
-        'má usabilidade',
-        'inovador',
-        'exige bastante permissoes',
-    ]
-```
-    - Problemas observados:
-      1 - Porque não se analisa também a quantidade de comentários irrelevantes 
-      no grupo de aplicativos de sucesso e no grupo de aplicativos de fracasso? 
-      Isto pode gerar algum valor.
-
-    - Saída: A categorização dos comentários nos grupos definidos na subetapa1.
+Para mais detalhes: [Clique aqui](https://docs.google.com/document/d/1KTI5TGo5QIExQDu0JV7cqvV7AdhJaxVkj7a_LsISk04/edit#)

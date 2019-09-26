@@ -1,0 +1,9 @@
+Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
+programação;com.freeit.java;Programming Hub: Learn to Code;87748;4.6;1,000,000+;Varies with device;Varies with device
+programação;com.practice_o_learn.javaprogramming;Learn Java Programming;80;4.5;10,000+;3.0M;4.0 and up
+programação;com.do_apps.catalog_68;Programming languages;1409;4.1;100,000+;40M;4.4 and up
+programação;com.getmimo;Mimo: Learn to Code;85055;4.4;1,000,000+;24M;5.0 and up
+programação;com.paprbit.dcoder;Dcoder, Compiler IDE :Code & Programming on mobile;18970;4.4;1,000,000+;6.5M;4.0.3 and up
+programação;com.duhnnae.programmingprogramacion;Programming - Learning - Tutorials;52;4.4;10,000+;6.4M;4.1 and up
+programação;com.sololearn;SoloLearn: Learn to Code for Free;397161;4.8;5,000,000+;10M;4.0.3 and up
+programação;tursky.jan.nauc.sa.html5;Learn programming;12829;3.8;1,000,000+;6.8M;4.0.3 and up

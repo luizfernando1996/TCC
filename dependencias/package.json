@@ -1,0 +1,23 @@
+{
+  "dependencies": {
+    "cli-progress": "^3.1.0",
+    "google-play-scraper": "^7.0.1",
+    "sentiment": "^5.0.2"
+  },
+  "name": "dependenciasnpm",
+  "version": "1.0.0",
+  "description": "Gerenciamento das dependencias dos pacotes",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dependencias",
+    "packages",
+    "packages",
+    "dependencias"
+  ],
+  "author": "Luiz e Jonathan",
+  "license": "ISC"
+}
