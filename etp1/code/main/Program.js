@@ -12,7 +12,7 @@ var textoExibir = "\n----------------------------------------------------\nEfetu
 
 //console.log(textoExibir)
 //leitor.question(textoExibir, answer =>{
-    var resp = 2
+    var resp = 3
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
     if (resp == 1) {
         ListaAplicativoService = require('TCC/etp1/code/Service/ListaAplicativosService.js');

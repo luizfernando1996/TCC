@@ -27,4 +27,4 @@ function testeSearch() {
 
 //testeMetodoApp()
 //testeMetodoReviews()
-//testeSearch()
+testeSearch()

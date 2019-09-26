@@ -8,8 +8,8 @@
             "type": "node",
             "request": "launch",
             "name": "Coletar dados",
-            //"console": "integratedTerminal",//comando que permite com que se interaja no console
-            "program": "${workspaceFolder}/etp1/code/main\\Program.js"
+            "console": "externalTerminal",//comando que permite com que se interaja no console
+            "program": "${workspaceFolder}/etp1/code/main\\Program.js",
         },
         {
             "type": "node",

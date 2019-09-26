@@ -1,3 +1,4 @@
 {
+    "npm.runInTerminal": true,
     "git.ignoreLimitWarning": true
 }
