@@ -23,7 +23,7 @@ Shift+Alt+F
 ````
 Altera as referências como o nome da variavel
 ````
-Ctrl+F12 
+Ctrl+F2 
 ````
 
 Debugando visual studio code
@@ -70,7 +70,11 @@ Zen Mode
 ```
 ctrl + k, z
 ```
-
+Visualizar atalhos
+Zen Mode
+```
+ctrl + k + S
+```
 ### Linguagem Escolhida
 * JavaScript interpretada pelo servidor - NodeJS  
 
@@ -512,3 +516,15 @@ https://www.luiztools.com.br/post/o-guia-completo-do-package-json-do-node-js/
 
 * [google-play-scraper](https://github.com/luizfernando1996/TCC/tree/master/bibliotecas/google-play-scraper): Scraper para o Google Play Store.
 * [sentiment](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments/code/lib/sentiment): Análise de sentimento baseada em AFINN para Node.js
+
+Ignoring directories in Git repos on Windows
+
+Create a file named .gitignore in your project's directory. Ignore directories by entering the directory name into the file (with a slash appended):
+
+```
+dir_to_ignore/
+```
+
+``
+https://stackoverflow.com/questions/343646/ignoring-directories-in-git-repos-on-windows
+``
