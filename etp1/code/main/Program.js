@@ -11,8 +11,8 @@ function exec() {
 
 
     //console.log(textoExibir)
-    //leitor.question(textoExibir, answer =>{
-    var resp = 3
+    leitor.question(textoExibir, answer =>{
+    var resp = answer
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
     if (resp == 1) {
         ListaAplicativoService = require('TCC/etp1/code/Service/ListaAplicativosService.js');
@@ -28,7 +28,7 @@ function exec() {
         var coment = ScriptArquivoUnico()
     }
     leitor.close();
-    //});
+    });
 }
 exec()
 

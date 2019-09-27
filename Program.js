@@ -13,19 +13,19 @@ var textoExibir = "\n---------------------------------Efetuar coleta?  - Digite 
 
 
 //console.log(textoExibir)
-//leitor.question(textoExibir, answer =>{
-var resp = 2
+leitor.question(textoExibir, answer =>{
+var resp = answer
 
 //Modulo de coleta de comentários
 if (resp == 1) {
-    coletaProgram = require('TCC/etp1/code/main/Program.js');
+    coletaProgram = require('./etp1/code/main/Program.js');
 }
 //Modulo de análise de comentários
 else if (resp == 2) {
-    AnaliseComentarioProgram = require('TCC/etp3/code/main/Program.js')
+    AnaliseComentarioProgram = require('./etp3/code/main/Program.js')
 }
 else if (resp == 3)
 
     leitor.close();
-//});
+});
 
