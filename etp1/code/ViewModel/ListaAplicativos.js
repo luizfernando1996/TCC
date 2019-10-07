@@ -2,10 +2,11 @@ module.exports = class ListaAplicativos {
 
     constructor() {
         this.PalavraChaveAtual = null
-        this.Linguagem = "pt-br"
+        this.Linguagem = ""
         this.NumeroMaximoAplicativos = 0
-        this.ArrayDeAplicativos = [],
-        this.IndicePalavraChave=0
+        this.ArrayDeAplicativos = [];
+        this.IndicePalavraChave = 0;
+        this.price = "";
     }
 
     alterarPalavraChave(palavraChave) {
@@ -15,7 +16,7 @@ module.exports = class ListaAplicativos {
     alterarNumeroMaximoAplicativos(numeroMax) {
         this.NumeroMaximoAplicativos = numeroMax
     }
-    obterArrayDeAplicativos(){
+    obterArrayDeAplicativos() {
         return this.ArrayDeAplicativos;
     }
     alterarArrayDeAplicativos(lista) {
@@ -25,8 +26,7 @@ module.exports = class ListaAplicativos {
     imprimirListaDeAplicativosExcel() {
         var impressao = []
 
-        this.ArrayDeAplicativos.forEach(aplicativo => 
-        {
+        this.ArrayDeAplicativos.forEach(aplicativo => {
             impressao.push(
                 this.PalavraChaveAtual + ";" +//categoria do aplicativo
                 this.NumeroMaximoAplicativos + ";" +

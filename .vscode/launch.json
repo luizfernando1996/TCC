@@ -20,7 +20,7 @@
         {
             "type": "node",
             "request": "launch",
-            "console": "externalTerminal", //comando que permite com que se interaja no console
+            //"console": "externalTerminal", //comando que permite com que se interaja no console
             "name": "TCC",
             "program": "${workspaceFolder}\\Program.js"
         }

@@ -27,7 +27,7 @@ function execut() {
 
         gplay = require('../../../dependencias/node_modules/google-play-scraper');
         modExcel = require('../Dados/BaseRepository.js');
-        TaxaProgresso = require('../Service/TaxaProgresso.js')
+        TaxaProgresso = require('TCC/etp1/code/utils/TaxaProgresso.js')
 
         var bsServ = new BaseService();
         obterComentario()

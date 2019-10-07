@@ -13,8 +13,8 @@ var textoExibir = "\n---------------------------------Efetuar coleta?  - Digite 
 
 
 //console.log(textoExibir)
-leitor.question(textoExibir, answer =>{
-var resp = answer
+//leitor.question(textoExibir, answer =>{
+var resp = 1
 
 //Modulo de coleta de comentários
 if (resp == 1) {
@@ -24,8 +24,8 @@ if (resp == 1) {
 else if (resp == 2) {
     AnaliseComentarioProgram = require('./etp3/code/main/Program.js')
 }
-else if (resp == 3)
+//else if (resp == 3)
 
-    leitor.close();
-});
+    //leitor.close();
+//});
 

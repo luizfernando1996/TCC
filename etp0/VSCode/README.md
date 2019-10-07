@@ -66,3 +66,8 @@ Zen Mode
 ```
 ctrl + k + S
 ```
+
+Colapse All
+```
+Ctrl+K+0
+```

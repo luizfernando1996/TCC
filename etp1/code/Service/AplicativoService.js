@@ -1,169 +1,163 @@
+//imports
 BaseService = require('../Service/BaseService.js');
 ListaAplicativosNegocio = require('../Negocio/ListaAplicativosNegocio.js');
 Aplicativo = require('../ViewModel/Aplicativo.js');
 BaseService = require('../Service/BaseService.js');
 AplicativoRepository = require('../Dados/AplicativoRepository.js');
-TaxaProgresso = require('../Service/TaxaProgresso.js');
+TaxaProgresso = require('../utils/TaxaProgresso.js');
+AplicativosArabes = require('../Negocio/AplicativosArabes.js')
+ListaDeAplicativosPalavraChave = require('../Negocio/ListaDeAplicativosPalavraChave.js')
 
 module.exports = class AplicativoService extends BaseService {
 
+    //Dependencias
     constructor() {
         super();//Exigido em herança no Javascript
         this.AplicativoRepository = new AplicativoRepository();
-        //Criação do map
-        this.map = {};
+        this.ListaDeAplicativosPalavraChave = new ListaDeAplicativosPalavraChave();
         this.pqNego = new ListaAplicativosNegocio();
         this.numeroDeRequisicoes = 0
         this.numeroListaAplicativos = 0;
-
         this.txProgresso = new TaxaProgresso()
         this.primeiraExecucao = true;
         this.tamanho = this.pqNego.obterNumeroMaximoAplicativos() * this.pqNego.obterPalavraChavesPermitidas().length
-
-        this.AplicativosArabes = []
+        this.arabe = new AplicativosArabes();
     }
 
+    /**
+     * @Entrada dtoLista
+     * @Processamento Incrementa a barra de status de progressão.
+     * Efetua o delay entre as requisições por dados dos aplicativos
+     * Efetua a requisição para coletar mais dados sobre os aplicativos 
+     * @Saída  Todas as requisições dos aplicativos efetuadas
+     */
     async pesquisarAplicativo(dtoLista) {
         this.numeroListaAplicativos++;
-        dtoLista.obterArrayDeAplicativos().forEach(
 
-            (aplicativo, indice) => {
-                if (this.primeiraExecucao == true) {
-                    this.txProgresso.apresentarTaxa(this.tamanho, 0)
-                    this.primeiraExecucao = false;
-                }
-                //A cada 2 listas de aplicativos o delay é de 5 minutos
-                if (this.numeroListaAplicativos != 0 && this.numeroListaAplicativos % 2 == 0 && indice == 0)
-                    super.sleep(600)
+        this.txProgresso.apresentarTaxa(this.tamanho, 0, true)
 
+        dtoLista.obterArrayDeAplicativos().forEach((aplicativo, indice) => {
 
-                //O delay entre as requisições para obter os dados dos aplicativos é variada
-                super.sleepVariado(indice)
-                //console.log(new Date())
+            this.efetuarDelayRequisicao(this.numeroListaAplicativos, indice)
 
-                this.efetuarRequisicao(aplicativo, dtoLista)
-            });
+            this.efetuarRequisicao(aplicativo, dtoLista)
+        });
     }
 
+    /**
+     *
+     *
+     * @Entrada Aplicativo e dtoLista
+     * @Processamento Efetua a coleta de dados especificos de cada aplicativo 
+     * e se a requisição for um sucesso executa as operacões efetuarOperacaoComum() e efetuarOperacaoDeSucesso(). 
+     * Entretanto, se a requisição for um fracasso executa apenas a operação efetuarOperacaoComum()
+     * @Saída Dados especificos do aplicativo em caso de sucesso e nada em caso de fracasso 
+     */
     async efetuarRequisicao(aplicativo, dtoLista) {
 
         //Efetua a pesquisa dos dados do aplicativo
         this.gplay.app({
             appId: aplicativo.appId,
             throttle: 1
-        }).then(objAplicativo => {
-            this.txProgresso.apresentarTaxa(this.tamanho, 1)
-            //em caso de sucesso
-            this.numeroDeRequisicoes += 1
-            this.salvar(objAplicativo, dtoLista)
-
-            //em caso de falha
+        }).then(aplicativoColetado => {
+            this.efetuarOperacaoComum()
+            this.efetuarOperacaoDeSucesso(aplicativoColetado, dtoLista);
         }, erro => {
-            this.txProgresso.apresentarTaxa(this.tamanho, 1)
-            this.numeroDeRequisicoes += 1
+            this.efetuarOperacaoComum()
         })
+
     }
 
-    salvar(objAplicativo, dtoLista) {
-        //cria um objeto dto  
+    /**
+     * @Entrada aplicativoColetado e dtoLista
+     * @Processamento Passa o aplicativo coletado para ser inserido no map correto de acordo com a variavel erro que também
+     * é gerada nesse método. A variavel erro informa qual o map correto, isto é, o map do tcc ou map dos aplicativos arabes
+     * @Saída Inserção ou não do aplicativo em seu map correto e se todos os maps tiverem sido criados o salvamento dos maps em 
+     * arquivos txt
+     */
+    efetuarOperacaoDeSucesso(aplicativoColetado, dtoLista) {
+        let erro = this.validacao(aplicativoColetado)
+        this.adicionarAplicativoNoMap(aplicativoColetado, dtoLista, erro)
 
-        // console.log(this.numeroDeRequisicoes, "-", objAplicativo.appId, dtoLista.PalavraChaveAtual)
-
-        if (objAplicativo.genre == "Education" || objAplicativo.genre == "Books & Reference") {
-            if (this.isArabic(objAplicativo.title) == false) {
-                // console.log(objAplicativo.priceText)
-                var app = new Aplicativo(objAplicativo, dtoLista.PalavraChaveAtual);
-
-                //Cria o map com cada chave tendo um array de aplicativos
-                this.criarListaApp(app, dtoLista.PalavraChaveAtual)
-
-
-
-                //Pode escrever no arquivo apenas se já possuir as listas criadas
-                if (this.listasCriadas()) {
-                    var arrayPalavrasChaves = this.pqNego.obterPalavraChavesPermitidas();
-
-                    for (let index = 0; index < arrayPalavrasChaves.length; index++) {
-                        const element = this.pqNego.obterPalavraChavesPermitidas()[index];
-
-                        var nomeArquivo = element;
-
-                        //Salva o objeto
-
-                        this.AplicativoRepository.salvar(this.map[element], nomeArquivo, this.numeroDeRequisicoes)
-                    }
-
-                }
-
-            }
-            else {
-                this.adicionarAplicativosArabes(objAplicativo)
-            }
+        //-Todos os aplicativos foram coletados?
+        if (this.ListaDeAplicativosPalavraChave.listasCriadas()) {
+            this.salvar()
         }
-
     }
 
-    criarListaApp(app, palavraChave) {
-        //Adiciona aplicativos a mesma palavra chave
-        if (this.map[palavraChave] !== undefined)
-            this.map[palavraChave].push(app)
-        //Inicializa uma palavra chave com um aplicativo
-        else
-            this.map[palavraChave] = [app]
+    /**
+     * @Saída Atualiza a barra de status e o valor da requisição
+     */
+    efetuarOperacaoComum() {
+        this.txProgresso.apresentarTaxa(this.tamanho, 1)
+        this.numeroDeRequisicoes += 1
     }
-    listasCriadas() {
+
+    /**
+     * @Entrada Aplicativo Coletado
+     * @Processamento O aplicativo coletado é o desejado no TCC?
+     * @Saída Se é um aplicativo desejado o retorno é 0, se é um aplicativo arabe o retorno é 1, outro caso o retorno é 2
+     */
+    validacao(objAplicativo) {
+        if (objAplicativo.genre == "Education" || objAplicativo.genre == "Books & Reference")
+            if (!this.arabe.isArabic(objAplicativo.title))
+                return 0;
+            else
+                return 1;
+
+        return 2;
+    }
+
+    /**
+     * @Entrada numeroListaAplicativos e indice
+     * @Processamento  A partir do valor de numeroListaAplicativos sempre que ele for par e maior do que 0 há um delay de 5 minutos
+     * entre uma requisição e outra já que cada uma dessas duas requisições fazem parte de listas de aplicativos diferente.
+     * A partir do valor indice se efetua um delay variado para a requisição
+     * @Saida Delay executado
+     */
+    efetuarDelayRequisicao(numeroListaAplicativos, indice) {
+        //Delay constante de 5minutos para cada 2 listas
+        if (numeroListaAplicativos != 0 && numeroListaAplicativos % 2 == 0 && indice == 0)
+            super.sleep(600)
+
+        //Delay variado
+        super.sleepVariado(indice)
+    }
+
+    /**
+     * @Entrada objAplicativo, dtoLista, erro
+     * @Processamento Efetua a inserção do aplicativo na lista correta (apps arabés ou apps desejados no TCC) de acordo 
+     * com o parametro erro que informa a lista correta
+     * @Saída Apps adicionados nas listas corretas
+     */
+    adicionarAplicativoNoMap(objAplicativo, dtoLista, erro) {
+
+        //Não houve erro
+        if (erro == 0) {
+            var app = new Aplicativo(objAplicativo, dtoLista.PalavraChaveAtual);
+
+            //Cria o map com cada chave tendo um array de aplicativos
+            this.ListaDeAplicativosPalavraChave.criarListaApp(app, dtoLista.PalavraChaveAtual)
+        }
+        //Aplicativo é arabe
+        if (erro == 1) {
+            this.arabe.adicionarAplicativosArabes(objAplicativo)
+        }
+    }
+
+    /** 
+     * @Entrada Nula
+     * @Processamento Obtem o nome do arquivo e a lista especifica da palavra chave 
+     * @Saída Salva as n listas de acordo com o numero de listas por palavras chaves
+     */
+    salvar() {
         var arrayPalavrasChaves = this.pqNego.obterPalavraChavesPermitidas();
+
         for (let index = 0; index < arrayPalavrasChaves.length; index++) {
-            const element = arrayPalavrasChaves[index];
+            const nomeArquivo = this.pqNego.obterPalavraChavesPermitidas()[index];
 
-            //Valida se já existe 4 arrays no map
-            if (this.map[element] === undefined)
-                return false;
-            //Valida se os 4 arrays possuem todos os aplicativos
-            else if (this.numeroDeRequisicoes != arrayPalavrasChaves.length * this.pqNego.obterNumeroMaximoAplicativos())
-                return false;
+            //Salva todas as listas
+            this.AplicativoRepository.salvar(this.map[nomeArquivo], nomeArquivo, this.numeroDeRequisicoes)
         }
-        //Map completo    
-        return true;
-    }
-
-    //A fazer
-    delay() {
-        //this.timer.start();
-        //setTimeout(stopTimer, 10000);
-    }
-
-    obterNumeroDeRequisicoes() {
-        return this.numeroDeRequisicoes;
-    }
-    isArabic(text) {
-        var pattern = /[\u0600-\u06FF\u0750-\u077F]/;
-        var result = pattern.test(text);
-        return result;
-    }
-    adicionarAplicativosArabes(objAplicativo) {
-        //Lista vazia pode se adicionar qualquer aplicativo arabe
-        if (this.AplicativosArabes.length == 0)
-            this.AplicativosArabes.push(objAplicativo.title)
-        //Adiciona apenas se o aplicativo já não tiver sido adicionado
-        else {
-            var sair = false
-            var indice = 0;
-            var encontrado = false
-            while (sair == false && encontrado == false) {
-                if (this.AplicativosArabes[indice] == objAplicativo.title)
-                    encontrado = true
-                if (indice != this.AplicativosArabes.length)
-                    indice++;
-                else {
-                    sair = true
-                }
-            }
-            if (encontrado == false)
-                this.AplicativosArabes.push(objAplicativo.title)
-        }
-    }
-    retornarListaAplicativosArabes() {
-        return this.AplicativosArabes;
     }
 }

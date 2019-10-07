@@ -7,12 +7,12 @@ function exec() {
         input: process.stdin,
         output: process.stdout
     });
-    var textoExibir = "\n----------------------------------------------------\nEfetuar coleta de comentários ou métricas?\nDigite 1 para métricas e 2 para comentários e 3 para criar arquivo Único\n"
+    var textoExibir = "\n----------------------------------------------------\nEfetuar coleta de comentários ou métricas?\nDigite 1 para métricas e 2 para comentários\n"
 
 
     //console.log(textoExibir)
-    leitor.question(textoExibir, answer =>{
-    var resp = answer
+    //    leitor.question(textoExibir, answer =>{
+    var resp = 1
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
     if (resp == 1) {
         ListaAplicativoService = require('TCC/etp1/code/Service/ListaAplicativosService.js');
@@ -27,8 +27,8 @@ function exec() {
         ScriptArquivoUnico = require('TCC/etp1/code/Scripts/CriaArquivoUnico.js')
         var coment = ScriptArquivoUnico()
     }
-    leitor.close();
-    });
+    //  leitor.close();
+    // });
 }
 exec()
 

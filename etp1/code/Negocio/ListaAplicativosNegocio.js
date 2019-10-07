@@ -1,4 +1,4 @@
-module.exports = class PesquisaNegocio {
+module.exports = class ListaAplicativosNegocio {
 
     //Inicializa 
     constructor() {
@@ -7,10 +7,7 @@ module.exports = class PesquisaNegocio {
         //Um array que contêm todas as palavras chaves
         this.palavrasChavesPermitidas = [
             'programming',
-            'programação',
-            'learn programming',
-            'ensino de programação',
-            'learn code'
+            'learn programming'
         ];
         this.language = [
             //"pt-br"

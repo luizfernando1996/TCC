@@ -1,12 +1,17 @@
 module.exports = class BaseService {
 
+    //Dependencias
     constructor() {
         this.gplay = require('../../../dependencias/node_modules/google-play-scraper');
         this.modExcel = require('../Dados/BaseRepository.js');
         this.tempoTotal = 0
     }
 
-    //Atrasa um tempo constante entre uma requisição e outra
+    /** 
+     * @Entrada O tempo de delay a ser efetuado  
+     * @Processamento  Efetua o delay
+     * @Saida  Um tempo após o delay necessário
+     */
     sleep(segundos = 60, minutos = 0, horas = 0) {
 
         var milisegundos = 1e3
@@ -27,7 +32,11 @@ module.exports = class BaseService {
         }
     }
 
-    //Atrasa um tempo variado entre uma requisição e outra
+    /**
+     * @Entrada O indice da requisição  
+     * @Processamento  Calcula para o indice da requisição o tempo de delay a ser dado
+     * @Saída Um tempo de delay para a requisição especifica
+     */
     sleepVariado(indice) {
         var tempoDelay = 0
         if (indice != 0) {
