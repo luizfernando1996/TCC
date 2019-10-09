@@ -1,3 +1,5 @@
+App = require('../Service/App.js')
+TaxaProgresso = require('../Service/TaxaProgresso.js')
 class AnaliseSentimento {
 
     constructor() {
@@ -22,19 +24,22 @@ class AnaliseSentimento {
 
                 //Bundle Id do aplicativo
                 var bundleAplicativo = linha[0]
+                //Número de estrelas do app
+                //--var numeroEstrelas = linha[x]
                 //Texto do comentário do aplicativo
                 var textoComentario = linha[1]
 
                 //Analisa o comentario e identifica se o comentario é bom, ruim ou neutro
                 var resultadoAvaliacao = this.avaliarComentario(textoComentario)
 
-                //Altera o numero de comentario bons, ruins e neutros
-                this.alterarQuantidadeDeVotos(bundleAplicativo, resultadoAvaliacao)
+                //Altera o numero de comentario bons, ruins, neutros, totais e a estatistica
+                this.alterarQuantidadeDeVotos(bundleAplicativo, resultadoAvaliacao, numeroEstrelas)
             })
 
 
             //Escreve o resultado do algoritmo
             this.escreverAnaliseDeSentimento()
+
 
         });
     }
@@ -52,17 +57,24 @@ class AnaliseSentimento {
 
     }
 
-    //Métodos de manipulação do map
-    inicializarMap(bundleAplicativo) {
+    inicializarMap(bundleAplicativo, _numeroEstrelas) {
         //O dicionario não possui dados do aplicativo -- inicialização 
         if (this.map.get(bundleAplicativo) === undefined) {
-            this.map.set(bundleAplicativo, { comentariosPositivos: 0, comentariosNegativos: 0, comentariosNeutros: 0, totalDeComentarios: 0 })
+            this.map.set(bundleAplicativo,
+                {
+                    comentariosPositivos: 0,
+                    comentariosNegativos: 0,
+                    comentariosNeutros: 0,
+                    totalDeComentarios: 0,
+                    estatisticaAplicativo: 0,
+                    numeroDeEstrelasApp: _numeroEstrelas
+                })
         }
     }
-    alterarQuantidadeDeVotos(bundleAplicativo, comentarioPositive) {
+    alterarQuantidadeDeVotos(bundleAplicativo, comentarioPositive, _numeroEstrelas) {
 
         //Adiciona o aplicativo ao map
-        this.inicializarMap(bundleAplicativo)
+        this.inicializarMap(bundleAplicativo, _numeroEstrelas)
 
         //Incremento no numero de comentarios bons ou ruins
         if (comentarioPositive == false) {
@@ -77,10 +89,11 @@ class AnaliseSentimento {
             var comentNeutros = this.map.get(bundleAplicativo).comentariosNeutros + 1
             this.map.get(bundleAplicativo).comentariosNeutros = comentNeutros;
         }
-        this.atualizaNumeroDeComentarios(bundleAplicativo)
+        this.atualizaNumeroTotalDeComentarios(bundleAplicativo)
+        this.atualizaValorEstatistica(bundleAplicativo)
 
     }
-    atualizaNumeroDeComentarios(bundleAplicativo) {
+    atualizaNumeroTotalDeComentarios(bundleAplicativo) {
 
         var comentPos = this.map.get(bundleAplicativo).comentariosPositivos
         var comentNeg = this.map.get(bundleAplicativo).comentariosNegativos
@@ -88,7 +101,14 @@ class AnaliseSentimento {
 
         this.map.get(bundleAplicativo).totalDeComentarios = comentPos + comentNeg + comentNeutros
     }
+    atualizaValorEstatistica(bundleAplicativo) {
+        var comentPos = this.map.get(bundleAplicativo).comentariosPositivos
+        var comentNeg = this.map.get(bundleAplicativo).comentariosNegativos
 
+        var estatistica = comentPos / (comentPos + comentNeg)
+        estatistica = estatistica.toFixed(2)
+        this.map.get(bundleAplicativo).estatisticaAplicativo = estatistica
+    }
     escreverAnaliseDeSentimento() {
         this.objDadosComentario.escreverResultadoExcel(this.map)
     }

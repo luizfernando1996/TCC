@@ -62,12 +62,15 @@ class ComentarioAnaliseRepository extends BaseRepository {
 
         var linhasArquivo = []
 
-        var cabecalhoArquivo = "bundle id" + ";" +
+        var cabecalhoArquivo =
+            //nome da coluna                    //caractere de separação entre as colunas
+            "bundle id" + ";" +
             "comentarios positivos" + ";" +
             "comentarios negativos" + ";" +
             "comentarios neutros" + ";" +
-            "comentarios totais" + "\n";
-
+            "comentarios totais" + ";" +
+            "estatistica do aplicativo" + ";" +
+            "numero de estrelas do app" + "\n";
         linhasArquivo.push(cabecalhoArquivo)
 
         aplicativos.forEach((element, key) => {
@@ -76,7 +79,10 @@ class ComentarioAnaliseRepository extends BaseRepository {
                 element.comentariosPositivos + ";" +
                 element.comentariosNegativos + ";" +
                 element.comentariosNeutros + ";" +
-                element.totalDeComentarios + "\n";
+                element.totalDeComentarios + ";" +
+                element.estatisticaAplicativo + ";" +
+                element.numeroDeEstrelasApp
+                + "\n";
 
             linhasArquivo.push(linha)
         });

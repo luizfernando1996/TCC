@@ -14,15 +14,23 @@
         {
             "type": "node",
             "request": "launch",
+            "name": "Coletar comentários",
+            //"console": "externalTerminal", //comando que permite com que se interaja no console
+            "program": "${workspaceFolder}/etp1/code/main\\Program.js",
+        },
+        {
+            "type": "node",
+            "request": "launch",
             "name": "Analisar Comentario",
             "program": "${workspaceFolder}/etp3/code/main\\Program.js"
         },
         {
             "type": "node",
             "request": "launch",
-            "console": "externalTerminal", //comando que permite com que se interaja no console
+           // "console": "externalTerminal", //comando que permite com que se interaja no console
             "name": "TCC",
             "program": "${workspaceFolder}\\Program.js"
         }
+
     ]
 }

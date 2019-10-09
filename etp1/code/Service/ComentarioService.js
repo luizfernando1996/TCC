@@ -19,7 +19,8 @@ function execut() {
             "Número de estrelas do comentário" + ";" +
             "Texto do comentário" + ";" +
             "Id do comentário" + ";" +
-            "Data do comentário"
+            "Data do comentário" + ";" +
+            "Numero de estrelas do aplicativo"
             + "\n";
 
         var conteudoArquivoExcel = []
@@ -39,17 +40,18 @@ function execut() {
             var a = new TaxaProgresso()
             a.apresentarTaxa(tamanho, 0)
 
-
             array.forEach((element, indice) => {
                 bsServ.sleepVariado(element, indice)
-
+                element = element.split(";")
+                numeroEstrelasApp = element[1];
+                element = element[0];
                 for (let numeroPaginas = 0; numeroPaginas < 5; numeroPaginas++) {
                     gplay.reviews({
                         appId: element,
                         page: numeroPaginas,
                         throttle: 1
                     }).then(resposta_Comentarios => {
-                        salvarComentarios(resposta_Comentarios, numeroPaginas, element)
+                        salvarComentarios(resposta_Comentarios, numeroPaginas, element, numeroEstrelasApp)
 
                         //Atualiza o valor da progressBar
                         a.apresentarTaxa(tamanho, 1)
@@ -69,7 +71,7 @@ function execut() {
                 }
             })
         }
-        function salvarComentarios(resposta_Comentarios, numeroPaginas, element) {
+        function salvarComentarios(resposta_Comentarios, numeroPaginas, element, numeroEstrelasApp) {
             //listaComentariosPorApp.push(resposta_Comentarios);
 
             resposta_Comentarios.forEach(comentarioElemento => {
@@ -79,7 +81,8 @@ function execut() {
                     comentarioElemento.score + ";" +     //numero de estrelas do comentário
                     retirarQuebraDeLinhaTexto(comentarioElemento.text) + ";" +     //texto do comentário
                     comentarioElemento.id + ";" +     //identificador do comentário
-                    comentarioElemento.date                //data do comentário
+                    comentarioElemento.date + ";" +                //data do comentário
+                    numeroEstrelasApp
                     + "\n";
 
                 conteudoArquivoExcel.push(linhaExcel)

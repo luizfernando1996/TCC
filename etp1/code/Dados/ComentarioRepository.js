@@ -42,8 +42,8 @@ class ComentarioRepository {
                     //Insere os dados dos arquivos na lista    
                     rl.on('line', (line) => {
                         linha = line.split(';')
-                        linha = linha[1].split(',')
-                        listaDeDados.push(linha[0])
+                        var linhaLida = linha[0] + ";" + linha[4]
+                        listaDeDados.push(linhaLida)
 
                     })
 
