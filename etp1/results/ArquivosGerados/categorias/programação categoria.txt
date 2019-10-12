@@ -1,10 +1,10 @@
 programação;10;Programming Hub: Aprender a programar
 programação;10;Aprender a programação
-programação;10;Linguagens de programação
-programação;10;Mimo: Aprende a codificar
 programação;10;Dcoder, Compiler IDE :Code & Programming on mobile
-programação;10;mi.tv - Programação de TV
-programação;10;Programação - Aprendizagem - Tutoriais
-programação;10;Aprenda a Programação Java
-programação;10;Cidade do Algoritmo: jogo de codificação infantil
+programação;10;Mimo: Aprende a codificar
 programação;10;SoloLearn: Learn to Code for Free
+programação;10;Programação - Aprendizagem - Tutoriais
+programação;10;Linguagens de programação
+programação;10;Start: Ensino de Programação
+programação;10;Cidade do Algoritmo: jogo de codificação infantil
+programação;10;mi.tv - Programação de TV
