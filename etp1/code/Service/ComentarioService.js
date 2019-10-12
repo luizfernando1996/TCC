@@ -81,7 +81,7 @@ function execut() {
                     comentarioElemento.score + ";" +     //numero de estrelas do comentário
                     retirarQuebraDeLinhaTexto(comentarioElemento.text) + ";" +     //texto do comentário
                     comentarioElemento.id + ";" +     //identificador do comentário
-                    comentarioElemento.date + ";" +                //data do comentário
+                    comentarioElemento.date + ";" +   //data do comentário
                     numeroEstrelasApp
                     + "\n";
 

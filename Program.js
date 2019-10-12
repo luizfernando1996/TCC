@@ -9,7 +9,7 @@ var leitor = readline.createInterface({
     output: process.stdout
 });
 
-var textoExibir = "\n---------------------------------Efetuar coleta?  - Digite 1. \n Efetuar Análise de comentários? - Digite 2. \n";
+var textoExibir = "\n--------------------------------- \n Efetuar coleta?  - Digite 1. \n Efetuar Análise de comentários? - Digite 2. \n";
 
 
 //console.log(textoExibir)

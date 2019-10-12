@@ -11,19 +11,19 @@ function exec() {
 
 
     //console.log(textoExibir)
-    leitor.question(textoExibir, answer =>{
-    var resp = answer
+    leitor.question(textoExibir, resposta =>{
+    var _resp = resposta
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
-    if (resp == 1) {
+    if (_resp == 1) {
         ListaAplicativoService = require('../../../etp1/code/Service/ListaAplicativosService.js');
         var cat = new ListaAplicativoService();
         cat.pesquisarAplicativos();
     }
-    else if (resp == 2) {
+    else if (_resp == 2) {
         ComentarioService = require('../../../etp1/code/Service/ComentarioService.js')
         var coment = ComentarioService()
     }
-    else if (resp == 3) {
+    else if (_resp == 3) {
         ScriptArquivoUnico = require('../../../etp1/code/Scripts/CriaArquivoUnico.js')
         var coment = ScriptArquivoUnico()
     }
