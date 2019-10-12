@@ -1,23 +1,24 @@
 function testeMetodoApp() {
-  var gplay = require('../../etp1/code/Bibliotecas/google-play-scraper');
+  var gplay = require('../node_modules/google-play-scraper');
 
-  gplay.app({ appId: 'com.whatsapp' })
+  gplay.app({ appId: 'br.unip.unicluster.captureolixo' })
     .then(console.log, console.log);
 
 }
 
 function testeMetodoReviews() {
-  var gplay = require('../../etp1/code/Bibliotecas/google-play-scraper')
+  var gplay = require('../node_modules/google-play-scraper');
 
   gplay.reviews({
-    appId: 'com.whatsapp',
-    sort: gplay.sort.RATING
+    appId: 'com.makeinindia.preschool.portuguese',
+    sort: gplay.sort.RATING,
+    page:0
   }).then(console.log, console.log);
 
 }
 
 function testeSearch() {
-  var gplay = require('../../etp1/code/Bibliotecas/google-play-scraper');
+  var gplay = require('../node_modules/google-play-scraper');
 
   gplay.search({
     term: "panda",
@@ -25,6 +26,6 @@ function testeSearch() {
   }).then(console.log, console.log);
 }
 
-//testeMetodoApp()
+testeMetodoApp()
 //testeMetodoReviews()
 //testeSearch()

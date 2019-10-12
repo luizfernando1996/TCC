@@ -16,7 +16,7 @@ module.exports = class PesquisaNegocio {
             //"pt-br"
             "en"
         ];
-        this.numeroMaximoAplicativos = 10;
+        this.numeroMaximoAplicativos = 1;
     }
 
     //Get e set

@@ -10,6 +10,8 @@ module.exports = class Aplicativo {
         this.Installs = dadosAplicativo.installs;
         this.Size = dadosAplicativo.size; 
         this.AndroidVersionText = dadosAplicativo.androidVersionText;
+        this.reviews = dadosAplicativo.reviews;
+        this.AvaliacoesSemComentarios = dadosAplicativo.ratings - dadosAplicativo.reviews
     }
 
     //Retorna os atributos impressos para que sejam adicionados no excel
@@ -18,11 +20,13 @@ module.exports = class Aplicativo {
             this.PalavraChave + ";"+ //categoria do dadosAplicativo
             this.AplicativoId + ";"+//dadosAplicativo Id do dadosAplicativo
             this.Title + ";"+//Nome do dadosAplicativo
-            this.Ratings +";"+ //numero de avaliações
+            this.Ratings +";"+ //numero de avaliações 
             this.ScoreText +";"+  //número de estrelas do dadosAplicativo
             this.Installs +";"+ //número de instalações
             this.Size +";"+ //tamanho do dadosAplicativo
-            this.AndroidVersionText //versão do android exigida
+            this.AndroidVersionText +";"+ //versão do android exigida
+            this.reviews +";"+ // Numero de comentários
+            this.AvaliacoesSemComentarios //numero de avaliações sem comentários
            + "\n";
         return impressao;
     }

@@ -15,16 +15,16 @@ function exec() {
     var resp = answer
     //console.log("\nSua resposta '" + resp + "' foi grava com sucesso numa variável inútil");
     if (resp == 1) {
-        ListaAplicativoService = require('TCC/etp1/code/Service/ListaAplicativosService.js');
+        ListaAplicativoService = require('../../../etp1/code/Service/ListaAplicativosService.js');
         var cat = new ListaAplicativoService();
         cat.pesquisarAplicativos();
     }
     else if (resp == 2) {
-        ComentarioService = require('TCC/etp1/code/Service/ComentarioService.js')
+        ComentarioService = require('../../../etp1/code/Service/ComentarioService.js')
         var coment = ComentarioService()
     }
     else if (resp == 3) {
-        ScriptArquivoUnico = require('TCC/etp1/code/Scripts/CriaArquivoUnico.js')
+        ScriptArquivoUnico = require('../../../etp1/code/Scripts/CriaArquivoUnico.js')
         var coment = ScriptArquivoUnico()
     }
     leitor.close();
