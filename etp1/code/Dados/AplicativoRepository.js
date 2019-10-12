@@ -9,14 +9,14 @@ module.exports = class AplicativoRepository extends BaseRepository {
         this.BaseRepository = new BaseRepository();
 
         this.cabecalhoArquivoExcel =
-            "Palavra Chave;" +  //"\t" -> divide em colunas
-            "Bundle Id;" + 
+            "Palavra_Chave;" +  //"\t" -> divide em colunas
+            "Bundle_Id;" + 
             "Nome_do_aplicativo;" + 
             "Numero_de_avaliacoes;" + 
             "Numero_de_estrelas;" + 
             "Numero_de_instalacoes;" + 
             "Tamanho do aplicativo;" + 
-            "Versão_do_android_exigida;" +
+            "Versao_do_android_exigida;" +
             "Numero_de_comentarios;" +
             "Avaliacoes_sem_comentario" 
             + "\n";
