@@ -16,7 +16,7 @@ module.exports = class AplicativoRepository extends BaseRepository {
             "Numero_de_estrelas;" + 
             "Numero_de_instalacoes;" + 
             "Tamanho do aplicativo;" + 
-            "Versão_do_android_exigida;" +
+            "Versao_do_android_exigida;" +
             "Numero_de_comentarios;" +
             "Avaliacoes_sem_comentario" 
             + "\n";
