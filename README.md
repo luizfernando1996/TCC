@@ -4,17 +4,17 @@ Orientador: Lesandro Ponciano
 
 ## Sumário
 
-  1. [Etapa 0 - Definição das ferramentas](https://github.com/luizfernando1996/TCC/tree/master/etp0)
-  1. [Etapa 1 - Coleta dos dados de aplicativos](https://github.com/luizfernando1996/TCC/tree/master/etp1)
-  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos](https://github.com/luizfernando1996/TCC/tree/master/etp2)
-  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos](https://github.com/luizfernando1996/TCC/tree/master/etp3)
-  1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III](https://github.com/luizfernando1996/TCC/tree/master/etp4)
-  1. [Etapa 5 - Análise dos resultados](https://github.com/luizfernando1996/TCC/tree/master/etp5)
-  1. [Etapa 6 -  Escrita do documento final](https://github.com/luizfernando1996/TCC/tree/master/etp6)
+  1. [Etapa 0 - Definição das ferramentas]()
+  1. [Etapa 1 - Coleta dos dados de aplicativos]()
+  1. [Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos]()
+  1. [Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos]()
+  1. [Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III]()
+  1. [Etapa 5 - Análise dos resultados]()
+  1. [Etapa 6 -  Escrita do documento final]()
 
 ## Etapa 0 - Definição das ferramentas
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%200%20-%20Defini%C3%A7%C3%A3o%20das%20tecnologias/README.md)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp0)
 
 ## Etapa 1 -  Coleta dos dados de aplicativos - Dados: Comments e Metrics 
 
@@ -31,7 +31,7 @@ Na etapa I, coleta dos dados de aplicativos, serão buscados e selecionados apen
     
 É relevante lembrar que os aplicativos selecionados por tais palavras-chave devem estar em alguma das duas categorias para serem categorizados como aplicativos do domínio de ensino de programação. Serão coletados dados tanto de aplicativos gratuitos como de aplicativos pagos. A ferramenta proposta para a coleta de dados é a Google Play Scraper descrita na Seção 2.5. 
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/blob/estabilizandoVersao/Etapa%201%20-%20Coleta%20dos%20dados/README.md)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp1)
 
 ## Etapa 2 - Definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos
 Na etapa II, definição e cálculo de sucesso a partir de atributos quantitativos dos aplicativos, serão selecionadas informações para analisar o sucesso dos aplicativos. Essas informações, em sua maioria, serão valores numéricos e serão usados para medir os níveis de cada uma delas que implica no sucesso do aplicativo. Como exemplo de fatores candidatos a serem coletados para cada aplicativo, pode-se citar:
@@ -41,24 +41,24 @@ Na etapa II, definição e cálculo de sucesso a partir de atributos quantitativ
 1. Tamanho do aplicativo: Essa métrica representa o tamanho que o software ocupa no dispositivo do usuário. 
 1. Versão requerida: Essa informação representa a versão mínima do Sistema Operacional Android compatível com o aplicativo, restringindo  a instalação quando o aparelho do usuário não está na versão requerida.  
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%202%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20metrics)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp2)
 
 ## Etapa 3 - Definição e cálculo de sucesso a partir de comentários dos aplicativos
 
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%203%20-%20Definicao%20e%20calculo%20de%20sucesso%20de%20comments)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp3)
 
 ## Etapa 4 - Inter-relacionar as medidas de sucesso obtidas nas etapas II e III
 A etapa IV,  inter-relacionar as medidas de sucesso obtidas nas etapas II e III,  consiste em definir e implementar um método estatístico de análise de correlação ou regressão, sendo a definição do método a ser utilizado baseada na distribuição estatística dos dados obtidos nas etapas II e III. E então, a partir do método definido, inter-relacionar os resultados obtidos nas etapas II e III, a fim de encontrar fatores que podem influenciar no sucesso dos aplicativos. 
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%204%20-%20%20Inter-relacionamento)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp4)
 
 ## Etapa 5 - Análise dos resultados
 Na etapa V, análise dos resultados, busca-se observar as conclusões da etapa IV. Isso para inferir quais fatores, níveis e relações das medidas de sucesso são significativas para alcance de sucesso do aplicativo de ensino de programação. 
 
-Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/estabilizandoVersao/Etapa%205%20-%20Analise)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp5)
 
 ## Etapa 6 - Escrita do documento final
 Por fim, a etapa VI, escrita do documento final, consiste em expor os resultados alcançados. Além disso, expor as limitações do estudo realizado, além de propostas para trabalhos futuros baseados nas descobertas desse estudo.
 
-Para mais detalhes: [Clique aqui](https://docs.google.com/document/d/1KTI5TGo5QIExQDu0JV7cqvV7AdhJaxVkj7a_LsISk04/edit#)
+Para mais detalhes: [Clique aqui](https://github.com/luizfernando1996/TCC/tree/master/etp6)
