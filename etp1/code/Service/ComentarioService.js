@@ -6,7 +6,7 @@ ComentarioRepository = require('../Dados/ComentarioRepository.js')
 BaseService = require('../Service/BaseService.js')
 gplay = require('../../../dependencias/node_modules/google-play-scraper');
 modExcel = require('../Dados/BaseRepository.js');
-TaxaProgresso = require('../Service/TaxaProgresso.js')
+// TaxaProgresso = require('../Service/TaxaProgresso.js')
 
 module.exports = class ComentarioService {
 
@@ -25,7 +25,8 @@ module.exports = class ComentarioService {
             + "\n";
         this.bsServ = new BaseService();
         this.objexcel = new modExcel()
-        this.progressBar = new TaxaProgresso()
+        // this.progressBar = new TaxaProgresso()
+        this.contador = 0
 
     }
 
@@ -47,10 +48,10 @@ module.exports = class ComentarioService {
         this.array.splice(0, 1)
 
         //Inicializa a progressBar
-        this.tamanhoProgressBar = this.array.length * 5
+        // this.tamanhoProgressBar = this.array.length * 5
         //A linha abaixo foi construida devido um erro no cliprogress
-        this.tamanhoProgressBarFalso = tamanhoProgressBar * 2
-        this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 0, true, this.tamanhoProgressBar)
+        // this.tamanhoProgressBarFalso = this.tamanhoProgressBar * 2
+        // this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 0, true, this.tamanhoProgressBar)
 
     }
 
@@ -112,13 +113,19 @@ module.exports = class ComentarioService {
     retirarQuebraDeLinhaTexto(texto) {
         //var texto = "Its not even average. Just written text n nothing else.no coding space .no\ncompiling while learning. No interactive learning like solo learn or\nprogramming hub"
 
-        texto = texto.replace(/\n/g, ' ')
+        if(texto != null){
+            texto = texto.replace(/\n/g, ' ')
+        }
+       
 
         //console.log(retirarQuebraDeLinhaTexto(texto));
 
         return texto;
     }
     incrementarProgressBar() {
-        this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 1, true, this.tamanhoProgressBar)
+        // this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 1, true, this.tamanhoProgressBar)
+      
+        console.log(this.contador++)//PALEATIVO
+      
     }
 }

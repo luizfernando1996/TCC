@@ -21,7 +21,7 @@ module.exports = class BaseService {
 
         var sair = false
         while (sair != true) {
-            if ((new Date().getTime() - start) > tempo / 1000) {
+            if ((new Date().getTime() - start) > tempo / 100) {
                 sair = true;
             }
         }
