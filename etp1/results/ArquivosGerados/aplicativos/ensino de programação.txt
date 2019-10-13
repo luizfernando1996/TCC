@@ -1,10 +1,196 @@
-Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
-ensino de programação;pe.diegoveloper.pseudocode;Pseudocode, PSeInt, Visualg;4562;4.4;100,000+;3.7M;4.0 and up
-ensino de programação;com.learnprogramming.codecamp;Programming Hero: Coding Just Got Fun (beta);4551;4.8;100,000+;17M;4.1 and up
-ensino de programação;tursky.jan.nauc.sa.html5;Learn programming;12829;3.8;1,000,000+;6.8M;4.0.3 and up
-ensino de programação;tk.app.start;Start: Ensino de Programação;71;4.6;10,000+;3.8M;4.4 and up
-ensino de programação;com.duhnnae.programmingprogramacion;Programming - Learning - Tutorials;52;4.4;10,000+;6.4M;4.1 and up
-ensino de programação;com.getmimo;Mimo: Learn to Code;85081;4.4;1,000,000+;24M;5.0 and up
-ensino de programação;com.ionicframework.cursosdegraca;Cursa - free courses with certificate;7914;4.7;1,000,000+;13M;4.4 and up
-ensino de programação;com.freeit.java;Programming Hub: Learn to Code;87780;4.6;1,000,000+;Varies with device;Varies with device
-ensino de programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up
+Palavra_Chave;Bundle_Id;Nome_do_aplicativo;Numero_de_avaliacoes;Numero_de_estrelas;Numero_de_instalacoes;Tamanho do aplicativo;Versao_do_android_exigida;Numero_de_comentarios;Avaliacoes_sem_comentario
+ensino de programação;com.additioapp.additio;Teacher's Gradebook - Additio;3979;4.2;100,000+;25M;4.0.3 and up;2126;1853
+ensino de programação;com.programiz.learnpython;Learn Python: Programiz;426;4.7;10,000+;11M;4.1 and up;231;195
+ensino de programação;appinventor.ai_aprendaprogramarufrj.AP;Programa{ação};5;5.0;10+;9.9M;2.1 and up;1;4
+ensino de programação;com.sololearn;SoloLearn: Learn to Code for Free;379158;4.8;5,000,000+;10M;4.0.3 and up;159236;219922
+ensino de programação;com.codenza.dp.programs;Codenza;1897;4.6;100,000+;10M;4.2 and up;742;1155
+ensino de programação;br.com.ies2.palma;Palma Escola;115;4.7;10,000+;17M;4.0 and up;75;40
+ensino de programação;com.programiz.learnpython;Learn Python: Programiz;426;4.7;10,000+;11M;4.1 and up;231;195
+ensino de programação;com.agendakidsdigital.app;Agenda Edu;6254;4.2;100,000+;Varies with device;Varies with device;2769;3485
+ensino de programação;ru.code_samples.obraztsov_develop.codesamples;Code Recipes;220;4.7;10,000+;1.8M;4.1 and up;86;134
+ensino de programação;net.jshero;JavaScript Hero - Learn to Code for Free;135;4.2;10,000+;2.1M;4.1 and up;97;38
+ensino de programação;com.adriada.impararejava;Learn Java;66;4.4;5,000+;4.0M;5.0 and up;29;37
+ensino de programação;cn.codemao.code.game.kids;CODE.GAME KIDS;6;4.2;1,000+;72M;4.1 and up;3;3
+ensino de programação;com.spyboy.cprogramming;C Programming;103;4.4;10,000+;5.9M;4.1 and up;52;51
+ensino de programação;coolfreeapps.appslaborator.learn.c.programming;C/C++ programming;36;4.0;10,000+;1.8M;2.3.3 and up;13;23
+ensino de programação;com.moyashi_koubou.androidsensor4scratch;Physical Sensors for Scratch;61;3.4;10,000+;348k;2.2 and up;25;36
+ensino de programação;com.faadooengineers.free_cprogramming;Basics of C Programming;259;3.9;50,000+;4.2M;4.0 and up;60;199
+ensino de programação;ru.code_samples.obraztsov_develop.codesamples;Code Recipes;220;4.7;10,000+;1.8M;4.1 and up;86;134
+ensino de programação;com.PixBlocks;PixBlocks - Learn to code;59;4.0;5,000+;27M;5.0 and up;38;21
+ensino de programação;com.upskew.encode;Encode: Learn to Code;4524;4.6;100,000+;11M;4.4 and up;1898;2626
+ensino de programação;com.zenva.codemurai;Codemurai - Learn Programming;2659;4.5;100,000+;1.5M;5.0 and up;1087;1572
+ensino de programação;com.cpp.user.cprograms;100+ C++ Programs With Output;64;4.7;5,000+;2.9M;4.0 and up;49;15
+ensino de programação;robotic.industrial;Industrial Robotics 3D;1050;4.4;100,000+;14M;4.2 and up;339;711
+ensino de programação;com.additioapp.additio;Teacher's Gradebook - Additio;4222;4.2;100,000+;25M;4.0.3 and up;2250;1972
+ensino de programação;org.stepic.droid;Stepik: Free Courses;25983;4.8;1,000,000+;Varies with device;Varies with device;7082;18901
+ensino de programação;com.sololearn.csharp;Learn C#;19613;4.5;1,000,000+;6.2M;4.0.3 and up;6736;12877
+ensino de programação;com.enki.insights;Enki: Learn data science, coding, tech skills;16378;4.6;500,000+;12M;4.3 and up;5848;10530
+ensino de programação;com.learn.tech.datascience;Learn Data Science- Python Coding, Reddit Discuss;148;3.7;10,000+;5.0M;4.1 and up;59;89
+ensino de programação;com.allinex.sheerazahmed.javamcq1000;Java Quiz: 700+ Java Questions with Explanations;191;4.4;10,000+;4.1M;4.1 and up;70;121
+ensino de programação;coolfreeapps.appslaborator.web.development.course;Web development course;40;3.9;5,000+;1.8M;2.3.3 and up;26;14
+ensino de programação;com.nenedevs.cursodeinformatica;Curso de Informática;9;4.6;1,000+;18M;4.1 and up;4;5
+ensino de programação;com.atistudios.italk.it;Learn Italian. Speak Italian;50562;4.7;1,000,000+;Varies with device;Varies with device;15305;35257
+ensino de programação;com.appsfacto.hundred_one_c_problems;101 C Programming Problems;534;4.5;100,000+;5.8M;4.0.3 and up;215;319
+ensino de programação;com.java.malik.javaanim;Learn Java Programming;262;4.6;10,000+;6.9M;4.4 and up;126;136
+ensino de programação;com.myapps.rishabhrawat.codingebooks;Coding EBooks:Programming, Web, Networking, Mobile;15;3.9;1,000+;24M;4.3 and up;10;5
+ensino de programação;onanmobilesoftware.datastructuresandalgorithms;Data Structures and Algorithms offline Tutorial;918;4.1;100,000+;6.8M;5.0 and up;359;559
+ensino de programação;com.qtechbd.tutorial.python;Python Tutorial;33;4.4;10,000+;2.1M;4.0.3 and up;18;15
+ensino de programação;robotic.industrial;Industrial Robotics 3D;1050;4.4;100,000+;14M;4.2 and up;339;711
+ensino de programação;com.nenedevs.cursodeinformatica;Curso de Informática;8;4.6;1,000+;18M;4.1 and up;3;5
+ensino de programação;com.samsung.android.codemaker;HANDY CODE - Coding education, Programming;98;3.9;5,000+;34M;4.4 and up;71;27
+ensino de programação;com.japangor.learnjava;Learn To Code (JAVA);196;4.1;50,000+;5.9M;4.1 and up;77;119
+ensino de programação;com.adriada.impararec;Learn C++;298;4.5;10,000+;4.6M;5.0 and up;154;144
+ensino de programação;com.codepoint.computerProgramming;Learn Basic Computer Programming Free OFFLINE;22;4.5;10,000+;5.9M;4.4 and up;13;9
+ensino de programação;c.programming;C Programming;27294;4.1;1,000,000+;1.8M;2.3 and up;7310;19984
+ensino de programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up;5;8
+ensino de programação;org.coursera.android;Coursera: Online courses;91736;4.4;5,000,000+;Varies with device;Varies with device;16316;75420
+ensino de programação;com.avstore.cctutorials;C  C++ Tutorials;24;4.8;5,000+;4.8M;4.4 and up;18;6
+ensino de programação;com.do_apps.catalog_142;Tools programmer;173;4.6;50,000+;24M;4.4 and up;47;126
+ensino de programação;com.java.bluestartech.javahelpingbook;Java Helping Book (From Basic to Advance);70;4.1;5,000+;5.1M;4.0.3 and up;63;7
+ensino de programação;com.apps21.cursodecomputacion;Computer Course;4748;4.3;1,000,000+;3.7M;4.0 and up;1494;3254
+ensino de programação;itools.aiwithpython;Artificial Intelligence;73;4.4;10,000+;10M;4.1 and up;25;48
+ensino de programação;com.gokazu;CodePal: Learn programming;46;4.8;1,000+;5.1M;5.0 and up;34;12
+ensino de programação;com.zero.dsa;Data structure and algorithm tutorial;152;4.3;10,000+;4.3M;4.1 and up;83;69
+ensino de programação;com.skyapper.learnaiwithpython;Learn AI with Python;11;3.9;1,000+;5.9M;4.3 and up;5;6
+ensino de programação;net.egordmitriev.cheatsheets;Programming Cheat Sheets;104;4.7;10,000+;Varies with device;4.0.3 and up;52;52
+ensino de programação;learn.java.programming;Learn Java Programming;78;4.3;10,000+;3.4M;4.0.3 and up;41;37
+ensino de programação;com.skyapper.learnpythonwithdatascience;Learn Python with Data Science;13;4.1;5,000+;6.2M;4.3 and up;5;8
+ensino de programação;com.progforb.pfb;Programming for Beginners;6;5.0;500+;1.6M;4.0.3 and up;5;1
+ensino de programação;com.spdroid.c;C Programming - Learn Code, Theory & Discuss;3201;4.5;100,000+;5.5M;4.3 and up;1512;1689
+ensino de programação;com.apolosoft.cuadernoprofesor;Teacher Gradebook FREE;3172;4.4;100,000+;12M;4.1 and up;1656;1516
+ensino de programação;com.rpms.rohitpatil.learnjava;Learning Java;147;4.6;10,000+;27M;4.4 and up;99;48
+ensino de programação;info.younglinux.pythonexercises;Python. Exercises and Examples;146;4.1;50,000+;3.6M;4.0.3 and up;56;90
+ensino de programação;com.devlearnapp.devlearn;devLearn: Coding Made Easy;408;4.1;10,000+;9.5M;4.0 and up;109;299
+ensino de programação;com.shalik.patel.cprogrammingsolution;Programming Solutions;146;4.8;10,000+;4.7M;4.1 and up;85;61
+ensino de programação;com.aplicativoslegais.easystudy;Easy Study - Your schedule, plan for school;1506;4.2;100,000+;10M;5.0 and up;719;787
+ensino de programação;com.faadooengineers.free_cprogramming;Basics of C Programming;259;3.9;50,000+;4.2M;4.0 and up;60;199
+ensino de programação;javatutorial.javamcq.learnjava.learnjava_startfromscratch;Learn Java- Start from Scratch;61;4.9;1,000+;6.8M;4.4 and up;45;16
+ensino de programação;org.khanacademy.android;Khan Academy;102282;4.5;10,000,000+;21M;Varies with device;36540;65742
+ensino de programação;com.appsfactory.learnpython;Learn Python  Programming Free - Python Offline;927;4.6;50,000+;15M;4.4 and up;469;458
+ensino de programação;com.papumba.android.learnenglish;English for Kids;3883;4.2;500,000+;36M;4.0.3 and up;1425;2458
+ensino de programação;com.sololearn.htmltrial;Learn HTML;59289;4.7;1,000,000+;6.2M;4.0.3 and up;20753;38536
+ensino de programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up;5;8
+ensino de programação;com.bigknol.rapidphp360;Rapid PHP 360;22;4.8;1,000+;5.4M;4.2 and up;17;5
+ensino de programação;com.ashatechsolutions.cprogramming;C++ Programming : Learn to Code;10;4.6;1,000+;3.2M;4.0 and up;3;7
+ensino de programação;com.datacamp;DataCamp - Learn R, Python & SQL coding;7479;4.8;100,000+;10M;4.4 and up;2891;4588
+ensino de programação;com.app.cprogramingapp;Easy C Programming;31;4.4;1,000+;3.1M;4.0.3 and up;16;15
+ensino de programação;com.apkzube.learnpython;Learn Python Programming - Offline Tutorial;487;4.6;100,000+;5.8M;4.4 and up;216;271
+ensino de programação;com.mres.schedule;Bible Reading Schedule;16336;4.7;1,000,000+;847k;1.6 and up;4226;12110
+ensino de programação;com.qtechbd.tutorial.java;Java Tutorial;undefined;undefined;1,000+;3.1M;4.0.3 and up;undefined;NaN
+ensino de programação;com.pranitkulkarni.sortingdemo;AlgoPrep - Algorithms & Data structures Made Easy;222;4.6;10,000+;7.9M;5.0 and up;83;139
+ensino de programação;com.udemy.android;Udemy - Online Courses;167509;4.6;5,000,000+;10M;5.0 and up;58644;108865
+ensino de programação;com.codepoint.learnpython3;Learn Python Programming Free - Python Tutorials;139;4.3;5,000+;5.4M;4.4 and up;55;84
+ensino de programação;com.sololearn.javascript;Learn JavaScript;25972;4.5;1,000,000+;6.2M;4.0.3 and up;8484;17488
+ensino de programação;com.java.user.javaprogramming;Java Programming Tutorial;60;4.6;10,000+;5.9M;4.0 and up;40;20
+ensino de programação;net.jshero;JavaScript Hero - Learn to Code for Free;135;4.2;10,000+;2.1M;4.1 and up;97;38
+ensino de programação;org.edx.mobile;edX: Online Courses by Harvard, MIT, Berkeley, IBM;48045;4.7;1,000,000+;14M;4.4 and up;15287;32758
+ensino de programação;com.codeinpython.codeinpython;Code in Python;58;4.3;10,000+;3.0M;4.0.3 and up;29;29
+ensino de programação;com.classic.vast.com.learningcpp;Learn C++;12;4.2;5,000+;4.1M;4.0.3 and up;6;6
+ensino de programação;com.ben.Tutorial.aiwithpython;AI with Python Tutorial;9;4.4;5,000+;3.6M;4.1 and up;6;3
+ensino de programação;com.zenva.codemurai;Codemurai - Learn Programming;2659;4.5;100,000+;1.5M;5.0 and up;1087;1572
+ensino de programação;com.tips.programist;Как стать программистом;40;4.2;5,000+;3.6M;4.0.3 and up;21;19
+ensino de programação;com.noelvillaman.softwares.javasolo;Aprende Java Solo;26;4.1;5,000+;4.9M;4.0.3 and up;15;11
+ensino de programação;com.nj.pubgw.codingfun;Coding Games For Beginner (C,Android,Java script);11;3.0;1,000+;4.8M;4.0.3 and up;9;2
+ensino de programação;com.cprograms4future.allcprograms;All C Programs;4942;4.6;100,000+;7.3M;4.1 and up;1915;3027
+ensino de programação;com.lego.education.codingexpress;Coding Express LEGO® Education;6;4.8;1,000+;81M;5.0 and up;2;4
+ensino de programação;com.learntutorial.learntocodeforfree;Learn To Code;5;1.8;500+;49M;4.0.3 and up;4;1
+ensino de programação;com.virtlab.cncsim_free;CNC Simulator Free;137;4.3;10,000+;40M;4.0.3 and up;91;46
+ensino de programação;com.do_apps.catalog_478;Programming concepts;87;4.0;10,000+;18M;4.4 and up;26;61
+ensino de programação;com.best.don.programmingbooks;Programming eBooks: All Free Coding Books;425;4.2;10,000+;4.1M;5.0 and up;226;199
+ensino de programação;com.codebrink.codebrink;C++ & Python 3 Programming Tutorials for Beginners;13;4.9;100+;5.8M;4.1 and up;5;8
+ensino de programação;com.susanapp.cursodeinformatica;Informatics Course;942;4.0;500,000+;3.7M;4.0 and up;412;530
+ensino de programação;com.wscubetech.learnpython;Learn Python - Quiz & Top Interview Questions;28;4.5;1,000+;7.6M;4.0.3 and up;11;17
+ensino de programação;com.forsdeveloper.cursoinformaticagratis;Curso de Informática Básica Gratis;53;4.1;10,000+;14M;4.0.3 and up;27;26
+ensino de programação;com.awwalsoft.javadeeplearning;Java Deep Learning: Core java;2932;4.5;100,000+;28M;4.4 and up;1307;1625
+ensino de programação;com.analyticsvidhya.android;Analytics Vidhya - Machine Learning & Data Science;396;4.4;50,000+;6.1M;4.4 and up;153;243
+ensino de programação;daldev.android.gradehelper;School Planner;96823;4.5;5,000,000+;5.0M;4.1 and up;36745;60078
+ensino de programação;aplus.CursoDePHP;Curso de PHP (português);6;3.5;1,000+;3.7M;4.0.3 and up;3;3
+ensino de programação;aplus.informtica;Curso de informática (português);20;4.2;5,000+;3.7M;4.0.3 and up;9;11
+ensino de programação;com.cuseju.tubestudy;Free courses Online. TubeStudy;6545;4.6;100,000+;31M;5.0 and up;3677;2868
+ensino de programação;com.wagmob.pythonkidsandscratchpro;Kids' Python & Scratch Program;9;2.6;1,000+;15M;2.1 and up;4;5
+ensino de programação;com.sitseducators.javapatternprogramsfree;Java Pattern Programs Free;4180;4.5;100,000+;8.1M;4.0 and up;1743;2437
+ensino de programação;itools.cprograms;C Programming (1000+ programs & 250+ Patterns);544;3.4;50,000+;12M;4.1 and up;261;283
+ensino de programação;org.qpython.qpy3;QPython3 - Python3 for Android;5173;4.1;1,000,000+;22M;2.3 and up;2306;2867
+ensino de programação;com.superlearn.aiwithpython;Learn Artificial Intelligence;28;4.0;10,000+;7.5M;4.0.3 and up;17;11
+ensino de programação;com.duy.c.cpp.compiler;CPP N-IDE - C/C++ Compiler & Programming - Offline;1425;4.2;100,000+;Varies with device;4.4 and up;699;726
+ensino de programação;com.apkzube.learnjavaprogramming;Learn Java;243;4.3;50,000+;6.7M;4.4 and up;131;112
+ensino de programação;com.somethingcj.user.corejava;100+ core java programs with output;21;4.7;1,000+;2.6M;4.0.3 and up;17;4
+ensino de programação;org.pbskids.scratchjr;PBS KIDS ScratchJr;99;4.1;100,000+;91M;4.4 and up;44;55
+ensino de programação;com.codengoclient;CodeNGo Coding Academy: Learn To Code Free;48;4.6;5,000+;34M;6.0 and up;26;22
+ensino de programação;com.makeblock.mblock;mBlock - Scratch-based Programming Software;206;3.7;10,000+;72M;5.0 and up;120;86
+ensino de programação;com.papumba.android.learnenglish;English for Kids;3883;4.2;500,000+;36M;4.0.3 and up;1425;2458
+ensino de programação;org.coursera.android;Coursera: Online courses;91735;4.4;5,000,000+;Varies with device;Varies with device;16316;75419
+ensino de programação;com.spyboy.javaprogramming;Java Programming;71;4.5;10,000+;4.6M;4.1 and up;40;31
+ensino de programação;com.atistudios.mondly.kids.languages;Learn 33 languages with Mondly Free games for kids;3538;4.5;100,000+;Varies with device;4.1 and up;1629;1909
+ensino de programação;com.additioapp.additio;Teacher's Gradebook - Additio;4222;4.2;100,000+;25M;4.0.3 and up;2250;1972
+ensino de programação;com.easy.hp.cpptutorial;C++ Programming App;555;4.6;10,000+;5.6M;5.0 and up;294;261
+ensino de programação;com.freeit.java;Programming Hub: Learn to Code;84107;4.6;1,000,000+;Varies with device;Varies with device;27568;56539
+ensino de programação;com.sun.zixuephps;PHP完全自学教程 - 新手学编程.程序员编程入门;undefined;undefined;100+;12M;4.0 and up;undefined;NaN
+ensino de programação;coolfreeapps.appslaborator.html.course;HTML Course;219;4.2;10,000+;1.8M;2.3.3 and up;101;118
+ensino de programação;com.gonliapps.learnportuguesefree.game;Learn Portuguese free for beginners;4774;4.5;100,000+;8.9M;4.0 and up;2142;2632
+ensino de programação;com.andromo.dev601172.app807595;Learn Java Programming;8;2.8;1,000+;2.9M;4.1 and up;5;3
+ensino de programação;org.catrobat.catroid;Pocket Code: Learn programming your own game apps!;11045;3.9;500,000+;23M;5.0 and up;5399;5646
+ensino de programação;calegari.murilo.agendaescolar;School tools;92;4.5;10,000+;3.5M;5.0 and up;50;42
+ensino de programação;com.do_apps.catalog_978;Machine learning;32;4.2;5,000+;14M;4.4 and up;7;25
+ensino de programação;cpp.programming;C++ Programming;14464;4.2;1,000,000+;1.8M;2.3 and up;3987;10477
+ensino de programação;coolfreeapps.appslaborator.html.course;HTML Course;231;4.2;10,000+;1.8M;2.3.3 and up;108;123
+ensino de programação;com.freetymekiyan.apas;Leetcode Algorithm Coding, Java Interview Offline;457;4.7;10,000+;5.6M;4.0.3 and up;155;302
+ensino de programação;ru.iiec.cxxdroid;Cxxdroid - C++ compiler IDE for mobile development;2713;4.3;500,000+;41M;4.4 and up;1335;1378
+ensino de programação;appinventor.ai_ytdevleo.C_edu;C언어 기초 강좌;18;5.0;5,000+;4.1M;2.1 and up;11;7
+ensino de programação;com.do_apps.catalog_485;Object-oriented programming;58;3.7;10,000+;10M;4.4 and up;18;40
+ensino de programação;com.sololearn.cplusplus;Learn C++;72517;4.7;1,000,000+;6.2M;4.0.3 and up;22509;50008
+ensino de programação;org.edx.mobile;edX: Online Courses by Harvard, MIT, Berkeley, IBM;48052;4.7;1,000,000+;14M;4.4 and up;15288;32764
+ensino de programação;com.edokiacademy.babycoding;Code Karts Pre-coding for kids;219;3.8;50,000+;23M;4.1 and up;106;113
+ensino de programação;br.com.acaicomcodigo.informaticanobolso;Informática no Bolso - Concursos e Ensino Superior;236;4.7;50,000+;5.6M;4.4 and up;120;116
+ensino de programação;io.getready.ready;Ready Maker;9670;3.3;1,000,000+;50M;4.1 and up;5668;4002
+ensino de programação;com.KodlamaLab.KodlamaLab;KodlamaLab: Kodlama Öğren;370;3.7;50,000+;16M;5.0 and up;245;125
+ensino de programação;com.makeblock.mblock;mBlock - Scratch-based Programming Software;218;3.7;10,000+;72M;5.0 and up;128;90
+ensino de programação;infiniteloopsinc.info.completejava;Learn Java Programming;755;4.6;50,000+;3.9M;4.0.3 and up;226;529
+ensino de programação;com.pratipalgif.LearnPython;Python - Easy Ways to Learn;undefined;undefined;1,000+;7.0M;4.0.3 and up;undefined;NaN
+ensino de programação;curso.violao.formula.violao;Curso de Violão;522;4.0;100,000+;2.4M;4.0.3 and up;225;297
+ensino de programação;com.mhasancse15.programminglanguage;Programming languages;25;4.1;5,000+;5.7M;4.3 and up;15;10
+ensino de programação;com.alansa.ideabag2;Programming Ideas 2;538;4.7;100,000+;3.9M;4.4 and up;177;361
+ensino de programação;pl.paridae.app.android.mathmaster;Math Master Educational Game and Brain Workout;7445;4.3;500,000+;17M;4.0.3 and up;3426;4019
+ensino de programação;com.classic.vast.com.aprendecxx;Learn C++;11;4.1;1,000+;32M;4.0.3 and up;4;7
+ensino de programação;com.gokazu;CodePal: Learn programming;46;4.8;1,000+;5.1M;5.0 and up;34;12
+ensino de programação;com.ionicframework.cursosdegraca;Cursa - free courses with certificate;7910;4.7;1,000,000+;13M;4.4 and up;4656;3254
+ensino de programação;com.awwalsoft.javabasicslearning;Java Basics Learning : Java for Absolute Beginners;473;4.4;50,000+;6.2M;4.4 and up;209;264
+ensino de programação;com.cf.codigofacilitoapp;CódigoFacilito;761;3.5;50,000+;10M;4.2 and up;463;298
+ensino de programação;com.lpalominos.horariodeclases;Class Schedule;891;4.1;50,000+;6.4M;4.3 and up;352;539
+ensino de programação;com.area120.grasshopper;Grasshopper: Learn to Code for Free;16889;4.5;1,000,000+;28M;4.4 and up;8155;8734
+ensino de programação;daldev.android.gradehelper;School Planner;96812;4.5;5,000,000+;5.0M;4.1 and up;36742;60070
+ensino de programação;com.vitotechnology.StarWalkKids2;Astronomy for Kids 🚀 Space Game by Star Walk 2;8343;4.4;1,000,000+;Varies with device;4.1 and up;3423;4920
+ensino de programação;com.theeasylearn.java;Learn Java Programming Language;75;4.5;10,000+;2.6M;4.2 and up;49;26
+ensino de programação;aplus.cursoalgortmico;Curso de algoritmo;5;3.6;1,000+;3.7M;4.0.3 and up;3;2
+ensino de programação;com.HTML.AngularJS.Codeplay;HTML Code Play;5083;4.5;500,000+;6.3M;4.4 and up;2683;2400
+ensino de programação;com.knightcoder.programmingebooks;Coding eBooks : All Free Programming Books at Once;1180;4.3;100,000+;6.5M;4.3 and up;564;616
+ensino de programação;com.back_banchers.html;Learn HTML;651;3.7;100,000+;3.9M;4.0 and up;353;298
+ensino de programação;com.cohortplus.clientTest;upGrad - Building Careers of Tomorrow;405;4.3;50,000+;16M;4.1 and up;194;211
+ensino de programação;pe.diegoveloper.pseudocode;Pseudocode, PSeInt, Visualg;4346;4.4;100,000+;3.7M;4.0 and up;2044;2302
+ensino de programação;br.com.eem.AppAdventista;Agenda Educação Adventista;49;3.8;10,000+;11M;4.1 and up;21;28
+ensino de programação;br.com.fs.ensinabyfs;ENSINA by FS: Cursos Rápidos;629;3.8;10,000+;11M;4.4 and up;466;163
+ensino de programação;com.aide.trainer.java;Learn Java Hands-On Course;782;4.4;10,000+;17M;4.0 and up;259;523
+ensino de programação;com.codepoint.learnjava;Learn Java Programming OFFLINE -  Java Tutorials;14;4.1;5,000+;4.1M;4.4 and up;11;3
+ensino de programação;free.programming.programming;Learn DS & Algo, Programming Interview Preparation;8121;4.6;500,000+;4.5M;5.1 and up;1789;6332
+ensino de programação;ru.code_samples.obraztsov_develop.codesamples_python_sql;Python & SQL;5;5.0;100+;1.9M;4.1 and up;2;3
+ensino de programação;com.myapplication.hp.learnjava;Learn Java;56;4.8;5,000+;3.1M;4.0.3 and up;30;26
+ensino de programação;coding.riya_rayan.ccoding;Learn C Coding;102;4.6;10,000+;24M;4.0.3 and up;56;46
+ensino de programação;com.programmarc.java;Java Programming Bangla;80;4.6;10,000+;3.6M;4.0 and up;36;44
+ensino de programação;com.quantumappsolutions.learnprogramming;Learn Computer Programming;21;4.4;5,000+;7.2M;4.0.3 and up;17;4
+ensino de programação;app.oopcodeskyhive;Object Oriented Programming;68;4.1;10,000+;3.3M;4.0.3 and up;20;48
+ensino de programação;com.rrtdevelopers.cursodereparaciondecelularesenespanol;Mobile phone repair course english;2446;4.4;100,000+;3.8M;4.1 and up;1373;1073
+ensino de programação;com.back_banchers.cplusplus;Learn C++;48;3.6;10,000+;3.6M;4.0 and up;28;20
+ensino de programação;com.mundoapp.agenda;✏️2020 school agenda;29;3.2;1,000+;3.6M;5.0 and up;18;11
+ensino de programação;br.com.mlearn.qualifica;Qualifica: Cursos Online Certificados;274;3.7;50,000+;41M;4.4 and up;171;103
+ensino de programação;com.planetfactory.makeitAndroid;Make It for Teachers - Create Educational Games;163;4.0;10,000+;33M;4.1 and up;90;73
+ensino de programação;tk.app.start;Start: Ensino de Programação;73;4.6;10,000+;3.8M;4.4 and up;43;30
+ensino de programação;com.reedbook.android;Уроки программирования Android;751;4.7;100,000+;28M;4.0 and up;245;506
+ensino de programação;geniusfactoryapp.programmationandroid;Programmation Android Pour Débutants;65;4.4;10,000+;25M;4.4 and up;35;30
+ensino de programação;ltos.learn.cand.java;Learn C , C++ ,Java,Android-Smart Programming;58;4.0;10,000+;4.4M;4.1 and up;25;33
+ensino de programação;com.xiaosong.javabook;java学习;46;4.8;5,000+;17M;4.0.3 and up;21;25
+ensino de programação;com.sololearn.csharp;Learn C#;19613;4.5;1,000,000+;6.2M;4.0.3 and up;6736;12877
+ensino de programação;com.muzudre.Probooks;iBooks: Free Coding eBooks 👨‍💻 Programming Books;70;4.5;5,000+;Varies with device;4.1 and up;39;31
+ensino de programação;wiki.algorithm.algorithms;Algorithms: Explained and Animated;6221;4.6;1,000,000+;41M;4.0.3 and up;2359;3862
+ensino de programação;training.computing.scratchkids;Tutorials for Scratch;5764;4.0;100,000+;4.2M;4.0 and up;2612;3152
+ensino de programação;com.easy.home.javatutorial;Java Programming App;126;4.2;10,000+;4.7M;5.0 and up;78;48
+ensino de programação;com.javahood.javadumps;Java Dump - 750+ Java Programs with Output;93;4.6;10,000+;1.9M;4.4 and up;43;50

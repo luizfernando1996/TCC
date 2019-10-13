@@ -1,10 +1,250 @@
-ensino de programação;10;Start: Ensino de Programação
-ensino de programação;10;Aprender a programação
-ensino de programação;10;Programação - Aprendizagem - Tutoriais
-ensino de programação;10;Programming Hub: Aprender a programar
-ensino de programação;10;Programação para crianças
-ensino de programação;10;Programming Hero: Coding Just Got Fun (beta)
-ensino de programação;10;Mimo: Aprende a codificar
-ensino de programação;10;Grasshopper: Learn to Code for Free
-ensino de programação;10;Lightbot : Code Hour
-ensino de programação;10;ScratchJr
+ensino de programação;250;Start: Ensino de Programação
+ensino de programação;250;Programming Hub: Aprender a programar
+ensino de programação;250;Letramento em Programação
+ensino de programação;250;Lightbot : Code Hour
+ensino de programação;250;Cursa - cursos gratuitos com certificado de graça
+ensino de programação;250;Pocket Code
+ensino de programação;250;تعليم البرمجة بالعربية
+ensino de programação;250;Udemy: aprender online com 130,000 video cursos
+ensino de programação;250;Aprender a Programar
+ensino de programação;250;Coding Planets
+ensino de programação;250;تعلم  البرمجة : كوداتي Codeaty
+ensino de programação;250;edX - Cursos online - MOOCS e certificações
+ensino de programação;250;SoloLearn: Learn to Code for Free
+ensino de programação;250;Grasshopper: Learn to Code for Free
+ensino de programação;250;Programa Leitura da Bíblia
+ensino de programação;250;Agenda Escolar
+ensino de programação;250;Learn C++
+ensino de programação;250;Inglês para Crianças
+ensino de programação;250;mBlock - Scratch-based Programming Software
+ensino de programação;250;Expresso da Programação LEGO® Education
+ensino de programação;250;Algoritmos: Explicados e Animados
+ensino de programação;250;Motivador do bom comportamento - Kids 24
+ensino de programação;250;Curso de Informática Básica
+ensino de programação;250;Curso de Informática
+ensino de programação;250;Agenda Escolar
+ensino de programação;250;Basics of C Programming
+ensino de programação;250;Codemurai - Learn Programming
+ensino de programação;250;Khan Academy
+ensino de programação;250;Informática no Bolso - Concursos e Ensino Superior
+ensino de programação;250;Class Schedule - Schedule Planner
+ensino de programação;250;Learn C#
+ensino de programação;250;Instituto Objetivo de Educação
+ensino de programação;250;المكتبة البرمجية
+ensino de programação;250;Aprende a programar videojuegos
+ensino de programação;250;Bloco de notas do professor
+ensino de programação;250;Learn Python: Programiz
+ensino de programação;250;Programa{ação}
+ensino de programação;250;CodePal: Learn programming
+ensino de programação;250;Horário de aula
+ensino de programação;250;Easy Study - Cronogramas ENEM e Concurso Público
+ensino de programação;250;C++ & Python 3 Programming Tutorials for Beginners
+ensino de programação;250;Caderno do Profesor GRATIS
+ensino de programação;250;Agenda Educação Adventista
+ensino de programação;250;✏️Agenda da escola 2020
+ensino de programação;250;Bit by Bit - Programming Game
+ensino de programação;250;Industrial Robotics 3D
+ensino de programação;250;Coursera
+ensino de programação;250;CNC Simulator Free
+ensino de programação;250;Agenda Edu
+ensino de programação;250;Aprenda italiano grátis
+ensino de programação;250;Codenza
+ensino de programação;250;Learn DS & Algo, Programming Interview Preparation
+ensino de programação;250;Aprende Java Solo
+ensino de programação;250;Learn Computer Programming
+ensino de programação;250;Pseudocode, PSeInt, Visualg
+ensino de programação;250;C Programming - Learn Code, Theory & Discuss
+ensino de programação;250;DroidScript - JavaScript Mobile Coding IDE
+ensino de programação;250;101 C Programming Problems
+ensino de programação;250;C  C++ Tutorials
+ensino de programação;250;Enki: Learn data science, coding, tech skills
+ensino de programação;250;Curso de algoritmo
+ensino de programação;250;Leetcode Algorithm Coding, Java Interview Offline
+ensino de programação;250;codeSpark Academy: Kids Coding
+ensino de programação;250;Udemy - Online Courses
+ensino de programação;250;Programming for kids - Fun education series
+ensino de programação;250;Learn Java- Start from Scratch
+ensino de programação;250;RoboMaker®
+ensino de programação;250;Letramento em Programação
+ensino de programação;250;Curso de Informática Básica Gratis
+ensino de programação;250;Robotizen: Kid learn Coding Robot 5+
+ensino de programação;250;PI Learn to Code
+ensino de programação;250;Learn C++
+ensino de programação;250;Learn Basic Computer Programming Free OFFLINE
+ensino de programação;250;Curso de Informática
+ensino de programação;250;CodeNGo Coding Academy: Learn To Code Free
+ensino de programação;250;DataCamp - Learn R, Python & SQL coding
+ensino de programação;250;Learn C#
+ensino de programação;250;Object-oriented programming
+ensino de programação;250;HTML Course
+ensino de programação;250;HTML Code Play
+ensino de programação;250;Code Karts Pre-coding for kids
+ensino de programação;250;Codemurai - Learn Programming
+ensino de programação;250;C/C++ programming
+ensino de programação;250;Computer Course
+ensino de programação;250;Learn Computer, classes and courses.
+ensino de programação;250;Programming Solutions
+ensino de programação;250;Hacked
+ensino de programação;250;Learn Java Programming Language
+ensino de programação;250;JavaScript Hero - Learn to Code for Free
+ensino de programação;250;Make It for Teachers - Create Educational Games
+ensino de programação;250;Artificial Intelligence
+ensino de programação;250;edX: Online Courses by Harvard, MIT, Berkeley, IBM
+ensino de programação;250;devLearn: Coding Made Easy
+ensino de programação;250;CodePal: Learn programming
+ensino de programação;250;Teacher's Gradebook - Additio
+ensino de programação;250;Learn Java
+ensino de programação;250;HANDY CODE - Coding education, Programming
+ensino de programação;250;Learn To Code (JAVA)
+ensino de programação;250;Code Recipes
+ensino de programação;250;All C Programs
+ensino de programação;250;JavaScript Hero - Learn to Code for Free
+ensino de programação;250;Learn HTML
+ensino de programação;250;Hacked
+ensino de programação;250;Learn C Coding
+ensino de programação;250;Learn Java Programming
+ensino de programação;250;Code Recipes
+ensino de programação;250;Learn Java Programming
+ensino de programação;250;Java Deep Learning: Core java
+ensino de programação;250;C Programming
+ensino de programação;250;Java Basics Learning : Java for Absolute Beginners
+ensino de programação;250;Teacher's Gradebook - Additio
+ensino de programação;250;Learn Java Programming
+ensino de programação;250;Industrial Robotics 3D
+ensino de programação;250;HTML Course
+ensino de programação;250;Analytics Vidhya - Machine Learning & Data Science
+ensino de programação;250;Motivator of good behavior - Kids 24
+ensino de programação;250;Learn JavaScript
+ensino de programação;250;Coding Planets 2
+ensino de programação;250;Stepik: Free Courses
+ensino de programação;250;Virtual Assistant DataBot: Artificial Intelligence
+ensino de programação;250;PI Learn to Code
+ensino de programação;250;Уроки программирования Android
+ensino de programação;250;Learn Data Science- Python Coding, Reddit Discuss
+ensino de programação;250;C++ Programming
+ensino de programação;250;Java N-IDE - Android Builder - Java SE Compiler
+ensino de programação;250;Programming Calculator
+ensino de programação;250;Programming eBooks: All Free Coding Books
+ensino de programação;250;Encode: Learn to Code
+ensino de programação;250;Curso de informática (português)
+ensino de programação;250;Learn Java Programming OFFLINE -  Java Tutorials
+ensino de programação;250;Learn C++
+ensino de programação;250;QPython3 - Python3 for Android
+ensino de programação;250;C++ Programming : Learn to Code
+ensino de programação;250;Learn Python Programming Free - Python Tutorials
+ensino de programação;250;Cxxdroid - C++ compiler IDE for mobile development
+ensino de programação;250;Programming languages
+ensino de programação;250;Python. Exercises and Examples
+ensino de programação;250;Scode - Learn Coding
+ensino de programação;250;BASIC PROGRAMMING
+ensino de programação;250;mBlock - Scratch-based Programming Software
+ensino de programação;250;Coding eBooks : All Free Programming Books at Once
+ensino de programação;250;Learn Java Programming
+ensino de programação;250;Math Master Educational Game and Brain Workout
+ensino de programação;250;Tutorials for Scratch
+ensino de programação;250;Java Quiz: 700+ Java Questions with Explanations
+ensino de programação;250;Learn C , C++ ,Java,Android-Smart Programming
+ensino de programação;250;Binary Challenge™  Binary Game
+ensino de programação;250;تعليم البرمجة بالعربية
+ensino de programação;250;Coding Galaxy
+ensino de programação;250;Ready Maker
+ensino de programação;250;Basics of C Programming
+ensino de programação;250;Learn 33 languages with Mondly Free games for kids
+ensino de programação;250;upGrad - Building Careers of Tomorrow
+ensino de programação;250;C Programming
+ensino de programação;250;Learn AI with Python
+ensino de programação;250;100+ core java programs with output
+ensino de programação;250;Kids' Python & Scratch Program
+ensino de programação;250;Programming for Beginners
+ensino de programação;250;Learn Python - Quiz & Top Interview Questions
+ensino de programação;250;Learning Java
+ensino de programação;250;Easy C Programming
+ensino de programação;250;AlgoPrep - Algorithms & Data structures Made Easy
+ensino de programação;250;Java Programming
+ensino de programação;250;Curso de Violão
+ensino de programação;250;Astronomy for Kids 🚀 Space Game by Star Walk 2
+ensino de programação;250;Code in Python
+ensino de programação;250;CódigoFacilito
+ensino de programação;250;Tommy the Robot, Learn to Code
+ensino de programação;250;Learn Artificial Intelligence
+ensino de programação;250;CODE.GAME KIDS
+ensino de programação;250;Mobile phone repair course english
+ensino de programação;250;Coding riddles with solutions
+ensino de programação;250;PixBlocks - Learn to code
+ensino de programação;250;Bit by Bit - Programming Game
+ensino de programação;250;Learn Python Programming - Offline Tutorial
+ensino de programação;250;Learn HTML
+ensino de programação;250;Mind Power - Law of Attraction
+ensino de programação;250;Fun Routine
+ensino de programação;250;Qualifica: Cursos Online Certificados
+ensino de programação;250;Quoda Code Editor
+ensino de programação;250;Python & SQL
+ensino de programação;250;100+ C++ Programs With Output
+ensino de programação;250;java学习
+ensino de programação;250;Digital Puppet - Programming Puzzle
+ensino de programação;250;Object Oriented Programming
+ensino de programação;250;Curso de violão iniciante
+ensino de programação;250;Educação Infantil: Atividades, Jogos e Histórias
+ensino de programação;250;Coding Games For Beginner (C,Android,Java script)
+ensino de programação;250;iBooks: Free Coding eBooks 👨‍💻 Programming Books
+ensino de programação;250;Learn Java
+ensino de programação;250;First Words for Kids
+ensino de programação;250;Java Programming Bangla
+ensino de programação;250;Learn C++
+ensino de programação;250;DroidEdit (free code editor)
+ensino de programação;250;Progate
+ensino de programação;250;Tijolinho.Code
+ensino de programação;250;Tools programmer
+ensino de programação;250;المكتبة البرمجية
+ensino de programação;250;Learn C++
+ensino de programação;250;Programmation Android Pour Débutants
+ensino de programação;250;Learn To Code
+ensino de programação;250;Programming Cheat Sheets
+ensino de programação;250;Math for School
+ensino de programação;250;Coursera: Online courses
+ensino de programação;250;Programming Ideas 2
+ensino de programação;250;Java Dump - 750+ Java Programs with Output
+ensino de programação;250;Curso de PHP (português)
+ensino de programação;250;Data Structures and Algorithms offline Tutorial
+ensino de programação;250;CPP N-IDE - C/C++ Compiler & Programming - Offline
+ensino de programação;250;Java Programming Tutorial
+ensino de programação;250;Learn Python with Data Science
+ensino de programação;250;Learn Python  Programming Free - Python Offline
+ensino de programação;250;AI with Python Tutorial
+ensino de programação;250;C언어 기초 강좌
+ensino de programação;250;PBS KIDS ScratchJr
+ensino de programação;250;ENSINA by FS: Cursos Rápidos
+ensino de programação;250;Free courses Online. TubeStudy
+ensino de programação;250;Grasshopper
+ensino de programação;250;KodlamaLab: Kodlama Öğren
+ensino de programação;250;PHP完全自学教程 - 新手学编程.程序员编程入门
+ensino de programação;250;Machine learning
+ensino de programação;250;Learn Java
+ensino de programação;250;Play and Learn Science
+ensino de programação;250;Formar Palavras - Alfabetização
+ensino de programação;250;Web development course
+ensino de programação;250;Learn Computer Programming
+ensino de programação;250;School Planner
+ensino de programação;250;Java Pattern Programs Free
+ensino de programação;250;English for Kids
+ensino de programação;250;বাংলায় প্রোগ্রামিং
+ensino de programação;250;Coding EBooks:Programming, Web, Networking, Mobile
+ensino de programação;250;Data structure and algorithm tutorial
+ensino de programação;250;Java Helping Book (From Basic to Advance)
+ensino de programação;250;Learn Portuguese free for beginners
+ensino de programação;250;Java Programming App
+ensino de programação;250;C++ Programming App
+ensino de programação;250;Java Tutorial
+ensino de programação;250;Python Tutorial
+ensino de programação;250;Rapid PHP 360
+ensino de programação;250;C Programming (1000+ programs & 250+ Patterns)
+ensino de programação;250;Programming concepts
+ensino de programação;250;Educational game for kids - Math
+ensino de programação;250;Programmers keyboard
+ensino de programação;250;Palma Escola
+ensino de programação;250;Learn Python: Programiz
+ensino de programação;250;Как стать программистом
+ensino de programação;250;Physical Sensors for Scratch
+ensino de programação;250;Aprende Pseint: Fundamentos de Programación
+ensino de programação;250;Learn Java Hands-On Course
+ensino de programação;250;Python - Easy Ways to Learn

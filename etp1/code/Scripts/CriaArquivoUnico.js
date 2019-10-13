@@ -81,11 +81,15 @@ function func() {
                 }
             }
 
-            if (!encontrou) {
+            linha = tratarArquivoParaAnalise(linha)
+
+            if (!encontrou && !linha.includes("Varies with device")) {
+
                 listaDeDadosFiltrados.push(linha)
+                
             }
 
-            console.log(linha.split(";")[0])
+            
         })
 
         // listaDeDadosFiltrados = [...new Set(listaDeDados)];
@@ -106,6 +110,53 @@ function func() {
             CreateFiles.write(linha + '\r\n')
         })
     }
+
+
+    function tratarArquivoParaAnalise(linha){
+
+        
+        
+        linhaAnt = linha.split(";")[5]
+        linhaAux = linha.split(";")[5]  
+        linhaAux = linhaAux.replaceAll(",","")
+        linhaAux = linhaAux.replaceAll("+","")
+
+        linha = linha.replaceAll(linhaAnt, linhaAux)
+
+
+        linhaAnt = linha.split(";")[6]
+        linhaAux = linha.split(";")[6]  
+        linhaAux = linhaAux.replaceAll("M","")
+
+       
+        if (linhaAux.includes("k")){
+
+            linhaAux = linhaAux.replaceAll("k","")
+  
+            linhaAux = Number(linhaAux) / 1024
+           
+        }       
+       
+
+        linha = linha.replaceAll(linhaAnt, linhaAux)
+
+
+        linhaAnt = linha.split(";")[7]
+        linhaAux = linha.split(";")[7]  
+        linhaAux = linhaAux.replaceAll(" and up","")
+        linhaAux = linhaAux.replaceAll("and up","")
+
+        linha = linha.replaceAll(linhaAnt, linhaAux)
+
+
+        return(linha)
+    }
+
+
+
+    String.prototype.replaceAll = String.prototype.replaceAll || function(needle, replacement) {
+        return this.split(needle).join(replacement);
+    };
 
 }
 module.exports = func
