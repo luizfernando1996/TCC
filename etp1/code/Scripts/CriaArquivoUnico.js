@@ -89,7 +89,7 @@ function func() {
                 
             }
 
-            console.log(linha.split(";")[0])
+            
         })
 
         // listaDeDadosFiltrados = [...new Set(listaDeDados)];
@@ -134,7 +134,7 @@ function func() {
             linhaAux = linhaAux.replaceAll("k","")
   
             linhaAux = Number(linhaAux) / 1024
-            console.log(linhaAux)
+           
         }       
        
 
