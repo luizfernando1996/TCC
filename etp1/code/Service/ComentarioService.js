@@ -26,7 +26,6 @@ module.exports = class ComentarioService {
         this.bsServ = new BaseService();
         this.objexcel = new modExcel()
         this.progressBar = new TaxaProgresso()
-        this.i = 0;
     }
 
 
@@ -45,7 +44,9 @@ module.exports = class ComentarioService {
 
         //Inicializa a progressBar
         this.tamanhoProgressBar = this.array.length * 5
-        this.progressBar.apresentarTaxa(this.tamanhoProgressBar, 0)
+        //A linha abaixo foi construida devido um erro no cliprogress
+        this.tamanhoProgressBarFalso = tamanhoProgressBar * 2
+        this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 0, true, this.tamanhoProgressBar)
 
         //Retira o cabeçalho do arquivo lido
         this.array.splice(0, 1)
@@ -78,10 +79,7 @@ module.exports = class ComentarioService {
 
                 //Atualiza o valor da progressBar
                 this.incrementarProgressBar()
-                this.i++;
                 this.objexcel.salvarComent("ComentariosApps", this.conteudoArquivoExcel)
-                if (this.i == 3)
-                    return
             }, erro => {
                 //bsServ.sleep(180)
                 this.incrementarProgressBar()
@@ -119,6 +117,6 @@ module.exports = class ComentarioService {
         return texto;
     }
     incrementarProgressBar() {
-        this.progressBar.apresentarTaxa(this.tamanhoProgressBar, 1)
+        this.progressBar.apresentarTaxa(this.tamanhoProgressBarFalso, 1, true, this.tamanhoProgressBar)
     }
 }

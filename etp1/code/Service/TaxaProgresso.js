@@ -10,7 +10,7 @@ module.exports = class TaxaProgresso {
         this.valorPercorrido = 0;
     }
 
-    apresentarTaxa(valorTotal, incremento = 1) {
+    apresentarTaxa(valorTotal, incremento = 1, tratarErro = false, valorTot) {
         if (this.chave == true) {
             //Start the progress bar with a total value of 200 and start value of 0
             this.bar1.start(valorTotal, 0);
@@ -24,6 +24,9 @@ module.exports = class TaxaProgresso {
             // stop the progress bar
             this.bar1.stop();
 
+        if (tratarErro == true)
+            if (valorTotal == valorTot)
+                this.bar1.stop()
     }
 }
 
