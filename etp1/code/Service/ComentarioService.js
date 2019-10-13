@@ -1,134 +1,124 @@
 //JavaScript exige que a função que será usada em uma função já tenha sido
 //compilada antes da sua execução. Logo se houver uma função a que chama uma função b a função b deve estar
 //declarada antes da função a para que seja compilada antes.  
-function execut() {
-    var ComentarioRepository = require('../Dados/ComentarioRepository.js')
-    var objDadosComentario = new ComentarioRepository()
-    BaseService = require('../Service/BaseService.js')
-    var bs = new BaseService();
-    var p1 = new Promise(function (resolve, reject) {
-        var listBundes = objDadosComentario.recuperaArquivosDiretorio().then(listBundes => {
-            resolve(listBundes);
-        })
-    })
-    p1.then(array => {
-        array.splice(0, 1)//retira o cabeçalho do arquivo lido
-        //console.log(array)
-        var cabecalhoArquivoExcel =
-            "Bundle Id" + ";" +//"\t" -> divide em colunas
+
+ComentarioRepository = require('../Dados/ComentarioRepository.js')
+BaseService = require('../Service/BaseService.js')
+gplay = require('../../../dependencias/node_modules/google-play-scraper');
+modExcel = require('../Dados/BaseRepository.js');
+TaxaProgresso = require('../Service/TaxaProgresso.js')
+
+module.exports = class ComentarioService {
+
+    constructor() {
+        this.objDadosComentario = new ComentarioRepository()
+        this.bs = new BaseService();
+        this.array = [];
+        this.conteudoArquivoExcel = [];
+        this.cabecalhoArquivoExcel =
+            "Bundle Id" + ";" +
             "Número de estrelas do comentário" + ";" +
             "Texto do comentário" + ";" +
             "Id do comentário" + ";" +
             "Data do comentário" + ";" +
             "Numero de estrelas do aplicativo"
             + "\n";
+        this.bsServ = new BaseService();
+        this.objexcel = new modExcel()
+        this.progressBar = new TaxaProgresso()
+        this.i = 0;
+    }
 
-        var conteudoArquivoExcel = []
-        conteudoArquivoExcel.push(cabecalhoArquivoExcel);
 
-        gplay = require('../../../dependencias/node_modules/google-play-scraper');
-        modExcel = require('../Dados/BaseRepository.js');
-        TaxaProgresso = require('../Service/TaxaProgresso.js')
+    execut() {
+        this.objDadosComentario.recuperaArquivosDiretorio().then(listBundes => {
+            this.array = listBundes;
+            this.inicializarVariaveis()
+            this.efetuarRequisicoes()
+        })
+    }
 
-        var bsServ = new BaseService();
-        obterComentario()
+    inicializarVariaveis() {
 
-        function obterComentario() {
+        //Adiciona o cabeçalho no novo arquivo
+        this.conteudoArquivoExcel.push(this.cabecalhoArquivoExcel);
 
-            //Define a progressBar
-            var tamanho = array.length * 5
-            var a = new TaxaProgresso()
-            a.apresentarTaxa(tamanho, 0)
+        //Inicializa a progressBar
+        this.tamanhoProgressBar = this.array.length * 5
+        this.progressBar.apresentarTaxa(this.tamanhoProgressBar, 0)
 
-            array.forEach((element, indice) => {
-                bsServ.sleepVariado(element, indice)
-                element = element.split(";")
-                numeroEstrelasApp = element[1];
-                element = element[0];
-                for (let numeroPaginas = 0; numeroPaginas < 5; numeroPaginas++) {
-                    gplay.reviews({
-                        appId: element,
-                        page: numeroPaginas,
-                        throttle: 1
-                    }).then(resposta_Comentarios => {
-                        salvarComentarios(resposta_Comentarios, numeroPaginas, element, numeroEstrelasApp)
+        //Retira o cabeçalho do arquivo lido
+        this.array.splice(0, 1)
+    }
 
-                        //Atualiza o valor da progressBar
-                        a.apresentarTaxa(tamanho, 1)
+    efetuarRequisicoes() {
+        this.array.forEach((linhaArquivo, indice) => {
 
-                        //Debugger
-                        //console.log("Aplicativo com bundle ", element, " de indice ", indice, " da página ", numeroPaginas, " coletado!")
-                        //imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element)
-                    }, (erro, element, numeroPaginas) => {
-                        bsServ.sleep(180)
-                        console.log()
-                        console.log(erro)
-                        console.log()
-                        console.log(element, " ", numeroPaginas)
-                        console.log()
-                        a.apresentarTaxa(tamanho, 1)
-                    })
-                }
+            //Delay
+            this.bsServ.sleepVariado(indice);
+
+            this.efetuarRequisicao(linhaArquivo);
+        })
+    }
+
+    efetuarRequisicao(linhaArquivo) {
+
+        var elementos = linhaArquivo.split(";")
+        var numeroEstrelasApp = elementos[1];
+        var bundleId = elementos[0];
+
+        for (let numeroPaginas = 0; numeroPaginas < 1; numeroPaginas++) {
+
+            gplay.reviews({
+                appId: bundleId,
+                page: numeroPaginas,
+                throttle: 1
+            }).then(resposta_Comentarios => {
+                this.salvarComentarios(resposta_Comentarios, bundleId, numeroEstrelasApp)
+
+                //Atualiza o valor da progressBar
+                this.incrementarProgressBar()
+                this.i++;
+                this.objexcel.salvarComent("ComentariosApps", this.conteudoArquivoExcel)
+                if (this.i == 3)
+                    return
+            }, erro => {
+                //bsServ.sleep(180)
+                this.incrementarProgressBar()
             })
-        }
-        function salvarComentarios(resposta_Comentarios, numeroPaginas, element, numeroEstrelasApp) {
-            //listaComentariosPorApp.push(resposta_Comentarios);
-
-            resposta_Comentarios.forEach(comentarioElemento => {
-
-                var linhaExcel =
-                    element + ";" +     //bundle id do aplicativo
-                    comentarioElemento.score + ";" +     //numero de estrelas do comentário
-                    retirarQuebraDeLinhaTexto(comentarioElemento.text) + ";" +     //texto do comentário
-                    comentarioElemento.id + ";" +     //identificador do comentário
-                    comentarioElemento.date + ";" +   //data do comentário
-                    numeroEstrelasApp
-                    + "\n";
-
-                conteudoArquivoExcel.push(linhaExcel)
-            });
-
-            var objexcel = new modExcel()
-            objexcel.salvar("ComentariosApps", conteudoArquivoExcel)
 
         }
+    }
+    salvarComentarios(resposta_Comentarios, element, numeroEstrelasApp) {
+        //listaComentariosPorApp.push(resposta_Comentarios);
 
-        function retirarQuebraDeLinhaTexto(texto) {
-            //var texto = "Its not even average. Just written text n nothing else.no coding space .no\ncompiling while learning. No interactive learning like solo learn or\nprogramming hub"
+        resposta_Comentarios.forEach(comentarioElemento => {
 
-            texto = texto.replace(/\n/g, ' ')
+            var linhaExcel =
+                element + ";" +     //bundle id do aplicativo
+                comentarioElemento.score + ";" +     //numero de estrelas do comentário
+                this.retirarQuebraDeLinhaTexto(comentarioElemento.text) + ";" +     //texto do comentário
+                comentarioElemento.id + ";" +     //identificador do comentário
+                comentarioElemento.date + ";" +   //data do comentário
+                numeroEstrelasApp
+                + "\n";
 
-            //console.log(retirarQuebraDeLinhaTexto(texto));
+            this.conteudoArquivoExcel.push(linhaExcel);
 
-            return texto;
-        }
+        });
 
-        //Debugger
-        function imprimirComentarioConsole(resposta_Comentarios, numeroPaginas, element) {
-            gplay.app({ appId: element })
-                .then(app => {
+    }
 
-                    console.log("--------------------------------")
+    retirarQuebraDeLinhaTexto(texto) {
+        //var texto = "Its not even average. Just written text n nothing else.no coding space .no\ncompiling while learning. No interactive learning like solo learn or\nprogramming hub"
 
-                    console.log(app.title)
+        texto = texto.replace(/\n/g, ' ')
 
-                    //console.log(app.reviews)
-                    //Esse número não informa o número de comentários real na loja do aplicativo na play store, acredito.
-                    //Eu observei que essa ferramenta(google-play-scrapper)
-                    //não coleta o mesmo número de comentários que é informado no atributo reviews (app.reviews).
+        //console.log(retirarQuebraDeLinhaTexto(texto));
 
-                    console.log("Já foram coletados para esse app: " + resposta_Comentarios.length + " comentários")
-
-                    console.dir(resposta_Comentarios)
-
-                    console.log("Bundle id: " + element)
-
-                    console.log("Página: " + numeroPaginas)
-
-                    console.log("--------------------------------")
-
-                }, console.log);
-        }
-    })
+        return texto;
+    }
+    incrementarProgressBar() {
+        this.progressBar.apresentarTaxa(this.tamanhoProgressBar, 1)
+    }
 }
-module.exports = execut
