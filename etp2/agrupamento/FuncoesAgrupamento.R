@@ -20,6 +20,7 @@ normaliza = function(metrica){
     
   }
 
+
   
   return(x)
   
@@ -32,10 +33,10 @@ modeloHierarquico = function(){
  
 
   
-  #Essa função calcula e retorna a matriz de distância calculada;
+  #Essa funÃ§Ã£o calcula e retorna a matriz de distÃ¢ncia calculada;
   distances <- dist(dfNormal, method = "euclidean")
   
-  #Realiza a análise hierarquica.
+  #Realiza a anÃ¡lise hierarquica.
   dendrogram <- hclust(distances)
   
   plot(dendrogram)
@@ -47,21 +48,22 @@ modeloHierarquico = function(){
 
 lerTXTeRotornaDataFrame = function(){
   
-  #Seta o diretório
-  setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informação\\8°Periodo\\TCCII\\coleta_final")
+  #Seta o diretÃ³rio
+  setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informaÃ§Ã£o\\8Â°Periodo\\TCCII\\Analise de metricas")
   getwd()
   
   #Atrbui os dados do arquivo para um dataframe
-  df <-read.table("metrics_agrup.csv", sep=";", head=T, stringsAsFactors = FALSE, fileEncoding="UTF-8-BOM")
+  df <-read.csv("metrics.txt", sep=";", encoding = "UTF-8")
   
   dfResult <- df
   
-  #Coloca o bundle ID como o rótulo da coluna
+  #Coloca o bundle ID como o rÃ³tulo da coluna
   row.names(dfResult) <- dfResult$Bundle_Id
   dfResult$Bundle_Id <- NULL
   
-  #Parece que precisa de remover as colunas que não vão ser analisadas
+  #Parece que precisa de remover as colunas que nÃ£o vÃ£o ser analisadas
   dfResult$Tamanho_do_aplicativo <- NULL
+  dfResult$Versao_do_android_exigida <- NULL
   dfResult$Versao_do_android_exigida <- NULL
   
   return(dfResult)

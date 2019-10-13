@@ -1,7 +1,7 @@
 
 #=========================Leitura e tratamento de dados=====================================
-#Define as métricas que serão agrupadas
-metricas <- c("Numero_de_avaliacoes","Numero_de_estrelas","Numero_de_instalacoes")
+#Define as mÃ©tricas que serÃ£o agrupadas
+metricas <- c("Numero_de_instalacoes","Numero_de_comentarios","Avaliacoes_sem_comentario")
 
 #DataFrame sem normalizacao
 df = lerTXTeRotornaDataFrame()
@@ -10,14 +10,20 @@ df = lerTXTeRotornaDataFrame()
 dfNormal = lerTXTeRotornaDataFrame()
 
 
-#Realiza a normalização das metricas a serem analisadas
+#Realiza a normalizaÃ§Ã£o das metricas a serem analisadas
 for(m in metricas){
 
   dfNormal[m] = normaliza(m)
    
 }
 
-#==========================Geração do número ótimo de grupos=================================
+dfNormal$Palavra_Chave<-NULL
+dfNormal$Nome_do_aplicativo<-NULL
+dfNormal$Numero_de_estrelas<-NULL
+dfNormal$Tamanho.do.aplicativo<-NULL
+dfNormal$Numero_de_avaliacoes<-NULL
+
+#==========================GeraÃ§Ã£o do nÃºmero Ã³timo de grupos=================================
 
 #Posso fazer um modelo hierarquco ou utilizar o fviz que da o numero otimo de clusters
 modeloHierarquico()
@@ -28,12 +34,12 @@ fviz_nbclust(dfNormal, kmeans, method="wss")
 
 fviz_nbclust(dfNormal, kmeans, method="gap_stat")
 
-#===============================Análise de clusters==========================================
+#===============================AnÃ¡lise de clusters==========================================
 
 df$grupos <- NULL
 dados_kmeans <- kmeans(dfNormal, 4)
 
-#Visualizar o gráfico 
+#Visualizar o grÃ¡fico 
 fviz_cluster(dados_kmeans, data = dfNormal)
 
 grupos <- dados_kmeans$cluster
