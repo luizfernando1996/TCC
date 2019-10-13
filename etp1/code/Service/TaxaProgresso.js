@@ -25,7 +25,11 @@ module.exports = class TaxaProgresso {
             this.bar1.stop();
 
         if (tratarErro == true)
+
             if (this.valorPercorrido == valorTot)
+
+            if ( this.valorPercorrido == valorTot)
+
                 this.bar1.stop()
     }
 }
