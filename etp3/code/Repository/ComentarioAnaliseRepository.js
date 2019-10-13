@@ -52,7 +52,9 @@ class ComentarioAnaliseRepository extends BaseRepository {
         //Texto do comentário do aplicativo
         var textoComentario = linha[2]
 
-        var linhaSerInserida = bundleAplicativo + ";" + textoComentario
+        var numeroEstrelasApp = linha[5]
+
+        var linhaSerInserida = bundleAplicativo + ";" + textoComentario + ";" + numeroEstrelasApp
 
         return linhaSerInserida
     }

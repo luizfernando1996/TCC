@@ -24,10 +24,12 @@ class AnaliseSentimento {
 
                 //Bundle Id do aplicativo
                 var bundleAplicativo = linha[0]
-                //Número de estrelas do app
-                //--var numeroEstrelas = linha[x]
+
                 //Texto do comentário do aplicativo
                 var textoComentario = linha[1]
+
+                //Número de estrelas do app
+                var numeroEstrelas = linha[2]
 
                 //Analisa o comentario e identifica se o comentario é bom, ruim ou neutro
                 var resultadoAvaliacao = this.avaliarComentario(textoComentario)
@@ -106,6 +108,10 @@ class AnaliseSentimento {
         var comentNeg = this.map.get(bundleAplicativo).comentariosNegativos
 
         var estatistica = comentPos / (comentPos + comentNeg)
+        
+        if (isNaN(estatistica))
+            estatistica = 0
+
         estatistica = estatistica.toFixed(2)
         this.map.get(bundleAplicativo).estatisticaAplicativo = estatistica
     }
