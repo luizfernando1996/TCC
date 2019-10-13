@@ -21,7 +21,8 @@ function exec() {
     }
     else if (_resp == 2) {
         ComentarioService = require('../../../etp1/code/Service/ComentarioService.js')
-        var coment = ComentarioService()
+        var coment = new ComentarioService()
+        coment.execut()
     }
     else if (_resp == 3) {
         ScriptArquivoUnico = require('../../../etp1/code/Scripts/CriaArquivoUnico.js')
