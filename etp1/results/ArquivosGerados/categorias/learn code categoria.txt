@@ -1,10 +1,250 @@
-learn code;10;SoloLearn: Learn to Code for Free
-learn code;10;Grasshopper: Learn to Code for Free
-learn code;10;Mimo: Learn to Code
-learn code;10;Programming Hub: Learn to Code
-learn code;10;Encode: Learn to Code
-learn code;10;Enki: Learn data science, coding, tech skills
-learn code;10;Learn Python
-learn code;10;Learn To Code : Free & Offline
-learn code;10;C Programming - Learn Code, Theory & Discuss
-learn code;10;Learn Code Online
+learn code;250;SoloLearn: Learn to Code for Free
+learn code;250;Mimo: Learn to Code
+learn code;250;Grasshopper: Learn to Code for Free
+learn code;250;Programming Hub: Learn to Code
+learn code;250;Encode: Learn to Code
+learn code;250;Enki: Learn data science, coding, tech skills
+learn code;250;Learn Python
+learn code;250;Learn Code Online
+learn code;250;Learn To Code : Free & Offline
+learn code;250;Programming Hero: Coding Just Got Fun (beta)
+learn code;250;C Programming - Learn Code, Theory & Discuss
+learn code;250;Think & Learn  Code-a-pillar™
+learn code;250;CodeNGo Coding Academy: Learn To Code Free
+learn code;250;Codemurai - Learn Programming
+learn code;250;Learn HTML
+learn code;250;Tynker - Learn to code
+learn code;250;Dcoder, Compiler IDE :Code & Programming on mobile
+learn code;250;DataCamp - Learn R, Python & SQL coding
+learn code;250;Morse code - learn and play
+learn code;250;Pocket Code: Learn programming your own game apps!
+learn code;250;Learn C++
+learn code;250;PI Learn to Code
+learn code;250;Learn To Code (JAVA)
+learn code;250;Learn Java
+learn code;250;Master Android - Learn Android, Java & Flutter
+learn code;250;EASY CODER : Learn to develop & run java programs
+learn code;250;Learn DS & Algo, Programming Interview Preparation
+learn code;250;Coding Games For Kids - Learn To Code With Play
+learn code;250;Learn C#
+learn code;250;Learn Python Offline- Tutorial and Interpreter
+learn code;250;Practice Code : Learn Programming
+learn code;250;Coding Games - Kids Learn To Code
+learn code;250;Learn Android With Source Code
+learn code;250;Learn To Code (PYTHON)
+learn code;250;Learn To Code (HTML)
+learn code;250;Programming for Kids - Learn Coding
+learn code;250;Learn JavaScript
+learn code;250;HTML Code Play
+learn code;250;Robotizen: Kid learn Coding Robot 5+
+learn code;250;Lightbot : Code Hour
+learn code;250;CodePal: Learn programming
+learn code;250;Tommy the Turtle, Learn to Code: Kids Coding
+learn code;250;Learn CSS
+learn code;250;Algorithm City : Coding Game
+learn code;250;Scode - Learn Coding
+learn code;250;Learn To Code (C++)
+learn code;250;CoderHub-Learn Coding Free
+learn code;250;Frizzl - learn to code while building your own app
+learn code;250;Learn Basic Computer Programming Free OFFLINE
+learn code;250;Programming - Learning - Tutorials
+learn code;250;Career Karma - Learn to Code for Adults
+learn code;250;Code Karts Pre-coding for kids
+learn code;250;Learn SQL
+learn code;250;W3school
+learn code;250;Ruby Course: Learn to code, programming free💎 💪
+learn code;250;Programming - Learning - Tutorials
+learn code;250;Learn To Code (JavaScript)
+learn code;250;Coding eBooks : All Free Programming Books at Once
+learn code;250;Udemy - Online Courses
+learn code;250;Learn C Coding
+learn code;250;Coding Quiz (programming)
+learn code;250;Learn HTML Pro - Offline Program Run
+learn code;250;Khan Academy
+learn code;250;Learn Android Code Play iOS, Windows, hybrid app
+learn code;250;Learn HTML
+learn code;250;codeSpark Academy: Kids Coding
+learn code;250;Learn Python: Programiz
+learn code;250;Learn PHP
+learn code;250;LinkedIn Learning: Online Courses to Learn Skills
+learn code;250;Learn Android App Development for Beginners
+learn code;250;Learn programming
+learn code;250;ScratchJr
+learn code;250;JavaScript Hero - Learn to Code for Free
+learn code;250;Learn Java Programming OFFLINE -  Java Tutorials
+learn code;250;Learn Morse Code - G0HYN Learn Morse
+learn code;250;Learn Swift Programming - iOS
+learn code;250;SpriteBox : Code Hour
+learn code;250;Learnable: Learn to code
+learn code;250;Learn Computer Programming
+learn code;250;Learn Python Programming - Offline Tutorial
+learn code;250;Freecode Android Tutorial with code. Learn Android
+learn code;250;Learn C++ Programming - Tutorial
+learn code;250;Boogie Bot - Learn to code.
+learn code;250;Learn Android Tutorial - Android App Development
+learn code;250;Programming eBooks: All Free Coding Books
+learn code;250;Geeks Code: All Programming Books in one place
+learn code;250;learn html - learn to code
+learn code;250;Programming Languages
+learn code;250;Coding Planets
+learn code;250;Learn 6502 Assembly
+learn code;250;Learn Python  Programming Free - Python Offline
+learn code;250;Machine Learning Tutorial
+learn code;250;DroidScript - JavaScript Mobile Coding IDE
+learn code;250;C Programming Robot - Learn Coding & C Theory
+learn code;250;Learn Node.js Programming Free - Node Js Tutorials
+learn code;250;Learn PHP - Offline Tutorial
+learn code;250;Learn JavaScript Offline Tutorial
+learn code;250;Codecademy Go
+learn code;250;Morse Code
+learn code;250;Py
+learn code;250;Learning Java
+learn code;250;Learn Android With Source Code
+learn code;250;iBooks: Free Coding eBooks 👨‍💻 Programming Books
+learn code;250;Learn Kotlin Programming Free - Kotlin Tutorials
+learn code;250;Learn CSS
+learn code;250;Algorithms: Explained and Animated
+learn code;250;Machine Learning Tutorial
+learn code;250;Learn HTML: Web Design Tutorial
+learn code;250;Learn Web Development Complete Bootcamp 2019
+learn code;250;edX: Online Courses by Harvard, MIT, Berkeley, IBM
+learn code;250;Java Basics Learning : Java for Absolute Beginners
+learn code;250;Learn PHP Programming Coding
+learn code;250;Learn Python Programming Free - Python Tutorials
+learn code;250;Tommy the Robot, Learn to Code
+learn code;250;Learn React 16.9 - ReactJs Tutorials & Guide 🤓
+learn code;250;Learn C [NEW]
+learn code;250;C Programming
+learn code;250;HTML Tutorial Code Tags CSS
+learn code;250;Coding Planets 2
+learn code;250;Mobile C [ C/C++ Compiler ]
+learn code;250;Computer & Coding Learning App
+learn code;250;Learn Code
+learn code;250;Learn electronics
+learn code;250;Leetcode Algorithm Coding, Java Interview Offline
+learn code;250;WeCode : Learn Coding Anywhere
+learn code;250;Learn R Programming - Tutorial
+learn code;250;Learn React Native Tutorial
+learn code;250;Code Cheat Sheets - Programming References
+learn code;250;CodeBoard Keyboard for Coding
+learn code;250;Morse Code - Tutorial, Training, Tools
+learn code;250;SQL Code Play
+learn code;250;C++ Programming
+learn code;250;Learn Java
+learn code;250;All C Programs
+learn code;250;Java Programming
+learn code;250;Java Deep Learning: Core java
+learn code;250;CREATE YOUR OWN APPS
+learn code;250;Learn Arduino Programming
+learn code;250;Learn C++ Programming - Tutorial
+learn code;250;Delphi Examples: Learn to Code
+learn code;250;Learn R Programming Free - R Programming Tutorials
+learn code;250;Learn Programming (Web Development)
+learn code;250;Learn Data Science- Python Coding, Reddit Discuss
+learn code;250;C++ Basics Learning : C++ for Beginners
+learn code;250;Data Structures & Coding Interview Algorithms
+learn code;250;PHP Code Play
+learn code;250;IT Books: Free Programming Books, coding books
+learn code;250;Learn To Code
+learn code;250;Learn Web Development
+learn code;250;PBS KIDS ScratchJr
+learn code;250;Learn jQuery
+learn code;250;Learn JavaScript Offline
+learn code;250;Learn Networking Offline - Networking Tutorials
+learn code;250;Learn Android Programming
+learn code;250;تعلم  البرمجة : كوداتي Codeaty
+learn code;250;Learn Arduino Coding
+learn code;250;Learn To Code
+learn code;250;Android Tutorial: Learn Android, Java & Kotlin
+learn code;250;Learn HTML Programming Free - HTML Tutorials
+learn code;250;Learn Android Codes
+learn code;250;Python Programming Interpreter
+learn code;250;Learn Html Css Javascript
+learn code;250;CppDroid - C/C++ IDE
+learn code;250;Smart Android Course Free app development tutorial
+learn code;250;Learn Assembly Language Complete Guide (OFFLINE)
+learn code;250;Quizlet: Learn Languages & Vocab with Flashcards
+learn code;250;Learn HTML5 Programming
+learn code;250;Learn Dart Programming Free - Dart Tutorials
+learn code;250;Bootstrap Code Play
+learn code;250;Buku Pemrograman (versi baru Belajar HTML)
+learn code;250;Java Programming - Learn Coding
+learn code;250;Binary Code Translator
+learn code;250;Learn Java
+learn code;250;Learn Kotlin
+learn code;250;CODE.GAME KIDS
+learn code;250;Easy Coding
+learn code;250;Learn C++
+learn code;250;Coding EBooks:Programming, Web, Networking, Mobile
+learn code;250;Learn Programming C, C++ , Java, PHP
+learn code;250;Learn C , C++ ,Java,Android-Smart Programming
+learn code;250;Learn C++ Programming Offline - C++ Tutorials Free
+learn code;250;PBS KIDS ScratchJr
+learn code;250;Learn Computer Programming
+learn code;250;Programming for Beginners
+learn code;250;Rosetta Stone: Learn Languages
+learn code;250;Expert C Programming - Learn C Coding Easily
+learn code;250;Learn Java Programming
+learn code;250;Coding Games For Beginner (C,Android,Java script)
+learn code;250;All Things  Binary - Convert and Learn Binary Code
+learn code;250;বাংলায় প্রোগ্রামিং
+learn code;250;AIDE- IDE for Android Java C++
+learn code;250;BeBlocky: Coding For Kids
+learn code;250;SODR: An FPS Coding Game to master programming
+learn code;250;Learn Python with Data Science
+learn code;250;Code Hub
+learn code;250;SQL Practice PRO - Learn SQL Databases
+learn code;250;Learn JavaScript Programming - JavaScript Tutorial
+learn code;250;Quoda Code Editor
+learn code;250;HTML CSS Live Code Editor & Learning
+learn code;250;Learn MATLAB Complete Guide Offline
+learn code;250;Hacked
+learn code;250;Learn Programming - Hindi
+learn code;250;Online Compiler (Beta)
+learn code;250;Stepik: Free Courses
+learn code;250;All About Computer | Learn computer | Computer |
+learn code;250;Learn C++
+learn code;250;Learn Android (XML, Java, Kotlin)
+learn code;250;LearnProg | Learn Programming Languages
+learn code;250;Kano Code
+learn code;250;Seesaw: The Learning Journal
+learn code;250;Learn Android App Development with Ndroid
+learn code;250;ABCmouse.com
+learn code;250;Python Tutorial
+learn code;250;Spck JS Code Editor Sandbox & Git Client
+learn code;250;Code Free
+learn code;250;Learn Java Offline
+learn code;250;Learn PHP
+learn code;250;Duolingo: Learn Languages Free
+learn code;250;Learn Python Tutorial for Beginners with Examples
+learn code;250;Code Academy
+learn code;250;JavaScript Quiz
+learn code;250;HANDY CODE - Coding education, Programming
+learn code;250;Programming languages
+learn code;250;Learn Java Programming Language
+learn code;250;Learn: how to invest in stocks
+learn code;250;Learn CSS Pro - Offline Program Run
+learn code;250;Web Design (Learn Offline)
+learn code;250;Learn Computer Science
+learn code;250;C# Recipes
+learn code;250;Learn C#.NET
+learn code;250;Data Science 101 - Machine Learning Tutorials
+learn code;250;Learn PHP Programming Offline - PHP Tutorials Free
+learn code;250;Morse Trainer
+learn code;250;C Programming Code
+learn code;250;Learn Android Programming
+learn code;250;Learn C Programming
+learn code;250;Sketchware for Arduino - Arduino Coding App
+learn code;250;Learn NodeJS
+learn code;250;Crayola Create & Play: Coloring & Learning Games
+learn code;250;Learn COBOL Complete Guide Offline
+learn code;250;Code in Python
+learn code;250;Learn HTML
+learn code;250;Rox's Secret Code
+learn code;250;Code for Gold
+learn code;250;Mors. : The Morse Code Trainer
+learn code;250;Sphero Edu - Coding for Sphero Robots
+learn code;250;Learn Excel Full
+learn code;250;Play and Learn Science
+learn code;250;CodeMonkey Jr. Pre-coding Game for Pre-readers
+learn code;250;Learn Android Java

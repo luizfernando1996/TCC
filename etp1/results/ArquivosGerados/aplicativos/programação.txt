@@ -1,8 +1,107 @@
-Palavra Chave;Bundle Id;Nome do aplicativo;Número de avaliações;Número de estrelas;Número de instalações;Tamanho do aplicativo;Versão do android exigida
-programação;com.getmimo;Mimo: Learn to Code;88150;4.5;1,000,000+;24M;5.0 and up
-programação;com.sololearn;SoloLearn: Learn to Code for Free;401424;4.8;5,000,000+;10M;4.0.3 and up
-programação;tursky.jan.nauc.sa.html5;Learn programming;12828;3.8;1,000,000+;6.8M;4.0.3 and up
-programação;com.paprbit.dcoder;Dcoder, Compiler IDE :Code & Programming on mobile;19354;4.4;1,000,000+;6.5M;4.0.3 and up
-programação;com.duhnnae.programmingprogramacion;Programming - Learning - Tutorials;54;4.4;10,000+;7.1M;4.1 and up
-programação;com.do_apps.catalog_68;Programming languages;1410;4.1;100,000+;40M;4.4 and up
-programação;com.freeit.java;Programming Hub: Learn to Code;89000;4.6;1,000,000+;Varies with device;Varies with device
+Palavra_Chave;Bundle_Id;Nome_do_aplicativo;Numero_de_avaliacoes;Numero_de_estrelas;Numero_de_instalacoes;Tamanho do aplicativo;Versao_do_android_exigida;Numero_de_comentarios;Avaliacoes_sem_comentario
+programação;com.freeit.java;Programming Hub: Learn to Code;84107;4.6;1,000,000+;Varies with device;Varies with device;27568;56539
+programação;com.duhnnae.programmingprogramacion;Programming - Learning - Tutorials;54;4.4;10,000+;7.1M;4.1 and up;37;17
+programação;tursky.jan.nauc.sa.html5;Learn programming;12829;3.8;1,000,000+;6.8M;4.0.3 and up;2832;9997
+programação;com.sololearn.php;Learn PHP;16122;4.5;1,000,000+;6.2M;4.0.3 and up;5500;10622
+programação;com.paprbit.dcoder;Dcoder, Compiler IDE :Code & Programming on mobile;18281;4.4;1,000,000+;6.5M;4.0.3 and up;8350;9931
+programação;com.do_apps.catalog_68;Programming languages;1342;4.1;100,000+;40M;4.4 and up;295;1047
+programação;com.getmimo;Mimo: Learn to Code;84782;4.5;1,000,000+;16M;5.0 and up;34622;50160
+programação;app.compiler;Online Compiler (Beta);10025;4.4;100,000+;2.6M;4.1 and up;4536;5489
+programação;com.sololearn.cplusplus;Learn C++;72517;4.7;1,000,000+;6.2M;4.0.3 and up;22509;50008
+programação;org.qpython.qpy3;QPython3 - Python3 for Android;5173;4.1;1,000,000+;22M;2.3 and up;2306;2867
+programação;com.papumba.android.learnenglish;English for Kids;3883;4.2;500,000+;36M;4.0.3 and up;1425;2458
+programação;com.sololearn;SoloLearn: Learn to Code for Free;379158;4.8;5,000,000+;10M;4.0.3 and up;159236;219922
+programação;org.jw.jwlanguage;JW Language;89332;4.9;1,000,000+;25M;4.1 and up;27573;61759
+programação;free.programming.programming;Learn DS & Algo, Programming Interview Preparation;8121;4.6;500,000+;4.5M;5.1 and up;1789;6332
+programação;org.catrobat.catroid;Pocket Code: Learn programming your own game apps!;11044;3.9;500,000+;23M;5.0 and up;5398;5646
+programação;com.codenza.dp.programs;Codenza;1897;4.6;100,000+;10M;4.2 and up;742;1155
+programação;com.repair.learn.programming.android;Learn Programming For Android;56;3.3;10,000+;1.8M;2.3.3 and up;29;27
+programação;com.practice_o_learn.javaprogramming;Learn Java Programming;80;4.5;10,000+;3.0M;4.0 and up;53;27
+programação;com.qtechbd.tutorial.python;Python Tutorial;33;4.4;10,000+;2.1M;4.0.3 and up;18;15
+programação;prueba.joseluismerlosguzman.prueba;Convertidor de algoritmo a código;7;3.3;1,000+;1.6M;4.1 and up;3;4
+programação;com.ozensoft.arduinoplcladdersim;Arduino PLC - Ladder Simulator;254;4.1;100,000+;2.8M;4.1 and up;118;136
+programação;name.antonsmirnov.android.cppdroid;CppDroid - C/C++ IDE;30266;4.1;1,000,000+;46M;4.4W and up;7749;22517
+programação;com.do_apps.catalog_285;Algorithms;374;4.0;50,000+;25M;4.4 and up;94;280
+programação;com.do_apps.catalog_485;Object-oriented programming;52;3.6;10,000+;10M;4.4 and up;17;35
+programação;com.codenza.dp.programs;Codenza;1897;4.6;100,000+;10M;4.2 and up;742;1155
+programação;oop.cite.pc_admin.trial_3navbar;OOP for Beginners;16;4.2;5,000+;8.1M;4.1 and up;10;6
+programação;coolfreeapps.appslaborator.learn.c.programming;C/C++ programming;36;4.0;10,000+;1.8M;2.3.3 and up;13;23
+programação;com.classic.vast.com.learningcpp;Learn C++;11;4.5;5,000+;4.1M;4.0.3 and up;5;6
+programação;com.buta.caculator;HiEdu Scientific Calculator : Fx-570vn Plus;31930;4.6;1,000,000+;6.1M;4.0.3 and up;16224;15706
+programação;robotic.industrial;Industrial Robotics 3D;1117;4.4;100,000+;14M;4.2 and up;359;758
+programação;aplus.cursosalgotmico;CURSO ALGORÍTMICO;undefined;undefined;1,000+;3.7M;4.0.3 and up;undefined;NaN
+programação;com.appsenrique.pnlconpoder;PNL con Poder;228;4.6;10,000+;13M;4.0.3 and up;177;51
+programação;com.repair.learn.programming.android;Learn Programming For Android;56;3.3;10,000+;1.8M;2.3.3 and up;29;27
+programação;com.educationapps.cncprogrammingexamples;CNC Programming Example;170;4.4;10,000+;7.5M;4.4 and up;90;80
+programação;com.lpalominos.horariodeclases;Class Schedule;891;4.1;50,000+;6.4M;4.3 and up;352;539
+programação;itools.cprograms;C Programming (1000+ programs & 250+ Patterns);544;3.4;50,000+;12M;4.1 and up;261;283
+programação;com.dexterousdevelopers.cprogrammingtutorials;C Programming Tutorials;68;4.8;10,000+;3.9M;4.0.3 and up;48;20
+programação;com.codepoint.computerProgramming;Learn Basic Computer Programming Free OFFLINE;22;4.5;10,000+;5.9M;4.4 and up;13;9
+programação;com.duy.pascal.compiler;Pascal N-IDE - Editor And Compiler - Programming;11322;4.7;500,000+;6.0M;4.0 and up;4731;6591
+programação;my.book.ua.AOUVWFQPJIIAFRHOFO;Manipulation and control;415;3.5;100,000+;5.5M;4.1 and up;57;358
+programação;aplus.cursosalgotmico;CURSO ALGORÍTMICO;undefined;undefined;1,000+;3.7M;4.0.3 and up;undefined;NaN
+programação;coolfreeapps.appslaborator.web.development.course;Web development course;40;3.9;5,000+;1.8M;2.3.3 and up;26;14
+programação;com.sololearn.sql;Learn SQL;19440;4.6;1,000,000+;6.2M;4.0.3 and up;6084;13356
+programação;com.sololearn.java;Learn Java;55379;4.6;1,000,000+;6.2M;4.0.3 and up;18333;37046
+programação;com.myprg.aakash.ardunioprogramming;Arduino Programming;100;4.1;10,000+;4.7M;4.2 and up;40;60
+programação;com.krazeapps.basicprogrammingcompiler;BASIC Programming Compiler;14;2.8;1,000+;6.5M;4.4 and up;12;2
+programação;com.chavan.oops;Object Oriented Programming (Oops);99;4.6;10,000+;3.8M;4.0.3 and up;70;29
+programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up;5;8
+programação;com.W3school.Anbu;W3school;321;4.2;100,000+;78M;1.6 and up;140;181
+programação;com.mres.schedule;Bible Reading Schedule;17404;4.7;1,000,000+;847k;1.6 and up;4500;12904
+programação;aplus.cursoalgortmico;Curso de algoritmo;5;3.6;1,000+;3.7M;4.0.3 and up;3;2
+programação;everyneedz.com.webdevelopment;Web Development (HTML,CSS,JS);1461;4.1;100,000+;15M;4.0.3 and up;644;817
+programação;com.swastik.operationalresearch;Operational Research;153;4.5;10,000+;3.2M;4.1 and up;65;88
+programação;itools.aiwithpython;Artificial Intelligence;79;4.3;10,000+;10M;4.1 and up;28;51
+programação;ab.java.programming;Java Programming;9578;3.4;1,000,000+;3.5M;2.3.3 and up;3156;6422
+programação;com.skycodetech.codingquiz;Coding Quiz (programming);219;4.5;10,000+;4.3M;4.4 and up;102;117
+programação;com.liga.letramento;Letramento em Programação;13;4.8;500+;54M;4.0 and up;5;8
+programação;pe.diegoveloper.pseudocode;Pseudocode, PSeInt, Visualg;4346;4.4;100,000+;3.7M;4.0 and up;2044;2302
+programação;com.myprg.aakash.ardunioprogramming;Arduino Programming;106;4.1;10,000+;4.7M;4.2 and up;43;63
+programação;com.apps.athena.programminglanguages;Programming Languages;446;4.4;100,000+;3.3M;4.1 and up;171;275
+programação;tk.app.start;Start: Ensino de Programação;71;4.5;10,000+;3.8M;4.4 and up;42;29
+programação;com.back_banchers.html;Learn HTML;651;3.7;100,000+;3.9M;4.0 and up;353;298
+programação;com.back_banchers.cplusplus;Learn C++;46;3.7;10,000+;3.6M;4.0 and up;27;19
+programação;wiki.algorithm.algorithms;Algorithms: Explained and Animated;6221;4.6;1,000,000+;41M;4.0.3 and up;2359;3862
+programação;com.do_apps.catalog_485;Object-oriented programming;58;3.7;10,000+;10M;4.4 and up;18;40
+programação;com.doasido4u.jsquiz;JavaScript Quiz;75;4.6;10,000+;2.8M;4.2 and up;31;44
+programação;com.knightcoder.programmingebooks;Coding eBooks : All Free Programming Books at Once;1114;4.3;100,000+;6.5M;4.3 and up;534;580
+programação;coolfreeapps.appslaborator.html.course;HTML Course;219;4.2;10,000+;1.8M;2.3.3 and up;101;118
+programação;com.raincontinues.simplc2;PLC Ladder Logic Simulator;77;4.2;10,000+;2.1M;4.4 and up;48;29
+programação;com.myapp.designpatternscs;Design Patterns in C#;283;4.8;10,000+;4.2M;4.1 and up;115;168
+programação;com.C_Examples.C_Programming;350+ C Programming Examples;52;4.5;10,000+;5.4M;5.0 and up;16;36
+programação;com.learnswiftprogramming;Learn Swift Programming - iOS;55;4.5;5,000+;3.5M;5.0 and up;20;35
+programação;com.apps21.reparaciondecelulares;Cellular Repair Course;2222;4.2;100,000+;3.7M;4.0 and up;611;1611
+programação;ru.code_samples.obraztsov_develop.codesamples_csharp;C# Recipes;152;4.3;10,000+;1.2M;4.1 and up;63;89
+programação;com.susanapp.cursodeinformatica;Informatics Course;942;4.0;500,000+;3.7M;4.0 and up;412;530
+programação;net.androidsquad.androidmaster;Master Android - Learn Android, Java & Flutter;20350;4.6;500,000+;9.6M;4.1 and up;7828;12522
+programação;coolfreeapps.appslaborator.learn.c.programming;C/C++ programming;36;4.0;10,000+;1.8M;2.3.3 and up;13;23
+programação;com.admob9931.python_panda;Python Pandas Tutorial;27;4.5;10,000+;3.7M;4.0 and up;15;12
+programação;io.getready.ready;Ready Maker;9670;3.3;1,000,000+;50M;4.1 and up;5668;4002
+programação;br.com.acaicomcodigo.informaticanobolso;Informática no Bolso - Concursos e Ensino Superior;257;4.7;50,000+;5.6M;4.4 and up;125;132
+programação;daldev.android.gradehelper;School Planner;96812;4.5;5,000,000+;5.0M;4.1 and up;36742;60070
+programação;ru.iiec.pydroid3;Pydroid 3 - IDE for Python 3;4162;4.4;500,000+;Varies with device;Varies with device;2278;1884
+programação;com.learnprogramming.codecamp;Programming Hero: Coding Just Got Fun (beta);5492;4.9;100,000+;17M;4.1 and up;2965;2527
+programação;org.scratchjr.android;ScratchJr;6423;3.8;1,000,000+;25M;4.2 and up;3084;3339
+programação;com.codepoint.learnreactjs;Learn React 16.9 - ReactJs Tutorials & Guide 🤓;607;3.9;10,000+;8.3M;4.4 and up;248;359
+programação;com.area120.grasshopper;Grasshopper: Learn to Code for Free;15827;4.5;1,000,000+;28M;4.4 and up;7644;8183
+programação;com.sololearn.python;Learn Python;81139;4.6;1,000,000+;6.2M;4.0.3 and up;27330;53809
+programação;com.linkedin.android.learning;LinkedIn Learning: Online Courses to Learn Skills;14650;4.7;1,000,000+;14M;5.0 and up;5617;9033
+programação;com.HTML.AngularJS.Codeplay;HTML Code Play;4758;4.5;500,000+;6.3M;4.4 and up;2506;2252
+programação;org.scratchjr.android;ScratchJr;6423;3.8;1,000,000+;25M;4.2 and up;3084;3339
+programação;com.ionicframework.cursosdegraca;Cursa - free courses with certificate;7910;4.7;1,000,000+;13M;4.4 and up;4656;3254
+programação;com.codepoint.learnandroid;Learn Android App Development for Beginners;193;4.1;10,000+;5.7M;4.4 and up;98;95
+programação;cpp.programming;C++ Programming;13564;4.2;1,000,000+;1.8M;2.3 and up;3760;9804
+programação;com.dztall.ccr.android.admob;Mobile C [ C/C++ Compiler ];6328;4.1;500,000+;78M;4.0.3 and up;2823;3505
+programação;com.CoderBro.tutorials.arduinotutorials;Arduino Tutorials;744;4.0;100,000+;9.3M;4.0.3 and up;295;449
+programação;com.udemy.android;Udemy - Online Courses;167507;4.6;5,000,000+;10M;5.0 and up;58642;108865
+programação;com.apps21.cursodecomputacion;Computer Course;5026;4.3;1,000,000+;3.7M;4.0 and up;1581;3445
+programação;com.best.don.programmingbooks;Programming eBooks: All Free Coding Books;425;4.2;10,000+;4.1M;5.0 and up;226;199
+programação;com.zdivdev.ebook.lua;Lua 5.3 Language Reference;64;4.2;10,000+;1.9M;4.0 and up;30;34
+programação;com.udemy.android;Udemy - Online Courses;167504;4.6;5,000,000+;10M;5.0 and up;58642;108862
+programação;com.sololearn.javascript;Learn JavaScript;24426;4.5;1,000,000+;6.2M;4.0.3 and up;7959;16467
+programação;com.codepoint.learnrprogramming;Learn R Programming Free - R Programming Tutorials;16;4.3;5,000+;5.0M;4.4 and up;10;6
+programação;com.aldoh_ti.PortalProgramandoApp;Portal Programando (Programming Courses);18;4.1;1,000+;3.7M;4.4 and up;12;6
+programação;com.cpp.user.cprograms;100+ C++ Programs With Output;64;4.7;5,000+;2.9M;4.0 and up;49;15
+programação;com.kids.coding.connectdots;Programming for Kids - Learn Coding;25;3.3;10,000+;13M;4.0 and up;13;12
+programação;com.tips.programist;Как стать программистом;40;4.2;5,000+;3.6M;4.0.3 and up;21;19
