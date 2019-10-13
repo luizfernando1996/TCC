@@ -26,7 +26,7 @@ module.exports = class ComentarioService {
         this.bsServ = new BaseService();
         this.objexcel = new modExcel()
         this.progressBar = new TaxaProgresso()
-        this.i = 0;
+        
     }
 
 
@@ -42,13 +42,14 @@ module.exports = class ComentarioService {
 
         //Adiciona o cabeçalho no novo arquivo
         this.conteudoArquivoExcel.push(this.cabecalhoArquivoExcel);
+        
+        //Retira o cabeçalho do arquivo lido
+        this.array.splice(0, 1)
 
         //Inicializa a progressBar
         this.tamanhoProgressBar = this.array.length * 5
         this.progressBar.apresentarTaxa(this.tamanhoProgressBar, 0)
 
-        //Retira o cabeçalho do arquivo lido
-        this.array.splice(0, 1)
     }
 
     efetuarRequisicoes() {
@@ -67,7 +68,7 @@ module.exports = class ComentarioService {
         var numeroEstrelasApp = elementos[1];
         var bundleId = elementos[0];
 
-        for (let numeroPaginas = 0; numeroPaginas < 1; numeroPaginas++) {
+        for (let numeroPaginas = 0; numeroPaginas < 4; numeroPaginas++) {
 
             gplay.reviews({
                 appId: bundleId,
@@ -78,10 +79,9 @@ module.exports = class ComentarioService {
 
                 //Atualiza o valor da progressBar
                 this.incrementarProgressBar()
-                this.i++;
+               
                 this.objexcel.salvarComent("ComentariosApps", this.conteudoArquivoExcel)
-                if (this.i == 3)
-                    return
+              
             }, erro => {
                 //bsServ.sleep(180)
                 this.incrementarProgressBar()
