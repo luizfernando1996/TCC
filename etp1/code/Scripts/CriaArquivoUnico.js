@@ -6,7 +6,7 @@ function func() {
     const readline = require('readline')
     const fs = require('fs')
     const diretório = "../TCC/etp1/results/ArquivosGerados/aplicativos"
-    const diretorioArquivoSaida = '../TCC/etp1/results/ArquivosColetados/metrics.txt'
+    const diretorioArquivoSaida = '../TCC/etp2/entrada/metrics.txt'
 
     //--Declaração de variáveis---------
     let files = fs.readdirSync(diretório);
