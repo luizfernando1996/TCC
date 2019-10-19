@@ -17,11 +17,12 @@ for(m in metricas){
    
 }
 
-dfNormal$Palavra_Chave<-NULL
+dfNormal$X.U.FEFF.Palavra_Chave<-NULL
 dfNormal$Nome_do_aplicativo<-NULL
 dfNormal$Numero_de_estrelas<-NULL
 dfNormal$Tamanho.do.aplicativo<-NULL
 dfNormal$Numero_de_avaliacoes<-NULL
+dfNormal$Bundle_Id<-NULL
 
 #==========================Geração do número ótimo de grupos=================================
 
@@ -50,3 +51,11 @@ df <- cbind(df, grupos)
 dados_kmeans$centers
 
 View(df)
+
+#==============================Cria arquivo com a coluna de grupos===========================
+
+write.table(df, file='arquivoComGrupos.csv', sep=';', dec=',', row.names=FALSE)
+
+write.table(df, file='arquivoComGrupos.txt', sep=';', dec=',', row.names=FALSE)
+
+
