@@ -59,7 +59,7 @@ lerTXTeRotornaDataFrame = function(){
   
   #Coloca o bundle ID como o rótulo da coluna
   row.names(dfResult) <- dfResult$Bundle_Id
-  dfResult$Bundle_Id <- NULL
+ 
   
   #Parece que precisa de remover as colunas que não vão ser analisadas
   dfResult$Tamanho_do_aplicativo <- NULL
@@ -70,6 +70,9 @@ lerTXTeRotornaDataFrame = function(){
   
   
 }
+
+
+
 
 
 
