@@ -66,3 +66,7 @@ Zen Mode
 ```
 ctrl + k + S
 ```
+
+I had accidentally enabled a different mode for the tab key. Fixed it by pressing Ctrl+M. From the VSCode docs:
+
+Ctrl+M Toggle Use of Tab Key for Setting Focus https://code.visualstudio.com/docs/customization/keybindings
