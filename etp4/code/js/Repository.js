@@ -1,4 +1,4 @@
-class LeituraArquivoRepository {
+class Repository {
 
     constructor() {
 
@@ -6,20 +6,18 @@ class LeituraArquivoRepository {
         this.fs = require('fs')
 
         this.caminho = ""
-
-        const diretorioArquivoSaida = '../TCC/etp1/results/ArquivosColetados/ComentariosApps.txt'
     }
     setCaminho(caminhoFinal) {
         //this.caminho = "../TCC/etp4/entrada//ComentariosApps.txt"
         this.caminho = caminhoFinal
     }
     //Recupera todos os arquivos contidos em um diretório
-    recuperaBundleArquivo(posicaoDoBundleId) {
+    recuperaBundleArquivo(caminho, posicaoDoBundleId) {
         this.listaDeDados = new Map();
         return new Promise((resolve, reject) => {
 
             //Declara o readStream para o arquivo atual
-            var readable = this.fs.createReadStream(this.caminho)
+            var readable = this.fs.createReadStream(caminho)
 
             var rl = this.readline.createInterface({
                 input: readable,
@@ -59,12 +57,12 @@ class LeituraArquivoRepository {
     }
 
     //Recupera todos os arquivos contidos em um diretório
-    recuperaArquivo(posicaoDoBundleId) {
+    recuperaArquivo(caminho) {
         this.arquivoLido = [];
         return new Promise((resolve, reject) => {
 
             //Declara o readStream para o arquivo atual
-            var readable = this.fs.createReadStream(this.caminho)
+            var readable = this.fs.createReadStream(caminho)
 
             var rl = this.readline.createInterface({
                 input: readable,
@@ -84,7 +82,16 @@ class LeituraArquivoRepository {
             })
         })
     }
-    
+
+    gravarArquivoFiltrado(arquivoParaGravar,caminhoDeSaida) {
+
+        const CreateFiles = this.fs.createWriteStream(caminhoDeSaida)
+
+        arquivoParaGravar.forEach(linha => {
+            CreateFiles.write(linha + '\r\n')
+        })
+    }
+
 }
 
-module.exports = LeituraArquivoRepository;
+module.exports = Repository;

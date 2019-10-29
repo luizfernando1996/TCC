@@ -2,7 +2,7 @@
 #----------------------------------LEITURA E TRATAMENTO DO ARQUIVO DE MÃ‰TRICAS-------------------
 
 #Seta o diretÃ³rio
-setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informação\\8°Periodo\\TCCII\\Código Coleta Node\\TCC\\etp4\\entrada")
+setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informaï¿½ï¿½o\\8ï¿½Periodo\\TCCII\\Cï¿½digo Coleta Node\\TCC\\etp4\\entrada\\EtapaAnterior")
 getwd()
 
 #Atrbui os dados do arquivo para um dataframe
@@ -11,8 +11,8 @@ View(df)
 
 #---------------------------------NÃºmero de InstalaÃ§Ãµes X Estrelas---------------------------------
 
-#O teste de correlação demonstra um correlação aproximada de 0,39
-#O que demonstra correlação fraca, dessa forma iremos gerar gráficos
+#O teste de correlaï¿½ï¿½o demonstra um correlaï¿½ï¿½o aproximada de 0,39
+#O que demonstra correlaï¿½ï¿½o fraca, dessa forma iremos gerar grï¿½ficos
 
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="pearson")
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="spearman")
