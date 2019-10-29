@@ -1,4 +1,7 @@
 {
     "npm.runInTerminal": true,
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "csv-preview.separator": ";"
+
+
 }
