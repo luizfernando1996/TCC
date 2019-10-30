@@ -1,4 +1,4 @@
-Repository = require('TCC/etp4/code/js/Repository.js')
+Repository = require('../js/Repository.js')
 module.exports = class AnaliseArquivos {
 
     constructor() {
@@ -57,15 +57,20 @@ module.exports = class AnaliseArquivos {
         //o arquivo de saída é incrementado com uma linha
         arquivoComGruposInicial.forEach(linha => {
 
+            var linhaLida = linha.split(";");
             var bundleIdNoArquivo = linha.split(";");
 
             //Obtem o bundle id no arquivo de analise sentimento
             if (posicaoBundleId == 0)
                 bundleIdNoArquivo = bundleIdNoArquivo[posicaoBundleId]
             //Obtem o bundle id no arquivo de arquivo com grupos
-            else if (posicaoBundleId == 1)
+            else if (posicaoBundleId == 1) {
                 bundleIdNoArquivo = bundleIdNoArquivo[posicaoBundleId].replace(/"/g, "")
 
+                //Tratamento para que o número de estrelas esteja com ponto ao invés de virgula
+                linhaLida[4] = linhaLida[4].replace(',', '.')
+                linha = linhaLida.join(';')
+            }
             //Analisa se a linha lida possui um bundle id igual entre ambos os arquivos
             if (bundlesIds.get(bundleIdNoArquivo) === "filtrados")
                 arquivoComGruposFinal.push(linha)
@@ -85,13 +90,12 @@ module.exports = class AnaliseArquivos {
         var caminhoArquivo2 = "../TCC/etp4/entrada/EtapaAnterior//arquivoComGrupos.txt"
 
         await this.executarFiltragemDeBundles(caminhoArquivo1, caminhoArquivo2)
-        
+
         posicaoBundleIdNoArquivo = 0
         var novoArquivoDeSentimento = await this.executarFiltragemArquivos(caminhoArquivo1, posicaoBundleIdNoArquivo, this.mapaComBundlesIdIguais)
 
         caminhoDeSaida = '../TCC/etp4/entrada/Processado/AnaliseSentimento.txt'
         this.escreverArquivos(novoArquivoDeSentimento, caminhoDeSaida)
-
 
         var posicaoBundleIdNoArquivo = 1
         var novoArquivoDeGrupos = await this.executarFiltragemArquivos(caminhoArquivo2, posicaoBundleIdNoArquivo, this.mapaComBundlesIdIguais)

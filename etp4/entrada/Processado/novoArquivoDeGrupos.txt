@@ -1,411 +1,411 @@
 "X.U.FEFF.Palavra_Chave";"Bundle_Id";"Nome_do_aplicativo";"Numero_de_avaliacoes";"Numero_de_estrelas";"Numero_de_instalacoes";"Tamanho.do.aplicativo";"Numero_de_comentarios";"Avaliacoes_sem_comentario";"grupos"
-"ensino de programa��o";"com.additioapp.additio";"Teacher's Gradebook - Additio";3979;4,2;100000;25;2126;1853;3
-"ensino de programa��o";"com.programiz.learnpython";"Learn Python: Programiz";426;4,7;10000;11;231;195;3
-"ensino de programa��o";"com.sololearn";"SoloLearn: Learn to Code for Free";379158;4,8;5000000;10;159236;219922;2
-"ensino de programa��o";"com.codenza.dp.programs";"Codenza";1897;4,6;100000;10;742;1155;3
-"ensino de programa��o";"ru.code_samples.obraztsov_develop.codesamples";"Code Recipes";220;4,7;10000;1,8;86;134;3
-"ensino de programa��o";"net.jshero";"JavaScript Hero - Learn to Code for Free";135;4,2;10000;2,1;97;38;3
-"ensino de programa��o";"com.adriada.impararejava";"Learn Java";66;4,4;5000;4;29;37;3
-"ensino de programa��o";"com.spyboy.cprogramming";"C Programming";103;4,4;10000;5,9;52;51;3
+"ensino de programa��o";"com.additioapp.additio";"Teacher's Gradebook - Additio";3979;4.2;100000;25;2126;1853;3
+"ensino de programa��o";"com.programiz.learnpython";"Learn Python: Programiz";426;4.7;10000;11;231;195;3
+"ensino de programa��o";"com.sololearn";"SoloLearn: Learn to Code for Free";379158;4.8;5000000;10;159236;219922;2
+"ensino de programa��o";"com.codenza.dp.programs";"Codenza";1897;4.6;100000;10;742;1155;3
+"ensino de programa��o";"ru.code_samples.obraztsov_develop.codesamples";"Code Recipes";220;4.7;10000;1,8;86;134;3
+"ensino de programa��o";"net.jshero";"JavaScript Hero - Learn to Code for Free";135;4.2;10000;2,1;97;38;3
+"ensino de programa��o";"com.adriada.impararejava";"Learn Java";66;4.4;5000;4;29;37;3
+"ensino de programa��o";"com.spyboy.cprogramming";"C Programming";103;4.4;10000;5,9;52;51;3
 "ensino de programa��o";"coolfreeapps.appslaborator.learn.c.programming";"C/C++ programming";36;4;10000;1,8;13;23;3
-"ensino de programa��o";"com.moyashi_koubou.androidsensor4scratch";"Physical Sensors for Scratch";61;3,4;10000;0,3;25;36;3
-"ensino de programa��o";"com.faadooengineers.free_cprogramming";"Basics of C Programming";259;3,9;50000;4,2;60;199;3
+"ensino de programa��o";"com.moyashi_koubou.androidsensor4scratch";"Physical Sensors for Scratch";61;3.4;10000;0,3;25;36;3
+"ensino de programa��o";"com.faadooengineers.free_cprogramming";"Basics of C Programming";259;3.9;50000;4,2;60;199;3
 "ensino de programa��o";"com.PixBlocks";"PixBlocks - Learn to code";59;4;5000;27;38;21;3
-"ensino de programa��o";"com.upskew.encode";"Encode: Learn to Code";4524;4,6;100000;11;1898;2626;3
-"ensino de programa��o";"com.zenva.codemurai";"Codemurai - Learn Programming";2659;4,5;100000;1,5;1087;1572;3
-"ensino de programa��o";"com.cpp.user.cprograms";"100+ C++ Programs With Output";64;4,7;5000;2,9;49;15;3
-"ensino de programa��o";"robotic.industrial";"Industrial Robotics 3D";1050;4,4;100000;14;339;711;3
-"ensino de programa��o";"com.sololearn.csharp";"Learn C#";19613;4,5;1000000;6,2;6736;12877;1
-"ensino de programa��o";"com.enki.insights";"Enki: Learn data science, coding, tech skills";16378;4,6;500000;12;5848;10530;1
-"ensino de programa��o";"com.learn.tech.datascience";"Learn Data Science- Python Coding, Reddit Discuss";148;3,7;10000;5;59;89;3
-"ensino de programa��o";"com.allinex.sheerazahmed.javamcq1000";"Java Quiz: 700+ Java Questions with Explanations";191;4,4;10000;4,1;70;121;3
-"ensino de programa��o";"coolfreeapps.appslaborator.web.development.course";"Web development course";40;3,9;5000;1,8;26;14;3
-"ensino de programa��o";"com.nenedevs.cursodeinformatica";"Curso de Inform�tica";9;4,6;1000;18;4;5;3
-"ensino de programa��o";"com.appsfacto.hundred_one_c_problems";"101 C Programming Problems";534;4,5;100000;5,8;215;319;3
-"ensino de programa��o";"com.java.malik.javaanim";"Learn Java Programming";262;4,6;10000;6,9;126;136;3
-"ensino de programa��o";"com.myapps.rishabhrawat.codingebooks";"Coding EBooks:Programming, Web, Networking, Mobile";15;3,9;1000;24;10;5;3
-"ensino de programa��o";"onanmobilesoftware.datastructuresandalgorithms";"Data Structures and Algorithms offline Tutorial";918;4,1;100000;6,8;359;559;3
-"ensino de programa��o";"com.qtechbd.tutorial.python";"Python Tutorial";33;4,4;10000;2,1;18;15;3
-"ensino de programa��o";"com.samsung.android.codemaker";"HANDY CODE - Coding education, Programming";98;3,9;5000;34;71;27;3
-"ensino de programa��o";"com.japangor.learnjava";"Learn To Code (JAVA)";196;4,1;50000;5,9;77;119;3
-"ensino de programa��o";"com.adriada.impararec";"Learn C++";298;4,5;10000;4,6;154;144;3
-"ensino de programa��o";"com.codepoint.computerProgramming";"Learn Basic Computer Programming Free OFFLINE";22;4,5;10000;5,9;13;9;3
-"ensino de programa��o";"c.programming";"C Programming";27294;4,1;1000000;1,8;7310;19984;1
-"ensino de programa��o";"com.avstore.cctutorials";"C  C++ Tutorials";24;4,8;5000;4,8;18;6;3
-"ensino de programa��o";"com.do_apps.catalog_142";"Tools programmer";173;4,6;50000;24;47;126;3
-"ensino de programa��o";"com.java.bluestartech.javahelpingbook";"Java Helping Book (From Basic to Advance)";70;4,1;5000;5,1;63;7;3
-"ensino de programa��o";"com.apps21.cursodecomputacion";"Computer Course";4748;4,3;1000000;3,7;1494;3254;1
-"ensino de programa��o";"itools.aiwithpython";"Artificial Intelligence";73;4,4;10000;10;25;48;3
-"ensino de programa��o";"com.gokazu";"CodePal: Learn programming";46;4,8;1000;5,1;34;12;3
-"ensino de programa��o";"com.zero.dsa";"Data structure and algorithm tutorial";152;4,3;10000;4,3;83;69;3
-"ensino de programa��o";"com.skyapper.learnaiwithpython";"Learn AI with Python";11;3,9;1000;5,9;5;6;3
-"ensino de programa��o";"learn.java.programming";"Learn Java Programming";78;4,3;10000;3,4;41;37;3
-"ensino de programa��o";"com.skyapper.learnpythonwithdatascience";"Learn Python with Data Science";13;4,1;5000;6,2;5;8;3
+"ensino de programa��o";"com.upskew.encode";"Encode: Learn to Code";4524;4.6;100000;11;1898;2626;3
+"ensino de programa��o";"com.zenva.codemurai";"Codemurai - Learn Programming";2659;4.5;100000;1,5;1087;1572;3
+"ensino de programa��o";"com.cpp.user.cprograms";"100+ C++ Programs With Output";64;4.7;5000;2,9;49;15;3
+"ensino de programa��o";"robotic.industrial";"Industrial Robotics 3D";1050;4.4;100000;14;339;711;3
+"ensino de programa��o";"com.sololearn.csharp";"Learn C#";19613;4.5;1000000;6,2;6736;12877;1
+"ensino de programa��o";"com.enki.insights";"Enki: Learn data science, coding, tech skills";16378;4.6;500000;12;5848;10530;1
+"ensino de programa��o";"com.learn.tech.datascience";"Learn Data Science- Python Coding, Reddit Discuss";148;3.7;10000;5;59;89;3
+"ensino de programa��o";"com.allinex.sheerazahmed.javamcq1000";"Java Quiz: 700+ Java Questions with Explanations";191;4.4;10000;4,1;70;121;3
+"ensino de programa��o";"coolfreeapps.appslaborator.web.development.course";"Web development course";40;3.9;5000;1,8;26;14;3
+"ensino de programa��o";"com.nenedevs.cursodeinformatica";"Curso de Inform�tica";9;4.6;1000;18;4;5;3
+"ensino de programa��o";"com.appsfacto.hundred_one_c_problems";"101 C Programming Problems";534;4.5;100000;5,8;215;319;3
+"ensino de programa��o";"com.java.malik.javaanim";"Learn Java Programming";262;4.6;10000;6,9;126;136;3
+"ensino de programa��o";"com.myapps.rishabhrawat.codingebooks";"Coding EBooks:Programming, Web, Networking, Mobile";15;3.9;1000;24;10;5;3
+"ensino de programa��o";"onanmobilesoftware.datastructuresandalgorithms";"Data Structures and Algorithms offline Tutorial";918;4.1;100000;6,8;359;559;3
+"ensino de programa��o";"com.qtechbd.tutorial.python";"Python Tutorial";33;4.4;10000;2,1;18;15;3
+"ensino de programa��o";"com.samsung.android.codemaker";"HANDY CODE - Coding education, Programming";98;3.9;5000;34;71;27;3
+"ensino de programa��o";"com.japangor.learnjava";"Learn To Code (JAVA)";196;4.1;50000;5,9;77;119;3
+"ensino de programa��o";"com.adriada.impararec";"Learn C++";298;4.5;10000;4,6;154;144;3
+"ensino de programa��o";"com.codepoint.computerProgramming";"Learn Basic Computer Programming Free OFFLINE";22;4.5;10000;5,9;13;9;3
+"ensino de programa��o";"c.programming";"C Programming";27294;4.1;1000000;1,8;7310;19984;1
+"ensino de programa��o";"com.avstore.cctutorials";"C  C++ Tutorials";24;4.8;5000;4,8;18;6;3
+"ensino de programa��o";"com.do_apps.catalog_142";"Tools programmer";173;4.6;50000;24;47;126;3
+"ensino de programa��o";"com.java.bluestartech.javahelpingbook";"Java Helping Book (From Basic to Advance)";70;4.1;5000;5,1;63;7;3
+"ensino de programa��o";"com.apps21.cursodecomputacion";"Computer Course";4748;4.3;1000000;3,7;1494;3254;1
+"ensino de programa��o";"itools.aiwithpython";"Artificial Intelligence";73;4.4;10000;10;25;48;3
+"ensino de programa��o";"com.gokazu";"CodePal: Learn programming";46;4.8;1000;5,1;34;12;3
+"ensino de programa��o";"com.zero.dsa";"Data structure and algorithm tutorial";152;4.3;10000;4,3;83;69;3
+"ensino de programa��o";"com.skyapper.learnaiwithpython";"Learn AI with Python";11;3.9;1000;5,9;5;6;3
+"ensino de programa��o";"learn.java.programming";"Learn Java Programming";78;4.3;10000;3,4;41;37;3
+"ensino de programa��o";"com.skyapper.learnpythonwithdatascience";"Learn Python with Data Science";13;4.1;5000;6,2;5;8;3
 "ensino de programa��o";"com.progforb.pfb";"Programming for Beginners";6;5;500;1,6;5;1;3
-"ensino de programa��o";"com.spdroid.c";"C Programming - Learn Code, Theory & Discuss";3201;4,5;100000;5,5;1512;1689;3
-"ensino de programa��o";"com.apolosoft.cuadernoprofesor";"Teacher Gradebook FREE";3172;4,4;100000;12;1656;1516;3
-"ensino de programa��o";"com.rpms.rohitpatil.learnjava";"Learning Java";147;4,6;10000;27;99;48;3
-"ensino de programa��o";"info.younglinux.pythonexercises";"Python. Exercises and Examples";146;4,1;50000;3,6;56;90;3
-"ensino de programa��o";"com.devlearnapp.devlearn";"devLearn: Coding Made Easy";408;4,1;10000;9,5;109;299;3
-"ensino de programa��o";"com.shalik.patel.cprogrammingsolution";"Programming Solutions";146;4,8;10000;4,7;85;61;3
-"ensino de programa��o";"com.aplicativoslegais.easystudy";"Easy Study - Your schedule, plan for school";1506;4,2;100000;10;719;787;3
-"ensino de programa��o";"javatutorial.javamcq.learnjava.learnjava_startfromscratch";"Learn Java- Start from Scratch";61;4,9;1000;6,8;45;16;3
-"ensino de programa��o";"com.appsfactory.learnpython";"Learn Python  Programming Free - Python Offline";927;4,6;50000;15;469;458;3
-"ensino de programa��o";"com.papumba.android.learnenglish";"English for Kids";3883;4,2;500000;36;1425;2458;3
-"ensino de programa��o";"com.sololearn.htmltrial";"Learn HTML";59289;4,7;1000000;6,2;20753;38536;4
-"ensino de programa��o";"com.bigknol.rapidphp360";"Rapid PHP 360";22;4,8;1000;5,4;17;5;3
-"ensino de programa��o";"com.ashatechsolutions.cprogramming";"C++ Programming : Learn to Code";10;4,6;1000;3,2;3;7;3
-"ensino de programa��o";"com.datacamp";"DataCamp - Learn R, Python & SQL coding";7479;4,8;100000;10;2891;4588;3
-"ensino de programa��o";"com.app.cprogramingapp";"Easy C Programming";31;4,4;1000;3,1;16;15;3
-"ensino de programa��o";"com.apkzube.learnpython";"Learn Python Programming - Offline Tutorial";487;4,6;100000;5,8;216;271;3
-"ensino de programa��o";"com.mres.schedule";"Bible Reading Schedule";16336;4,7;1000000;0,8271484375;4226;12110;1
-"ensino de programa��o";"com.pranitkulkarni.sortingdemo";"AlgoPrep - Algorithms & Data structures Made Easy";222;4,6;10000;7,9;83;139;3
-"ensino de programa��o";"com.udemy.android";"Udemy - Online Courses";167509;4,6;5000000;10;58644;108865;2
-"ensino de programa��o";"com.codepoint.learnpython3";"Learn Python Programming Free - Python Tutorials";139;4,3;5000;5,4;55;84;3
-"ensino de programa��o";"com.sololearn.javascript";"Learn JavaScript";25972;4,5;1000000;6,2;8484;17488;1
-"ensino de programa��o";"com.java.user.javaprogramming";"Java Programming Tutorial";60;4,6;10000;5,9;40;20;3
-"ensino de programa��o";"org.edx.mobile";"edX: Online Courses by Harvard, MIT, Berkeley, IBM";48045;4,7;1000000;14;15287;32758;4
-"ensino de programa��o";"com.codeinpython.codeinpython";"Code in Python";58;4,3;10000;3;29;29;3
-"ensino de programa��o";"com.ben.Tutorial.aiwithpython";"AI with Python Tutorial";9;4,4;5000;3,6;6;3;3
-"ensino de programa��o";"com.noelvillaman.softwares.javasolo";"Aprende Java Solo";26;4,1;5000;4,9;15;11;3
+"ensino de programa��o";"com.spdroid.c";"C Programming - Learn Code, Theory & Discuss";3201;4.5;100000;5,5;1512;1689;3
+"ensino de programa��o";"com.apolosoft.cuadernoprofesor";"Teacher Gradebook FREE";3172;4.4;100000;12;1656;1516;3
+"ensino de programa��o";"com.rpms.rohitpatil.learnjava";"Learning Java";147;4.6;10000;27;99;48;3
+"ensino de programa��o";"info.younglinux.pythonexercises";"Python. Exercises and Examples";146;4.1;50000;3,6;56;90;3
+"ensino de programa��o";"com.devlearnapp.devlearn";"devLearn: Coding Made Easy";408;4.1;10000;9,5;109;299;3
+"ensino de programa��o";"com.shalik.patel.cprogrammingsolution";"Programming Solutions";146;4.8;10000;4,7;85;61;3
+"ensino de programa��o";"com.aplicativoslegais.easystudy";"Easy Study - Your schedule, plan for school";1506;4.2;100000;10;719;787;3
+"ensino de programa��o";"javatutorial.javamcq.learnjava.learnjava_startfromscratch";"Learn Java- Start from Scratch";61;4.9;1000;6,8;45;16;3
+"ensino de programa��o";"com.appsfactory.learnpython";"Learn Python  Programming Free - Python Offline";927;4.6;50000;15;469;458;3
+"ensino de programa��o";"com.papumba.android.learnenglish";"English for Kids";3883;4.2;500000;36;1425;2458;3
+"ensino de programa��o";"com.sololearn.htmltrial";"Learn HTML";59289;4.7;1000000;6,2;20753;38536;4
+"ensino de programa��o";"com.bigknol.rapidphp360";"Rapid PHP 360";22;4.8;1000;5,4;17;5;3
+"ensino de programa��o";"com.ashatechsolutions.cprogramming";"C++ Programming : Learn to Code";10;4.6;1000;3,2;3;7;3
+"ensino de programa��o";"com.datacamp";"DataCamp - Learn R, Python & SQL coding";7479;4.8;100000;10;2891;4588;3
+"ensino de programa��o";"com.app.cprogramingapp";"Easy C Programming";31;4.4;1000;3,1;16;15;3
+"ensino de programa��o";"com.apkzube.learnpython";"Learn Python Programming - Offline Tutorial";487;4.6;100000;5,8;216;271;3
+"ensino de programa��o";"com.mres.schedule";"Bible Reading Schedule";16336;4.7;1000000;0,8271484375;4226;12110;1
+"ensino de programa��o";"com.pranitkulkarni.sortingdemo";"AlgoPrep - Algorithms & Data structures Made Easy";222;4.6;10000;7,9;83;139;3
+"ensino de programa��o";"com.udemy.android";"Udemy - Online Courses";167509;4.6;5000000;10;58644;108865;2
+"ensino de programa��o";"com.codepoint.learnpython3";"Learn Python Programming Free - Python Tutorials";139;4.3;5000;5,4;55;84;3
+"ensino de programa��o";"com.sololearn.javascript";"Learn JavaScript";25972;4.5;1000000;6,2;8484;17488;1
+"ensino de programa��o";"com.java.user.javaprogramming";"Java Programming Tutorial";60;4.6;10000;5,9;40;20;3
+"ensino de programa��o";"org.edx.mobile";"edX: Online Courses by Harvard, MIT, Berkeley, IBM";48045;4.7;1000000;14;15287;32758;4
+"ensino de programa��o";"com.codeinpython.codeinpython";"Code in Python";58;4.3;10000;3;29;29;3
+"ensino de programa��o";"com.ben.Tutorial.aiwithpython";"AI with Python Tutorial";9;4.4;5000;3,6;6;3;3
+"ensino de programa��o";"com.noelvillaman.softwares.javasolo";"Aprende Java Solo";26;4.1;5000;4,9;15;11;3
 "ensino de programa��o";"com.nj.pubgw.codingfun";"Coding Games For Beginner (C,Android,Java script)";11;3;1000;4,8;9;2;3
-"ensino de programa��o";"com.cprograms4future.allcprograms";"All C Programs";4942;4,6;100000;7,3;1915;3027;3
-"ensino de programa��o";"com.virtlab.cncsim_free";"CNC Simulator Free";137;4,3;10000;40;91;46;3
+"ensino de programa��o";"com.cprograms4future.allcprograms";"All C Programs";4942;4.6;100000;7,3;1915;3027;3
+"ensino de programa��o";"com.virtlab.cncsim_free";"CNC Simulator Free";137;4.3;10000;40;91;46;3
 "ensino de programa��o";"com.do_apps.catalog_478";"Programming concepts";87;4;10000;18;26;61;3
-"ensino de programa��o";"com.best.don.programmingbooks";"Programming eBooks: All Free Coding Books";425;4,2;10000;4,1;226;199;3
-"ensino de programa��o";"com.codebrink.codebrink";"C++ & Python 3 Programming Tutorials for Beginners";13;4,9;100;5,8;5;8;3
+"ensino de programa��o";"com.best.don.programmingbooks";"Programming eBooks: All Free Coding Books";425;4.2;10000;4,1;226;199;3
+"ensino de programa��o";"com.codebrink.codebrink";"C++ & Python 3 Programming Tutorials for Beginners";13;4.9;100;5,8;5;8;3
 "ensino de programa��o";"com.susanapp.cursodeinformatica";"Informatics Course";942;4;500000;3,7;412;530;3
-"ensino de programa��o";"com.wscubetech.learnpython";"Learn Python - Quiz & Top Interview Questions";28;4,5;1000;7,6;11;17;3
-"ensino de programa��o";"com.awwalsoft.javadeeplearning";"Java Deep Learning: Core java";2932;4,5;100000;28;1307;1625;3
-"ensino de programa��o";"com.analyticsvidhya.android";"Analytics Vidhya - Machine Learning & Data Science";396;4,4;50000;6,1;153;243;3
-"ensino de programa��o";"daldev.android.gradehelper";"School Planner";96823;4,5;5000000;5;36745;60078;4
-"ensino de programa��o";"com.cuseju.tubestudy";"Free courses Online. TubeStudy";6545;4,6;100000;31;3677;2868;3
-"ensino de programa��o";"com.wagmob.pythonkidsandscratchpro";"Kids' Python & Scratch Program";9;2,6;1000;15;4;5;3
-"ensino de programa��o";"com.sitseducators.javapatternprogramsfree";"Java Pattern Programs Free";4180;4,5;100000;8,1;1743;2437;3
-"ensino de programa��o";"itools.cprograms";"C Programming (1000+ programs & 250+ Patterns)";544;3,4;50000;12;261;283;3
-"ensino de programa��o";"org.qpython.qpy3";"QPython3 - Python3 for Android";5173;4,1;1000000;22;2306;2867;1
+"ensino de programa��o";"com.wscubetech.learnpython";"Learn Python - Quiz & Top Interview Questions";28;4.5;1000;7,6;11;17;3
+"ensino de programa��o";"com.awwalsoft.javadeeplearning";"Java Deep Learning: Core java";2932;4.5;100000;28;1307;1625;3
+"ensino de programa��o";"com.analyticsvidhya.android";"Analytics Vidhya - Machine Learning & Data Science";396;4.4;50000;6,1;153;243;3
+"ensino de programa��o";"daldev.android.gradehelper";"School Planner";96823;4.5;5000000;5;36745;60078;4
+"ensino de programa��o";"com.cuseju.tubestudy";"Free courses Online. TubeStudy";6545;4.6;100000;31;3677;2868;3
+"ensino de programa��o";"com.wagmob.pythonkidsandscratchpro";"Kids' Python & Scratch Program";9;2.6;1000;15;4;5;3
+"ensino de programa��o";"com.sitseducators.javapatternprogramsfree";"Java Pattern Programs Free";4180;4.5;100000;8,1;1743;2437;3
+"ensino de programa��o";"itools.cprograms";"C Programming (1000+ programs & 250+ Patterns)";544;3.4;50000;12;261;283;3
+"ensino de programa��o";"org.qpython.qpy3";"QPython3 - Python3 for Android";5173;4.1;1000000;22;2306;2867;1
 "ensino de programa��o";"com.superlearn.aiwithpython";"Learn Artificial Intelligence";28;4;10000;7,5;17;11;3
-"ensino de programa��o";"com.apkzube.learnjavaprogramming";"Learn Java";243;4,3;50000;6,7;131;112;3
-"ensino de programa��o";"com.somethingcj.user.corejava";"100+ core java programs with output";21;4,7;1000;2,6;17;4;3
-"ensino de programa��o";"org.pbskids.scratchjr";"PBS KIDS ScratchJr";99;4,1;100000;91;44;55;3
-"ensino de programa��o";"com.codengoclient";"CodeNGo Coding Academy: Learn To Code Free";48;4,6;5000;34;26;22;3
-"ensino de programa��o";"com.makeblock.mblock";"mBlock - Scratch-based Programming Software";206;3,7;10000;72;120;86;3
-"ensino de programa��o";"com.spyboy.javaprogramming";"Java Programming";71;4,5;10000;4,6;40;31;3
-"ensino de programa��o";"com.easy.hp.cpptutorial";"C++ Programming App";555;4,6;10000;5,6;294;261;3
-"ensino de programa��o";"coolfreeapps.appslaborator.html.course";"HTML Course";219;4,2;10000;1,8;101;118;3
-"ensino de programa��o";"com.gonliapps.learnportuguesefree.game";"Learn Portuguese free for beginners";4774;4,5;100000;8,9;2142;2632;3
-"ensino de programa��o";"org.catrobat.catroid";"Pocket Code: Learn programming your own game apps!";11045;3,9;500000;23;5399;5646;1
-"ensino de programa��o";"com.do_apps.catalog_978";"Machine learning";32;4,2;5000;14;7;25;3
-"ensino de programa��o";"cpp.programming";"C++ Programming";14464;4,2;1000000;1,8;3987;10477;1
-"ensino de programa��o";"com.freetymekiyan.apas";"Leetcode Algorithm Coding, Java Interview Offline";457;4,7;10000;5,6;155;302;3
-"ensino de programa��o";"ru.iiec.cxxdroid";"Cxxdroid - C++ compiler IDE for mobile development";2713;4,3;500000;41;1335;1378;3
-"ensino de programa��o";"com.do_apps.catalog_485";"Object-oriented programming";58;3,7;10000;10;18;40;3
-"ensino de programa��o";"com.sololearn.cplusplus";"Learn C++";72517;4,7;1000000;6,2;22509;50008;4
-"ensino de programa��o";"com.edokiacademy.babycoding";"Code Karts Pre-coding for kids";219;3,8;50000;23;106;113;3
-"ensino de programa��o";"br.com.acaicomcodigo.informaticanobolso";"Inform�tica no Bolso - Concursos e Ensino Superior";236;4,7;50000;5,6;120;116;3
-"ensino de programa��o";"io.getready.ready";"Ready Maker";9670;3,3;1000000;50;5668;4002;1
-"ensino de programa��o";"com.KodlamaLab.KodlamaLab";"KodlamaLab: Kodlama �gren";370;3,7;50000;16;245;125;3
-"ensino de programa��o";"infiniteloopsinc.info.completejava";"Learn Java Programming";755;4,6;50000;3,9;226;529;3
+"ensino de programa��o";"com.apkzube.learnjavaprogramming";"Learn Java";243;4.3;50000;6,7;131;112;3
+"ensino de programa��o";"com.somethingcj.user.corejava";"100+ core java programs with output";21;4.7;1000;2,6;17;4;3
+"ensino de programa��o";"org.pbskids.scratchjr";"PBS KIDS ScratchJr";99;4.1;100000;91;44;55;3
+"ensino de programa��o";"com.codengoclient";"CodeNGo Coding Academy: Learn To Code Free";48;4.6;5000;34;26;22;3
+"ensino de programa��o";"com.makeblock.mblock";"mBlock - Scratch-based Programming Software";206;3.7;10000;72;120;86;3
+"ensino de programa��o";"com.spyboy.javaprogramming";"Java Programming";71;4.5;10000;4,6;40;31;3
+"ensino de programa��o";"com.easy.hp.cpptutorial";"C++ Programming App";555;4.6;10000;5,6;294;261;3
+"ensino de programa��o";"coolfreeapps.appslaborator.html.course";"HTML Course";219;4.2;10000;1,8;101;118;3
+"ensino de programa��o";"com.gonliapps.learnportuguesefree.game";"Learn Portuguese free for beginners";4774;4.5;100000;8,9;2142;2632;3
+"ensino de programa��o";"org.catrobat.catroid";"Pocket Code: Learn programming your own game apps!";11045;3.9;500000;23;5399;5646;1
+"ensino de programa��o";"com.do_apps.catalog_978";"Machine learning";32;4.2;5000;14;7;25;3
+"ensino de programa��o";"cpp.programming";"C++ Programming";14464;4.2;1000000;1,8;3987;10477;1
+"ensino de programa��o";"com.freetymekiyan.apas";"Leetcode Algorithm Coding, Java Interview Offline";457;4.7;10000;5,6;155;302;3
+"ensino de programa��o";"ru.iiec.cxxdroid";"Cxxdroid - C++ compiler IDE for mobile development";2713;4.3;500000;41;1335;1378;3
+"ensino de programa��o";"com.do_apps.catalog_485";"Object-oriented programming";58;3.7;10000;10;18;40;3
+"ensino de programa��o";"com.sololearn.cplusplus";"Learn C++";72517;4.7;1000000;6,2;22509;50008;4
+"ensino de programa��o";"com.edokiacademy.babycoding";"Code Karts Pre-coding for kids";219;3.8;50000;23;106;113;3
+"ensino de programa��o";"br.com.acaicomcodigo.informaticanobolso";"Inform�tica no Bolso - Concursos e Ensino Superior";236;4.7;50000;5,6;120;116;3
+"ensino de programa��o";"io.getready.ready";"Ready Maker";9670;3.3;1000000;50;5668;4002;1
+"ensino de programa��o";"com.KodlamaLab.KodlamaLab";"KodlamaLab: Kodlama �gren";370;3.7;50000;16;245;125;3
+"ensino de programa��o";"infiniteloopsinc.info.completejava";"Learn Java Programming";755;4.6;50000;3,9;226;529;3
 "ensino de programa��o";"curso.violao.formula.violao";"Curso de Viol�o";522;4;100000;2,4;225;297;3
-"ensino de programa��o";"com.mhasancse15.programminglanguage";"Programming languages";25;4,1;5000;5,7;15;10;3
-"ensino de programa��o";"com.alansa.ideabag2";"Programming Ideas 2";538;4,7;100000;3,9;177;361;3
-"ensino de programa��o";"pl.paridae.app.android.mathmaster";"Math Master Educational Game and Brain Workout";7445;4,3;500000;17;3426;4019;1
-"ensino de programa��o";"com.classic.vast.com.aprendecxx";"Learn C++";11;4,1;1000;32;4;7;3
-"ensino de programa��o";"com.ionicframework.cursosdegraca";"Cursa - free courses with certificate";7910;4,7;1000000;13;4656;3254;1
-"ensino de programa��o";"com.awwalsoft.javabasicslearning";"Java Basics Learning : Java for Absolute Beginners";473;4,4;50000;6,2;209;264;3
-"ensino de programa��o";"com.cf.codigofacilitoapp";"C�digoFacilito";761;3,5;50000;10;463;298;3
-"ensino de programa��o";"com.lpalominos.horariodeclases";"Class Schedule";891;4,1;50000;6,4;352;539;3
-"ensino de programa��o";"com.area120.grasshopper";"Grasshopper: Learn to Code for Free";16889;4,5;1000000;28;8155;8734;1
-"ensino de programa��o";"com.theeasylearn.java";"Learn Java Programming Language";75;4,5;10000;2,6;49;26;3
-"ensino de programa��o";"com.HTML.AngularJS.Codeplay";"HTML Code Play";5083;4,5;500000;6,3;2683;2400;3
-"ensino de programa��o";"com.knightcoder.programmingebooks";"Coding eBooks : All Free Programming Books at Once";1180;4,3;100000;6,5;564;616;3
-"ensino de programa��o";"com.back_banchers.html";"Learn HTML";651;3,7;100000;3,9;353;298;3
-"ensino de programa��o";"com.cohortplus.clientTest";"upGrad - Building Careers of Tomorrow";405;4,3;50000;16;194;211;3
-"ensino de programa��o";"pe.diegoveloper.pseudocode";"Pseudocode, PSeInt, Visualg";4346;4,4;100000;3,7;2044;2302;3
-"ensino de programa��o";"br.com.fs.ensinabyfs";"ENSINA by FS: Cursos R�pidos";629;3,8;10000;11;466;163;3
-"ensino de programa��o";"com.aide.trainer.java";"Learn Java Hands-On Course";782;4,4;10000;17;259;523;3
-"ensino de programa��o";"com.codepoint.learnjava";"Learn Java Programming OFFLINE -  Java Tutorials";14;4,1;5000;4,1;11;3;3
-"ensino de programa��o";"free.programming.programming";"Learn DS & Algo, Programming Interview Preparation";8121;4,6;500000;4,5;1789;6332;1
-"ensino de programa��o";"com.myapplication.hp.learnjava";"Learn Java";56;4,8;5000;3,1;30;26;3
-"ensino de programa��o";"coding.riya_rayan.ccoding";"Learn C Coding";102;4,6;10000;24;56;46;3
-"ensino de programa��o";"com.programmarc.java";"Java Programming Bangla";80;4,6;10000;3,6;36;44;3
-"ensino de programa��o";"com.quantumappsolutions.learnprogramming";"Learn Computer Programming";21;4,4;5000;7,2;17;4;3
-"ensino de programa��o";"app.oopcodeskyhive";"Object Oriented Programming";68;4,1;10000;3,3;20;48;3
-"ensino de programa��o";"com.rrtdevelopers.cursodereparaciondecelularesenespanol";"Mobile phone repair course english";2446;4,4;100000;3,8;1373;1073;3
-"ensino de programa��o";"com.back_banchers.cplusplus";"Learn C++";48;3,6;10000;3,6;28;20;3
-"ensino de programa��o";"br.com.mlearn.qualifica";"Qualifica: Cursos Online Certificados";274;3,7;50000;41;171;103;3
+"ensino de programa��o";"com.mhasancse15.programminglanguage";"Programming languages";25;4.1;5000;5,7;15;10;3
+"ensino de programa��o";"com.alansa.ideabag2";"Programming Ideas 2";538;4.7;100000;3,9;177;361;3
+"ensino de programa��o";"pl.paridae.app.android.mathmaster";"Math Master Educational Game and Brain Workout";7445;4.3;500000;17;3426;4019;1
+"ensino de programa��o";"com.classic.vast.com.aprendecxx";"Learn C++";11;4.1;1000;32;4;7;3
+"ensino de programa��o";"com.ionicframework.cursosdegraca";"Cursa - free courses with certificate";7910;4.7;1000000;13;4656;3254;1
+"ensino de programa��o";"com.awwalsoft.javabasicslearning";"Java Basics Learning : Java for Absolute Beginners";473;4.4;50000;6,2;209;264;3
+"ensino de programa��o";"com.cf.codigofacilitoapp";"C�digoFacilito";761;3.5;50000;10;463;298;3
+"ensino de programa��o";"com.lpalominos.horariodeclases";"Class Schedule";891;4.1;50000;6,4;352;539;3
+"ensino de programa��o";"com.area120.grasshopper";"Grasshopper: Learn to Code for Free";16889;4.5;1000000;28;8155;8734;1
+"ensino de programa��o";"com.theeasylearn.java";"Learn Java Programming Language";75;4.5;10000;2,6;49;26;3
+"ensino de programa��o";"com.HTML.AngularJS.Codeplay";"HTML Code Play";5083;4.5;500000;6,3;2683;2400;3
+"ensino de programa��o";"com.knightcoder.programmingebooks";"Coding eBooks : All Free Programming Books at Once";1180;4.3;100000;6,5;564;616;3
+"ensino de programa��o";"com.back_banchers.html";"Learn HTML";651;3.7;100000;3,9;353;298;3
+"ensino de programa��o";"com.cohortplus.clientTest";"upGrad - Building Careers of Tomorrow";405;4.3;50000;16;194;211;3
+"ensino de programa��o";"pe.diegoveloper.pseudocode";"Pseudocode, PSeInt, Visualg";4346;4.4;100000;3,7;2044;2302;3
+"ensino de programa��o";"br.com.fs.ensinabyfs";"ENSINA by FS: Cursos R�pidos";629;3.8;10000;11;466;163;3
+"ensino de programa��o";"com.aide.trainer.java";"Learn Java Hands-On Course";782;4.4;10000;17;259;523;3
+"ensino de programa��o";"com.codepoint.learnjava";"Learn Java Programming OFFLINE -  Java Tutorials";14;4.1;5000;4,1;11;3;3
+"ensino de programa��o";"free.programming.programming";"Learn DS & Algo, Programming Interview Preparation";8121;4.6;500000;4,5;1789;6332;1
+"ensino de programa��o";"com.myapplication.hp.learnjava";"Learn Java";56;4.8;5000;3,1;30;26;3
+"ensino de programa��o";"coding.riya_rayan.ccoding";"Learn C Coding";102;4.6;10000;24;56;46;3
+"ensino de programa��o";"com.programmarc.java";"Java Programming Bangla";80;4.6;10000;3,6;36;44;3
+"ensino de programa��o";"com.quantumappsolutions.learnprogramming";"Learn Computer Programming";21;4.4;5000;7,2;17;4;3
+"ensino de programa��o";"app.oopcodeskyhive";"Object Oriented Programming";68;4.1;10000;3,3;20;48;3
+"ensino de programa��o";"com.rrtdevelopers.cursodereparaciondecelularesenespanol";"Mobile phone repair course english";2446;4.4;100000;3,8;1373;1073;3
+"ensino de programa��o";"com.back_banchers.cplusplus";"Learn C++";48;3.6;10000;3,6;28;20;3
+"ensino de programa��o";"br.com.mlearn.qualifica";"Qualifica: Cursos Online Certificados";274;3.7;50000;41;171;103;3
 "ensino de programa��o";"com.planetfactory.makeitAndroid";"Make It for Teachers - Create Educational Games";163;4;10000;33;90;73;3
-"ensino de programa��o";"tk.app.start";"Start: Ensino de Programa��o";73;4,6;10000;3,8;43;30;3
-"ensino de programa��o";"com.reedbook.android";"<U+0423><U+0440><U+043E><U+043A><U+0438> <U+043F><U+0440><U+043E><U+0433><U+0440><U+0430><U+043C><U+043C><U+0438><U+0440><U+043E><U+0432><U+0430><U+043D><U+0438><U+044F> Android";751;4,7;100000;28;245;506;3
-"ensino de programa��o";"geniusfactoryapp.programmationandroid";"Programmation Android Pour D�butants";65;4,4;10000;25;35;30;3
+"ensino de programa��o";"tk.app.start";"Start: Ensino de Programa��o";73;4.6;10000;3,8;43;30;3
+"ensino de programa��o";"com.reedbook.android";"<U+0423><U+0440><U+043E><U+043A><U+0438> <U+043F><U+0440><U+043E><U+0433><U+0440><U+0430><U+043C><U+043C><U+0438><U+0440><U+043E><U+0432><U+0430><U+043D><U+0438><U+044F> Android";751;4.7;100000;28;245;506;3
+"ensino de programa��o";"geniusfactoryapp.programmationandroid";"Programmation Android Pour D�butants";65;4.4;10000;25;35;30;3
 "ensino de programa��o";"ltos.learn.cand.java";"Learn C , C++ ,Java,Android-Smart Programming";58;4;10000;4,4;25;33;3
-"ensino de programa��o";"wiki.algorithm.algorithms";"Algorithms: Explained and Animated";6221;4,6;1000000;41;2359;3862;1
+"ensino de programa��o";"wiki.algorithm.algorithms";"Algorithms: Explained and Animated";6221;4.6;1000000;41;2359;3862;1
 "ensino de programa��o";"training.computing.scratchkids";"Tutorials for Scratch";5764;4;100000;4,2;2612;3152;3
-"ensino de programa��o";"com.easy.home.javatutorial";"Java Programming App";126;4,2;10000;4,7;78;48;3
-"ensino de programa��o";"com.javahood.javadumps";"Java Dump - 750+ Java Programs with Output";93;4,6;10000;1,9;43;50;3
-"learn code";"ru.code_samples.obraztsov_develop.codesamples_free";"Code Free";15;4,9;500;2,1;8;7;3
-"learn code";"com.codeliber.css";"Learn CSS";103;4,7;10000;4,4;61;42;3
-"learn code";"lifegoal.helpinghands.machinelearning";"Machine Learning Tutorial";12;4,8;5000;6,6;9;3;3
-"learn code";"com.appsfactory.htmlcssjsbootstrap";"Learn Web Development Complete Bootcamp 2019";61;4,5;1000;11;29;32;3
-"learn code";"com.namit.www.ndroid";"Learn Android App Development with Ndroid";95;4,7;1000;27;64;31;3
+"ensino de programa��o";"com.easy.home.javatutorial";"Java Programming App";126;4.2;10000;4,7;78;48;3
+"ensino de programa��o";"com.javahood.javadumps";"Java Dump - 750+ Java Programs with Output";93;4.6;10000;1,9;43;50;3
+"learn code";"ru.code_samples.obraztsov_develop.codesamples_free";"Code Free";15;4.9;500;2,1;8;7;3
+"learn code";"com.codeliber.css";"Learn CSS";103;4.7;10000;4,4;61;42;3
+"learn code";"lifegoal.helpinghands.machinelearning";"Machine Learning Tutorial";12;4.8;5000;6,6;9;3;3
+"learn code";"com.appsfactory.htmlcssjsbootstrap";"Learn Web Development Complete Bootcamp 2019";61;4.5;1000;11;29;32;3
+"learn code";"com.namit.www.ndroid";"Learn Android App Development with Ndroid";95;4.7;1000;27;64;31;3
 "learn code";"mobi.abcmouse.academy_goo";"ABCmouse.com";56027;4;10000000;98;18753;37274;2
-"learn code";"learn.reactnative.tutorial";"Learn React Native Tutorial";35;4,3;10000;8,6;24;11;3
+"learn code";"learn.reactnative.tutorial";"Learn React Native Tutorial";35;4.3;10000;8,6;24;11;3
 "learn code";"com.wandcode.cheatsheet";"Code Cheat Sheets - Programming References";20;4;1000;4,6;13;7;3
-"learn code";"techhunt.com.androidexamples";"Learn Android Codes";63;3,8;5000;5,3;42;21;3
-"learn code";"com.app1daily.learnmatlab";"Learn MATLAB Complete Guide Offline";45;4,4;10000;2,1;10;35;3
-"learn code";"com.duhnnae.programmingprogramacion";"Programming - Learning - Tutorials";57;4,4;10000;7,1;39;18;3
-"learn code";"com.riyazsiddiquiexti.androidlearningtutorial";"Learn Android Tutorial - Android App Development";44;4,9;1000;5,6;31;13;3
-"learn code";"com.apkzube.learnkotlin";"Learn Kotlin";80;4,4;10000;5;56;24;3
-"learn code";"com.codeliber.html";"Learn HTML";393;4,6;10000;3,6;205;188;3
-"learn code";"sambhaji.android.java";"Learn Android Java";840;4,2;100000;10;284;556;3
-"learn code";"micro.bots.learn.html5";"learn html - learn to code";18;4,6;500;3,7;13;5;3
-"learn code";"pl.maciejsadyapps.morsetrainer";"Morse Trainer";115;3,9;10000;0,74609375;53;62;3
-"learn code";"app.compiler";"Online Compiler (Beta)";10023;4,4;100000;2,6;4535;5488;3
-"learn code";"gudev.learn.phpprogrammingcoding";"Learn PHP Programming Coding";36;4,3;10000;12;15;21;3
-"learn code";"com.bootstrap.code.play";"Bootstrap Code Play";147;4,4;10000;4,5;73;74;3
-"learn code";"com.binarytuts.cprogrammingcode";"C Programming Code";9;4,8;5000;26;4;5;3
-"learn code";"com.codetoinvent.malik.cplusplus";"Learn C++ Programming - Tutorial";108;4,6;10000;8,4;48;60;3
-"learn code";"com.programminginbangla";"<U+09AC><U+09BE><U+0982><U+09B2><U+09BE><U+09DF> <U+09AA><U+09CD><U+09B0><U+09CB><U+0997><U+09CD><U+09B0><U+09BE><U+09AE><U+09BF><U+0982>";185;4,3;10000;6,4;95;90;3
-"learn code";"com.skycodetech.codingquiz";"Coding Quiz (programming)";234;4,5;10000;4,3;111;123;3
-"learn code";"com.code.jupiter.learnjavascript";"Learn JavaScript Offline Tutorial";214;4,4;10000;4,5;101;113;3
-"learn code";"com.reezx.android.learncprogramming";"Learn C [NEW]";354;4,4;50000;11;139;215;3
-"learn code";"com.quizmine.csref";"Learn Computer Science";1194;4,3;100000;20;278;916;3
-"learn code";"learn.web.php";"Learn Web Development";1759;4,3;100000;6;581;1178;3
-"learn code";"com.sizzlesoftlabs.learn.expertc";"Expert C Programming - Learn C Coding Easily";90;4,3;10000;7,3;53;37;3
-"learn code";"com.paprbit.dcoder";"Dcoder, Compiler IDE :Code & Programming on mobile";18280;4,4;1000000;6,5;8350;9930;1
-"learn code";"bishrulhaq.learntocode";"Learn To Code : Free & Offline";31;4,3;10000;12;15;16;3
-"learn code";"com.djm.offlinepythonnotes";"Learn Python Offline- Tutorial and Interpreter";772;4,4;50000;4,2;337;435;3
-"learn code";"air.com.rosettastone.mobile.CoursePlayer";"Rosetta Stone: Learn Languages";194663;4,6;10000000;31;72775;121888;2
-"learn code";"com.codepoint.learnphp7";"Learn PHP Programming Offline - PHP Tutorials Free";35;4,3;1000;10;19;16;3
-"learn code";"com.code.jupiter.learnphp";"Learn PHP - Offline Tutorial";235;4,4;10000;4;146;89;3
-"learn code";"com.vedprakashwagh.learnandroid";"Learn Android (XML, Java, Kotlin)";117;4,3;10000;6,2;60;57;3
-"learn code";"com.getmimo";"Mimo: Learn to Code";90231;4,5;1000000;16;36878;53353;4
-"learn code";"sql.code.play";"SQL Code Play";461;4,1;50000;4,2;270;191;3
-"learn code";"com.sololearn.sql";"Learn SQL";19440;4,6;1000000;6,2;6084;13356;1
-"learn code";"mobile.olimpia.com.aprendeelectronica";"Learn electronics";704;4,3;100000;6,4;364;340;3
-"learn code";"com.sololearn.csstrial";"Learn CSS";13459;4,7;1000000;6,2;4352;9107;1
-"learn code";"tursky.jan.nauc.sa.html5";"Learn programming";12829;3,8;1000000;6,8;2832;9997;1
-"learn code";"com.codepoint.learncplusplus";"Learn C++ Programming Offline - C++ Tutorials Free";15;4,1;1000;2,5;10;5;3
-"learn code";"all.about.computer";"All About Computer | Learn computer | Computer |";62;4,4;10000;9,8;35;27;3
-"learn code";"com.sphero.sprk";"Sphero Edu - Coding for Sphero Robots";2328;4,3;100000;75;1060;1268;3
-"learn code";"com.app4daily.computerrepairingcourse";"Learn Computer Programming";14;4,4;5000;2,3;6;8;3
-"learn code";"com.doasido4u.jsquiz";"JavaScript Quiz";81;4,7;10000;2,8;33;48;3
-"learn code";"com.codepoint.learnandroid";"Learn Android App Development for Beginners";178;4,1;10000;5,7;93;85;3
-"learn code";"com.LM.PGS";"Learn Programming - Hindi";141;4,1;10000;6,1;70;71;3
-"learn code";"com.skyapper.hb.learncnet";"Learn C#.NET";36;4,3;10000;4,1;21;15;3
-"learn code";"programming.android.tutorial";"Android Tutorial: Learn Android, Java & Kotlin";585;4,3;10000;8;320;265;3
-"learn code";"com.japangor.learnjs";"Learn To Code (JavaScript)";6;2,8;1000;21;4;2;3
-"learn code";"com.W3school.Anbu";"W3school";305;4,2;100000;78;132;173;3
-"learn code";"com.clickapp.ik.listview";"IT Books: Free Programming Books, coding books";10;4,8;1000;29;7;3;3
-"learn code";"com.amensah.easycoder";"EASY CODER : Learn to develop & run java programs";120;4,5;10000;7,3;78;42;3
-"learn code";"com.app1daily.learncobol";"Learn COBOL Complete Guide Offline";7;4,6;1000;1,5;3;4;3
-"learn code";"com.aniketo.ds";"Learn Programming C, C++ , Java, PHP";25;4,8;1000;4,5;13;12;3
-"learn code";"excel.shortcuts";"Learn Excel Full";2034;4,4;100000;4,9;747;1287;3
-"learn code";"learn.apps.htmlprogramming";"Learn HTML5 Programming";26;4,5;10000;2,8;9;17;3
-"learn code";"com.sortedqueue.programmercreek";"Practice Code : Learn Programming";118;4,4;10000;7,5;50;68;3
-"learn code";"info.cntrlapps.prolearn";"LearnProg | Learn Programming Languages";7;3,9;500;3,4;5;2;3
-"learn code";"com.improvecodingskills.learnandroidprogramming";"Learn Android Programming";360;4,1;50000;11;125;235;3
-"learn code";"com.codetoinvent.malik.cprogramming";"Learn C Programming";39;4,6;1000;7,8;21;18;3
+"learn code";"techhunt.com.androidexamples";"Learn Android Codes";63;3.8;5000;5,3;42;21;3
+"learn code";"com.app1daily.learnmatlab";"Learn MATLAB Complete Guide Offline";45;4.4;10000;2,1;10;35;3
+"learn code";"com.duhnnae.programmingprogramacion";"Programming - Learning - Tutorials";57;4.4;10000;7,1;39;18;3
+"learn code";"com.riyazsiddiquiexti.androidlearningtutorial";"Learn Android Tutorial - Android App Development";44;4.9;1000;5,6;31;13;3
+"learn code";"com.apkzube.learnkotlin";"Learn Kotlin";80;4.4;10000;5;56;24;3
+"learn code";"com.codeliber.html";"Learn HTML";393;4.6;10000;3,6;205;188;3
+"learn code";"sambhaji.android.java";"Learn Android Java";840;4.2;100000;10;284;556;3
+"learn code";"micro.bots.learn.html5";"learn html - learn to code";18;4.6;500;3,7;13;5;3
+"learn code";"pl.maciejsadyapps.morsetrainer";"Morse Trainer";115;3.9;10000;0,74609375;53;62;3
+"learn code";"app.compiler";"Online Compiler (Beta)";10023;4.4;100000;2,6;4535;5488;3
+"learn code";"gudev.learn.phpprogrammingcoding";"Learn PHP Programming Coding";36;4.3;10000;12;15;21;3
+"learn code";"com.bootstrap.code.play";"Bootstrap Code Play";147;4.4;10000;4,5;73;74;3
+"learn code";"com.binarytuts.cprogrammingcode";"C Programming Code";9;4.8;5000;26;4;5;3
+"learn code";"com.codetoinvent.malik.cplusplus";"Learn C++ Programming - Tutorial";108;4.6;10000;8,4;48;60;3
+"learn code";"com.programminginbangla";"<U+09AC><U+09BE><U+0982><U+09B2><U+09BE><U+09DF> <U+09AA><U+09CD><U+09B0><U+09CB><U+0997><U+09CD><U+09B0><U+09BE><U+09AE><U+09BF><U+0982>";185;4.3;10000;6,4;95;90;3
+"learn code";"com.skycodetech.codingquiz";"Coding Quiz (programming)";234;4.5;10000;4,3;111;123;3
+"learn code";"com.code.jupiter.learnjavascript";"Learn JavaScript Offline Tutorial";214;4.4;10000;4,5;101;113;3
+"learn code";"com.reezx.android.learncprogramming";"Learn C [NEW]";354;4.4;50000;11;139;215;3
+"learn code";"com.quizmine.csref";"Learn Computer Science";1194;4.3;100000;20;278;916;3
+"learn code";"learn.web.php";"Learn Web Development";1759;4.3;100000;6;581;1178;3
+"learn code";"com.sizzlesoftlabs.learn.expertc";"Expert C Programming - Learn C Coding Easily";90;4.3;10000;7,3;53;37;3
+"learn code";"com.paprbit.dcoder";"Dcoder, Compiler IDE :Code & Programming on mobile";18280;4.4;1000000;6,5;8350;9930;1
+"learn code";"bishrulhaq.learntocode";"Learn To Code : Free & Offline";31;4.3;10000;12;15;16;3
+"learn code";"com.djm.offlinepythonnotes";"Learn Python Offline- Tutorial and Interpreter";772;4.4;50000;4,2;337;435;3
+"learn code";"air.com.rosettastone.mobile.CoursePlayer";"Rosetta Stone: Learn Languages";194663;4.6;10000000;31;72775;121888;2
+"learn code";"com.codepoint.learnphp7";"Learn PHP Programming Offline - PHP Tutorials Free";35;4.3;1000;10;19;16;3
+"learn code";"com.code.jupiter.learnphp";"Learn PHP - Offline Tutorial";235;4.4;10000;4;146;89;3
+"learn code";"com.vedprakashwagh.learnandroid";"Learn Android (XML, Java, Kotlin)";117;4.3;10000;6,2;60;57;3
+"learn code";"com.getmimo";"Mimo: Learn to Code";90231;4.5;1000000;16;36878;53353;4
+"learn code";"sql.code.play";"SQL Code Play";461;4.1;50000;4,2;270;191;3
+"learn code";"com.sololearn.sql";"Learn SQL";19440;4.6;1000000;6,2;6084;13356;1
+"learn code";"mobile.olimpia.com.aprendeelectronica";"Learn electronics";704;4.3;100000;6,4;364;340;3
+"learn code";"com.sololearn.csstrial";"Learn CSS";13459;4.7;1000000;6,2;4352;9107;1
+"learn code";"tursky.jan.nauc.sa.html5";"Learn programming";12829;3.8;1000000;6,8;2832;9997;1
+"learn code";"com.codepoint.learncplusplus";"Learn C++ Programming Offline - C++ Tutorials Free";15;4.1;1000;2,5;10;5;3
+"learn code";"all.about.computer";"All About Computer | Learn computer | Computer |";62;4.4;10000;9,8;35;27;3
+"learn code";"com.sphero.sprk";"Sphero Edu - Coding for Sphero Robots";2328;4.3;100000;75;1060;1268;3
+"learn code";"com.app4daily.computerrepairingcourse";"Learn Computer Programming";14;4.4;5000;2,3;6;8;3
+"learn code";"com.doasido4u.jsquiz";"JavaScript Quiz";81;4.7;10000;2,8;33;48;3
+"learn code";"com.codepoint.learnandroid";"Learn Android App Development for Beginners";178;4.1;10000;5,7;93;85;3
+"learn code";"com.LM.PGS";"Learn Programming - Hindi";141;4.1;10000;6,1;70;71;3
+"learn code";"com.skyapper.hb.learncnet";"Learn C#.NET";36;4.3;10000;4,1;21;15;3
+"learn code";"programming.android.tutorial";"Android Tutorial: Learn Android, Java & Kotlin";585;4.3;10000;8;320;265;3
+"learn code";"com.japangor.learnjs";"Learn To Code (JavaScript)";6;2.8;1000;21;4;2;3
+"learn code";"com.W3school.Anbu";"W3school";305;4.2;100000;78;132;173;3
+"learn code";"com.clickapp.ik.listview";"IT Books: Free Programming Books, coding books";10;4.8;1000;29;7;3;3
+"learn code";"com.amensah.easycoder";"EASY CODER : Learn to develop & run java programs";120;4.5;10000;7,3;78;42;3
+"learn code";"com.app1daily.learncobol";"Learn COBOL Complete Guide Offline";7;4.6;1000;1,5;3;4;3
+"learn code";"com.aniketo.ds";"Learn Programming C, C++ , Java, PHP";25;4.8;1000;4,5;13;12;3
+"learn code";"excel.shortcuts";"Learn Excel Full";2034;4.4;100000;4,9;747;1287;3
+"learn code";"learn.apps.htmlprogramming";"Learn HTML5 Programming";26;4.5;10000;2,8;9;17;3
+"learn code";"com.sortedqueue.programmercreek";"Practice Code : Learn Programming";118;4.4;10000;7,5;50;68;3
+"learn code";"info.cntrlapps.prolearn";"LearnProg | Learn Programming Languages";7;3.9;500;3,4;5;2;3
+"learn code";"com.improvecodingskills.learnandroidprogramming";"Learn Android Programming";360;4.1;50000;11;125;235;3
+"learn code";"com.codetoinvent.malik.cprogramming";"Learn C Programming";39;4.6;1000;7,8;21;18;3
 "learn code";"afsar.com.codeacademy";"Code Academy";26;4;5000;12;10;16;3
-"learn code";"com.kids.coding.connectdots";"Programming for Kids - Learn Coding";25;3,3;10000;13;13;12;3
-"learn code";"com.kano.app";"Kano Code";65;2,3;10000;85;53;12;3
-"learn code";"name.antonsmirnov.android.cppdroid";"CppDroid - C/C++ IDE";32160;4,1;1000000;46;8239;23921;1
-"learn code";"com.apps.athena.programminglanguages";"Programming Languages";418;4,4;100000;3,3;160;258;3
-"learn code";"randomappsinc.com.sqlpracticeplus";"SQL Practice PRO - Learn SQL Databases";4007;4,7;100000;1,4;1620;2387;3
-"learn code";"com.appybuilder.aadi_ben16.CTuit";"C Programming Robot - Learn Coding & C Theory";11;4,6;1000;13;5;6;3
-"learn code";"com.codepoint.learnreactjs";"Learn React 16.9 - ReactJs Tutorials & Guide <U+0001F913>";640;3,9;10000;8,3;260;380;3
+"learn code";"com.kids.coding.connectdots";"Programming for Kids - Learn Coding";25;3.3;10000;13;13;12;3
+"learn code";"com.kano.app";"Kano Code";65;2.3;10000;85;53;12;3
+"learn code";"name.antonsmirnov.android.cppdroid";"CppDroid - C/C++ IDE";32160;4.1;1000000;46;8239;23921;1
+"learn code";"com.apps.athena.programminglanguages";"Programming Languages";418;4.4;100000;3,3;160;258;3
+"learn code";"randomappsinc.com.sqlpracticeplus";"SQL Practice PRO - Learn SQL Databases";4007;4.7;100000;1,4;1620;2387;3
+"learn code";"com.appybuilder.aadi_ben16.CTuit";"C Programming Robot - Learn Coding & C Theory";11;4.6;1000;13;5;6;3
+"learn code";"com.codepoint.learnreactjs";"Learn React 16.9 - ReactJs Tutorials & Guide <U+0001F913>";640;3.9;10000;8,3;260;380;3
 "learn code";"cc.taimoor.rubycourse";"Ruby Course: Learn to code, programming free<U+0001F48E> <U+0001F4AA>";22;5;500;16;14;8;3
-"learn code";"com.sky.learnhtml5";"Learn HTML";10;4,6;500;3;8;2;3
-"learn code";"learn.apps.arduinoprogramming";"Learn Arduino Programming";116;4,4;50000;7,9;46;70;3
-"learn code";"com.linkedin.android.learning";"LinkedIn Learning: Online Courses to Learn Skills";15605;4,7;1000000;14;5989;9616;1
-"learn code";"com.ryzac.codecademygo";"Codecademy Go";641;3,3;100000;53;377;264;3
-"learn code";"com.sololearn.jquery";"Learn jQuery";568;4,5;100000;6,2;212;356;3
-"learn code";"com.japangor.python";"Learn To Code (PYTHON)";72;3,7;10000;18;28;44;3
-"learn code";"ru.code_samples.obraztsov_develop.codesamples_csharp";"C# Recipes";152;4,3;10000;1,2;63;89;3
-"learn code";"com.milcanx.learnandroidapp";"Learn Android With Source Code";291;4,3;50000;12;105;186;3
-"learn code";"com.codepoint.learndart";"Learn Dart Programming Free - Dart Tutorials";24;4,3;5000;4,8;13;11;3
-"learn code";"com.lekastudio.learnhcj";"Learn Html Css Javascript";71;4,4;10000;1,9;31;40;3
+"learn code";"com.sky.learnhtml5";"Learn HTML";10;4.6;500;3;8;2;3
+"learn code";"learn.apps.arduinoprogramming";"Learn Arduino Programming";116;4.4;50000;7,9;46;70;3
+"learn code";"com.linkedin.android.learning";"LinkedIn Learning: Online Courses to Learn Skills";15605;4.7;1000000;14;5989;9616;1
+"learn code";"com.ryzac.codecademygo";"Codecademy Go";641;3.3;100000;53;377;264;3
+"learn code";"com.sololearn.jquery";"Learn jQuery";568;4.5;100000;6,2;212;356;3
+"learn code";"com.japangor.python";"Learn To Code (PYTHON)";72;3.7;10000;18;28;44;3
+"learn code";"ru.code_samples.obraztsov_develop.codesamples_csharp";"C# Recipes";152;4.3;10000;1,2;63;89;3
+"learn code";"com.milcanx.learnandroidapp";"Learn Android With Source Code";291;4.3;50000;12;105;186;3
+"learn code";"com.codepoint.learndart";"Learn Dart Programming Free - Dart Tutorials";24;4.3;5000;4,8;13;11;3
+"learn code";"com.lekastudio.learnhcj";"Learn Html Css Javascript";71;4.4;10000;1,9;31;40;3
 "learn code";"com.codepoint.learnkotlin";"Learn Kotlin Programming Free - Kotlin Tutorials";16;4;1000;2,4;8;8;3
-"learn code";"com.successcrazzy.datascience101";"Data Science 101 - Machine Learning Tutorials";606;4,2;100000;3,3;258;348;3
-"learn code";"com.codepoint.learnnodejs";"Learn Node.js Programming Free - Node Js Tutorials";121;4,3;5000;4,3;41;80;3
-"learn code";"net.joeyt.learnable";"Learnable: Learn to code";24;4,2;500;2,4;13;11;3
-"learn code";"com.limesdevelopment.morsecode";"Morse code - learn and play";192;4,5;10000;12;116;76;3
-"learn code";"com.antlem.coderhub";"CoderHub-Learn Coding Free";34;4,6;1000;3;16;18;3
-"learn code";"com.creativeworld.android.geeks_code";"Geeks Code: All Programming Books in one place";51;3,9;1000;7,5;38;13;3
-"learn code";"cordova.code.play";"Learn Android Code Play iOS, Windows, hybrid app";165;4,7;10000;6,9;128;37;3
-"learn code";"ab.java.programming";"Java Programming";9578;3,4;1000000;3,5;3156;6422;1
-"learn code";"com.xtelltechnologies.htmltutoriallearncodetagscss";"HTML Tutorial Code Tags CSS";27;4,2;10000;2,3;12;15;3
-"learn code";"pk.mitz.calculatorsworld.computerscience";"Computer & Coding Learning App";8;3,5;1000;11;4;4;3
-"learn code";"com.redlee90.learn6502assembly";"Learn 6502 Assembly";220;4,5;10000;2,5;104;116;3
-"learn code";"trycodehub.com";"Code Hub";351;4,4;50000;2,4;138;213;3
-"learn code";"learn.apps.androidprogramming";"Learn Android Programming";43;4,1;10000;5,9;17;26;3
-"learn code";"com.jaypeesoft.ds";"Data Structures & Coding Interview Algorithms";554;4,6;100000;11;207;347;3
-"learn code";"com.skyapper.learnphp";"Learn PHP";15;4,8;5000;6,3;10;5;3
-"learn code";"morsecode.ort.com.morse";"Morse Code";644;4,3;100000;5,9;217;427;3
-"learn code";"com.japangor.learntocodec";"Learn To Code (C++)";86;3,7;10000;6;30;56;3
-"learn code";"miwok.android.example.com.learnc";"C++ Basics Learning : C++ for Beginners";105;4,6;10000;5,1;68;37;3
+"learn code";"com.successcrazzy.datascience101";"Data Science 101 - Machine Learning Tutorials";606;4.2;100000;3,3;258;348;3
+"learn code";"com.codepoint.learnnodejs";"Learn Node.js Programming Free - Node Js Tutorials";121;4.3;5000;4,3;41;80;3
+"learn code";"net.joeyt.learnable";"Learnable: Learn to code";24;4.2;500;2,4;13;11;3
+"learn code";"com.limesdevelopment.morsecode";"Morse code - learn and play";192;4.5;10000;12;116;76;3
+"learn code";"com.antlem.coderhub";"CoderHub-Learn Coding Free";34;4.6;1000;3;16;18;3
+"learn code";"com.creativeworld.android.geeks_code";"Geeks Code: All Programming Books in one place";51;3.9;1000;7,5;38;13;3
+"learn code";"cordova.code.play";"Learn Android Code Play iOS, Windows, hybrid app";165;4.7;10000;6,9;128;37;3
+"learn code";"ab.java.programming";"Java Programming";9578;3.4;1000000;3,5;3156;6422;1
+"learn code";"com.xtelltechnologies.htmltutoriallearncodetagscss";"HTML Tutorial Code Tags CSS";27;4.2;10000;2,3;12;15;3
+"learn code";"pk.mitz.calculatorsworld.computerscience";"Computer & Coding Learning App";8;3.5;1000;11;4;4;3
+"learn code";"com.redlee90.learn6502assembly";"Learn 6502 Assembly";220;4.5;10000;2,5;104;116;3
+"learn code";"trycodehub.com";"Code Hub";351;4.4;50000;2,4;138;213;3
+"learn code";"learn.apps.androidprogramming";"Learn Android Programming";43;4.1;10000;5,9;17;26;3
+"learn code";"com.jaypeesoft.ds";"Data Structures & Coding Interview Algorithms";554;4.6;100000;11;207;347;3
+"learn code";"com.skyapper.learnphp";"Learn PHP";15;4.8;5000;6,3;10;5;3
+"learn code";"morsecode.ort.com.morse";"Morse Code";644;4.3;100000;5,9;217;427;3
+"learn code";"com.japangor.learntocodec";"Learn To Code (C++)";86;3.7;10000;6;30;56;3
+"learn code";"miwok.android.example.com.learnc";"C++ Basics Learning : C++ for Beginners";105;4.6;10000;5,1;68;37;3
 "learn code";"php.code.play";"PHP Code Play";75;4;10000;4,5;56;19;3
-"learn code";"com.codepoint.learnrprogramming";"Learn R Programming Free - R Programming Tutorials";16;4,3;5000;5;10;6;3
-"learn code";"com.dztall.ccr.android.admob";"Mobile C [ C/C++ Compiler ]";5965;4,1;500000;78;2654;3311;1
-"learn code";"com.continuum.learncss";"Learn CSS Pro - Offline Program Run";80;4,6;5000;4,2;48;32;3
-"learn code";"com.JustForYouLimited.LearnJavaScriptOffline";"Learn JavaScript Offline";20;4,8;5000;3,8;12;8;3
-"learn code";"com.sololearn.java";"Learn Java";55379;4,6;1000000;6,2;18333;37046;4
-"learn code";"com.learning.examples.arduino";"Learn Arduino Coding";9;3,6;1000;8,1;2;7;3
-"learn code";"mc.javatutor.offline";"Learn Java Offline";7;4,4;1000;9,3;4;3;3
-"learn code";"com.delphiapplications.delphiexamples";"Delphi Examples: Learn to Code";100;4,3;10000;23;51;49;3
-"learn code";"com.tutorials.learn.androidexample";"Learn Android With Source Code";342;4,5;50000;7;163;179;3
-"learn code";"com.sololearn.python";"Learn Python";76325;4,6;1000000;6,2;25727;50598;4
-"learn code";"com.careerkarma.chat";"Career Karma - Learn to Code for Adults";343;4,7;10000;13;237;106;3
-"learn code";"com.mrsoftbd.webdesignlearnoffline";"Web Design (Learn Offline)";1811;4,2;100000;3,1;771;1040;3
-"learn code";"com.learnswiftprogramming";"Learn Swift Programming - iOS";55;4,5;5000;3,5;20;35;3
-"learn code";"com.learnprogramming.codecamp";"Programming Hero: Coding Just Got Fun (beta)";5181;4,9;100000;17;2797;2384;3
+"learn code";"com.codepoint.learnrprogramming";"Learn R Programming Free - R Programming Tutorials";16;4.3;5000;5;10;6;3
+"learn code";"com.dztall.ccr.android.admob";"Mobile C [ C/C++ Compiler ]";5965;4.1;500000;78;2654;3311;1
+"learn code";"com.continuum.learncss";"Learn CSS Pro - Offline Program Run";80;4.6;5000;4,2;48;32;3
+"learn code";"com.JustForYouLimited.LearnJavaScriptOffline";"Learn JavaScript Offline";20;4.8;5000;3,8;12;8;3
+"learn code";"com.sololearn.java";"Learn Java";55379;4.6;1000000;6,2;18333;37046;4
+"learn code";"com.learning.examples.arduino";"Learn Arduino Coding";9;3.6;1000;8,1;2;7;3
+"learn code";"mc.javatutor.offline";"Learn Java Offline";7;4.4;1000;9,3;4;3;3
+"learn code";"com.delphiapplications.delphiexamples";"Delphi Examples: Learn to Code";100;4.3;10000;23;51;49;3
+"learn code";"com.tutorials.learn.androidexample";"Learn Android With Source Code";342;4.5;50000;7;163;179;3
+"learn code";"com.sololearn.python";"Learn Python";76325;4.6;1000000;6,2;25727;50598;4
+"learn code";"com.careerkarma.chat";"Career Karma - Learn to Code for Adults";343;4.7;10000;13;237;106;3
+"learn code";"com.mrsoftbd.webdesignlearnoffline";"Web Design (Learn Offline)";1811;4.2;100000;3,1;771;1040;3
+"learn code";"com.learnswiftprogramming";"Learn Swift Programming - iOS";55;4.5;5000;3,5;20;35;3
+"learn code";"com.learnprogramming.codecamp";"Programming Hero: Coding Just Got Fun (beta)";5181;4.9;100000;17;2797;2384;3
 "learn code";"com.touchcoderapp.touchcoder";"HTML CSS Live Code Editor & Learning";22;5;500;2,5;4;18;3
-"learn code";"com.code.jupiter.nodejs";"Learn NodeJS";28;4,5;1000;4;21;7;3
-"learn code";"com.codepoint.learnhtml5";"Learn HTML Programming Free - HTML Tutorials";11;4,2;1000;2,7;6;5;3
-"learn code";"org.scratchjr.android";"ScratchJr";6823;3,8;1000000;25;3274;3549;1
+"learn code";"com.code.jupiter.nodejs";"Learn NodeJS";28;4.5;1000;4;21;7;3
+"learn code";"com.codepoint.learnhtml5";"Learn HTML Programming Free - HTML Tutorials";11;4.2;1000;2,7;6;5;3
+"learn code";"org.scratchjr.android";"ScratchJr";6823;3.8;1000000;25;3274;3549;1
 "learn code";"com.japangor.learntocode";"Learn To Code (HTML)";525;4;100000;13;225;300;3
-"learn code";"net.androidsquad.androidmaster";"Master Android - Learn Android, Java & Flutter";20349;4,6;500000;9,6;7828;12521;1
-"learn code";"com.codepoint.learnjavascript";"Learn JavaScript Programming - JavaScript Tutorial";56;4,3;5000;3,5;33;23;3
-"learn code";"com.kids.coding.firefighter";"Coding Games - Kids Learn To Code";10;3,7;5000;13;4;6;3
-"learn code";"com.codepoint.learnnetworking";"Learn Networking Offline - Networking Tutorials";16;4,8;10000;5,3;8;8;3
-"learn code";"com.frizzl.app.frizzleapp";"Frizzl - learn to code while building your own app";14;4,6;500;37;6;8;3
+"learn code";"net.androidsquad.androidmaster";"Master Android - Learn Android, Java & Flutter";20349;4.6;500000;9,6;7828;12521;1
+"learn code";"com.codepoint.learnjavascript";"Learn JavaScript Programming - JavaScript Tutorial";56;4.3;5000;3,5;33;23;3
+"learn code";"com.kids.coding.firefighter";"Coding Games - Kids Learn To Code";10;3.7;5000;13;4;6;3
+"learn code";"com.codepoint.learnnetworking";"Learn Networking Offline - Networking Tutorials";16;4.8;10000;5,3;8;8;3
+"learn code";"com.frizzl.app.frizzleapp";"Frizzl - learn to code while building your own app";14;4.6;500;37;6;8;3
 "learn code";"com.illusorytapirus.morsecodelesson";"Morse Code - Tutorial, Training, Tools";107;4;10000;5,7;64;43;3
-"learn code";"com.sololearn.php";"Learn PHP";16122;4,5;1000000;6,2;5500;10622;1
+"learn code";"com.sololearn.php";"Learn PHP";16122;4.5;1000000;6,2;5500;10622;1
 "learn code";"com.jaindev.assembly";"Learn Assembly Language Complete Guide (OFFLINE)";29;4;10000;8;8;21;3
-"learn code";"io.kodular.ahmedkarundawala245.Learn_HTML";"Learn HTML: Web Design Tutorial";10;4,8;500;6,5;6;4;3
-"learn code";"com.yugenchokshi.wil";"WeCode : Learn Coding Anywhere";61;4,6;1000;5,3;26;35;3
+"learn code";"io.kodular.ahmedkarundawala245.Learn_HTML";"Learn HTML: Web Design Tutorial";10;4.8;500;6,5;6;4;3
+"learn code";"com.yugenchokshi.wil";"WeCode : Learn Coding Anywhere";61;4.6;1000;5,3;26;35;3
 "learn programming";"com.educationapps.visualbasicnet";"Visual Basic NET Tutorial - VB .NET Examples";48;4;10000;4,1;24;24;3
-"learn programming";"com.app1daily.a1db304";"Learn Swift Programming - Develop iPhone, iPad App";7;3,6;1000;1,7;4;3;3
-"learn programming";"sgdevelopers.learn_c_programming";"Learn C Programming";145;4,4;10000;5,8;59;86;3
-"learn programming";"com.clanguage.pradip.bitsofcomputer";"C Programming Language - All in One";44;4,4;10000;9,3;22;22;3
+"learn programming";"com.app1daily.a1db304";"Learn Swift Programming - Develop iPhone, iPad App";7;3.6;1000;1,7;4;3;3
+"learn programming";"sgdevelopers.learn_c_programming";"Learn C Programming";145;4.4;10000;5,8;59;86;3
+"learn programming";"com.clanguage.pradip.bitsofcomputer";"C Programming Language - All in One";44;4.4;10000;9,3;22;22;3
 "learn programming";"wscubetech.android";"Learn Android Programming-App Development Tutorial";6;4;1000;8;2;4;3
-"learn programming";"sgdevelopers.learn_cpp_programming";"Learn C++ Programming";106;4,5;10000;11;56;50;3
-"learn programming";"com.becomecoder.mainpdf";"Become Coder-Learn Programming Easily";16;4,6;100;9,7;16;0;3
+"learn programming";"sgdevelopers.learn_cpp_programming";"Learn C++ Programming";106;4.5;10000;11;56;50;3
+"learn programming";"com.becomecoder.mainpdf";"Become Coder-Learn Programming Easily";16;4.6;100;9,7;16;0;3
 "learn programming";"com.coderbro.tutorial.arduinoprogrammingduo";"Arduino Programming";136;4;50000;9,7;40;96;3
-"learn programming";"com.sukronmoh.bwi.belajarhtml";"Buku Pemrograman (versi baru Belajar HTML)";3890;4,7;100000;12;2091;1799;3
-"learn programming";"com.quizmine.csharpandroid";"Learn C# Programming";61;3,5;10000;20;24;37;3
-"learn programming";"com.apkzube.learncpp";"Learn C++ Programming - Tutorial";75;4,5;10000;4,6;55;20;3
-"learn programming";"learnbook.oaktech";"Computer engineering-LearnBook";441;4,2;50000;3,6;252;189;3
-"learn programming";"com.csharp.learn.essentials";"Learn C# - .Net - C Sharp Programming Tutorial App";1281;4,2;100000;8,6;300;981;3
-"learn programming";"com.SM_Developer";"Programming Languages";52;4,9;1000;16;41;11;3
-"learn programming";"com.csmcqs.asif.dsmcqs";"Programming Languages MCQs";13;4,5;5000;4,4;5;8;3
-"learn programming";"learn.apps.javaprogramming";"Learn Java Programming";105;4,4;10000;3,4;51;54;3
-"learn programming";"com.programming_with_java.fullmasti";"Java Programming (offline)";15;4,1;5000;12;6;9;3
+"learn programming";"com.sukronmoh.bwi.belajarhtml";"Buku Pemrograman (versi baru Belajar HTML)";3890;4.7;100000;12;2091;1799;3
+"learn programming";"com.quizmine.csharpandroid";"Learn C# Programming";61;3.5;10000;20;24;37;3
+"learn programming";"com.apkzube.learncpp";"Learn C++ Programming - Tutorial";75;4.5;10000;4,6;55;20;3
+"learn programming";"learnbook.oaktech";"Computer engineering-LearnBook";441;4.2;50000;3,6;252;189;3
+"learn programming";"com.csharp.learn.essentials";"Learn C# - .Net - C Sharp Programming Tutorial App";1281;4.2;100000;8,6;300;981;3
+"learn programming";"com.SM_Developer";"Programming Languages";52;4.9;1000;16;41;11;3
+"learn programming";"com.csmcqs.asif.dsmcqs";"Programming Languages MCQs";13;4.5;5000;4,4;5;8;3
+"learn programming";"learn.apps.javaprogramming";"Learn Java Programming";105;4.4;10000;3,4;51;54;3
+"learn programming";"com.programming_with_java.fullmasti";"Java Programming (offline)";15;4.1;5000;12;6;9;3
 "learn programming";"com.CoderBro.tutorials.arduinotutorials";"Arduino Tutorials";744;4;100000;9,3;295;449;3
-"learn programming";"learn.apps.unixprogramming";"Learn Unix & Shell Programming";100;4,3;50000;3,4;42;58;3
-"learn programming";"com.xstudioo.basicc";"Learn Basic C - For Beginners";34;4,7;5000;0,7;11;23;3
+"learn programming";"learn.apps.unixprogramming";"Learn Unix & Shell Programming";100;4.3;50000;3,4;42;58;3
+"learn programming";"com.xstudioo.basicc";"Learn Basic C - For Beginners";34;4.7;5000;0,7;11;23;3
 "learn programming";"com.coderii.imagetotext";"Programmer Assistant";12;5;100;62;9;3;3
-"learn programming";"com.jcharistechn.learnjuliaprogramming";"Learn Julia";18;4,8;1000;5,1;8;10;3
-"learn programming";"com.do_apps.catalog_68";"Programming languages";1410;4,1;100000;40;308;1102;3
-"learn programming";"learn.apps.pythonprogramming";"Learn Python Programming";68;4,3;10000;3,3;32;36;3
+"learn programming";"com.jcharistechn.learnjuliaprogramming";"Learn Julia";18;4.8;1000;5,1;8;10;3
+"learn programming";"com.do_apps.catalog_68";"Programming languages";1410;4.1;100000;40;308;1102;3
+"learn programming";"learn.apps.pythonprogramming";"Learn Python Programming";68;4.3;10000;3,3;32;36;3
 "learn programming";"sambhaji.asp.vb";"Learn .Net Framework";879;4;100000;8,7;270;609;3
-"learn programming";"com.practice_o_learn.javaprogramming";"Learn Java Programming";76;4,5;10000;3;52;24;3
-"learn programming";"technark.htmlforbegineers";"HTML For Beginners";57;4,8;5000;3,4;25;32;3
-"learn programming";"com.futurevisioncomputers.excelvba";"Learn Offline VBA Programming - Tutorials for VBA";75;4,3;10000;6,7;43;32;3
-"learn programming";"com.skyapper.learnspring";"Learn Spring Framework - Java";14;4,7;5000;5,3;9;5;3
-"learn programming";"technark.bca_courprogramming";"BCA - Course Programming";678;4,4;50000;5,5;330;348;3
-"learn programming";"com.duy.pascal.compiler";"Pascal N-IDE - Editor And Compiler - Programming";11322;4,7;500000;6;4731;6591;1
-"learn programming";"com.programmarc.cprogrammingbangla";"C Programming Bangla";221;4,1;10000;4,9;92;129;3
-"learn programming";"in.intelitech.computerprogramming";"Computer Programming";6;4,3;5000;4,7;3;3;3
-"learn programming";"com.nsk.cprogramming";"Learn C Programming";504;4,2;50000;0,9;156;348;3
-"learn programming";"in.intelitech.cobol";"Learn - COBOL";8;4,9;1000;4,1;2;6;3
-"learn programming";"ab.codelyf";"Codelyf - Learn Programming";250;4,4;10000;5,7;117;133;3
-"learn programming";"com.coding.dmr.c";"C Tutorials - Offline";14;4,4;1000;5;9;5;3
-"learn programming";"com.sitseducators.cpppatternprogramsfree";"C++ Pattern Programs Free";3373;4,7;100000;7,4;1059;2314;3
-"learn programming";"com.tops.learnvern";"Learn IT Courses for Free in Hindi LearnVern";653;4,6;10000;6,5;395;258;3
-"learn programming";"com.chavan.oops";"Object Oriented Programming (Oops)";94;4,6;10000;3,8;65;29;3
-"learn programming";"com.sitseducators.cpatternprogramsfree";"C Pattern Programs Free";6302;4,7;100000;7,5;2299;4003;3
-"learn programming";"com.sololearn.ruby";"Learn Ruby";954;4,7;100000;6,2;324;630;3
-"learn programming";"com.continuum.learnhtml";"Learn HTML Pro - Offline Program Run";191;4,3;10000;4,3;108;83;3
-"learn programming";"com.soft24hours.dictionaries.dictionary22";"Programming languages";29;4,2;10000;7,2;14;15;3
-"learn programming";"c.spotapps.com.learnc";"Learn C Programming Language";14;4,9;100;2;6;8;3
-"learn programming";"com.jaindev.c";"Learn C Programming (Examples) (OFFLINE)";45;4,2;10000;3,7;12;33;3
-"learn programming";"com.atulindap.gotutorials";"Go tutorial(beginners)";17;4,1;1000;4,3;9;8;3
-"learn programming";"com.ben.Tutorial.Learncomputer";"Learn computer courses";14;4,4;10000;5,4;5;9;3
+"learn programming";"com.practice_o_learn.javaprogramming";"Learn Java Programming";76;4.5;10000;3;52;24;3
+"learn programming";"technark.htmlforbegineers";"HTML For Beginners";57;4.8;5000;3,4;25;32;3
+"learn programming";"com.futurevisioncomputers.excelvba";"Learn Offline VBA Programming - Tutorials for VBA";75;4.3;10000;6,7;43;32;3
+"learn programming";"com.skyapper.learnspring";"Learn Spring Framework - Java";14;4.7;5000;5,3;9;5;3
+"learn programming";"technark.bca_courprogramming";"BCA - Course Programming";678;4.4;50000;5,5;330;348;3
+"learn programming";"com.duy.pascal.compiler";"Pascal N-IDE - Editor And Compiler - Programming";11322;4.7;500000;6;4731;6591;1
+"learn programming";"com.programmarc.cprogrammingbangla";"C Programming Bangla";221;4.1;10000;4,9;92;129;3
+"learn programming";"in.intelitech.computerprogramming";"Computer Programming";6;4.3;5000;4,7;3;3;3
+"learn programming";"com.nsk.cprogramming";"Learn C Programming";504;4.2;50000;0,9;156;348;3
+"learn programming";"in.intelitech.cobol";"Learn - COBOL";8;4.9;1000;4,1;2;6;3
+"learn programming";"ab.codelyf";"Codelyf - Learn Programming";250;4.4;10000;5,7;117;133;3
+"learn programming";"com.coding.dmr.c";"C Tutorials - Offline";14;4.4;1000;5;9;5;3
+"learn programming";"com.sitseducators.cpppatternprogramsfree";"C++ Pattern Programs Free";3373;4.7;100000;7,4;1059;2314;3
+"learn programming";"com.tops.learnvern";"Learn IT Courses for Free in Hindi LearnVern";653;4.6;10000;6,5;395;258;3
+"learn programming";"com.chavan.oops";"Object Oriented Programming (Oops)";94;4.6;10000;3,8;65;29;3
+"learn programming";"com.sitseducators.cpatternprogramsfree";"C Pattern Programs Free";6302;4.7;100000;7,5;2299;4003;3
+"learn programming";"com.sololearn.ruby";"Learn Ruby";954;4.7;100000;6,2;324;630;3
+"learn programming";"com.continuum.learnhtml";"Learn HTML Pro - Offline Program Run";191;4.3;10000;4,3;108;83;3
+"learn programming";"com.soft24hours.dictionaries.dictionary22";"Programming languages";29;4.2;10000;7,2;14;15;3
+"learn programming";"c.spotapps.com.learnc";"Learn C Programming Language";14;4.9;100;2;6;8;3
+"learn programming";"com.jaindev.c";"Learn C Programming (Examples) (OFFLINE)";45;4.2;10000;3,7;12;33;3
+"learn programming";"com.atulindap.gotutorials";"Go tutorial(beginners)";17;4.1;1000;4,3;9;8;3
+"learn programming";"com.ben.Tutorial.Learncomputer";"Learn computer courses";14;4.4;10000;5,4;5;9;3
 "learn programming";"com.faadooengineers.free_principlesofprogramming";"Programming Principles";65;4;10000;7,7;14;51;3
-"learn programming";"com.apkzube.learnrprogramming";"Learn R Programming - Tutorial";87;4,4;10000;5,4;44;43;3
-"learn programming";"com.apkzube.learncprogramming";"Learn C Programming";160;3,8;10000;3,7;104;56;3
-"learn programming";"com.dexterousdevelopers.cprogrammingtutorials";"C Programming Tutorials";65;4,8;10000;3,9;46;19;3
-"learn programming";"learn.c.programing";"Learn C Programming";179;4,5;10000;3,6;69;110;3
-"learn programming";"com.codepoint.learnangular";"Learn Angular 8 -  AngularJs Tutorials Offline";862;4,2;10000;6,2;357;505;3
-"learn programming";"com.pkj.learncprogramming";"Learn C Programming";42;4,6;1000;2,4;33;9;3
-"learn programming";"com.newageproductions.learnc";"Learn C";117;4,4;10000;3,5;49;68;3
-"learn programming";"com.awwalsoft.pythondeeplearning";"Python Foundation Learning : Python Tutorials";174;4,1;10000;6,5;108;66;3
-"learn programming";"com.cyberloft.pascalprogramming";"Pascal Programming";97;4,4;10000;7,5;49;48;3
-"learn programming";"com.hyphenible.tryc";"Learn C Programming: Offline with examples";25;4,6;1000;3;13;12;3
-"learn programming";"com.codingpreperation.csinterviewpreperation.programming";"CS & IT Interview Questions";132;4,5;10000;4,2;54;78;3
-"learn programming";"com.appzap.learncprogramminginhindi";"Learn C++ Programming In Hindi";82;4,1;10000;37;46;36;3
-"programa��o";"org.jw.jwlanguage";"JW Language";89332;4,9;1000000;25;27573;61759;4
-"programa��o";"prueba.joseluismerlosguzman.prueba";"Convertidor de algoritmo a c�digo";7;3,3;1000;1,6;3;4;3
-"programa��o";"com.ozensoft.arduinoplcladdersim";"Arduino PLC - Ladder Simulator";254;4,1;100000;2,8;118;136;3
+"learn programming";"com.apkzube.learnrprogramming";"Learn R Programming - Tutorial";87;4.4;10000;5,4;44;43;3
+"learn programming";"com.apkzube.learncprogramming";"Learn C Programming";160;3.8;10000;3,7;104;56;3
+"learn programming";"com.dexterousdevelopers.cprogrammingtutorials";"C Programming Tutorials";65;4.8;10000;3,9;46;19;3
+"learn programming";"learn.c.programing";"Learn C Programming";179;4.5;10000;3,6;69;110;3
+"learn programming";"com.codepoint.learnangular";"Learn Angular 8 -  AngularJs Tutorials Offline";862;4.2;10000;6,2;357;505;3
+"learn programming";"com.pkj.learncprogramming";"Learn C Programming";42;4.6;1000;2,4;33;9;3
+"learn programming";"com.newageproductions.learnc";"Learn C";117;4.4;10000;3,5;49;68;3
+"learn programming";"com.awwalsoft.pythondeeplearning";"Python Foundation Learning : Python Tutorials";174;4.1;10000;6,5;108;66;3
+"learn programming";"com.cyberloft.pascalprogramming";"Pascal Programming";97;4.4;10000;7,5;49;48;3
+"learn programming";"com.hyphenible.tryc";"Learn C Programming: Offline with examples";25;4.6;1000;3;13;12;3
+"learn programming";"com.codingpreperation.csinterviewpreperation.programming";"CS & IT Interview Questions";132;4.5;10000;4,2;54;78;3
+"learn programming";"com.appzap.learncprogramminginhindi";"Learn C++ Programming In Hindi";82;4.1;10000;37;46;36;3
+"programa��o";"org.jw.jwlanguage";"JW Language";89332;4.9;1000000;25;27573;61759;4
+"programa��o";"prueba.joseluismerlosguzman.prueba";"Convertidor de algoritmo a c�digo";7;3.3;1000;1,6;3;4;3
+"programa��o";"com.ozensoft.arduinoplcladdersim";"Arduino PLC - Ladder Simulator";254;4.1;100000;2,8;118;136;3
 "programa��o";"com.do_apps.catalog_285";"Algorithms";374;4;50000;25;94;280;3
-"programa��o";"oop.cite.pc_admin.trial_3navbar";"OOP for Beginners";16;4,2;5000;8,1;10;6;3
-"programa��o";"com.buta.caculator";"HiEdu Scientific Calculator : Fx-570vn Plus";31930;4,6;1000000;6,1;16224;15706;1
-"programa��o";"com.appsenrique.pnlconpoder";"PNL con Poder";228;4,6;10000;13;177;51;3
-"programa��o";"com.educationapps.cncprogrammingexamples";"CNC Programming Example";170;4,4;10000;7,5;90;80;3
-"programa��o";"my.book.ua.AOUVWFQPJIIAFRHOFO";"Manipulation and control";415;3,5;100000;5,5;57;358;3
-"programa��o";"com.myprg.aakash.ardunioprogramming";"Arduino Programming";100;4,1;10000;4,7;40;60;3
-"programa��o";"com.krazeapps.basicprogrammingcompiler";"BASIC Programming Compiler";14;2,8;1000;6,5;12;2;3
-"programa��o";"everyneedz.com.webdevelopment";"Web Development (HTML,CSS,JS)";1461;4,1;100000;15;644;817;3
-"programa��o";"com.swastik.operationalresearch";"Operational Research";153;4,5;10000;3,2;65;88;3
-"programa��o";"com.raincontinues.simplc2";"PLC Ladder Logic Simulator";77;4,2;10000;2,1;48;29;3
-"programa��o";"com.myapp.designpatternscs";"Design Patterns in C#";283;4,8;10000;4,2;115;168;3
-"programa��o";"com.C_Examples.C_Programming";"350+ C Programming Examples";52;4,5;10000;5,4;16;36;3
-"programa��o";"com.apps21.reparaciondecelulares";"Cellular Repair Course";2222;4,2;100000;3,7;611;1611;3
-"programa��o";"com.admob9931.python_panda";"Python Pandas Tutorial";27;4,5;10000;3,7;15;12;3
-"programa��o";"com.zdivdev.ebook.lua";"Lua 5.3 Language Reference";64;4,2;10000;1,9;30;34;3
-"programming";"in.softecks.ruby";"Ruby Programming";10;4,5;1000;7,4;5;5;3
-"programming";"com.coderbro.tutorial.a8051microcontroller";"8051 Microcontroller Programming";17;4,3;5000;4,3;7;10;3
-"programming";"com.jids.lspexample";"Linux System Programming Eg";181;4,5;10000;1,9;46;135;3
-"programming";"com.CodeHub.competitivecoding";"CodeHub - First Competitive Programming App";37;4,4;1000;2,9;23;14;3
-"programming";"com.awwalsoft.javawebprogramming";"Jsp & Servlet Tutorial:  Java Web Programming";160;4,4;10000;5,1;82;78;3
-"programming";"com.cprogrammingzone.free";"C Programming Zone";1279;4,6;50000;4;542;737;3
-"programming";"io.kodular.rijukeyshonsrijan.dp";"Dynamic Programming Problems - Competitive Coding";6;4,3;500;5,8;4;2;3
-"programming";"com.codebuff";"Code Buff : Programmer's calendar, Coding contests";14;4,8;1000;1,8;10;4;3
-"programming";"com.tech.prabhansh.programminginc";"Programming in C";69;4,7;1000;4,1;31;38;3
-"programming";"com.krazeapps.cppprogrammingcompiler";"C/C++ Programming Compiler";26;2,8;10000;6,5;16;10;3
-"programming";"net.andromo.dev653868.app655379";"Matlab Programming : Numerical Analysis";32;4,6;5000;6,2;14;18;3
-"programming";"com.studytonight.app";"Studytonight - Free Computer Programming Tutorials";1411;4,6;50000;4,5;630;781;3
-"programming";"in.intelitech.lispprogramming";"LISP Programming";5;3,4;1000;3,5;3;2;3
-"programming";"com.lego.education.ev3";"LEGO� MINDSTORMS Education EV3";536;3,9;50000;58;226;310;3
+"programa��o";"oop.cite.pc_admin.trial_3navbar";"OOP for Beginners";16;4.2;5000;8,1;10;6;3
+"programa��o";"com.buta.caculator";"HiEdu Scientific Calculator : Fx-570vn Plus";31930;4.6;1000000;6,1;16224;15706;1
+"programa��o";"com.appsenrique.pnlconpoder";"PNL con Poder";228;4.6;10000;13;177;51;3
+"programa��o";"com.educationapps.cncprogrammingexamples";"CNC Programming Example";170;4.4;10000;7,5;90;80;3
+"programa��o";"my.book.ua.AOUVWFQPJIIAFRHOFO";"Manipulation and control";415;3.5;100000;5,5;57;358;3
+"programa��o";"com.myprg.aakash.ardunioprogramming";"Arduino Programming";100;4.1;10000;4,7;40;60;3
+"programa��o";"com.krazeapps.basicprogrammingcompiler";"BASIC Programming Compiler";14;2.8;1000;6,5;12;2;3
+"programa��o";"everyneedz.com.webdevelopment";"Web Development (HTML,CSS,JS)";1461;4.1;100000;15;644;817;3
+"programa��o";"com.swastik.operationalresearch";"Operational Research";153;4.5;10000;3,2;65;88;3
+"programa��o";"com.raincontinues.simplc2";"PLC Ladder Logic Simulator";77;4.2;10000;2,1;48;29;3
+"programa��o";"com.myapp.designpatternscs";"Design Patterns in C#";283;4.8;10000;4,2;115;168;3
+"programa��o";"com.C_Examples.C_Programming";"350+ C Programming Examples";52;4.5;10000;5,4;16;36;3
+"programa��o";"com.apps21.reparaciondecelulares";"Cellular Repair Course";2222;4.2;100000;3,7;611;1611;3
+"programa��o";"com.admob9931.python_panda";"Python Pandas Tutorial";27;4.5;10000;3,7;15;12;3
+"programa��o";"com.zdivdev.ebook.lua";"Lua 5.3 Language Reference";64;4.2;10000;1,9;30;34;3
+"programming";"in.softecks.ruby";"Ruby Programming";10;4.5;1000;7,4;5;5;3
+"programming";"com.coderbro.tutorial.a8051microcontroller";"8051 Microcontroller Programming";17;4.3;5000;4,3;7;10;3
+"programming";"com.jids.lspexample";"Linux System Programming Eg";181;4.5;10000;1,9;46;135;3
+"programming";"com.CodeHub.competitivecoding";"CodeHub - First Competitive Programming App";37;4.4;1000;2,9;23;14;3
+"programming";"com.awwalsoft.javawebprogramming";"Jsp & Servlet Tutorial:  Java Web Programming";160;4.4;10000;5,1;82;78;3
+"programming";"com.cprogrammingzone.free";"C Programming Zone";1279;4.6;50000;4;542;737;3
+"programming";"io.kodular.rijukeyshonsrijan.dp";"Dynamic Programming Problems - Competitive Coding";6;4.3;500;5,8;4;2;3
+"programming";"com.codebuff";"Code Buff : Programmer's calendar, Coding contests";14;4.8;1000;1,8;10;4;3
+"programming";"com.tech.prabhansh.programminginc";"Programming in C";69;4.7;1000;4,1;31;38;3
+"programming";"com.krazeapps.cppprogrammingcompiler";"C/C++ Programming Compiler";26;2.8;10000;6,5;16;10;3
+"programming";"net.andromo.dev653868.app655379";"Matlab Programming : Numerical Analysis";32;4.6;5000;6,2;14;18;3
+"programming";"com.studytonight.app";"Studytonight - Free Computer Programming Tutorials";1411;4.6;50000;4,5;630;781;3
+"programming";"in.intelitech.lispprogramming";"LISP Programming";5;3.4;1000;3,5;3;2;3
+"programming";"com.lego.education.ev3";"LEGO� MINDSTORMS Education EV3";536;3.9;50000;58;226;310;3
 "programming";"cplusplus.programming";"Learn C++ Programming";7;4;1000;3,7;2;5;3
-"programming";"in.edu.pd";"Programmer's Dictionary";1070;3,8;100000;1,2;247;823;3
-"programming";"info.ytc.cprograms";"Programming Zone";49;4,8;10000;19;23;26;3
-"programming";"com.shashank.sony.cppprogrammingbyshashank";"C++ Tutorial & Programming";128;4,3;10000;2,4;72;56;3
-"programming";"in.softecks.cplusplus";"C++ Programming";6;4,2;1000;7,7;3;3;3
-"programming";"mum.mum.java_test";"Programming Test";30;4,5;1000;2,1;8;22;3
-"programming";"project.com.clanguage";"C Programming Quiz";22;4,3;5000;4,5;11;11;3
-"programming";"com.pratipalgif.LearnC";"C Programming Notes & Programs";8;3,2;1000;6;4;4;3
-"programming";"com.wITandProgrammingandComputerScienceFreeBooks_7782437";"IT, Programming & Computer science Free Books";17;4,2;5000;89;12;5;3
-"programming";"com.casatechno.www.TestYourProgrammingSkills";"Test Your Programming Skills";35;4,7;1000;3,7;24;11;3
-"programming";"motivationquotes.daily.com.pdfdownload";"Programming Coding eBooks";12;4,2;1000;4,7;10;2;3
-"programming";"com.velosys.interview_preparation";"Programming MCQ";314;3,8;50000;1,8;41;273;3
-"programming";"app.kasper.tutorials";"C C++ Tutorials";24;4,5;5000;5,2;13;11;3
-"programming";"vsapps.computerprogram";"Computer Programming";20;4,3;5000;2,6;12;8;3
-"programming";"com.infoland.oops";"Object Oriented Programming";17;3,7;5000;22;5;12;3
-"programming";"com.something.harifbi175.myapplication";"Java Programming";103;4,9;1000;2,4;69;34;3
-"programming";"labprograms.abin.programmingexercises";"Programming Exercises";51;4,7;10000;26;18;33;3
-"programming";"com.ummaysoft.arduinoprogrammingnotebook";"Arduino Programming Notebook";6;3,3;1000;12;1;5;3
-"programming";"inventionsbyhamid.javaprograms";"Java Programming";142;4,1;10000;2;49;93;3
-"programming";"com.thenewday.programmingcalendar.tpc";"Programming Calendar";60;4,8;1000;4,2;20;40;3
-"programming";"com.easy.hp.ctutorial";"C Programming App";1119;4,5;50000;5;585;534;3
-"programming";"com.superdream.rprogramming";"R-Programming";26;4,2;10000;2,3;15;11;3
-"programming";"learn.html.programming";"Learn HTML Programming";35;4,1;10000;2;20;15;3
-"programming";"com.codeintelligent.onlinecompiler";"Online Compiler | Programming Languages";38;4,2;1000;6,1;32;6;3
-"programming";"com.spyboy.cplusplusprogramming";"C++ Programming";59;4,4;10000;3,3;27;32;3
-"programming";"in.softecks.perl";"Perl Programming";10;4,6;1000;7,5;8;2;3
+"programming";"in.edu.pd";"Programmer's Dictionary";1070;3.8;100000;1,2;247;823;3
+"programming";"info.ytc.cprograms";"Programming Zone";49;4.8;10000;19;23;26;3
+"programming";"com.shashank.sony.cppprogrammingbyshashank";"C++ Tutorial & Programming";128;4.3;10000;2,4;72;56;3
+"programming";"in.softecks.cplusplus";"C++ Programming";6;4.2;1000;7,7;3;3;3
+"programming";"mum.mum.java_test";"Programming Test";30;4.5;1000;2,1;8;22;3
+"programming";"project.com.clanguage";"C Programming Quiz";22;4.3;5000;4,5;11;11;3
+"programming";"com.pratipalgif.LearnC";"C Programming Notes & Programs";8;3.2;1000;6;4;4;3
+"programming";"com.wITandProgrammingandComputerScienceFreeBooks_7782437";"IT, Programming & Computer science Free Books";17;4.2;5000;89;12;5;3
+"programming";"com.casatechno.www.TestYourProgrammingSkills";"Test Your Programming Skills";35;4.7;1000;3,7;24;11;3
+"programming";"motivationquotes.daily.com.pdfdownload";"Programming Coding eBooks";12;4.2;1000;4,7;10;2;3
+"programming";"com.velosys.interview_preparation";"Programming MCQ";314;3.8;50000;1,8;41;273;3
+"programming";"app.kasper.tutorials";"C C++ Tutorials";24;4.5;5000;5,2;13;11;3
+"programming";"vsapps.computerprogram";"Computer Programming";20;4.3;5000;2,6;12;8;3
+"programming";"com.infoland.oops";"Object Oriented Programming";17;3.7;5000;22;5;12;3
+"programming";"com.something.harifbi175.myapplication";"Java Programming";103;4.9;1000;2,4;69;34;3
+"programming";"labprograms.abin.programmingexercises";"Programming Exercises";51;4.7;10000;26;18;33;3
+"programming";"com.ummaysoft.arduinoprogrammingnotebook";"Arduino Programming Notebook";6;3.3;1000;12;1;5;3
+"programming";"inventionsbyhamid.javaprograms";"Java Programming";142;4.1;10000;2;49;93;3
+"programming";"com.thenewday.programmingcalendar.tpc";"Programming Calendar";60;4.8;1000;4,2;20;40;3
+"programming";"com.easy.hp.ctutorial";"C Programming App";1119;4.5;50000;5;585;534;3
+"programming";"com.superdream.rprogramming";"R-Programming";26;4.2;10000;2,3;15;11;3
+"programming";"learn.html.programming";"Learn HTML Programming";35;4.1;10000;2;20;15;3
+"programming";"com.codeintelligent.onlinecompiler";"Online Compiler | Programming Languages";38;4.2;1000;6,1;32;6;3
+"programming";"com.spyboy.cplusplusprogramming";"C++ Programming";59;4.4;10000;3,3;27;32;3
+"programming";"in.softecks.perl";"Perl Programming";10;4.6;1000;7,5;8;2;3
 "programming";"in.learncodeonline.cpplangquestion";"C++ programming Interview questions";5;5;1000;1,7;1;4;3
-"programming";"in.softecks.javascript";"JavaScript Programming";21;4,4;5000;9,3;8;13;3
-"programming";"com.snj.cprogramming";"C Programming";2150;4,6;100000;2,9;652;1498;3
-"programming";"io.kodular.rohansrivastava2520.coding_ebooks";"Coding eBooks : All Free Programming Books";10;4,1;500;6,9;7;3;3
-"programming";"com.krazeapps.csharpprogrammingcompiler";"C# Programming Compiler";27;3,2;10000;6,7;19;8;3
+"programming";"in.softecks.javascript";"JavaScript Programming";21;4.4;5000;9,3;8;13;3
+"programming";"com.snj.cprogramming";"C Programming";2150;4.6;100000;2,9;652;1498;3
+"programming";"io.kodular.rohansrivastava2520.coding_ebooks";"Coding eBooks : All Free Programming Books";10;4.1;500;6,9;7;3;3
+"programming";"com.krazeapps.csharpprogrammingcompiler";"C# Programming Compiler";27;3.2;10000;6,7;19;8;3
 "programming";"com.java.questionwithanswerinterview.android";"1000 Java Programming";433;4;100000;7,5;258;175;3
-"programming";"com.appboss.CProgrammingConcepts";"C Programming Concepts";13;4,5;5000;3,6;5;8;3
+"programming";"com.appboss.CProgrammingConcepts";"C Programming Concepts";13;4.5;5000;3,6;5;8;3
 "programming";"in.softecks.python";"Learn - Python Programming";20;4;5000;7,5;10;10;3
-"programming";"com.rahultamkhane.javaprogramming";"Java Programming";47;4,4;5000;9,5;20;27;3
-"programming";"com.programmingzemi";"PROGRAMMING ZEMI<U+3010>A programming educational app<U+3011>";96;3,9;50000;100;48;48;3
-"programming";"com.educationapps.cncguide";"CNC Programming Guide";27;4,1;5000;12;16;11;3
-"programming";"com.vijay.aiodeveloper";"Programming Kit";226;4,3;10000;7;103;123;3
-"programming";"in.softecks.fortran";"Fortran Programming";21;4,2;10000;7,6;3;18;3
-"programming";"com.quizmine.comboCandCplus";"Learn C and C++ Programming";67;4,1;10000;15;9;58;3
-"programming";"com.lohriialo.swift";"Swift Programming - 4.0 (Reference/Manual/Guide)";171;3,7;10000;3,6;33;138;3
+"programming";"com.rahultamkhane.javaprogramming";"Java Programming";47;4.4;5000;9,5;20;27;3
+"programming";"com.programmingzemi";"PROGRAMMING ZEMI<U+3010>A programming educational app<U+3011>";96;3.9;50000;100;48;48;3
+"programming";"com.educationapps.cncguide";"CNC Programming Guide";27;4.1;5000;12;16;11;3
+"programming";"com.vijay.aiodeveloper";"Programming Kit";226;4.3;10000;7;103;123;3
+"programming";"in.softecks.fortran";"Fortran Programming";21;4.2;10000;7,6;3;18;3
+"programming";"com.quizmine.comboCandCplus";"Learn C and C++ Programming";67;4.1;10000;15;9;58;3
+"programming";"com.lohriialo.swift";"Swift Programming - 4.0 (Reference/Manual/Guide)";171;3.7;10000;3,6;33;138;3
