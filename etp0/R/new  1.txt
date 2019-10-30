@@ -1,0 +1,7 @@
+cor.test
+https://www.rdocumentation.org/packages/stats/versions/3.6.1/topics/cor.test
+
+Coeficiente de correlação e gráfico de dispersão no R
+https://www.youtube.com/watch?v=L3tzKOpY5F4
+
+Correlação

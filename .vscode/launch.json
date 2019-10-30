@@ -10,6 +10,12 @@
             "name": "Coletar dados",
             //"console": "externalTerminal", //comando que permite com que se interaja no console
             "program": "${workspaceFolder}/etp1/code/main\\Program.js",
+        },        {
+            "type": "node",
+            "request": "launch",
+            "name": "Filtrar bundles ids",
+            //"console": "externalTerminal", //comando que permite com que se interaja no console
+            "program": "${workspaceFolder}/etp4/code/js\\main.js",
         },
         {
             "type": "node",

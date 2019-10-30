@@ -1,0 +1,25 @@
+Correlação de pearson só pode ser feito se tiver:
+	1 - duas variaveis dependentes numericas
+Link:
+http://eaulas.usp.br/portal/video.action?idItem=8561
+
+Correlação e regressão
+Link:	
+http://www.mat.ufrgs.br/~viali/pg/material/laminaspime/CRS_6.pdf	
+	
+Correlação de spearman só pode ser feito se tiver:
+	1 - variavel quantitativa vs quantitativa ordinal
+	2 - qualitativa ordinal vs qualitativa ordinal
+
+Link:
+http://eaulas.usp.br/portal/video.action?idItem=8568
+
+Correlação de KENDALL só pode ser feito se tiver:
+	1 - Existe correlação entre duas variáveis ordinais. 
+É um método adequado quando amostras têm tamanhos reduzidos, 
+pois o método é mais preciso. E pode ser estendido a correlações parciais, 
+quando o efeito de uma terceira variável, que age sobre X e Y,
+é retirado antes de determinar se X e Y estão relacionadas.
+
+Link:
+https://gomesfellipe.github.io/post/tipos-de-correlacoes/#coeficiente-de-correlacao-de-kendall-tau-de-kendall

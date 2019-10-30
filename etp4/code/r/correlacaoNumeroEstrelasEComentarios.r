@@ -1,8 +1,12 @@
 
-#----------------------------------LEITURA E TRATAMENTO DO ARQUIVO DE MÃ‰TRICAS-------------------
+#----------------------------------LEITURA E TRATAMENTO DO ARQUIVO DE COMENTARIOS-------------------
 
-#Seta o diretÃ³rio
-setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informação\\8°Periodo\\TCCII\\Código Coleta Node\\TCC\\etp4\\entrada")
+#Seta o diretorio
+
+#caminhoJonathan <- "C:\\Users\\Jonathan\\Desktop\\Sistemas de informaï¿½ï¿½o\\8ï¿½Periodo\\TCCII\\Cï¿½digo Coleta Node\\TCC\\etp4\\entrada\\EtapaAnterior"
+caminhoLuiz <- "C:\\Users\\Lenovo\\node_modules\\TCC\\etp4\\entrada\\Processado"
+
+setwd(caminhoLuiz)
 getwd()
 
 #Atrbui os dados do arquivo para um dataframe
@@ -11,14 +15,14 @@ View(df)
 
 #---------------------------------NÃºmero de InstalaÃ§Ãµes X Estrelas---------------------------------
 
-#O teste de correlação demonstra um correlação aproximada de 0,39
-#O que demonstra correlação fraca, dessa forma iremos gerar gráficos
+#O teste de correlacao demonstra um correlacao aproximada de 0,39
+#O que demonstra correlacao fraca, dessa forma iremos gerar graficos.
 
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="pearson")
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="spearman")
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="kendall")
 
-#GrÃ¡fico de regresÃ£o
+#Grafico de regressao
 # z = plot(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo)
 # regressao = lm(df$numero.de.estrelas.do.app~df$estatistica.do.aplicativo)
 # abline(regressao)
