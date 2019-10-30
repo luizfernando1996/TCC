@@ -10,7 +10,7 @@ setwd(caminhoLuiz)
 getwd()
 
 #Atrbui os dados do arquivo para um dataframe
-df <-read.csv("AnaliseSentimento.txt", sep=";", encoding = "UTF-8")
+df <-read.csv("ResultadoTCC.txt", sep=";", encoding = "UTF-8")
 View(df)
 
 #---------------------------------Número de Instalações X Estrelas---------------------------------
@@ -23,9 +23,9 @@ cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="spea
 cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="kendall")
 
 #Grafico de regressao
-# z = plot(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo)
-# regressao = lm(df$numero.de.estrelas.do.app~df$estatistica.do.aplicativo)
-# abline(regressao)
+ z = plot(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo)
+regressao = lm(df$numero.de.estrelas.do.app~df$estatistica.do.aplicativo)
+abline(regressao)
 
 
 

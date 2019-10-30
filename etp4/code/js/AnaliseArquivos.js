@@ -12,6 +12,8 @@ module.exports = class AnaliseArquivos {
 
         this.mapaComBundlesIdIguais = new Map();
         this.mapaComBundlesDiferentes = new Map();
+
+        this.mapaArquivoResultado = new Map()
     }
 
     async obterMapasDosArquivos(caminhoArquivo1, caminhoArquivo2) {
@@ -70,6 +72,7 @@ module.exports = class AnaliseArquivos {
                 //Tratamento para que o número de estrelas esteja com ponto ao invés de virgula
                 linhaLida[4] = linhaLida[4].replace(',', '.')
                 linha = linhaLida.join(';')
+                linha = linha.replace(/"/g, "")
             }
             //Analisa se a linha lida possui um bundle id igual entre ambos os arquivos
             if (bundlesIds.get(bundleIdNoArquivo) === "filtrados")
@@ -84,26 +87,88 @@ module.exports = class AnaliseArquivos {
 
     }
     async exec() {
-
         //Dependencias dos caminhos dos arquivos
         var caminhoArquivo1 = "../TCC/etp4/entrada/EtapaAnterior//AnaliseSentimento.txt"
         var caminhoArquivo2 = "../TCC/etp4/entrada/EtapaAnterior//arquivoComGrupos.txt"
 
+        //Cria diversos maps de bundles..
+        //map com bundles ids pertencentes aos dois arquivos
+        //maps pertencentes a apenas um arquivo
         await this.executarFiltragemDeBundles(caminhoArquivo1, caminhoArquivo2)
 
+        //Filtra o arquivo de analise de sentimento para que contenha apenas dados dos aplicativos
+        //que possuem dados também no arquivo da etapa 2
         posicaoBundleIdNoArquivo = 0
         var novoArquivoDeSentimento = await this.executarFiltragemArquivos(caminhoArquivo1, posicaoBundleIdNoArquivo, this.mapaComBundlesIdIguais)
 
-        caminhoDeSaida = '../TCC/etp4/entrada/Processado/AnaliseSentimento.txt'
-        this.escreverArquivos(novoArquivoDeSentimento, caminhoDeSaida)
-
+        //Filtra o arquivo de grupos para que contenha apenas dados dos aplicativos
+        //que possuem dados também no arquivo da etapa 3
         var posicaoBundleIdNoArquivo = 1
         var novoArquivoDeGrupos = await this.executarFiltragemArquivos(caminhoArquivo2, posicaoBundleIdNoArquivo, this.mapaComBundlesIdIguais)
 
-        var caminhoDeSaida = '../TCC/etp4/entrada/Processado/novoArquivoDeGrupos.txt'
-        this.escreverArquivos(novoArquivoDeGrupos, caminhoDeSaida)
+        var arquivoSaida = this.gerarArquivoResultado(novoArquivoDeSentimento, novoArquivoDeGrupos)
+
+        var caminhoDeSaida = '../TCC/etp4/entrada/Processado/ResultadoTCC.txt'
+        this.escreverArquivos(arquivoSaida, caminhoDeSaida)
+
+    }
+    gerarArquivoResultado(arquivo1, arquivo2, cabecalho) {
+
+        this.criarMapParaAmbosArquivos(arquivo1, arquivo2)
+        var arraySaidaArquivo = []
+        arraySaidaArquivo.push("Bundle Id;estatisticaComentarioAplicativo;numeroEstrelas;grupos")
+        this.converterMapParaArray(arraySaidaArquivo)
+        return arraySaidaArquivo
+    }
+    criarMapParaAmbosArquivos(arquivo1, arquivo2) {
+        //Retira o cabecalho do arquivo
+        arquivo1.splice(0, 1)
+
+        arquivo1.forEach(linha => {
+            var arrayLinha = linha.split(";")
+
+            var bundleId = arrayLinha[0]
+            var estatisticaComentarioAplicativo = arrayLinha[5]
+            var numeroEstrelas = arrayLinha[6]
+
+            this.mapaArquivoResultado.set(bundleId, {
+                "estatisticaComentarioAplicativo": estatisticaComentarioAplicativo,
+                "numeroEstrelas": numeroEstrelas,
+                "grupos": 0
+            })
+        })
+
+        //Retira o cabecalho do arquivo
+        arquivo2.splice(0, 1)
+
+        arquivo2.forEach(linha => {
+            var arrayLinha = linha.split(";")
+
+            var bundleId = arrayLinha[1]
+            var grupos = arrayLinha[9]
+
+            this.mapaArquivoResultado.get(bundleId).grupos = grupos
+        })
 
 
+    }
+    converterMapParaArray(arraySaidaArquivo) {
+
+        this.mapaArquivoResultado.forEach((element, key) => {
+            var bundleId = key
+            var estatisticaComentarioAplicativo = element.estatisticaComentarioAplicativo
+            var numeroEstrelas = element.numeroEstrelas
+            var grupos = element.grupos
+
+
+            var linha = bundleId + ";" +
+                estatisticaComentarioAplicativo + ";" +
+                numeroEstrelas + ";" +
+                grupos
+
+            arraySaidaArquivo.push(linha)
+        })
+        return arraySaidaArquivo;
     }
 
 }
