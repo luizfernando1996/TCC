@@ -49,7 +49,7 @@ modeloHierarquico = function(){
 lerTXTeRotornaDataFrame = function(){
   
   #Seta o diretÃ³rio
-  setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informaÃ§Ã£o\\8Â°Periodo\\TCCII\\Analise de metricas")
+  setwd("C:\\Users\\Jonathan\\Desktop\\Sistemas de informação\\8°Periodo\\TCCII\\Código Coleta Node\\TCC\\etp1\\results\\ArquivosColetados")
   getwd()
   
   #Atrbui os dados do arquivo para um dataframe

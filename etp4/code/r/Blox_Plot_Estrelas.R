@@ -1,9 +1,9 @@
 #Caminho dos diretorios
-#diretorioJonathan = "C:\\Users\\Jonathan\\Desktop\\Sistemas de informaï¿½ï¿½o\\8ï¿½Periodo\\TCCII\\Cï¿½digo Coleta Node\\TCC\\etp4\\entrada\\Processado"
-diretorioLuiz = "C:\\Users\\Lenovo\\node_modules\\TCC\\etp4\\entrada\\Processado"
+diretorioJonathan = "C:\\Users\\Jonathan\\Desktop\\Sistemas de informação\\8°Periodo\\TCCII\\Código Coleta Node\\TCC\\etp4\\entrada\\Processado"
+#diretorioLuiz = "C:\\Users\\Lenovo\\node_modules\\TCC\\etp4\\entrada\\Processado"
 
 #Seta o diretorio
-setwd(diretorioLuiz)
+setwd(diretorioJonathan)
 getwd()
 
 #Atrbui os dados do arquivo para um dataframe

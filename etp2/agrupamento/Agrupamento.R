@@ -24,6 +24,17 @@ dfNormal$Tamanho.do.aplicativo<-NULL
 dfNormal$Numero_de_avaliacoes<-NULL
 dfNormal$Bundle_Id<-NULL
 
+#==============================BoxPlot das variáveis normalizadas================================
+vetor_grupos <- as.numeric(df[,4])
+vetor_estrelas <- as.numeric(df[,3])
+vetor_estatisticaComentarioAplicativo <- as.numeric(df[,2])
+
+#Plota o boxplot com as variaveis
+
+boxplot(dfNormal, names=c("Nº de Intalações", "Nº de Comentários", "Nº Avaliações"), ylim = c(0, 0.01), ylab = "Valor Normalizado")
+
+
+
 #==========================GeraÃ§Ã£o do nÃºmero Ã³timo de grupos=================================
 
 #Posso fazer um modelo hierarquco ou utilizar o fviz que da o numero otimo de clusters
