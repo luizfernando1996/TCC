@@ -18,13 +18,13 @@ View(df)
 #O teste de correlacao demonstra um correlacao aproximada de 0,39
 #O que demonstra correlacao fraca, dessa forma iremos gerar graficos.
 
-cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="pearson")
-cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="spearman")
-cor.test(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo, method="kendall")
+cor.test(df$numero.de.estrelas.do.app,df$polaridade.do.aplicativo, method="pearson")
+cor.test(df$numero.de.estrelas.do.app,df$polaridade.do.aplicativo, method="spearman")
+cor.test(df$numero.de.estrelas.do.app,df$polaridade.do.aplicativo, method="kendall")
 
 #Grafico de regressao
- z = plot(df$numero.de.estrelas.do.app,df$estatistica.do.aplicativo)
-regressao = lm(df$numero.de.estrelas.do.app~df$estatistica.do.aplicativo)
+ z = plot(df$numero.de.estrelas.do.app,df$polaridade.do.aplicativo)
+regressao = lm(df$numero.de.estrelas.do.app~df$polaridade.do.aplicativo)
 abline(regressao)
 
 
