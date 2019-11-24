@@ -14,7 +14,7 @@ function testeMetodoReviews(bundleId = null) {
       sort: gplay.sort.RATING,
       page: 0
     }).then(console.log, console.log);
-    else
+  else
     gplay.reviews({
       appId: bundleId,
       sort: gplay.sort.RATING,
@@ -45,7 +45,13 @@ function testeCargaReviews() {
     testeMetodoReviews(element)
   })
 }
-testeCargaReviews()
+function testeMetodoDeveloper() {
+  var gplay = require('../node_modules/google-play-scraper');
+
+  gplay.developer({ devId: "Escola+em+Movimento" }).then(console.log);
+}
+//testeCargaReviews()
 //testeMetodoApp()
 //testeMetodoReviews()
 //testeSearch()
+testeMetodoDeveloper()

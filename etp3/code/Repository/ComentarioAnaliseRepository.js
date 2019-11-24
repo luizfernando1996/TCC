@@ -71,7 +71,7 @@ class ComentarioAnaliseRepository extends BaseRepository {
             "comentarios negativos" + ";" +
             "comentarios neutros" + ";" +
             "comentarios totais" + ";" +
-            "estatistica do aplicativo" + ";" +
+            "polaridade do aplicativo" + ";" +
             "numero de estrelas do app" + "\n";
         linhasArquivo.push(cabecalhoArquivo)
 

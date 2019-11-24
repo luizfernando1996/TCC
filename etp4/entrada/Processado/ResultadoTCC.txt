@@ -1,4 +1,4 @@
-Bundle Id;estatisticaComentarioAplicativo;numeroEstrelas;grupos
+Bundle Id;PolaridadeAplicativo;numeroEstrelas;grupos
 wscubetech.android;0.00;4.0;3
 com.wITandProgrammingandComputerScienceFreeBooks_7782437;1.00;4.2;3
 com.aniketo.ds;1.00;4.8;3

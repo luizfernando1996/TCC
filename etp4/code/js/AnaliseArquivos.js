@@ -116,7 +116,7 @@ module.exports = class AnaliseArquivos {
 
         this.criarMapParaAmbosArquivos(arquivo1, arquivo2)
         var arraySaidaArquivo = []
-        arraySaidaArquivo.push("Bundle Id;estatisticaComentarioAplicativo;numeroEstrelas;grupos")
+        arraySaidaArquivo.push("Bundle Id;PolaridadeAplicativo;numeroEstrelas;grupos")
         this.converterMapParaArray(arraySaidaArquivo)
         return arraySaidaArquivo
     }
