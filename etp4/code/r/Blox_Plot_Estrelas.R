@@ -15,7 +15,7 @@ vetor_estrelas <- as.numeric(df[,3])
 vetor_estatisticaComentarioAplicativo <- as.numeric(df[,2])
 
 #Plota o boxplot com as variaveis
-boxplot(vetor_estrelas~vetor_grupos)
-boxplot(vetor_estatisticaComentarioAplicativo~vetor_grupos)
+boxplot(vetor_estrelas~vetor_grupos, names=c("Impopular","Popularidade Baixa", "Popular","Popularidade média"), ylab = "Número de estrelas", xlab="")
+boxplot(vetor_estatisticaComentarioAplicativo~vetor_grupos, names=c("Impopular","Popularidade Baixa", "Popular","Popularidade média"), ylab = "Estatística de comentários", xlab="")
 
 

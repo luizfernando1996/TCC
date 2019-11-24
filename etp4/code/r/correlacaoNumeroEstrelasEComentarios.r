@@ -3,10 +3,10 @@
 
 #Seta o diretorio
 
-#caminhoJonathan <- "C:\\Users\\Jonathan\\Desktop\\Sistemas de informa��o\\8�Periodo\\TCCII\\C�digo Coleta Node\\TCC\\etp4\\entrada\\EtapaAnterior"
-caminhoLuiz <- "C:\\Users\\Lenovo\\node_modules\\TCC\\etp4\\entrada\\EtapaAnterior"
+caminhoJonathan <- "C:\\Users\\Jonathan\\Desktop\\Sistemas de informa��o\\8�Periodo\\TCCII\\C�digo Coleta Node\\TCC\\etp4\\entrada\\EtapaAnterior"
+#caminhoLuiz <- "C:\\Users\\Lenovo\\node_modules\\TCC\\etp4\\entrada\\EtapaAnterior"
 
-setwd(caminhoLuiz)
+setwd(caminhoJonathan)
 getwd()
 
 #Atrbui os dados do arquivo para um dataframe
