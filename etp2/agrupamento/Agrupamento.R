@@ -1,10 +1,12 @@
 
+
+
 #=========================Leitura e tratamento de dados=====================================
 #Define as m√©tricas que ser√£o agrupadas
 metricas <- c("Numero_de_instalacoes","Numero_de_comentarios","Avaliacoes_sem_comentario")
 
 #DataFrame sem normalizacao
-df = lerTXTeRotornaDataFrame()
+df=lerTXTeRotornaDataFrame()
 
 #DataFrame a ser normalizado
 dfNormal = lerTXTeRotornaDataFrame()
@@ -56,17 +58,25 @@ fviz_cluster(dados_kmeans, data = dfNormal)
 
 grupos <- dados_kmeans$cluster
 
-
 df <- cbind(df, grupos)
 
-dados_kmeans$centers
+#==============================Descoberta e inlus„o de perfis p/ centroides==================
 
-View(df)
+df$Perfil[433] <- NA
+
+centros <-incluiPerfilDosCentroides(dados_kmeans$centers)
+
+df <- incluirPefisDoArquivoPricipal(centros, df)
+
 
 #==============================Cria arquivo com a coluna de grupos===========================
 
-write.table(df, file='arquivoComGrupos.csv', sep=';', dec=',', row.names=FALSE)
+write.table(df, file='C:\\Users\\Jonathan\\Desktop\\CorreÁ„o do TCCII\\arquivoComGrupos.csv', sep=';', dec=',', row.names=FALSE)
 
-write.table(df, file='arquivoComGrupos.txt', sep=';', dec=',', row.names=FALSE)
+write.table(df, file='C:\\Users\\Jonathan\\Desktop\\CorreÁ„o do TCCII\\arquivoComGrupos.txt', sep=';', dec=',', row.names=FALSE)
+
+write.table(centros,'C:\\Users\\Jonathan\\Desktop\\CorreÁ„o do TCCII\\centroides.csv', sep=';', dec=',', row.names=FALSE)
+
+# write.table(df, file='arquivoComGrupos.txt', sep=';', dec=',', row.names=FALSE)
 
 
