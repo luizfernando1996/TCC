@@ -116,7 +116,7 @@ module.exports = class AnaliseArquivos {
 
         this.criarMapParaAmbosArquivos(arquivo1, arquivo2)
         var arraySaidaArquivo = []
-        arraySaidaArquivo.push("Bundle Id;PolaridadeAplicativo;numeroEstrelas;grupos")
+        arraySaidaArquivo.push("Bundle Id;PolaridadeAplicativo;numeroEstrelas;grupos;perfis")
         this.converterMapParaArray(arraySaidaArquivo)
         return arraySaidaArquivo
     }
@@ -130,11 +130,12 @@ module.exports = class AnaliseArquivos {
             var bundleId = arrayLinha[0]
             var estatisticaComentarioAplicativo = arrayLinha[5]
             var numeroEstrelas = arrayLinha[6]
-
+           
             this.mapaArquivoResultado.set(bundleId, {
                 "estatisticaComentarioAplicativo": estatisticaComentarioAplicativo,
                 "numeroEstrelas": numeroEstrelas,
-                "grupos": 0
+                "grupos": 0,
+                "perfis":""
             })
         })
 
@@ -146,8 +147,10 @@ module.exports = class AnaliseArquivos {
 
             var bundleId = arrayLinha[1]
             var grupos = arrayLinha[9]
+            var perfis = arrayLinha[10]
 
             this.mapaArquivoResultado.get(bundleId).grupos = grupos
+            this.mapaArquivoResultado.get(bundleId).perfis = perfis
         })
 
 
@@ -159,12 +162,13 @@ module.exports = class AnaliseArquivos {
             var estatisticaComentarioAplicativo = element.estatisticaComentarioAplicativo
             var numeroEstrelas = element.numeroEstrelas
             var grupos = element.grupos
-
+            var perfis = element.perfis
 
             var linha = bundleId + ";" +
                 estatisticaComentarioAplicativo + ";" +
                 numeroEstrelas + ";" +
-                grupos
+                grupos + ";" +
+                perfis
 
             arraySaidaArquivo.push(linha)
         })

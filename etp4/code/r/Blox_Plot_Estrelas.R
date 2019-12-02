@@ -10,12 +10,12 @@ getwd()
 df <-read.csv("ResultadoTCC.txt", sep=";", encoding = "UTF-8")
 
 #Cria vetores com as colunas do dataframe
-vetor_grupos <- as.numeric(df[,4])
+vetor_grupos <- as.character(df[,5])
 vetor_estrelas <- as.numeric(df[,3])
 vetor_estatisticaComentarioAplicativo <- as.numeric(df[,2])
 
 #Plota o boxplot com as variaveis
-boxplot(vetor_estrelas~vetor_grupos, names=c("Impopular","Popularidade Baixa", "Popular","Popularidade média"), ylab = "Número de estrelas", xlab="")
-boxplot(vetor_estatisticaComentarioAplicativo~vetor_grupos, names=c("Impopular","Popularidade Baixa", "Popular","Popularidade média"), ylab = "Estatística de comentários", xlab="")
+#boxplot(vetor_estrelas~vetor_grupos, ylab = "Número de estrelas", xlab="")
+boxplot(vetor_estatisticaComentarioAplicativo~vetor_grupos, ylab = "Estatística de comentários", xlab="")
 
 

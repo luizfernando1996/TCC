@@ -107,7 +107,7 @@ incluiPerfilDosCentroides = function(pcentros){
     if (valorLinha == instalacoesOrdedando[3,]){
       
      
-      perfis[i] <- "Popularidade Média"
+      perfis[i] <- "Popularidade Media"
     }
     
     if (valorLinha == instalacoesOrdedando[4,]){
